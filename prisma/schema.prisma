@@ -1,0 +1,155 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Place {
+  id                      String               @id @default(cuid())
+  name                    String
+  normalizedName          String
+  address                 String?
+  normalizedAddress       String?
+  city                    String?
+  neighborhood            String?
+  arrondissement          String?
+  country                 String?
+  latitude                Float?
+  longitude               Float?
+  cuisineType             String?
+  foodType                String?              @default("[]")
+  priceRange              String?
+  estimatedPricePerPerson Int?
+  tags                    String?              @default("[]")
+  googlePlaceId           String?
+  googleRating            Float?
+  googleUserRatingCount   Int?
+  googlePriceLevel        String?
+  googleReviewsUpdatedAt  DateTime?
+  googleMapsUrl           String?
+  instagramUrl            String?
+  websiteUrl              String?
+  bookingUrl              String?
+  philouSummary           String?
+  status                  String               @default("active")
+  confidenceScore         Float                @default(0.5)
+  needsReview             Boolean              @default(true)
+  createdAt               DateTime             @default(now())
+  updatedAt               DateTime             @updatedAt
+  recommendations         Recommendation[]
+  evidence                Evidence[]
+  googleReviews           GoogleReview[]
+  personalState           PersonalPlaceState?
+  duplicateCandidatesOne  DuplicateCandidate[] @relation("PlaceOne")
+  duplicateCandidatesTwo  DuplicateCandidate[] @relation("PlaceTwo")
+}
+
+model Recommendation {
+  id                  String    @id @default(cuid())
+  placeId             String
+  influencerName      String
+  influencerHandle    String
+  sourceId            String?
+  sourcePlatform      String
+  sourceUrl           String
+  sourceTitle         String?
+  sourceDate          DateTime?
+  originalTextSnippet String?
+  recommendedItems    String?   @default("[]")
+  reasonRecommended   String?
+  mentionedOnly       Boolean   @default(false)
+  confidenceScore     Float     @default(0.5)
+  needsReview         Boolean   @default(true)
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
+  place               Place     @relation(fields: [placeId], references: [id], onDelete: Cascade)
+  source              Source?   @relation(fields: [sourceId], references: [id], onDelete: SetNull)
+}
+
+model Source {
+  id              String           @id @default(cuid())
+  platform        String
+  url             String           @unique
+  title           String?
+  author          String?
+  date            DateTime?
+  rawText         String?
+  rawJsonPath     String?
+  processedStatus String           @default("pending")
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+  recommendations Recommendation[]
+  evidence        Evidence[]
+}
+
+model Evidence {
+  id              String   @id @default(cuid())
+  sourceId        String
+  placeId         String
+  evidenceType    String
+  evidenceText    String
+  confidenceScore Float    @default(0.5)
+  createdAt       DateTime @default(now())
+  source          Source   @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  place           Place    @relation(fields: [placeId], references: [id], onDelete: Cascade)
+}
+
+model ReviewLog {
+  id         String   @id @default(cuid())
+  entityType String
+  entityId   String
+  oldValue   String?
+  newValue   String?
+  reason     String?
+  reviewedAt DateTime @default(now())
+}
+
+model DuplicateCandidate {
+  id              String   @id @default(cuid())
+  placeId1        String
+  placeId2        String
+  matchReason     String
+  similarityScore Float
+  status          String   @default("pending")
+  createdAt       DateTime @default(now())
+  place1          Place    @relation("PlaceOne", fields: [placeId1], references: [id], onDelete: Cascade)
+  place2          Place    @relation("PlaceTwo", fields: [placeId2], references: [id], onDelete: Cascade)
+
+  @@unique([placeId1, placeId2])
+}
+
+model GoogleReview {
+  id                             String   @id @default(cuid())
+  placeId                        String
+  googleReviewId                 String   @unique
+  authorName                     String?
+  authorUri                      String?
+  authorPhotoUri                 String?
+  rating                         Int
+  relativePublishTimeDescription String?
+  publishTime                    DateTime?
+  text                           String?
+  originalText                   String?
+  languageCode                   String?
+  googleMapsUri                  String?
+  flagContentUri                 String?
+  createdAt                      DateTime @default(now())
+  updatedAt                      DateTime @updatedAt
+  place                          Place    @relation(fields: [placeId], references: [id], onDelete: Cascade)
+}
+
+model PersonalPlaceState {
+  id             String   @id @default(cuid())
+  placeId         String   @unique
+  isFavorite      Boolean  @default(false)
+  visited         Boolean  @default(false)
+  visitDate       DateTime?
+  personalRating  Int?
+  notes           String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  place           Place    @relation(fields: [placeId], references: [id], onDelete: Cascade)
+}

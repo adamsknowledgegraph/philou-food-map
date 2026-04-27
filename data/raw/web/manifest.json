@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "mapstr-public-map",
+    "url": "https://mapstr.com/map/philoudarblay",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/mapstr-public-map.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/mapstr-public-map.json"
+  },
+  {
+    "slug": "figaro-dossier",
+    "url": "https://madame.lefigaro.fr/celebrites/culture/dossier/les-adresses-de-philippine",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-dossier.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-dossier.json"
+  },
+  {
+    "slug": "figaro-27-4",
+    "url": "https://madame.lefigaro.fr/cuisine/actu-cuisine/en-video-les-adresses-de-philippine-au-27-4-le-nouveau-temple-de-l-art-de-vivre-japonais-a-paris-20231027",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-27-4.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-27-4.json"
+  },
+  {
+    "slug": "figaro-kape",
+    "url": "https://madame.lefigaro.fr/cuisine/actu-cuisine/en-video-les-adresses-de-philippine-chez-kape-le-nouveau-cafe-philippin-a-paris-20240219",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-kape.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-kape.json"
+  },
+  {
+    "slug": "figaro-48-collagen-cafe",
+    "url": "https://madame.lefigaro.fr/cuisine/actu-cuisine/en-video-les-adresses-de-philippine-au-48-collagen-cafe-premier-cafe-dedie-au-collagene-a-paris-20240123",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-48-collagen-cafe.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-48-collagen-cafe.json"
+  },
+  {
+    "slug": "figaro-donna",
+    "url": "https://madame.lefigaro.fr/cuisine/tendances-culinaires/en-video-les-adresses-de-philippine-au-donna-cave-a-manger-a-deux-pas-du-centre-pompidou-20230926",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-donna.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-donna.json"
+  },
+  {
+    "slug": "figaro-manteigaria",
+    "url": "https://madame.lefigaro.fr/cuisine/tendances-culinaires/en-video-les-adresses-de-philippine-chez-manteigaria-temple-du-pasteis-de-nata-20231114",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-manteigaria.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-manteigaria.json"
+  },
+  {
+    "slug": "figaro-muse",
+    "url": "https://madame.lefigaro.fr/cuisine/tendances-culinaires/en-video-les-adresses-de-philippine-chez-muse-le-nouveau-restaurant-afro-caribeen-20240408",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-muse.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-muse.json"
+  },
+  {
+    "slug": "figaro-nepita",
+    "url": "https://madame.lefigaro.fr/cuisine/tendances-culinaires/en-video-les-adresses-de-philippine-chez-nepita-le-nouveau-restaurant-aux-inspirations-mediterraneenne-20240611",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-nepita.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-nepita.json"
+  },
+  {
+    "slug": "figaro-cafe-usine",
+    "url": "https://madame.lefigaro.fr/cuisine/actu-cuisine/en-video-les-adresses-de-philippine-au-cafe-de-l-usine-pour-decouvrir-la-carte-de-la-cheffe-alice-arnoux-20241206",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-cafe-usine.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-cafe-usine.json"
+  },
+  {
+    "slug": "figaro-datcha",
+    "url": "https://madame.lefigaro.fr/cuisine/actu-cuisine/en-video-les-adresses-de-philippine-a-la-datcha-pour-un-brunch-gourmand-et-raffine-20241204",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-datcha.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-datcha.json"
+  },
+  {
+    "slug": "figaro-matka",
+    "url": "https://madame.lefigaro.fr/cuisine/actu-cuisine/en-video-les-adresses-de-philippine-au-restaurant-matka-20241021",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-matka.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-matka.json"
+  },
+  {
+    "slug": "figaro-paul-chene",
+    "url": "https://madame.lefigaro.fr/cuisine/actu-cuisine/en-video-les-adresses-de-philippine-chez-paul-chene-pour-deguster-les-meilleures-frites-de-paris-20250430",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-paul-chene.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/figaro-paul-chene.json"
+  },
+  {
+    "slug": "kessel-newsletter-profile",
+    "url": "https://www.kessel-media.com/",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/kessel-newsletter-profile.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/kessel-newsletter-profile.json"
+  },
+  {
+    "slug": "longchamp-paris-artisan-guide",
+    "url": "https://www.longchamp.com/ca/en/maison-longchamp/editorials/paris-artisan-guide.html",
+    "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/longchamp-paris-artisan-guide.html",
+    "metaPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/longchamp-paris-artisan-guide.json"
+  }
+]

@@ -1,0 +1,16 @@
+place_id_1,place_1_name,place_id_2,place_2_name,match_reason,similarity_score,status,reviewer_notes,approved_merge,keeper_place_id
+cmogwx2ij001anw0pgo72xooc,Pâtisserie Viennoise,cmogx2k3m003enwb2nre65p9m,Pâtisserie Viennoise,Same normalized name in the same city.,0.93,pending,,,cmogwx2ij001anw0pgo72xooc
+cmogx2lr1008unwb2xalczx87,Paul Chêne,cmogxnspa066knwx09ug7v6iy,Paul Chêne,Same normalized name in the same city.,0.93,pending,,,cmogx2lr1008unwb2xalczx87
+cmogxnqz900hqnwx0gdhhel66,Café Shin,cmogxnqzb00hvnwx0km1wvvdl,CAFE SHIN,Same normalized name in the same city.,0.93,pending,,,cmogxnqz900hqnwx0gdhhel66
+cmogxnr9301ftnwx0zm2y4wr3,Laïzé,cmogxnr9601fynwx01bbjq5tg,Laïzé,Same normalized name in the same city.,0.93,pending,,,cmogxnr9301ftnwx0zm2y4wr3
+cmogxnrbf01nxnwx0ft1ibb1d,Saint Pearl,cmogxnrbh01o2nwx0ny4qqj34,Saint Pearl,Same normalized name in the same city.,0.93,pending,,,cmogxnrbf01nxnwx0ft1ibb1d
+cmogxnrju02h5nwx0iciyc9bg,Café Nuances,cmogxnrwb03jinwx0ykyjpkx8,Café Nuances,Same normalized name in the same city.,0.93,pending,,,cmogxnrju02h5nwx0iciyc9bg
+cmogxnrju02h5nwx0iciyc9bg,Café Nuances,cmogxnrwc03jnnwx03l63tg07,Café Nuances,Same normalized name in the same city.,0.93,pending,,,cmogxnrju02h5nwx0iciyc9bg
+cmogxnrk202hznwx0fd8x2n7j,TOMO,cmogxns0v03z6nwx00clzvf09,Tomo,Same normalized name in the same city.,0.93,pending,,,cmogxnrk202hznwx0fd8x2n7j
+cmogxnrkw02kwnwx0e1yoprfo,Copains,cmogxns1q0423nwx0b2hnpaf2,Copains,Same normalized name in the same city.,0.93,pending,,,cmogxnrkw02kwnwx0e1yoprfo
+cmogxnrtt03amnwx0e5l1cl49,Sain Boulangerie,cmogxnsji05omnwx0xuc20ha6,Sain Boulangerie,Same normalized name in the same city.,0.93,pending,,,cmogxnrtt03amnwx0e5l1cl49
+cmogxnrwb03jinwx0ykyjpkx8,Café Nuances,cmogxnrwc03jnnwx03l63tg07,Café Nuances,Same normalized name in the same city.,0.93,pending,,,cmogxnrwb03jinwx0ykyjpkx8
+cmogxns1t042dnwx0n43fu25e,Arabica,cmogxns1v042inwx08vd078cp,Arabica,Same normalized name in the same city.,0.93,pending,,,cmogxns1t042dnwx0n43fu25e
+cmogxnt8t07z6nwx080l0liqo,L’éclair de Génie,cmogxnt8u07zbnwx0o9xri859,L'Eclair De Genie,Same normalized name in the same city.,0.93,pending,,,cmogxnt8t07z6nwx080l0liqo
+cmogxnt8t07z6nwx080l0liqo,L’éclair de Génie,cmogxnt8w07zgnwx04uyagggs,L’éclair de Génie,Same normalized name in the same city.,0.93,pending,,,cmogxnt8t07z6nwx080l0liqo
+cmogxnt8u07zbnwx0o9xri859,L'Eclair De Genie,cmogxnt8w07zgnwx04uyagggs,L’éclair de Génie,Same normalized name in the same city.,0.93,pending,,,cmogxnt8u07zbnwx0o9xri859

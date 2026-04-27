@@ -1,0 +1,264 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+:root {
+  --background: #f8efdf;
+  --foreground: #34261d;
+  --muted: #826850;
+  --card: rgba(255, 247, 236, 0.9);
+  --line: rgba(112, 86, 59, 0.18);
+  --accent: #ee9077;
+  --accent-2: #8db7aa;
+  --accent-3: #b5d8df;
+  --accent-4: #f2d7a6;
+  --accent-ink: #85533a;
+  --shadow: 0 24px 48px rgba(107, 71, 45, 0.12);
+  --shadow-soft: 0 12px 28px rgba(107, 71, 45, 0.08);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  background-image:
+    radial-gradient(circle at 14% 12%, rgba(238, 144, 119, 0.28), transparent 24%),
+    radial-gradient(circle at 88% 11%, rgba(181, 216, 223, 0.42), transparent 20%),
+    radial-gradient(circle at 72% 32%, rgba(141, 183, 170, 0.2), transparent 18%),
+    linear-gradient(180deg, #fff8eb 0%, #f9f0df 48%, #f4ead7 100%);
+  font-family: var(--font-sans), sans-serif;
+  letter-spacing: 0.01em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(238, 144, 119, 0.28);
+}
+
+.surface {
+  background: var(--card);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(12px);
+}
+
+.display {
+  font-family: var(--font-display), serif;
+  letter-spacing: -0.04em;
+}
+
+.chip {
+  border: 1px solid rgba(133, 83, 58, 0.16);
+  background: rgba(255, 255, 255, 0.66);
+  color: var(--accent-ink);
+  box-shadow: var(--shadow-soft);
+}
+
+.grid-fade {
+  background-image:
+    linear-gradient(rgba(133, 83, 58, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(133, 83, 58, 0.06) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  border: 1px solid rgba(133, 83, 58, 0.16);
+  background: rgba(255, 255, 255, 0.62);
+  color: var(--accent-ink);
+  border-radius: 999px;
+  padding: 0.65rem 1rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.retro-panel {
+  position: relative;
+  overflow: hidden;
+}
+
+.retro-panel::before {
+  content: "";
+  position: absolute;
+  inset: 14px;
+  border: 1px solid rgba(133, 83, 58, 0.12);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.retro-input,
+.retro-select,
+.retro-textarea {
+  width: 100%;
+  border: 1px solid rgba(133, 83, 58, 0.16);
+  border-radius: 1.1rem;
+  background: rgba(255, 251, 245, 0.94);
+  padding: 0.9rem 1rem;
+  color: var(--foreground);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.retro-textarea {
+  resize: vertical;
+}
+
+.cta-button,
+.ghost-button,
+.pill-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease;
+}
+
+.cta-button:hover,
+.ghost-button:hover,
+.pill-button:hover {
+  transform: translateY(-1px);
+}
+
+.cta-button {
+  border: 1px solid rgba(133, 83, 58, 0.12);
+  background: linear-gradient(135deg, var(--accent) 0%, #f4b486 100%);
+  color: #fffaf2;
+  box-shadow: 0 16px 26px rgba(238, 144, 119, 0.24);
+}
+
+.ghost-button {
+  border: 1px solid rgba(133, 83, 58, 0.14);
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--foreground);
+}
+
+.pill-button {
+  border: 1px solid rgba(133, 83, 58, 0.12);
+  background: rgba(245, 216, 174, 0.5);
+  color: var(--accent-ink);
+}
+
+.soft-stripes {
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0.12) 12.5%,
+    rgba(255, 255, 255, 0) 12.5%,
+    rgba(255, 255, 255, 0) 25%
+  );
+  background-size: 18px 18px;
+}
+
+.sunburst {
+  position: absolute;
+  right: -3rem;
+  top: -3rem;
+  height: 12rem;
+  width: 12rem;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at center, rgba(255, 253, 245, 0.9) 0 25%, transparent 25%),
+    repeating-conic-gradient(
+      from 0deg,
+      rgba(255, 255, 255, 0.2) 0deg 10deg,
+      rgba(238, 144, 119, 0.16) 10deg 20deg
+    );
+  opacity: 0.8;
+}
+
+.poster-bands {
+  background-image:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0)),
+    linear-gradient(
+      180deg,
+      rgba(141, 183, 170, 0.16) 0%,
+      rgba(141, 183, 170, 0.02) 50%,
+      rgba(181, 216, 223, 0.18) 100%
+    );
+}
+
+.editorial-link {
+  color: var(--accent-ink);
+  text-decoration: underline;
+  text-decoration-color: rgba(133, 83, 58, 0.24);
+  text-underline-offset: 0.2em;
+}
+
+.page-shell {
+  position: relative;
+}
+
+.page-shell::before {
+  content: "";
+  position: fixed;
+  inset: auto auto 4rem 2rem;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(242, 215, 166, 0.36), transparent 64%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 24px;
+  background: #f8efdf;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: #fff8ee;
+  color: var(--foreground);
+  border: 1px solid rgba(133, 83, 58, 0.14);
+  box-shadow: var(--shadow-soft);
+}
+
+.leaflet-control-attribution {
+  font-size: 11px;
+}
+
+input,
+select,
+textarea {
+  outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: rgba(238, 144, 119, 0.48);
+  box-shadow: 0 0 0 4px rgba(238, 144, 119, 0.12);
+}

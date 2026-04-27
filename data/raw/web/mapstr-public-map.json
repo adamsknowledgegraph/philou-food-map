@@ -1,0 +1,15 @@
+{
+  "slug": "mapstr-public-map",
+  "url": "https://mapstr.com/map/philoudarblay",
+  "platform": "mapstr",
+  "title": "Philippine Darblay public Mapstr map",
+  "fetchedAt": "2026-04-27T08:26:15.179Z",
+  "htmlPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/mapstr-public-map.html",
+  "mapId": "7b6o2LW9Ti",
+  "mapInfo": {
+    "placesCount": 2120,
+    "followersCount": 6956
+  },
+  "placesPath": "/Users/adamhome/Desktop/Food App - Emily tutorial/data/raw/web/mapstr-public-map.places.json",
+  "fullPlacesCount": 2140
+}
