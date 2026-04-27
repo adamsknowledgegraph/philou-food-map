@@ -42,6 +42,14 @@ This runs:
 
 ## 5. Start the website
 
+If you want Google star ratings and restaurant photos, add `GOOGLE_MAPS_API_KEY` to `.env` and run:
+
+```bash
+npm run google:enrich
+```
+
+## 6. Start the website
+
 ```bash
 npm run dev
 ```
@@ -53,7 +61,7 @@ Then open:
 - `http://localhost:3000/map`
 - `http://localhost:3000/admin/review`
 
-## 6. Review uncertain records
+## 7. Review uncertain records
 
 - Open the in-app review page.
 - Or edit:

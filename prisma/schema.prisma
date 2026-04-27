@@ -25,6 +25,8 @@ model Place {
   estimatedPricePerPerson Int?
   tags                    String?              @default("[]")
   googlePlaceId           String?
+  googlePhotoName         String?
+  googlePhotoUrl          String?
   googleRating            Float?
   googleUserRatingCount   Int?
   googlePriceLevel        String?

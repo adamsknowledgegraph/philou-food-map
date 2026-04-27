@@ -1,11 +1,72 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Compass, MapPinned, Search, Sparkles } from "lucide-react";
 import { PlaceCard } from "@/components/place-card";
 import { SiteHeader } from "@/components/site-header";
 import { getFacets, getHomeData } from "@/lib/places";
 
+const arrondissementCards = [
+  {
+    image: "/postcards/arrondissement-cafe.svg",
+    note: "Cafe mornings",
+  },
+  {
+    image: "/postcards/arrondissement-river.svg",
+    note: "Canal walks",
+  },
+  {
+    image: "/postcards/arrondissement-awning.svg",
+    note: "Lunch terraces",
+  },
+  {
+    image: "/postcards/arrondissement-night.svg",
+    note: "Late dinners",
+  },
+  {
+    image: "/postcards/terrace-sun.svg",
+    note: "Sunny corners",
+  },
+  {
+    image: "/postcards/city-spritz.svg",
+    note: "Cocktail stops",
+  },
+  {
+    image: "/postcards/arrondissement-market.svg",
+    note: "Market picks",
+  },
+  {
+    image: "/postcards/arrondissement-bistro.svg",
+    note: "Bistro nights",
+  },
+] as const;
+
 export default async function HomePage() {
   const [home, facets] = await Promise.all([getHomeData(), getFacets()]);
+  const cityCount = facets.cities.filter(Boolean).length;
+  const cuisineLinks = facets.cuisines
+    .filter(Boolean)
+    .filter((cuisine) =>
+      [
+        "French",
+        "Japanese",
+        "Italian",
+        "Mediterranean",
+        "Filipino",
+        "Portuguese",
+      ].includes(cuisine),
+    )
+    .slice(0, 5);
+  const priceLinks = facets.priceRanges.filter(Boolean).slice(0, 3);
+  const quickLinks = [
+    ...cuisineLinks.map((cuisine) => ({
+      label: cuisine,
+      href: `/places?cuisine=${encodeURIComponent(cuisine)}`,
+    })),
+    ...priceLinks.map((priceRange) => ({
+      label: priceRange,
+      href: `/places?priceRange=${encodeURIComponent(priceRange)}`,
+    })),
+  ].slice(0, 8);
 
   return (
     <div className="page-shell pb-16">
@@ -17,17 +78,14 @@ export default async function HomePage() {
             <div className="space-y-6">
               <div className="eyebrow">
                 <Sparkles className="h-4 w-4" />
-                Paris food addresses recommended by Philippine Darblay
+                Where to eat next
               </div>
               <div className="space-y-4">
                 <h1 className="display max-w-4xl text-5xl leading-[0.92] text-[var(--foreground)] sm:text-7xl">
-                  A pastel, searchable guide to the Paris places she keeps sending
-                  people back to.
+                  Find the spots Philou makes you want to book immediately.
                 </h1>
-                <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-                  Built from quick public sources first: Mapstr, Madame Figaro, and
-                  other pages we can verify now. Instagram comes later as an
-                  enrichment layer, not the bottleneck.
+                <p className="max-w-xl text-base leading-7 text-[var(--muted)] sm:text-lg">
+                  {home.totalPlaces.toLocaleString("en-GB")} mapped addresses across {cityCount} cities, with Paris front and center.
                 </p>
               </div>
               <form
@@ -39,7 +97,7 @@ export default async function HomePage() {
                   <input
                     type="search"
                     name="q"
-                    placeholder="Search a place, dish, arrondissement, or tag"
+                    placeholder="Search a place or arrondissement"
                     className="w-full bg-transparent text-sm uppercase tracking-[0.08em] placeholder:text-[var(--muted)]"
                   />
                 </div>
@@ -48,59 +106,84 @@ export default async function HomePage() {
                 </button>
               </form>
               <div className="flex flex-wrap gap-3">
-                <Link href="/map" className="ghost-button px-5 py-3">
-                  Open map view
+                <Link href="/map" className="cta-button px-5 py-3">
+                  Discover the map
                 </Link>
                 <Link href="/places?sort=confidence" className="ghost-button px-5 py-3">
-                  Browse top confidence spots
+                  Browse the guide
                 </Link>
               </div>
               <div className="flex flex-wrap gap-2">
-                {facets.tags.slice(0, 8).map((tag) => (
+                {quickLinks.map((item) => (
                   <Link
-                    key={tag}
-                    href={`/places?tag=${encodeURIComponent(tag)}`}
+                    key={item.href}
+                    href={item.href}
                     className="chip rounded-full px-3 py-1.5 text-sm uppercase tracking-[0.08em]"
                   >
-                    #{tag}
+                    {item.label}
                   </Link>
                 ))}
               </div>
             </div>
 
             <div className="grid gap-4">
-              <div className="surface retro-panel rounded-[32px] bg-[rgba(255,245,233,0.92)] p-6">
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--muted)]">
-                  Current edition
-                </p>
-                <p className="display mt-3 text-4xl leading-none sm:text-5xl">
-                  Paris, only the addresses worth circling.
-                </p>
-                <p className="mt-4 max-w-sm text-sm leading-6 text-[var(--muted)]">
-                  Restaurants, cafes, bakeries, food shops, and bars gathered into a
-                  reviewable database with evidence attached.
-                </p>
+              <div className="grid gap-4 sm:grid-cols-[1.15fr_0.85fr]">
+                <div className="surface retro-panel overflow-hidden rounded-[32px]">
+                  <div className="relative aspect-[5/4] bg-[rgba(242,215,166,0.18)]">
+                    <Image
+                      src="/postcards/hero-croissant.svg"
+                      alt="Croissant illustration"
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 1024px) 100vw, 40vw"
+                    />
+                  </div>
+                </div>
+                <div className="grid gap-4">
+                  <div className="surface retro-panel overflow-hidden rounded-[28px]">
+                    <div className="relative aspect-[1/1] bg-[rgba(181,216,223,0.2)]">
+                      <Image
+                        src="/postcards/hero-noodles.svg"
+                        alt="Noodle bowl illustration"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 1024px) 100vw, 20vw"
+                      />
+                    </div>
+                  </div>
+                  <div className="surface retro-panel overflow-hidden rounded-[28px]">
+                    <div className="relative aspect-[1/1] bg-[rgba(240,143,102,0.12)]">
+                      <Image
+                        src="/postcards/hero-spritz.svg"
+                        alt="Spritz illustration"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 1024px) 100vw, 20vw"
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
                 {[
                   {
-                    label: "Live places",
-                    value: String(home.totalPlaces),
-                    detail: "Across Paris-focused public sources",
+                    label: "Mapped out",
+                    value: home.totalPlaces.toLocaleString("en-GB"),
+                    detail: "Addresses ready to browse",
                     tone: "bg-[rgba(242,215,166,0.45)]",
                   },
                   {
-                    label: "Needs review",
-                    value: String(home.needsReviewCount),
-                    detail: "Uncertain or incomplete records",
-                    tone: "bg-[rgba(238,144,119,0.16)]",
+                    label: "Cities",
+                    value: cityCount.toLocaleString("en-GB"),
+                    detail: "Paris is the main focus",
+                    tone: "bg-[rgba(181,216,223,0.24)]",
                   },
                   {
-                    label: "Usable sources",
-                    value: String(home.totalSources),
-                    detail: "Prioritized for non-Instagram extraction",
-                    tone: "bg-[rgba(141,183,170,0.22)]",
+                    label: "To review",
+                    value: home.needsReviewCount.toLocaleString("en-GB"),
+                    detail: "A few records still need checking",
+                    tone: "bg-[rgba(238,144,119,0.16)]",
                   },
                 ].map((stat) => (
                   <div
@@ -125,23 +208,46 @@ export default async function HomePage() {
 
         <section className="grid gap-6 lg:grid-cols-[0.95fr_1.05fr]">
           <div className="surface retro-panel rounded-[32px] p-6">
-            <div className="flex items-center gap-3">
-              <Compass className="h-5 w-5 text-[var(--accent-ink)]" />
-              <h2 className="display text-3xl">Featured neighborhoods</h2>
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <div className="flex items-center gap-3">
+                <Compass className="h-5 w-5 text-[var(--accent-ink)]" />
+                <h2 className="display text-3xl">By arrondissement</h2>
+              </div>
+              <Link href="/map" className="pill-button px-4 py-2.5">
+                Discover the map
+              </Link>
             </div>
             <div className="mt-5 grid gap-3 sm:grid-cols-2">
-              {facets.arrondissements.slice(0, 8).map((arrondissement) => (
-                <Link
-                  key={arrondissement}
-                  href={`/places?arrondissement=${encodeURIComponent(arrondissement)}`}
-                  className="soft-stripes rounded-[24px] border border-[var(--line)] bg-white/82 p-4 transition hover:-translate-y-0.5"
-                >
-                  <p className="display text-2xl leading-none">{arrondissement}</p>
-                  <p className="mt-1 text-sm text-[var(--muted)]">
-                    Explore the latest nearby recommendations.
-                  </p>
-                </Link>
-              ))}
+              {facets.arrondissements.slice(0, 8).map((arrondissement, index) => {
+                const artwork = arrondissementCards[index % arrondissementCards.length];
+
+                return (
+                  <Link
+                    key={arrondissement}
+                    href={`/places?arrondissement=${encodeURIComponent(arrondissement)}`}
+                    className="overflow-hidden rounded-[24px] border border-[var(--line)] bg-white/82 transition hover:-translate-y-0.5"
+                  >
+                    <div className="relative aspect-[5/3] overflow-hidden border-b border-[var(--line)] bg-[rgba(242,215,166,0.24)]">
+                      <Image
+                        src={artwork.image}
+                        alt={`${arrondissement} postcard`}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 640px) 100vw, 50vw"
+                      />
+                      <div className="absolute bottom-3 left-3 rounded-full border border-[rgba(112,86,59,0.18)] bg-[rgba(255,248,235,0.88)] px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--accent-ink)]">
+                        {artwork.note}
+                      </div>
+                    </div>
+                    <div className="soft-stripes p-4">
+                      <p className="display text-2xl leading-none">{arrondissement}</p>
+                      <p className="mt-1 text-sm text-[var(--muted)]">
+                        Browse the saved spots.
+                      </p>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </div>
 

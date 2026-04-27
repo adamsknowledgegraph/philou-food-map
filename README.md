@@ -70,6 +70,7 @@ npm run extract
 npm run normalize
 npm run dedupe
 npm run geocode
+npm run google:enrich
 npm run review:export
 npm run review:import
 npm run instagram:collect
@@ -88,6 +89,7 @@ npm install
 npm run db:migrate
 npm run db:seed
 npm run pipeline:quick
+npm run google:enrich
 npm run dev
 ```
 

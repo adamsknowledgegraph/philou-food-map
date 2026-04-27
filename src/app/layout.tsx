@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Josefin_Sans } from "next/font/google";
+import { DM_Serif_Display, Jost } from "next/font/google";
 import "./globals.css";
 
-const display = Cormorant_Garamond({
+const display = DM_Serif_Display({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  weight: ["400"],
 });
 
-const sans = Josefin_Sans({
+const sans = Jost({
   variable: "--font-sans",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],

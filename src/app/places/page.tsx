@@ -1,4 +1,5 @@
 import { PlaceCard } from "@/components/place-card";
+import { PostcardArt } from "@/components/postcard-art";
 import { PlacesFilterForm } from "@/components/places-filter-form";
 import { SiteHeader } from "@/components/site-header";
 import { getFacets, getPlaces, resolveFilters, resolveSearchParams } from "@/lib/places";
@@ -17,15 +18,24 @@ export default async function PlacesPage({ searchParams }: PageProps) {
       <SiteHeader />
       <main className="mx-auto flex w-full max-w-7xl flex-col gap-8 px-4 pt-6 sm:px-6 lg:px-8">
         <section className="surface retro-panel poster-bands rounded-[32px] p-6">
-          <div className="flex flex-col gap-2">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--muted)]">
-              Places
-            </p>
-            <h1 className="display text-5xl leading-none">Search, sort, and filter the guide</h1>
-            <p className="max-w-2xl text-sm leading-6 text-[var(--muted)]">
-              Filters are database-backed and keep the MVP useful even while richer
-              fields are still under review.
-            </p>
+          <div className="section-split">
+            <div className="flex flex-col gap-2">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--muted)]">
+                Places
+              </p>
+              <h1 className="display text-5xl leading-none">Browse the guide</h1>
+              <p className="max-w-2xl text-sm leading-6 text-[var(--muted)]">
+                Filter by cuisine, price, neighborhood, or arrondissement.
+              </p>
+            </div>
+            <div className="postcard-stack">
+              <div className="postcard-frame">
+                <PostcardArt seed="places-guide-a" alt="Retro city postcard" compact />
+              </div>
+              <div className="postcard-frame">
+                <PostcardArt seed="places-guide-b" alt="Retro terrace postcard" compact />
+              </div>
+            </div>
           </div>
           <div className="mt-6">
             <PlacesFilterForm action="/places" filters={filters} facets={facets} />

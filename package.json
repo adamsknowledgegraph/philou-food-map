@@ -15,6 +15,7 @@
     "normalize": "tsx scripts/normalize_places.ts",
     "dedupe": "tsx scripts/dedupe_places.ts",
     "geocode": "tsx scripts/geocode_places.ts",
+    "google:enrich": "tsx scripts/enrich_google_places.ts",
     "review:export": "tsx scripts/export_review_csv.ts",
     "review:import": "tsx scripts/import_review_csv.ts",
     "instagram:collect": "tsx scripts/instagram_collect.ts",

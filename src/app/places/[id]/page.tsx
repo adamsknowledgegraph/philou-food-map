@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink, MapPin, ShieldCheck } from "lucide-react";
+import { GoogleRating } from "@/components/google-rating";
+import { PlaceImage } from "@/components/place-image";
 import { SiteHeader } from "@/components/site-header";
 import {
   formatConfidence,
@@ -47,6 +49,10 @@ export default async function PlaceDetailPage({ params }: PageProps) {
                 <span className="rounded-full border border-[var(--line)] bg-[rgba(181,216,223,0.24)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em]">
                   Confidence {formatConfidence(place.confidenceScore)}
                 </span>
+                <GoogleRating
+                  rating={place.googleRating}
+                  count={place.googleUserRatingCount}
+                />
               </div>
               <div>
                 <h1 className="display text-5xl leading-none sm:text-6xl">{place.name}</h1>
@@ -80,29 +86,48 @@ export default async function PlaceDetailPage({ params }: PageProps) {
               </div>
             </div>
 
-            <div className="surface retro-panel min-w-[260px] rounded-[28px] bg-white/72 p-5">
-              <div className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.14em] text-[var(--accent-ink)]">
-                <ShieldCheck className="h-4 w-4" />
-                Review summary
+            <div className="grid min-w-[280px] gap-4">
+              <div className="postcard-frame">
+                <PlaceImage
+                  placeId={place.id}
+                  name={place.name}
+                  hasGooglePhoto={Boolean(place.googlePhotoName)}
+                  imageUrl={place.googlePhotoUrl}
+                  compact
+                />
               </div>
-              <dl className="mt-4 grid gap-3 text-sm">
-                <div className="flex items-center justify-between gap-4">
-                  <dt className="text-[var(--muted)]">Status</dt>
-                  <dd>{place.status}</dd>
+              <div className="surface retro-panel rounded-[28px] bg-white/72 p-5">
+                <div className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.14em] text-[var(--accent-ink)]">
+                  <ShieldCheck className="h-4 w-4" />
+                  Review summary
                 </div>
-                <div className="flex items-center justify-between gap-4">
-                  <dt className="text-[var(--muted)]">City</dt>
-                  <dd>{place.city ?? "Unknown"}</dd>
-                </div>
-                <div className="flex items-center justify-between gap-4">
-                  <dt className="text-[var(--muted)]">Arrondissement</dt>
-                  <dd>{place.arrondissement ?? "Unknown"}</dd>
-                </div>
-                <div className="flex items-center justify-between gap-4">
-                  <dt className="text-[var(--muted)]">Price</dt>
-                  <dd>{place.priceRange ?? "Unknown"}</dd>
-                </div>
-              </dl>
+                <dl className="mt-4 grid gap-3 text-sm">
+                  <div className="flex items-center justify-between gap-4">
+                    <dt className="text-[var(--muted)]">Status</dt>
+                    <dd>{place.status}</dd>
+                  </div>
+                  <div className="flex items-center justify-between gap-4">
+                    <dt className="text-[var(--muted)]">City</dt>
+                    <dd>{place.city ?? "Unknown"}</dd>
+                  </div>
+                  <div className="flex items-center justify-between gap-4">
+                    <dt className="text-[var(--muted)]">Arrondissement</dt>
+                    <dd>{place.arrondissement ?? "Unknown"}</dd>
+                  </div>
+                  <div className="flex items-center justify-between gap-4">
+                    <dt className="text-[var(--muted)]">Price</dt>
+                    <dd>{place.priceRange ?? "Unknown"}</dd>
+                  </div>
+                  <div className="flex items-center justify-between gap-4">
+                    <dt className="text-[var(--muted)]">Google</dt>
+                    <dd>
+                      {typeof place.googleRating === "number"
+                        ? `${place.googleRating.toFixed(1)} / 5`
+                        : "Not synced"}
+                    </dd>
+                  </div>
+                </dl>
+              </div>
             </div>
           </div>
         </section>

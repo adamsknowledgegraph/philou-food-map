@@ -40,6 +40,10 @@ type GoogleReviewPayload = {
   googleMapsUri?: string;
 };
 
+type GooglePhotoPayload = {
+  name?: string;
+};
+
 type GooglePlaceDetails = {
   id: string;
   displayName?: {
@@ -51,7 +55,13 @@ type GooglePlaceDetails = {
   rating?: number;
   userRatingCount?: number;
   priceLevel?: string;
+  photos?: GooglePhotoPayload[];
   reviews?: GoogleReviewPayload[];
+};
+
+type GooglePhotoMedia = {
+  name?: string;
+  photoUri?: string;
 };
 
 function ensureApiKey() {
@@ -176,7 +186,14 @@ async function fetchGooglePlaceDetails(googlePlaceId: string) {
   return googleFetch<GooglePlaceDetails>(`${DETAILS_BASE_URL}/${googlePlaceId}`, {
     method: "GET",
     fieldMask:
-      "id,displayName,formattedAddress,googleMapsUri,websiteUri,rating,userRatingCount,priceLevel,reviews",
+      "id,displayName,formattedAddress,googleMapsUri,websiteUri,rating,userRatingCount,priceLevel,photos,reviews",
+  });
+}
+
+async function fetchGooglePhotoMedia(photoName: string) {
+  return googleFetch<GooglePhotoMedia>(`https://places.googleapis.com/v1/${photoName}/media?maxWidthPx=1200`, {
+    method: "GET",
+    fieldMask: "name,photoUri",
   });
 }
 
@@ -240,6 +257,19 @@ async function main() {
       const details = await fetchGooglePlaceDetails(googlePlaceId);
       await sleep(150);
 
+      const firstPhotoName = details.photos?.[0]?.name ?? null;
+      let firstPhotoUrl: string | null = null;
+
+      if (firstPhotoName) {
+        try {
+          const photoMedia = await fetchGooglePhotoMedia(firstPhotoName);
+          firstPhotoUrl = photoMedia.photoUri ?? null;
+          await sleep(150);
+        } catch (error) {
+          console.warn(`Photo fetch failed for ${place.name}:`, error);
+        }
+      }
+
       const reviews = details.reviews ?? [];
 
       await prisma.$transaction([
@@ -247,6 +277,8 @@ async function main() {
           where: { id: place.id },
           data: {
             googlePlaceId,
+            googlePhotoName: firstPhotoName,
+            googlePhotoUrl: firstPhotoUrl,
             googleRating: details.rating ?? null,
             googleUserRatingCount: details.userRatingCount ?? null,
             googlePriceLevel: details.priceLevel ?? null,
