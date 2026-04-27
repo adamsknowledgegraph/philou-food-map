@@ -7,36 +7,36 @@ import { getFacets, getHomeData } from "@/lib/places";
 
 const arrondissementCards = [
   {
-    image: "/postcards/arrondissement-cafe.svg",
+    image: "/photos/paris-cafe-street.jpg",
     note: "Cafe mornings",
   },
   {
-    image: "/postcards/arrondissement-river.svg",
-    note: "Canal walks",
+    image: "/photos/paris-cafe-terrace.jpg",
+    note: "Terrace lunch",
   },
   {
-    image: "/postcards/arrondissement-awning.svg",
-    note: "Lunch terraces",
+    image: "/photos/cafe-de-flore.jpg",
+    note: "Classic Paris",
   },
   {
-    image: "/postcards/arrondissement-night.svg",
-    note: "Late dinners",
+    image: "/photos/paris-brasserie.jpg",
+    note: "Brasserie hour",
   },
   {
-    image: "/postcards/terrace-sun.svg",
-    note: "Sunny corners",
+    image: "/photos/hero-croissants.jpg",
+    note: "Bakery stop",
   },
   {
-    image: "/postcards/city-spritz.svg",
-    note: "Cocktail stops",
+    image: "/photos/hero-brunch.jpg",
+    note: "Weekend brunch",
   },
   {
-    image: "/postcards/arrondissement-market.svg",
-    note: "Market picks",
+    image: "/photos/paris-cafe-terrace.jpg",
+    note: "Street tables",
   },
   {
-    image: "/postcards/arrondissement-bistro.svg",
-    note: "Bistro nights",
+    image: "/photos/cafe-de-flore.jpg",
+    note: "Old-school cafe",
   },
 ] as const;
 
@@ -131,8 +131,8 @@ export default async function HomePage() {
                 <div className="surface retro-panel overflow-hidden rounded-[32px]">
                   <div className="relative aspect-[5/4] bg-[rgba(242,215,166,0.18)]">
                     <Image
-                      src="/postcards/hero-croissant.svg"
-                      alt="Croissant illustration"
+                      src="/photos/hero-croissants.jpg"
+                      alt="Croissants in a bakery display"
                       fill
                       className="object-cover"
                       sizes="(max-width: 1024px) 100vw, 40vw"
@@ -143,8 +143,8 @@ export default async function HomePage() {
                   <div className="surface retro-panel overflow-hidden rounded-[28px]">
                     <div className="relative aspect-[1/1] bg-[rgba(181,216,223,0.2)]">
                       <Image
-                        src="/postcards/hero-noodles.svg"
-                        alt="Noodle bowl illustration"
+                        src="/photos/hero-brunch.jpg"
+                        alt="Brunch table with food and spritz"
                         fill
                         className="object-cover"
                         sizes="(max-width: 1024px) 100vw, 20vw"
@@ -154,8 +154,8 @@ export default async function HomePage() {
                   <div className="surface retro-panel overflow-hidden rounded-[28px]">
                     <div className="relative aspect-[1/1] bg-[rgba(240,143,102,0.12)]">
                       <Image
-                        src="/postcards/hero-spritz.svg"
-                        alt="Spritz illustration"
+                        src="/photos/paris-cafe-terrace.jpg"
+                        alt="Paris cafe terrace"
                         fill
                         className="object-cover"
                         sizes="(max-width: 1024px) 100vw, 20vw"
