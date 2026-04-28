@@ -1,9 +1,12 @@
-import { MapPanel } from "@/components/map-panel";
-import { PlacesFilterForm } from "@/components/places-filter-form";
-import { PlaceCard } from "@/components/place-card";
+import { PlaceExplorer } from "@/components/place-explorer";
 import { PostcardArt } from "@/components/postcard-art";
 import { SiteHeader } from "@/components/site-header";
-import { getFacets, getMapPlaces, getPlaces, resolveFilters, resolveSearchParams } from "@/lib/places";
+import {
+  type PlaceCollection,
+  getExplorerPlaces,
+  resolveFilters,
+  resolveSearchParams,
+} from "@/lib/places";
 
 type PageProps = {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
@@ -12,11 +15,8 @@ type PageProps = {
 export default async function MapPage({ searchParams }: PageProps) {
   const params = resolveSearchParams(await searchParams);
   const filters = resolveFilters(params);
-  const [places, mapPlaces, facets] = await Promise.all([
-    getPlaces(filters),
-    getMapPlaces(filters),
-    getFacets(),
-  ]);
+  const parisPlaces = await getExplorerPlaces("Paris");
+  const initialCollection = (filters.collection || "restaurants") as PlaceCollection;
 
   return (
     <div className="page-shell pb-16">
@@ -34,21 +34,18 @@ export default async function MapPage({ searchParams }: PageProps) {
               <PostcardArt seed="map-guide" alt="Map section artwork" compact />
             </div>
           </div>
-          <div className="mt-6">
-            <PlacesFilterForm action="/map" filters={filters} facets={facets} variant="consumer" />
-          </div>
         </section>
 
-        <section className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-          <div className="surface retro-panel h-[580px] overflow-hidden rounded-[32px] p-3">
-            <MapPanel places={mapPlaces} />
-          </div>
-          <div className="grid gap-4">
-            {places.slice(0, 6).map((place) => (
-              <PlaceCard key={place.id} place={place} compact />
-            ))}
-          </div>
-        </section>
+        <PlaceExplorer
+          places={parisPlaces}
+          initialCollection={initialCollection}
+          initialQuery={filters.q}
+          initialArrondissement={filters.arrondissement}
+          initialTag={filters.tag}
+          initialPriceRange={filters.priceRange}
+          initialSort={(filters.sort as "recent" | "alphabetical" | "price") || "recent"}
+          mode="map"
+        />
       </main>
     </div>
   );

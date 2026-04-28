@@ -26,6 +26,18 @@ export default async function PlaceDetailPage({ params }: PageProps) {
   const tags = parseStringList(place.tags);
   const foodTypes = parseStringList(place.foodType);
   const openingHours = parseStringList(place.googleOpeningHoursText);
+  const recommendedItems = [
+    ...new Set(
+      place.recommendations.flatMap((recommendation) =>
+        parseStringList(recommendation.recommendedItems),
+      ),
+    ),
+  ];
+  const philouNote =
+    place.philouSummary ||
+    place.recommendations.find((recommendation) => recommendation.reasonRecommended)?.reasonRecommended ||
+    place.recommendations.find((recommendation) => recommendation.originalTextSnippet)?.originalTextSnippet ||
+    null;
   const googleSignals = [
     place.googleReservable ? "Reservable" : null,
     place.googleOutdoorSeating ? "Outdoor seating" : null,
@@ -133,13 +145,9 @@ export default async function PlaceDetailPage({ params }: PageProps) {
               <div className="surface retro-panel rounded-[28px] bg-white/72 p-5">
                 <div className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.14em] text-[var(--accent-ink)]">
                   <ShieldCheck className="h-4 w-4" />
-                  Review summary
+                  At a glance
                 </div>
                 <dl className="mt-4 grid gap-3 text-sm">
-                  <div className="flex items-center justify-between gap-4">
-                    <dt className="text-[var(--muted)]">Status</dt>
-                    <dd>{place.status}</dd>
-                  </div>
                   <div className="flex items-center justify-between gap-4">
                     <dt className="text-[var(--muted)]">City</dt>
                     <dd>{place.city ?? "Unknown"}</dd>
@@ -180,6 +188,31 @@ export default async function PlaceDetailPage({ params }: PageProps) {
 
         <section className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr]">
           <div className="surface retro-panel rounded-[32px] p-6">
+            {philouNote ? (
+              <div className="mb-6 rounded-[24px] border border-[var(--line)] bg-[rgba(242,215,166,0.22)] p-5">
+                <h2 className="display text-3xl">Why Philou saved it</h2>
+                <p className="mt-3 text-sm leading-6 text-[var(--foreground)]">
+                  {philouNote}
+                </p>
+              </div>
+            ) : null}
+
+            {recommendedItems.length ? (
+              <div className="mb-6 rounded-[24px] border border-[var(--line)] bg-[rgba(181,216,223,0.22)] p-5">
+                <h2 className="display text-3xl">What to order</h2>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {recommendedItems.slice(0, 6).map((item) => (
+                    <span
+                      key={item}
+                      className="rounded-full border border-[var(--line)] bg-white/80 px-3 py-1 text-sm text-[var(--accent-ink)]"
+                    >
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ) : null}
+
             <h2 className="display text-3xl">Useful links</h2>
             <div className="mt-4 grid gap-3 text-sm">
               {[

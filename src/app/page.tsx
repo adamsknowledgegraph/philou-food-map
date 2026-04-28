@@ -1,19 +1,16 @@
 import Link from "next/link";
-import { ArrowRight, Compass, MapPinned, Search, Sparkles } from "lucide-react";
-import { MapPanel } from "@/components/map-panel";
+import { Compass, MapPinned, Search, Sparkles } from "lucide-react";
+import { PlaceExplorer } from "@/components/place-explorer";
 import { PlaceCard } from "@/components/place-card";
-import { PlacesFilterForm } from "@/components/places-filter-form";
 import { SiteHeader } from "@/components/site-header";
 import { VintagePhoto } from "@/components/vintage-photo";
 import {
   DEFAULT_FILTERS,
   PLACE_COLLECTION_LABELS,
-  type PlaceFilters,
   type PlaceCollection,
+  getExplorerPlaces,
   getFacets,
   getHomeData,
-  getMapPlaces,
-  getPlaces,
   resolveFilters,
   resolveSearchParams,
 } from "@/lib/places";
@@ -65,23 +62,6 @@ type PageProps = {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
 
-function buildBrowseHref(filters: PlaceFilters, overrides: Partial<PlaceFilters>) {
-  const params = new URLSearchParams();
-  const nextFilters = {
-    ...filters,
-    ...overrides,
-  };
-
-  for (const [key, value] of Object.entries(nextFilters)) {
-    if (value) {
-      params.set(key, value);
-    }
-  }
-
-  const query = params.toString();
-  return query ? `/?${query}#map-guide` : "/#map-guide";
-}
-
 export default async function HomePage({ searchParams }: PageProps) {
   const params = resolveSearchParams(await searchParams);
   const filters = {
@@ -90,13 +70,12 @@ export default async function HomePage({ searchParams }: PageProps) {
     city: params.city || "Paris",
     collection: params.collection || "restaurants",
   };
-  const [home, facets, featuredPlaces, mapPlaces] = await Promise.all([
+  const [home, facets, parisPlaces] = await Promise.all([
     getHomeData(),
     getFacets(),
-    getPlaces(filters),
-    getMapPlaces(filters),
+    getExplorerPlaces("Paris"),
   ]);
-  const featuredCount = featuredPlaces.length;
+  const featuredCount = parisPlaces.length;
   const parisCollections: PlaceCollection[] = [
     "gastro-higher-end",
     "restaurants",
@@ -108,7 +87,6 @@ export default async function HomePage({ searchParams }: PageProps) {
     href: `/places?city=Paris&collection=${encodeURIComponent(collection)}`,
   }));
   const selectedCollection = (filters.collection || "restaurants") as PlaceCollection;
-  const selectedCollectionLabel = PLACE_COLLECTION_LABELS[selectedCollection];
 
   return (
     <div className="page-shell pb-16">
@@ -218,61 +196,19 @@ export default async function HomePage({ searchParams }: PageProps) {
           </div>
         </section>
 
-        <section id="map-guide" className="surface retro-panel rounded-[32px] p-6">
-          <div className="section-split">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--muted)]">
-                Paris lists
-              </p>
-              <h2 className="display mt-2 text-4xl leading-none">{selectedCollectionLabel} in Paris</h2>
-              <p className="mt-3 max-w-2xl text-sm leading-6 text-[var(--muted)]">
-                Switch between restaurant lists, narrow the results, and use the mini map to see where each pick sits in Paris.
-              </p>
-            </div>
-            <div className="rounded-full border border-[var(--line)] bg-white/80 px-4 py-2 text-sm uppercase tracking-[0.14em] text-[var(--muted)]">
-              {mapPlaces.length.toLocaleString("en-GB")} pins showing
-            </div>
-          </div>
-          <div className="mt-6 flex flex-wrap gap-2">
-            {parisCollections.map((collection) => (
-              <Link
-                key={collection}
-                href={buildBrowseHref(filters, { collection })}
-                className={
-                  filters.collection === collection
-                    ? "cta-button px-4 py-2.5"
-                    : "ghost-button px-4 py-2.5"
-                }
-              >
-                {PLACE_COLLECTION_LABELS[collection]}
-              </Link>
-            ))}
-          </div>
-          <div className="mt-6">
-            <PlacesFilterForm
-              action="/"
-              filters={filters}
-              facets={facets}
-              variant="consumer"
-              cityMode="hidden"
-              showCollectionControls={false}
-            />
-          </div>
-          <div className="mt-6 grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
-            <div className="grid gap-4">
-              {featuredPlaces.slice(0, 4).map((place) => (
-                <PlaceCard key={place.id} place={place} compact />
-              ))}
-              <Link href="/places?city=Paris" className="ghost-button px-5 py-3">
-                Browse all Paris places
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-            </div>
-            <div className="surface retro-panel h-[430px] overflow-hidden rounded-[32px] p-3">
-              <MapPanel places={mapPlaces} />
-            </div>
-          </div>
-        </section>
+        <div id="map-guide">
+          <PlaceExplorer
+            places={parisPlaces}
+            initialCollection={selectedCollection}
+            initialQuery={filters.q}
+            initialArrondissement={filters.arrondissement}
+            initialTag={filters.tag}
+            initialPriceRange={filters.priceRange}
+            initialSort={(filters.sort as "recent" | "alphabetical" | "price") || "recent"}
+            mode="home"
+            anchor="#map-guide"
+          />
+        </div>
 
         <section className="grid gap-6 lg:grid-cols-[0.95fr_1.05fr]">
           <div className="surface retro-panel rounded-[32px] p-6">

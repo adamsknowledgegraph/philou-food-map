@@ -1,5 +1,11 @@
 import { cache } from "react";
 import type { Prisma } from "@prisma/client";
+import {
+  PLACE_COLLECTIONS,
+  PLACE_COLLECTION_LABELS,
+  type ExplorerPlace,
+  type PlaceCollection,
+} from "@/lib/place-collections";
 import { prisma } from "@/lib/prisma";
 
 const placeInclude = {
@@ -147,25 +153,8 @@ function frequencySorted(values: string[]) {
     .map(([value]) => value);
 }
 
-export const PLACE_COLLECTIONS = [
-  "gastro-higher-end",
-  "restaurants",
-  "cafe-bakery",
-  "bars-wine",
-  "hotels-stays",
-  "to-explore",
-] as const;
-
-export type PlaceCollection = (typeof PLACE_COLLECTIONS)[number];
-
-export const PLACE_COLLECTION_LABELS: Record<PlaceCollection, string> = {
-  "gastro-higher-end": "Gastro / higher-end",
-  restaurants: "Restaurants",
-  "cafe-bakery": "Cafes & bakeries",
-  "bars-wine": "Bars & wine",
-  "hotels-stays": "Hotels & stays",
-  "to-explore": "Everything else",
-};
+export { PLACE_COLLECTIONS, PLACE_COLLECTION_LABELS };
+export type { ExplorerPlace, PlaceCollection };
 
 const HIDDEN_TAGS = new Set([
   "mapstr",
@@ -399,6 +388,49 @@ export const getMapPlaces = cache(async (filters: PlaceFilters) => {
         longitude: place.longitude as number,
       }),
     );
+});
+
+function buildExplorerPlace(place: PlaceRecord): ExplorerPlace {
+  const latestRecommendation = place.recommendations[0] ?? null;
+
+  return {
+    id: place.id,
+    name: place.name,
+    address: place.address,
+    city: place.city,
+    arrondissement: place.arrondissement,
+    neighborhood: place.neighborhood,
+    cuisineType: place.cuisineType,
+    foodTypes: parseStringList(place.foodType),
+    priceRange: place.priceRange,
+    tags: getVisibleTags(place),
+    collection: getPlaceCollection(place),
+    googleMapsUrl: place.googleMapsUrl,
+    googleRating: place.googleRating,
+    googleUserRatingCount: place.googleUserRatingCount,
+    googlePhotoName: place.googlePhotoName,
+    googlePhotoUrl: place.googlePhotoUrl,
+    googleEditorialSummary: place.googleEditorialSummary,
+    googlePrimaryTypeLabel: place.googlePrimaryTypeLabel,
+    latitude: place.latitude,
+    longitude: place.longitude,
+    philouSummary: place.philouSummary,
+    recommendationReason: latestRecommendation?.reasonRecommended ?? null,
+    recommendationSnippet: latestRecommendation?.originalTextSnippet ?? null,
+    recommendedItems: latestRecommendation
+      ? parseStringList(latestRecommendation.recommendedItems)
+      : [],
+  };
+}
+
+export const getExplorerPlaces = cache(async (city = "Paris"): Promise<ExplorerPlace[]> => {
+  const places = await getPlaces({
+    ...DEFAULT_FILTERS,
+    city,
+    sort: "recent",
+  });
+
+  return places.map(buildExplorerPlace);
 });
 
 export const getFacets = cache(async (): Promise<PlaceFacets> => {
