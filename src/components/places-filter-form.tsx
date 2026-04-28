@@ -10,6 +10,7 @@ type PlacesFilterFormProps = {
   facets: PlaceFacets;
   variant?: "consumer" | "admin";
   cityMode?: "show" | "hidden";
+  showCollectionControls?: boolean;
 };
 
 function SelectField({
@@ -73,6 +74,7 @@ export function PlacesFilterForm({
   facets,
   variant = "consumer",
   cityMode = "show",
+  showCollectionControls = true,
 }: PlacesFilterFormProps) {
   const quickCollections = facets.collections.slice(0, 5);
   const showReviewControls = variant === "admin";
@@ -81,29 +83,31 @@ export function PlacesFilterForm({
 
   return (
     <form action={action} className="grid gap-4 lg:grid-cols-4">
-      <div className="lg:col-span-4">
-        <div className="flex flex-wrap gap-2">
-          <a
-            href={buildFilterHref(action, filters, { collection: "", sort: filters.sort || "recent" })}
-            className={filters.collection ? "ghost-button px-4 py-2.5" : "cta-button px-4 py-2.5"}
-          >
-            All places
-          </a>
-          {quickCollections.map((collection) => (
+      {showCollectionControls ? (
+        <div className="lg:col-span-4">
+          <div className="flex flex-wrap gap-2">
             <a
-              key={collection}
-              href={buildFilterHref(action, filters, { collection })}
-              className={
-                filters.collection === collection
-                  ? "cta-button px-4 py-2.5"
-                  : "ghost-button px-4 py-2.5"
-              }
+              href={buildFilterHref(action, filters, { collection: "", sort: filters.sort || "recent" })}
+              className={filters.collection ? "ghost-button px-4 py-2.5" : "cta-button px-4 py-2.5"}
             >
-              {PLACE_COLLECTION_LABELS[collection]}
+              All places
             </a>
-          ))}
+            {quickCollections.map((collection) => (
+              <a
+                key={collection}
+                href={buildFilterHref(action, filters, { collection })}
+                className={
+                  filters.collection === collection
+                    ? "cta-button px-4 py-2.5"
+                    : "ghost-button px-4 py-2.5"
+                }
+              >
+                {PLACE_COLLECTION_LABELS[collection]}
+              </a>
+            ))}
+          </div>
         </div>
-      </div>
+      ) : null}
 
       <label className="grid gap-2 text-sm lg:col-span-2">
         <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
@@ -118,13 +122,17 @@ export function PlacesFilterForm({
         />
       </label>
 
-      <SelectField
-        label="Collection"
-        name="collection"
-        value={filters.collection}
-        options={facets.collections}
-        labels={PLACE_COLLECTION_LABELS}
-      />
+      {showCollectionControls ? (
+        <SelectField
+          label="Collection"
+          name="collection"
+          value={filters.collection}
+          options={facets.collections}
+          labels={PLACE_COLLECTION_LABELS}
+        />
+      ) : (
+        <input type="hidden" name="collection" value={filters.collection} />
+      )}
       {showCityField ? (
         <SelectField label="City" name="city" value={filters.city} options={facets.cities} />
       ) : null}
