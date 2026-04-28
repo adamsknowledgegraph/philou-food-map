@@ -1,13 +1,14 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Camera } from "lucide-react";
 
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/places", label: "Places" },
-  { href: "/map", label: "Discover the map" },
-  { href: "/admin/review", label: "Admin review" },
+  { href: "/map", label: "Map" },
 ];
 
 export function SiteHeader() {
@@ -15,16 +16,45 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-30 border-b border-[var(--line)] bg-[rgba(255,244,226,0.9)] backdrop-blur-xl">
-      <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
-        <div className="space-y-2">
-          <span className="eyebrow py-2">Philippine Darblay</span>
-          <div>
-            <Link href="/" className="display text-4xl leading-none text-[var(--foreground)] sm:text-5xl">
-              Philou&apos;s Paris
-            </Link>
-            <p className="mt-1 text-xs font-semibold uppercase tracking-[0.22em] text-[var(--muted)]">
-              Food guide
-            </p>
+      <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-5 px-4 py-4 sm:px-6 lg:px-8">
+        <div className="flex items-center gap-4">
+          <div className="relative hidden h-[4.5rem] w-[4.5rem] overflow-hidden rounded-[24px] border border-[var(--line)] bg-[rgba(255,248,236,0.86)] shadow-[var(--shadow-soft)] sm:block">
+            <Image
+              src="/photos/paris-cafe-terrace.jpg"
+              alt="Paris cafe terrace"
+              fill
+              sizes="72px"
+              className="object-cover vintage-photo-image"
+              style={{ objectPosition: "center 58%" }}
+            />
+            <div className="vintage-photo-wash" />
+            <div className="vintage-photo-grain" />
+          </div>
+          <div className="space-y-2">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="eyebrow py-2">Philippine Darblay</span>
+              <a
+                href="https://www.instagram.com/philoudarblay/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Philippine Darblay on Instagram"
+                className="inline-flex items-center justify-center rounded-full border border-[var(--line)] bg-white/84 p-2 text-[var(--accent-ink)] transition hover:-translate-y-0.5"
+              >
+                <Camera className="h-3.5 w-3.5" />
+              </a>
+            </div>
+            <div>
+              <Link href="/" className="display text-4xl leading-none text-[var(--foreground)] sm:text-5xl">
+                Philou&apos;s Paris
+              </Link>
+              <p className="mt-1 text-xs font-semibold uppercase tracking-[0.22em] text-[var(--muted)]">
+                Paris food guide
+              </p>
+              <p className="mt-2 max-w-xl text-sm leading-5 text-[var(--muted)]">
+                Public restaurant picks from one of France&apos;s best-known food creators,
+                turned into a map you can actually browse.
+              </p>
+            </div>
           </div>
         </div>
         <nav className="flex flex-wrap gap-2">

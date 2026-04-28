@@ -20,6 +20,10 @@ function serializeList(values: string[]) {
   );
 }
 
+function buildGoogleMapsUrl(query: string) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
 const influencerName = "Philippine Darblay";
 const influencerHandle = "philoudarblay";
 
@@ -188,7 +192,7 @@ async function main() {
         country: entry.country,
         foodType: serializeList(entry.foodType),
         tags: serializeList(entry.tags),
-        googleMapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(entry.address)}`,
+        googleMapsUrl: buildGoogleMapsUrl(`${entry.name}, ${entry.city}`),
         status: entry.needsReview ? "needs_review" : "approved",
         confidenceScore: entry.confidenceScore,
         needsReview: entry.needsReview,

@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
+    "postinstall": "prisma generate",
     "lint": "eslint",
     "db:migrate": "tsx scripts/db_migrate.ts",
     "db:seed": "tsx prisma/seed.ts",
@@ -16,6 +17,7 @@
     "dedupe": "tsx scripts/dedupe_places.ts",
     "geocode": "tsx scripts/geocode_places.ts",
     "google:enrich": "tsx scripts/enrich_google_places.ts",
+    "maps:refresh-links": "tsx scripts/refresh_google_maps_urls.ts",
     "review:export": "tsx scripts/export_review_csv.ts",
     "review:import": "tsx scripts/import_review_csv.ts",
     "instagram:collect": "tsx scripts/instagram_collect.ts",

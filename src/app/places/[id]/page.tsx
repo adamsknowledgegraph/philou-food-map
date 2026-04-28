@@ -5,7 +5,6 @@ import { GoogleRating } from "@/components/google-rating";
 import { PlaceImage } from "@/components/place-image";
 import { SiteHeader } from "@/components/site-header";
 import {
-  formatConfidence,
   formatDate,
   getPlaceById,
   getReviewLabel,
@@ -26,6 +25,24 @@ export default async function PlaceDetailPage({ params }: PageProps) {
 
   const tags = parseStringList(place.tags);
   const foodTypes = parseStringList(place.foodType);
+  const openingHours = parseStringList(place.googleOpeningHoursText);
+  const googleSignals = [
+    place.googleReservable ? "Reservable" : null,
+    place.googleOutdoorSeating ? "Outdoor seating" : null,
+    place.googleDineIn ? "Dine-in" : null,
+    place.googleTakeout ? "Takeout" : null,
+    place.googleDelivery ? "Delivery" : null,
+    place.googleGoodForGroups ? "Good for groups" : null,
+    place.googleServesBreakfast ? "Breakfast" : null,
+    place.googleServesBrunch ? "Brunch" : null,
+    place.googleServesLunch ? "Lunch" : null,
+    place.googleServesDinner ? "Dinner" : null,
+    place.googleServesDessert ? "Dessert" : null,
+    place.googleServesCoffee ? "Coffee" : null,
+    place.googleServesWine ? "Wine" : null,
+    place.googleServesCocktails ? "Cocktails" : null,
+    place.googleServesVegetarian ? "Vegetarian-friendly" : null,
+  ].filter(Boolean) as string[];
 
   return (
     <div className="page-shell pb-16">
@@ -46,13 +63,20 @@ export default async function PlaceDetailPage({ params }: PageProps) {
                 <span className="chip rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em]">
                   {getReviewLabel(place)}
                 </span>
-                <span className="rounded-full border border-[var(--line)] bg-[rgba(181,216,223,0.24)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em]">
-                  Confidence {formatConfidence(place.confidenceScore)}
-                </span>
                 <GoogleRating
                   rating={place.googleRating}
                   count={place.googleUserRatingCount}
                 />
+                {place.googleOpenNow === true ? (
+                  <span className="rounded-full border border-[var(--line)] bg-[rgba(141,183,170,0.18)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--accent-ink)]">
+                    Open now
+                  </span>
+                ) : null}
+                {place.googleOpenNow === false ? (
+                  <span className="rounded-full border border-[var(--line)] bg-[rgba(238,144,119,0.16)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--accent-ink)]">
+                    Closed now
+                  </span>
+                ) : null}
               </div>
               <div>
                 <h1 className="display text-5xl leading-none sm:text-6xl">{place.name}</h1>
@@ -60,6 +84,11 @@ export default async function PlaceDetailPage({ params }: PageProps) {
                   <MapPin className="h-4 w-4" />
                   {place.address ?? "Address still under review"}
                 </p>
+                {place.googleEditorialSummary ? (
+                  <p className="mt-4 max-w-2xl text-sm leading-6 text-[var(--muted)]">
+                    {place.googleEditorialSummary}
+                  </p>
+                ) : null}
               </div>
               <div className="flex flex-wrap gap-2">
                 {foodTypes.map((foodType) => (
@@ -73,6 +102,11 @@ export default async function PlaceDetailPage({ params }: PageProps) {
                 {place.cuisineType ? (
                   <span className="rounded-full bg-[rgba(238,144,119,0.16)] px-3 py-1 text-sm text-[var(--accent-ink)]">
                     {place.cuisineType}
+                  </span>
+                ) : null}
+                {place.googlePrimaryTypeLabel ? (
+                  <span className="rounded-full bg-[rgba(242,215,166,0.32)] px-3 py-1 text-sm text-[var(--accent-ink)]">
+                    {place.googlePrimaryTypeLabel}
                   </span>
                 ) : null}
                 {tags.map((tag) => (
@@ -126,6 +160,18 @@ export default async function PlaceDetailPage({ params }: PageProps) {
                         : "Not synced"}
                     </dd>
                   </div>
+                  <div className="flex items-center justify-between gap-4">
+                    <dt className="text-[var(--muted)]">Phone</dt>
+                    <dd>{place.googleNationalPhone ?? place.googleInternationalPhone ?? "Unknown"}</dd>
+                  </div>
+                  <div className="flex items-center justify-between gap-4">
+                    <dt className="text-[var(--muted)]">Google type</dt>
+                    <dd>{place.googlePrimaryTypeLabel ?? "Unknown"}</dd>
+                  </div>
+                  <div className="flex items-center justify-between gap-4">
+                    <dt className="text-[var(--muted)]">Business status</dt>
+                    <dd>{place.googleBusinessStatus ?? "Unknown"}</dd>
+                  </div>
                 </dl>
               </div>
             </div>
@@ -159,6 +205,41 @@ export default async function PlaceDetailPage({ params }: PageProps) {
           </div>
 
           <div className="surface retro-panel rounded-[32px] p-6">
+            {place.googleEditorialSummary || place.googleNeighborhoodSummary || googleSignals.length || openingHours.length ? (
+              <div className="mb-6 rounded-[24px] border border-[var(--line)] bg-white/82 p-5">
+                <h2 className="display text-3xl">From Google Maps</h2>
+                {place.googleNeighborhoodSummary ? (
+                  <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
+                    {place.googleNeighborhoodSummary}
+                  </p>
+                ) : null}
+                {googleSignals.length ? (
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    {googleSignals.map((signal) => (
+                      <span
+                        key={signal}
+                        className="rounded-full border border-[var(--line)] bg-[rgba(181,216,223,0.24)] px-3 py-1 text-sm text-[var(--accent-ink)]"
+                      >
+                        {signal}
+                      </span>
+                    ))}
+                  </div>
+                ) : null}
+                {openingHours.length ? (
+                  <div className="mt-5">
+                    <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
+                      Opening hours
+                    </h3>
+                    <div className="mt-3 grid gap-2 text-sm text-[var(--foreground)]">
+                      {openingHours.map((line) => (
+                        <p key={line}>{line}</p>
+                      ))}
+                    </div>
+                  </div>
+                ) : null}
+              </div>
+            ) : null}
+
             <h2 className="display text-3xl">Recommendations and evidence</h2>
             <div className="mt-5 grid gap-4">
               {place.recommendations.map((recommendation) => (

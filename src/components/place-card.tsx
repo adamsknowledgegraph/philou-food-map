@@ -3,7 +3,6 @@ import { ExternalLink, MapPin } from "lucide-react";
 import { GoogleRating } from "@/components/google-rating";
 import { PlaceImage } from "@/components/place-image";
 import {
-  formatConfidence,
   getReviewLabel,
   parseStringList,
   type PlaceRecord,
@@ -12,9 +11,14 @@ import {
 type PlaceCardProps = {
   place: PlaceRecord;
   compact?: boolean;
+  showImage?: boolean;
 };
 
-export function PlaceCard({ place, compact = false }: PlaceCardProps) {
+export function PlaceCard({
+  place,
+  compact = false,
+  showImage = true,
+}: PlaceCardProps) {
   const tags = parseStringList(place.tags)
     .filter(
       (tag) =>
@@ -31,13 +35,15 @@ export function PlaceCard({ place, compact = false }: PlaceCardProps) {
 
   return (
     <article className="surface retro-panel overflow-hidden rounded-[30px] bg-[rgba(255,247,236,0.92)] transition hover:-translate-y-0.5">
-      <PlaceImage
-        placeId={place.id}
-        name={place.name}
-        hasGooglePhoto={Boolean(place.googlePhotoName)}
-        imageUrl={place.googlePhotoUrl}
-        compact={compact}
-      />
+      {showImage ? (
+        <PlaceImage
+          placeId={place.id}
+          name={place.name}
+          hasGooglePhoto={Boolean(place.googlePhotoName)}
+          imageUrl={place.googlePhotoUrl}
+          compact={compact}
+        />
+      ) : null}
       <div className="p-5">
         <div className="flex flex-col gap-4">
           <div className="flex flex-wrap items-start justify-between gap-3">
@@ -45,9 +51,6 @@ export function PlaceCard({ place, compact = false }: PlaceCardProps) {
               <div className="flex flex-wrap gap-2">
                 <span className="chip rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em]">
                   {getReviewLabel(place)}
-                </span>
-                <span className="rounded-full border border-[var(--line)] bg-[rgba(181,216,223,0.24)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em]">
-                  Confidence {formatConfidence(place.confidenceScore)}
                 </span>
                 <GoogleRating
                   rating={place.googleRating}

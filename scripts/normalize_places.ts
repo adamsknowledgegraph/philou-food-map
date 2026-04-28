@@ -137,6 +137,13 @@ async function main() {
         city: extracted.city,
         arrondissement: extracted.arrondissement,
       });
+      const googleMapsQuery = [
+        extracted.name,
+        extracted.city,
+        extracted.country,
+      ]
+        .filter(Boolean)
+        .join(", ");
 
       const place = existing
         ? await prisma.place.update({
@@ -167,7 +174,12 @@ async function main() {
               googleMapsUrl:
                 existing.googleMapsUrl ??
                 extracted.google_maps_url ??
-                (extracted.address ? buildGoogleMapsUrl(extracted.address) : null),
+                (googleMapsQuery
+                  ? buildGoogleMapsUrl({
+                      query: googleMapsQuery,
+                      placeId: extracted.google_place_id,
+                    })
+                  : null),
               instagramUrl: existing.instagramUrl ?? extracted.instagram_url,
               websiteUrl: existing.websiteUrl ?? extracted.website_url,
               bookingUrl: existing.bookingUrl ?? extracted.booking_url,
@@ -207,7 +219,12 @@ async function main() {
               tags: serializeList(extracted.tags),
               googleMapsUrl:
                 extracted.google_maps_url ??
-                (extracted.address ? buildGoogleMapsUrl(extracted.address) : null),
+                (googleMapsQuery
+                  ? buildGoogleMapsUrl({
+                      query: googleMapsQuery,
+                      placeId: extracted.google_place_id,
+                    })
+                  : null),
               instagramUrl: extracted.instagram_url,
               websiteUrl: extracted.website_url,
               bookingUrl: extracted.booking_url,

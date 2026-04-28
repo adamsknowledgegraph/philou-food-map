@@ -39,6 +39,7 @@ export type DuplicateCandidateRecord = Prisma.DuplicateCandidateGetPayload<{
 
 export type PlaceFilters = {
   q: string;
+  collection: string;
   cuisine: string;
   foodType: string;
   priceRange: string;
@@ -47,7 +48,6 @@ export type PlaceFilters = {
   arrondissement: string;
   tag: string;
   source: string;
-  confidence: string;
   reviewStatus: string;
   sort: string;
 };
@@ -61,6 +61,7 @@ export type MapPlace = {
 };
 
 export type PlaceFacets = {
+  collections: PlaceCollection[];
   cuisines: string[];
   foodTypes: string[];
   priceRanges: string[];
@@ -73,6 +74,7 @@ export type PlaceFacets = {
 
 export const DEFAULT_FILTERS: PlaceFilters = {
   q: "",
+  collection: "",
   cuisine: "",
   foodType: "",
   priceRange: "",
@@ -81,7 +83,6 @@ export const DEFAULT_FILTERS: PlaceFilters = {
   arrondissement: "",
   tag: "",
   source: "",
-  confidence: "",
   reviewStatus: "",
   sort: "recent",
 };
@@ -128,16 +129,126 @@ function uniqueSorted(values: string[]) {
   );
 }
 
-function getConfidenceBucket(score: number) {
-  if (score >= 0.8) {
-    return "high";
+function frequencySorted(values: string[]) {
+  const counts = new Map<string, number>();
+
+  for (const value of values.filter(Boolean)) {
+    counts.set(value, (counts.get(value) ?? 0) + 1);
   }
 
-  if (score >= 0.6) {
-    return "medium";
+  return [...counts.entries()]
+    .sort((left, right) => {
+      if (right[1] !== left[1]) {
+        return right[1] - left[1];
+      }
+
+      return left[0].localeCompare(right[0], "fr");
+    })
+    .map(([value]) => value);
+}
+
+export const PLACE_COLLECTIONS = [
+  "gastro-higher-end",
+  "restaurants",
+  "cafe-bakery",
+  "bars-wine",
+  "hotels-stays",
+  "to-explore",
+] as const;
+
+export type PlaceCollection = (typeof PLACE_COLLECTIONS)[number];
+
+export const PLACE_COLLECTION_LABELS: Record<PlaceCollection, string> = {
+  "gastro-higher-end": "Gastro / higher-end",
+  restaurants: "Restaurants",
+  "cafe-bakery": "Cafes & bakeries",
+  "bars-wine": "Bars & wine",
+  "hotels-stays": "Hotels & stays",
+  "to-explore": "Everything else",
+};
+
+const HIDDEN_TAGS = new Set([
+  "mapstr",
+  "public-map",
+  "To try",
+  "Place to visit",
+  "Spot to visit",
+  "❤️",
+  "SH",
+  "Shopping",
+  "Beauty",
+  "Museum",
+]);
+
+function getPlaceTags(place: Pick<PlaceRecord, "tags">) {
+  return parseStringList(place.tags);
+}
+
+function getPlaceFoodTypes(place: Pick<PlaceRecord, "foodType">) {
+  return parseStringList(place.foodType);
+}
+
+function getNormalizedValues(values: string[]) {
+  return values.map((value) => normalizeText(value));
+}
+
+function includesAny(values: string[], candidates: string[]) {
+  return candidates.some((candidate) => values.includes(normalizeText(candidate)));
+}
+
+export function getPlaceCollection(place: Pick<PlaceRecord, "tags" | "foodType">): PlaceCollection {
+  const tags = getNormalizedValues(getPlaceTags(place));
+  const foodTypes = getNormalizedValues(getPlaceFoodTypes(place));
+  const combined = [...tags, ...foodTypes];
+
+  if (includesAny(combined, ["Gastro / higher end", "high-end"])) {
+    return "gastro-higher-end";
   }
 
-  return "low";
+  if (
+    includesAny(combined, ["Cafe", "Bakery", "Pastry", "Brunch", "pastry-shop", "cafe", "bakery"])
+  ) {
+    return "cafe-bakery";
+  }
+
+  if (
+    includesAny(combined, [
+      "Bar",
+      "Wine bar",
+      "Cocktail",
+      "Natural wine",
+      "bar",
+      "nightclub",
+    ])
+  ) {
+    return "bars-wine";
+  }
+
+  if (includesAny(combined, ["Hotel / BB", "hotel", "lodging"])) {
+    return "hotels-stays";
+  }
+
+  if (
+    includesAny(combined, [
+      "Restaurant",
+      "Bistrot",
+      "Street food",
+      "Frenchie",
+      "Japanese",
+      "Italian",
+      "Asian",
+      "Healthy",
+      "restaurant",
+    ])
+  ) {
+    return "restaurants";
+  }
+
+  return "to-explore";
+}
+
+function getVisibleTags(place: Pick<PlaceRecord, "tags">) {
+  return getPlaceTags(place).filter((tag) => !HIDDEN_TAGS.has(tag));
 }
 
 function priceSortValue(place: PlaceRecord) {
@@ -177,6 +288,10 @@ function matchesFilter(place: PlaceRecord, filters: PlaceFilters) {
     return false;
   }
 
+  if (filters.collection && getPlaceCollection(place) !== filters.collection) {
+    return false;
+  }
+
   if (filters.cuisine && place.cuisineType !== filters.cuisine) {
     return false;
   }
@@ -201,7 +316,7 @@ function matchesFilter(place: PlaceRecord, filters: PlaceFilters) {
     return false;
   }
 
-  if (filters.tag && !parseStringList(place.tags).includes(filters.tag)) {
+  if (filters.tag && !getVisibleTags(place).includes(filters.tag)) {
     return false;
   }
 
@@ -210,13 +325,6 @@ function matchesFilter(place: PlaceRecord, filters: PlaceFilters) {
     !place.recommendations.some(
       (recommendation) => recommendation.sourcePlatform === filters.source,
     )
-  ) {
-    return false;
-  }
-
-  if (
-    filters.confidence &&
-    getConfidenceBucket(place.confidenceScore) !== filters.confidence
   ) {
     return false;
   }
@@ -232,10 +340,6 @@ function sortPlaces(places: PlaceRecord[], sort: string) {
   return [...places].sort((left, right) => {
     if (sort === "alphabetical") {
       return left.name.localeCompare(right.name, "fr");
-    }
-
-    if (sort === "confidence") {
-      return right.confidenceScore - left.confidenceScore;
     }
 
     if (sort === "price") {
@@ -299,15 +403,19 @@ export const getMapPlaces = cache(async (filters: PlaceFilters) => {
 
 export const getFacets = cache(async (): Promise<PlaceFacets> => {
   const places = await getRawPlaces();
+  const collections = new Set(
+    places.map((place) => getPlaceCollection(place)),
+  );
 
   return {
+    collections: PLACE_COLLECTIONS.filter((collection) => collections.has(collection)),
     cuisines: uniqueSorted(places.map((place) => place.cuisineType ?? "")),
-    foodTypes: uniqueSorted(places.flatMap((place) => parseStringList(place.foodType))),
+    foodTypes: uniqueSorted(places.flatMap((place) => getPlaceFoodTypes(place))),
     priceRanges: uniqueSorted(places.map((place) => place.priceRange ?? "")),
-    cities: uniqueSorted(places.map((place) => place.city ?? "")),
+    cities: frequencySorted(places.map((place) => place.city ?? "")),
     neighborhoods: uniqueSorted(places.map((place) => place.neighborhood ?? "")),
-    arrondissements: uniqueSorted(places.map((place) => place.arrondissement ?? "")),
-    tags: uniqueSorted(places.flatMap((place) => parseStringList(place.tags))),
+    arrondissements: frequencySorted(places.map((place) => place.arrondissement ?? "")),
+    tags: frequencySorted(places.flatMap((place) => getVisibleTags(place))).slice(0, 24),
     sources: uniqueSorted(
       places.flatMap((place) =>
         place.recommendations.map((recommendation) => recommendation.sourcePlatform),
@@ -421,10 +529,6 @@ export function getReviewLabel(place: {
   }
 
   return "Approved";
-}
-
-export function formatConfidence(score: number) {
-  return `${Math.round(score * 100)}%`;
 }
 
 export function formatDate(value: Date | null | undefined) {

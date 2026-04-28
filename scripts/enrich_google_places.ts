@@ -49,12 +49,47 @@ type GooglePlaceDetails = {
   displayName?: {
     text?: string;
   };
+  primaryType?: string;
+  primaryTypeDisplayName?: {
+    text?: string;
+  };
   formattedAddress?: string;
   googleMapsUri?: string;
   websiteUri?: string;
   rating?: number;
   userRatingCount?: number;
   priceLevel?: string;
+  businessStatus?: string;
+  nationalPhoneNumber?: string;
+  internationalPhoneNumber?: string;
+  editorialSummary?: {
+    text?: string;
+  };
+  neighborhoodSummary?: {
+    text?: string;
+  };
+  currentOpeningHours?: {
+    openNow?: boolean;
+    weekdayDescriptions?: string[];
+  };
+  regularOpeningHours?: {
+    weekdayDescriptions?: string[];
+  };
+  reservable?: boolean;
+  outdoorSeating?: boolean;
+  delivery?: boolean;
+  takeout?: boolean;
+  dineIn?: boolean;
+  goodForGroups?: boolean;
+  servesBreakfast?: boolean;
+  servesBrunch?: boolean;
+  servesLunch?: boolean;
+  servesDinner?: boolean;
+  servesDessert?: boolean;
+  servesCoffee?: boolean;
+  servesWine?: boolean;
+  servesCocktails?: boolean;
+  servesVegetarianFood?: boolean;
   photos?: GooglePhotoPayload[];
   reviews?: GoogleReviewPayload[];
 };
@@ -63,6 +98,127 @@ type GooglePhotoMedia = {
   name?: string;
   photoUri?: string;
 };
+
+type EnrichOptions = {
+  city: string | null;
+  venueOnly: boolean;
+  missingOnly: boolean;
+  force: boolean;
+  limit: number | null;
+};
+
+function parseArgs(argv: string[]): EnrichOptions {
+  const options: EnrichOptions = {
+    city: "Paris",
+    venueOnly: true,
+    missingOnly: true,
+    force: false,
+    limit: null,
+  };
+
+  for (const arg of argv) {
+    if (arg.startsWith("--city=")) {
+      options.city = arg.slice("--city=".length) || null;
+      continue;
+    }
+
+    if (arg === "--all-cities") {
+      options.city = null;
+      continue;
+    }
+
+    if (arg === "--all-types") {
+      options.venueOnly = false;
+      continue;
+    }
+
+    if (arg === "--include-synced") {
+      options.missingOnly = false;
+      continue;
+    }
+
+    if (arg === "--force") {
+      options.force = true;
+      options.missingOnly = false;
+      continue;
+    }
+
+    if (arg.startsWith("--limit=")) {
+      const parsed = Number(arg.slice("--limit=".length));
+      options.limit = Number.isFinite(parsed) && parsed > 0 ? parsed : null;
+    }
+  }
+
+  return options;
+}
+
+function parseStringList(value: string | null | undefined) {
+  if (!value) {
+    return [];
+  }
+
+  try {
+    const parsed = JSON.parse(value);
+    return Array.isArray(parsed)
+      ? parsed.map((entry) => String(entry)).filter(Boolean)
+      : [];
+  } catch {
+    return value
+      .split(",")
+      .map((entry) => entry.trim())
+      .filter(Boolean);
+  }
+}
+
+function isVenueLike(place: {
+  foodType: string | null;
+  tags: string | null;
+}) {
+  const values = [
+    ...parseStringList(place.foodType),
+    ...parseStringList(place.tags),
+  ].map((value) => normalizeText(value));
+
+  const venueSignals = [
+    "restaurant",
+    "cafe",
+    "bakery",
+    "bar",
+    "wine bar",
+    "cocktail",
+    "brunch",
+    "pastry",
+    "pastry shop",
+    "street food",
+    "bistrot",
+    "hotel",
+    "lodging",
+    "healthy",
+    "japanese",
+    "italian",
+    "asian",
+  ].map((value) => normalizeText(value));
+
+  return venueSignals.some((signal) => values.includes(signal));
+}
+
+function needsGoogleEnrichment(place: {
+  googleRating: number | null;
+  googlePhotoName: string | null;
+  googlePhotoUrl: string | null;
+  googlePlaceId: string | null;
+  googleEditorialSummary?: string | null;
+  googleOpeningHoursText?: string | null;
+}) {
+  return !(
+    place.googlePlaceId &&
+    typeof place.googleRating === "number" &&
+    (place.googlePhotoName || place.googlePhotoUrl) &&
+    place.googleEditorialSummary &&
+    place.googleOpeningHoursText &&
+    place.googleOpeningHoursText !== "[]"
+  );
+}
 
 function ensureApiKey() {
   if (!GOOGLE_MAPS_API_KEY) {
@@ -186,7 +342,7 @@ async function fetchGooglePlaceDetails(googlePlaceId: string) {
   return googleFetch<GooglePlaceDetails>(`${DETAILS_BASE_URL}/${googlePlaceId}`, {
     method: "GET",
     fieldMask:
-      "id,displayName,formattedAddress,googleMapsUri,websiteUri,rating,userRatingCount,priceLevel,photos,reviews",
+      "id,displayName,primaryType,primaryTypeDisplayName,formattedAddress,googleMapsUri,websiteUri,rating,userRatingCount,priceLevel,businessStatus,nationalPhoneNumber,internationalPhoneNumber,editorialSummary,neighborhoodSummary,currentOpeningHours,regularOpeningHours,reservable,outdoorSeating,delivery,takeout,dineIn,goodForGroups,servesBreakfast,servesBrunch,servesLunch,servesDinner,servesDessert,servesCoffee,servesWine,servesCocktails,servesVegetarianFood,photos,reviews",
   });
 }
 
@@ -214,10 +370,15 @@ function mapPriceLevel(priceLevel: string | undefined) {
   }
 }
 
+function serializeList(values: string[] | undefined) {
+  return JSON.stringify((values ?? []).filter(Boolean));
+}
+
 async function main() {
   ensureApiKey();
+  const options = parseArgs(process.argv.slice(2));
 
-  const places = await prisma.place.findMany({
+  const candidates = await prisma.place.findMany({
     where: {
       status: {
         not: "merged",
@@ -231,8 +392,24 @@ async function main() {
     },
   });
 
+  const places = candidates
+    .filter((place) => (options.city ? place.city === options.city : true))
+    .filter((place) => (options.venueOnly ? isVenueLike(place) : true))
+    .filter((place) =>
+      options.force || !options.missingOnly ? true : needsGoogleEnrichment(place),
+    )
+    .slice(0, options.limit ?? undefined);
+
   let matched = 0;
   let updated = 0;
+  let failed = 0;
+
+  console.log(
+    `Google enrichment starting for ${places.length} places` +
+      `${options.city ? ` in ${options.city}` : ""}` +
+      `${options.venueOnly ? " (venue-only)" : ""}` +
+      `${options.missingOnly && !options.force ? " (missing-first)" : ""}.`,
+  );
 
   for (const place of places) {
     try {
@@ -271,6 +448,10 @@ async function main() {
       }
 
       const reviews = details.reviews ?? [];
+      const openingHours =
+        details.currentOpeningHours?.weekdayDescriptions ??
+        details.regularOpeningHours?.weekdayDescriptions ??
+        [];
 
       await prisma.$transaction([
         prisma.place.update({
@@ -282,6 +463,30 @@ async function main() {
             googleRating: details.rating ?? null,
             googleUserRatingCount: details.userRatingCount ?? null,
             googlePriceLevel: details.priceLevel ?? null,
+            googlePrimaryType: details.primaryType ?? null,
+            googlePrimaryTypeLabel: details.primaryTypeDisplayName?.text ?? null,
+            googleBusinessStatus: details.businessStatus ?? null,
+            googleNationalPhone: details.nationalPhoneNumber ?? null,
+            googleInternationalPhone: details.internationalPhoneNumber ?? null,
+            googleEditorialSummary: details.editorialSummary?.text ?? null,
+            googleNeighborhoodSummary: details.neighborhoodSummary?.text ?? null,
+            googleOpeningHoursText: serializeList(openingHours),
+            googleOpenNow: details.currentOpeningHours?.openNow ?? null,
+            googleReservable: details.reservable ?? null,
+            googleOutdoorSeating: details.outdoorSeating ?? null,
+            googleDelivery: details.delivery ?? null,
+            googleTakeout: details.takeout ?? null,
+            googleDineIn: details.dineIn ?? null,
+            googleGoodForGroups: details.goodForGroups ?? null,
+            googleServesBreakfast: details.servesBreakfast ?? null,
+            googleServesBrunch: details.servesBrunch ?? null,
+            googleServesLunch: details.servesLunch ?? null,
+            googleServesDinner: details.servesDinner ?? null,
+            googleServesDessert: details.servesDessert ?? null,
+            googleServesCoffee: details.servesCoffee ?? null,
+            googleServesWine: details.servesWine ?? null,
+            googleServesCocktails: details.servesCocktails ?? null,
+            googleServesVegetarian: details.servesVegetarianFood ?? null,
             googleReviewsUpdatedAt: new Date(),
             googleMapsUrl: details.googleMapsUri ?? place.googleMapsUrl,
             websiteUrl: place.websiteUrl ?? details.websiteUri ?? null,
@@ -340,11 +545,14 @@ async function main() {
 
       updated += 1;
     } catch (error) {
+      failed += 1;
       console.warn(`Google enrichment failed for ${place.name}:`, error);
     }
   }
 
-  console.log(`Google Places matched ${matched} places and updated ${updated}.`);
+  console.log(
+    `Google Places matched ${matched} places, updated ${updated}, failed ${failed}.`,
+  );
 }
 
 main()

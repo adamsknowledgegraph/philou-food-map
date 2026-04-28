@@ -27,7 +27,7 @@ export default async function MapPage({ searchParams }: PageProps) {
             <div>
               <h1 className="display text-5xl leading-none">Discover the map</h1>
               <p className="mt-2 max-w-2xl text-sm leading-6 text-[var(--muted)]">
-                Browse Philou&apos;s saved spots across Paris and jump straight into each address.
+                Browse higher-end spots, cafes, bars, and Paris neighborhoods on the map.
               </p>
             </div>
             <div className="postcard-frame">
@@ -35,7 +35,7 @@ export default async function MapPage({ searchParams }: PageProps) {
             </div>
           </div>
           <div className="mt-6">
-            <PlacesFilterForm action="/map" filters={filters} facets={facets} />
+            <PlacesFilterForm action="/map" filters={filters} facets={facets} variant="consumer" />
           </div>
         </section>
 

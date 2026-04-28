@@ -114,7 +114,7 @@ export default async function AdminReviewPage() {
                     Extraction context
                   </p>
                   <p className="mt-2 text-sm text-[var(--muted)]">
-                    Confidence {place.confidenceScore.toFixed(2)} · Status {place.status}
+                    Status {place.status}
                   </p>
                 </div>
                 <div className="grid gap-3 text-sm">

@@ -71,8 +71,14 @@ export function uniqueList(values: string[]) {
   return [...new Set(values.filter(Boolean))];
 }
 
-export function buildGoogleMapsUrl(address: string) {
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+type GoogleMapsUrlInput = {
+  query: string;
+  placeId?: string | null;
+};
+
+export function buildGoogleMapsUrl({ query, placeId }: GoogleMapsUrlInput) {
+  const base = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+  return placeId ? `${base}&query_place_id=${encodeURIComponent(placeId)}` : base;
 }
 
 export function arrondissementFromText(value: string | null | undefined) {

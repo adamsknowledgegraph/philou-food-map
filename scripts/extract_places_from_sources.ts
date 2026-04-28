@@ -116,6 +116,8 @@ async function extractFromMapstr(source: (typeof EXTRACTABLE_SOURCES)[number]) {
       Boolean(place.addressComponents?.city) &&
       Boolean(place.addressComponents?.country);
 
+    const googleMapsQuery = [place.name, city, country].filter(Boolean).join(", ");
+
     return {
       name: place.name,
       address: place.address,
@@ -134,7 +136,12 @@ async function extractFromMapstr(source: (typeof EXTRACTABLE_SOURCES)[number]) {
       tags: [...(place.tags_names ?? []), "mapstr", "public-map"],
       reason_recommended: "Publicly saved in Philippine Darblay's Mapstr map.",
       booking_url: getBookingUrl(place),
-      google_maps_url: place.address ? buildGoogleMapsUrl(place.address) : null,
+      google_maps_url: googleMapsQuery
+        ? buildGoogleMapsUrl({
+            query: googleMapsQuery,
+            placeId: place.googleId ?? null,
+          })
+        : null,
       instagram_url: null,
       website_url: place.website ?? null,
       mentioned_only: false,

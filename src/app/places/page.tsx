@@ -25,7 +25,7 @@ export default async function PlacesPage({ searchParams }: PageProps) {
               </p>
               <h1 className="display text-5xl leading-none">Browse the guide</h1>
               <p className="max-w-2xl text-sm leading-6 text-[var(--muted)]">
-                Filter by cuisine, price, neighborhood, or arrondissement.
+                Filter by higher-end spots, cafes, bars, neighborhoods, or arrondissement.
               </p>
             </div>
             <div className="postcard-stack">
@@ -38,7 +38,7 @@ export default async function PlacesPage({ searchParams }: PageProps) {
             </div>
           </div>
           <div className="mt-6">
-            <PlacesFilterForm action="/places" filters={filters} facets={facets} />
+            <PlacesFilterForm action="/places" filters={filters} facets={facets} variant="consumer" />
           </div>
         </section>
 

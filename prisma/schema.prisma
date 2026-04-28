@@ -30,6 +30,30 @@ model Place {
   googleRating            Float?
   googleUserRatingCount   Int?
   googlePriceLevel        String?
+  googlePrimaryType       String?
+  googlePrimaryTypeLabel  String?
+  googleBusinessStatus    String?
+  googleNationalPhone     String?
+  googleInternationalPhone String?
+  googleEditorialSummary  String?
+  googleNeighborhoodSummary String?
+  googleOpeningHoursText  String?              @default("[]")
+  googleOpenNow           Boolean?
+  googleReservable        Boolean?
+  googleOutdoorSeating    Boolean?
+  googleDelivery          Boolean?
+  googleTakeout           Boolean?
+  googleDineIn            Boolean?
+  googleGoodForGroups     Boolean?
+  googleServesBreakfast   Boolean?
+  googleServesBrunch      Boolean?
+  googleServesLunch       Boolean?
+  googleServesDinner      Boolean?
+  googleServesDessert     Boolean?
+  googleServesCoffee      Boolean?
+  googleServesWine        Boolean?
+  googleServesCocktails   Boolean?
+  googleServesVegetarian  Boolean?
   googleReviewsUpdatedAt  DateTime?
   googleMapsUrl           String?
   instagramUrl            String?

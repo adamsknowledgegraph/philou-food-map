@@ -1,14 +1,38 @@
 "use client";
 
-import Image from "next/image";
+import { VintagePhoto } from "@/components/vintage-photo";
 
 const artwork = [
-  "/postcards/arrondissement-cafe.svg",
-  "/postcards/arrondissement-river.svg",
-  "/postcards/arrondissement-awning.svg",
-  "/postcards/arrondissement-night.svg",
-  "/postcards/terrace-sun.svg",
-  "/postcards/city-spritz.svg",
+  {
+    src: "/photos/paris-cafe-street.jpg",
+    position: "center 52%",
+    label: "Paris cafe",
+  },
+  {
+    src: "/photos/paris-cafe-terrace.jpg",
+    position: "center 52%",
+    label: "Terrace lunch",
+  },
+  {
+    src: "/photos/cafe-de-flore.jpg",
+    position: "center 30%",
+    label: "Classic stop",
+  },
+  {
+    src: "/photos/paris-brasserie.jpg",
+    position: "center 35%",
+    label: "Brasserie hour",
+  },
+  {
+    src: "/photos/hero-croissants.jpg",
+    position: "center 56%",
+    label: "Bakery pick",
+  },
+  {
+    src: "/photos/hero-brunch.jpg",
+    position: "center 48%",
+    label: "Weekend brunch",
+  },
 ] as const;
 
 function hashString(value: string) {
@@ -33,25 +57,16 @@ export function PostcardArt({
   alt,
   compact = false,
 }: PostcardArtProps) {
-  const src = artwork[hashString(seed) % artwork.length];
+  const photo = artwork[hashString(seed) % artwork.length];
 
   return (
-    <div
-      className={`relative overflow-hidden border-b border-[var(--line)] bg-[rgba(181,216,223,0.28)] ${
-        compact ? "aspect-[5/2]" : "aspect-[5/3]"
-      }`}
-    >
-      <Image
-        src={src}
-        alt={alt}
-        fill
-        className="object-cover"
-        sizes={compact ? "(max-width: 1024px) 100vw, 40vw" : "(max-width: 1024px) 100vw, 50vw"}
-      />
-      <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-[rgba(255,248,235,0.72)] to-transparent" />
-      <div className="absolute bottom-3 left-3 rounded-full border border-[rgba(112,86,59,0.18)] bg-[rgba(255,248,235,0.88)] px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--accent-ink)]">
-        Philou pick
-      </div>
-    </div>
+    <VintagePhoto
+      src={photo.src}
+      alt={alt}
+      sizes={compact ? "(max-width: 1024px) 100vw, 40vw" : "(max-width: 1024px) 100vw, 50vw"}
+      className={compact ? "aspect-[5/2]" : "aspect-[5/3]"}
+      objectPosition={photo.position}
+      label={photo.label}
+    />
   );
 }
