@@ -14,8 +14,23 @@ const PlacesMap = dynamic(() => import("@/components/places-map"), {
 
 type MapPanelProps = {
   places: MapPlace[];
+  selectedId?: string | null;
+  onSelect?: (placeId: string) => void;
+  zoom?: number;
 };
 
-export function MapPanel({ places }: MapPanelProps) {
-  return <PlacesMap places={places} />;
+export function MapPanel({
+  places,
+  selectedId,
+  onSelect,
+  zoom,
+}: MapPanelProps) {
+  return (
+    <PlacesMap
+      places={places}
+      selectedId={selectedId}
+      onSelect={onSelect}
+      zoom={zoom}
+    />
+  );
 }

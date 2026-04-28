@@ -4,8 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ExternalLink, MapPin, Search } from "lucide-react";
 import { useDeferredValue, useEffect, useState } from "react";
-import PlacesMap from "@/components/places-map";
 import { GoogleRating } from "@/components/google-rating";
+import { MapPanel } from "@/components/map-panel";
 import { PlaceImage } from "@/components/place-image";
 import {
   PLACE_COLLECTION_LABELS,
@@ -409,7 +409,7 @@ export function PlaceExplorer({
 
         <div className="grid gap-4">
           <div className={`surface retro-panel overflow-hidden rounded-[32px] p-3 ${mode === "home" ? "h-[430px]" : "h-[78vh]"}`}>
-            <PlacesMap
+            <MapPanel
               places={mapPlaces}
               selectedId={activeSelectedId}
               onSelect={setSelectedId}
