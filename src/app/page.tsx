@@ -8,6 +8,7 @@ import { VintagePhoto } from "@/components/vintage-photo";
 import {
   DEFAULT_FILTERS,
   PLACE_COLLECTION_LABELS,
+  type PlaceCollection,
   getFacets,
   getHomeData,
   getMapPlaces,
@@ -76,52 +77,36 @@ export default async function HomePage({ searchParams }: PageProps) {
     getPlaces(filters),
     getMapPlaces(filters),
   ]);
-  const cityCount = facets.cities.filter(Boolean).length;
   const featuredCount = featuredPlaces.length;
-  const collectionLinks = facets.collections
-    .filter((collection) =>
-      [
-        "gastro-higher-end",
-        "restaurants",
-        "cafe-bakery",
-        "bars-wine",
-      ].includes(collection),
-    )
-    .slice(0, 4);
-  const tagLinks = facets.tags
-    .filter((tag) =>
-      ["Japanese", "Italian", "Bistrot", "Brunch", "Street food", "Wine bar"].includes(tag),
-    )
-    .slice(0, 4);
-  const quickLinks = [
-    ...collectionLinks.map((collection) => ({
-      label: PLACE_COLLECTION_LABELS[collection],
-      href: `/places?collection=${encodeURIComponent(collection)}`,
-    })),
-    ...tagLinks.map((tag) => ({
-      label: tag,
-      href: `/places?tag=${encodeURIComponent(tag)}`,
-    })),
-  ].slice(0, 8);
+  const parisCollections: PlaceCollection[] = [
+    "gastro-higher-end",
+    "restaurants",
+    "cafe-bakery",
+    "bars-wine",
+  ];
+  const quickLinks = parisCollections.map((collection) => ({
+    label: PLACE_COLLECTION_LABELS[collection],
+    href: `/places?city=Paris&collection=${encodeURIComponent(collection)}`,
+  }));
 
   return (
     <div className="page-shell pb-16">
       <SiteHeader />
       <main className="mx-auto flex w-full max-w-7xl flex-col gap-8 px-4 pt-6 sm:px-6 lg:px-8">
-        <section className="surface retro-panel poster-bands relative overflow-hidden rounded-[36px] px-6 py-7 sm:px-8 lg:px-10 lg:py-8">
+        <section className="surface retro-panel poster-bands relative overflow-hidden rounded-[36px] px-6 py-6 sm:px-8 lg:px-10 lg:py-7">
           <div className="sunburst" />
-          <div className="grid gap-8 lg:grid-cols-[1.12fr_0.88fr] lg:items-start">
-            <div className="space-y-5 lg:pt-3">
+          <div className="grid gap-6 lg:grid-cols-[1.12fr_0.88fr] lg:items-start">
+            <div className="space-y-4 lg:pt-2">
               <div className="eyebrow">
                 <Sparkles className="h-4 w-4" />
-                Paris food map
+                Top restaurants in Paris
               </div>
-              <div className="space-y-3">
-                <h1 className="display max-w-4xl text-5xl leading-[0.92] text-[var(--foreground)] sm:text-6xl lg:text-[4.8rem]">
-                  Your shortcut to the Paris spots worth saving.
+              <div className="space-y-2.5">
+                <h1 className="display max-w-4xl text-4xl leading-[0.94] text-[var(--foreground)] sm:text-5xl lg:text-[4.1rem]">
+                  Top restaurants in Paris, all in one map.
                 </h1>
                 <p className="max-w-xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-                  Browse {home.totalPlaces.toLocaleString("en-GB")} mapped addresses across {cityCount} cities, with Paris front and center.
+                  Browse {featuredCount.toLocaleString("en-GB")} Paris addresses pulled from Philou&apos;s public picks, from higher-end tables to bakeries, wine bars, and neighborhood favorites.
                 </p>
                 <p className="max-w-xl text-sm leading-6 text-[var(--muted)]">
                   Built from public recommendations by{" "}
@@ -133,8 +118,7 @@ export default async function HomePage({ searchParams }: PageProps) {
                   >
                     Philippine Darblay
                   </a>
-                  , one of France&apos;s best-known food creators for Paris restaurant picks and
-                  save-worthy addresses.
+                  , one of France&apos;s best-known food creators for restaurant picks in Paris.
                 </p>
               </div>
               <form action="/" className="surface soft-stripes flex max-w-3xl flex-col gap-3 rounded-[28px] p-3 sm:flex-row">
@@ -143,7 +127,7 @@ export default async function HomePage({ searchParams }: PageProps) {
                   <input
                     type="search"
                     name="q"
-                    placeholder="Search a place or arrondissement"
+                    placeholder="Search a Paris place or arrondissement"
                     className="w-full bg-transparent text-sm uppercase tracking-[0.08em] placeholder:text-[var(--muted)]"
                   />
                 </div>
@@ -153,10 +137,10 @@ export default async function HomePage({ searchParams }: PageProps) {
               </form>
               <div className="flex flex-wrap gap-3 text-sm text-[var(--muted)]">
                 <div className="rounded-full border border-[var(--line)] bg-white/80 px-4 py-2.5">
-                  {featuredCount.toLocaleString("en-GB")} Paris spots in view
+                  {featuredCount.toLocaleString("en-GB")} Paris spots mapped
                 </div>
                 <div className="rounded-full border border-[var(--line)] bg-white/80 px-4 py-2.5">
-                  Best for gastro, cafes, bars, and bakeries
+                  Restaurants, cafes, bakeries, and bars
                 </div>
                 <Link href="#map-guide" className="ghost-button px-5 py-2.5">
                   See the map
@@ -175,42 +159,39 @@ export default async function HomePage({ searchParams }: PageProps) {
               </div>
             </div>
 
-            <div className="grid gap-4 lg:pt-2">
+            <div className="grid gap-4 lg:pt-1">
               <VintagePhoto
                 src="/photos/hero-brunch.jpg"
                 alt="Brunch table in Paris"
                 sizes="(max-width: 1024px) 100vw, 42vw"
                 preload
-                className="aspect-[1.28/1]"
+                className="aspect-[1.55/1]"
                 objectPosition="center 51%"
-                label="Long lunches, terrace stops, bakery mornings"
+                label="Paris lunches, terraces, and bakery stops"
               />
-              <div className="grid gap-4 sm:grid-cols-[1.1fr_0.9fr]">
+              <div className="grid gap-4 sm:grid-cols-[1.15fr_0.85fr]">
                 <div className="surface retro-panel rounded-[28px] bg-[rgba(242,215,166,0.3)] p-5">
                   <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--muted)]">
-                    Mapped out
+                    Paris mapped out
                   </p>
                   <div className="mt-3 flex items-end gap-3">
                     <p className="display text-5xl leading-none text-[var(--foreground)]">
-                      {home.totalPlaces.toLocaleString("en-GB")}
+                      {featuredCount.toLocaleString("en-GB")}
                     </p>
-                    <p className="pb-1 text-sm text-[var(--muted)]">addresses</p>
+                    <p className="pb-1 text-sm text-[var(--muted)]">places</p>
                   </div>
                   <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
-                    Paris is the main focus, with the rest of Philou&apos;s saved spots still searchable.
+                    A tighter Paris-first guide, focused on the spots most worth saving.
                   </p>
                 </div>
-                <div className="surface retro-panel rounded-[28px] bg-[rgba(181,216,223,0.26)] p-5">
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--muted)]">
-                    Cities
-                  </p>
-                  <p className="display mt-3 text-5xl leading-none text-[var(--foreground)]">
-                    {cityCount.toLocaleString("en-GB")}
-                  </p>
-                  <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
-                    Start with Paris, then branch out when you want weekend-trip ideas.
-                  </p>
-                </div>
+                <VintagePhoto
+                  src="/photos/hero-croissants.jpg"
+                  alt="Croissants in a Paris bakery"
+                  sizes="(max-width: 1024px) 100vw, 20vw"
+                  className="aspect-[1.05/1]"
+                  objectPosition="center 55%"
+                  label="Bakery mornings"
+                />
               </div>
             </div>
           </div>
