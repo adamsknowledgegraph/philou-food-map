@@ -36,10 +36,14 @@ export type ExplorerPlace = {
   googlePhotoName: string | null;
   googlePhotoUrl: string | null;
   googleEditorialSummary: string | null;
+  googleNeighborhoodSummary: string | null;
   googlePrimaryTypeLabel: string | null;
+  googleOpenNow: boolean | null;
   latitude: number | null;
   longitude: number | null;
   philouSummary: string | null;
+  websiteUrl: string | null;
+  bookingUrl: string | null;
   recommendationReason: string | null;
   recommendationSnippet: string | null;
   recommendedItems: string[];
