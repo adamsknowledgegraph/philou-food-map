@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { latLngBounds } from "leaflet";
 import { useEffect } from "react";
 import { CircleMarker, MapContainer, Popup, TileLayer, useMap } from "react-leaflet";
 import type { MapPlace } from "@/lib/places";
@@ -20,6 +21,32 @@ function MapSelectionController({
   selectedId?: string | null;
 }) {
   const map = useMap();
+
+  useEffect(() => {
+    if (selectedId) {
+      return;
+    }
+
+    if (places.length === 0) {
+      return;
+    }
+
+    if (places.length === 1) {
+      map.setView([places[0].latitude, places[0].longitude], 14, {
+        animate: true,
+      });
+      return;
+    }
+
+    const bounds = latLngBounds(
+      places.map((place) => [place.latitude, place.longitude] as [number, number]),
+    );
+    map.fitBounds(bounds, {
+      padding: [32, 32],
+      maxZoom: 14,
+      animate: true,
+    });
+  }, [map, places, selectedId]);
 
   useEffect(() => {
     if (!selectedId) {
