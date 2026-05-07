@@ -1,0 +1,496 @@
+name,address,city,arrondissement,neighborhood,category,cuisine,price_range,rating,review_count,latitude,longitude,google_maps_url,website_url,booking_url,description
+Dallal Cafe,"11, Kol Israel Haverim St 1, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,restaurant,,,,,32.0608378,34.76406480000001,https://www.google.com/maps/search/?api=1&query=Dallal%20Cafe%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,http://dallal.co.il/,,"Food types: restaurant
+Tags: Bakery
+Google Maps: https://www.google.com/maps/search/?api=1&query=Dallal%20Cafe%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: http://dallal.co.il/"
+Dizengoff Center,Dizengoff St 81 Tel Aviv-Yafo 0,Tel Aviv-Yafo,,,shopping,,,,,32.0750224,34.7749395,https://www.google.com/maps/search/?api=1&query=Dizengoff%20Center%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,http://www.dizengof-center.co.il/,,"Food types: shopping
+Tags: Place to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=Dizengoff%20Center%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: http://www.dizengof-center.co.il/"
+Dok,"Ibn Gabirol St 8, Tel Aviv-Yafo, Israel",Tel Aviv-Yafo,,,restaurant,,,,,32.0720644,34.7821624,https://www.google.com/maps/search/?api=1&query=Dok%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,http://www.facebook.com/Doktorworkshop/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Dok%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: http://www.facebook.com/Doktorworkshop/"
+Edmond Coffee,"Allenby St 97, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,cafe,,,,,32.0647778,34.7725891,https://www.google.com/maps/search/?api=1&query=Edmond%20Coffee%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,,,"Food types: cafe
+Tags: Cafe
+Google Maps: https://www.google.com/maps/search/?api=1&query=Edmond%20Coffee%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl"
+HaSalon,"Ma'Avar Yabbok 8, 6744012 Tel-Aviv, Israël",Tel Aviv-Yafo,,,generic,,,,,32.0732,34.80025,https://www.google.com/maps/search/?api=1&query=HaSalon%2C%20Tel%20Aviv-Yafo%2C%20Israel,https://hasalontlv.com,,"Food types: generic
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=HaSalon%2C%20Tel%20Aviv-Yafo%2C%20Israel
+Website: https://hasalontlv.com"
+Herzl 16,"16, Herzl St, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,restaurant,,,,,32.0618726,34.77014339999999,https://www.google.com/maps/search/?api=1&query=Herzl%2016%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,http://www.herzl16.co.il/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Herzl%2016%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: http://www.herzl16.co.il/"
+Josmino,"Allenby St 99, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,restaurant,,,,,32.0645817,34.77261059999999,https://www.google.com/maps/search/?api=1&query=Josmino%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,http://www.vitrinasymaniquiesjosmin.com/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Josmino%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: http://www.vitrinasymaniquiesjosmin.com/"
+Mirage,"3817 St, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,restaurant,,,,,32.0609844,34.7690865,https://www.google.com/maps/search/?api=1&query=Mirage%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,https://instagram.com/miragetelaviv?utm_medium=copy_link,,"Food types: restaurant
+Tags: Cafe
+Google Maps: https://www.google.com/maps/search/?api=1&query=Mirage%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: https://instagram.com/miragetelaviv?utm_medium=copy_link"
+Mondo 2000,"Levinsky 39, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,bar,,,,,32.0599213,34.7716146,https://www.google.com/maps/search/?api=1&query=Mondo%202000%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,https://www.facebook.com/themondo2000/,,"Food types: bar
+Tags: Dancing
+Google Maps: https://www.google.com/maps/search/?api=1&query=Mondo%202000%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: https://www.facebook.com/themondo2000/"
+Opa,"Ha-Khalutzim St 8, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,restaurant,,,,,32.0600462,34.7732208,https://www.google.com/maps/search/?api=1&query=Opa%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,https://www.opatlv.co.il/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Opa%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: https://www.opatlv.co.il/"
+Ozen Bar,"King George St 48, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,bar,,,,,32.0743214,34.775838,https://www.google.com/maps/search/?api=1&query=Ozen%20Bar%2C%20Tel%20Aviv-Yafo%2C%20Israel,http://ozenbar.com/,,"Food types: bar
+Tags: Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=Ozen%20Bar%2C%20Tel%20Aviv-Yafo%2C%20Israel
+Website: http://ozenbar.com/"
+Radler,"Nahalat Binyamin St 48, Tel Aviv-Yafo, 6516307, Israël",Tel Aviv-Yafo,,,restaurant,,,,,32.06405610000001,34.7713066,https://www.google.com/maps/search/?api=1&query=Radler%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,http://radlertlv.com/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Radler%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: http://radlertlv.com/"
+Ramesses Restaurant,"Ha-Gimnasya ha-Ivrit St 12, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,restaurant,,,,,32.0545345,34.7565943,https://www.google.com/maps/search/?api=1&query=Ramesses%20Restaurant%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,http://ramessesjaffa.com/,,"Food types: restaurant
+Tags: Israeli
+Google Maps: https://www.google.com/maps/search/?api=1&query=Ramesses%20Restaurant%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: http://ramessesjaffa.com/"
+Salon Romano,"Derech Jaffa 9, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,restaurant,,,,,32.06036309999999,34.7693534,https://www.google.com/maps/search/?api=1&query=Salon%20Romano%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,https://www.facebook.com/Romano-%D7%A8%D7%95%D7%9E%D7%A0%D7%95-1466537460320270/,,"Food types: restaurant
+Tags: Bar, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Salon%20Romano%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: https://www.facebook.com/Romano-%D7%A8%D7%95%D7%9E%D7%A0%D7%95-1466537460320270/"
+Shabazi Tel Aviv,"Retzif HaAliya HaShniya St 14, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,generic,,,,,32.0554345,34.7551332,https://www.google.com/maps/search/?api=1&query=Shabazi%20Tel%20Aviv%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,,,"Food types: generic
+Tags: Place to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=Shabazi%20Tel%20Aviv%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl"
+Soho House,"Yefet St 27, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,"lodging, hotel",,,,,32.0516859,34.7530788,https://www.google.com/maps/search/?api=1&query=Soho%20House%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,https://www.sohohouse.com/houses/soho-house-tel-aviv-jaffa,,"Food types: lodging, hotel
+Tags: Hotel / BB
+Google Maps: https://www.google.com/maps/search/?api=1&query=Soho%20House%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: https://www.sohohouse.com/houses/soho-house-tel-aviv-jaffa"
+Susu and sons,"Herzl St 6, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,restaurant,,,,,32.0629145,34.7698305,https://www.google.com/maps/search/?api=1&query=Susu%20and%20sons%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,https://susu.co.il/index.php,,"Food types: restaurant
+Tags: Restaurant, Street food
+Google Maps: https://www.google.com/maps/search/?api=1&query=Susu%20and%20sons%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: https://susu.co.il/index.php"
+Tamara,"Rothschild Blvd פינת Nahalat Binyamin St 19, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,shopping,,,,,32.0632771,34.771637,https://www.google.com/maps/search/?api=1&query=Tamara%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,https://m.facebook.com/tamara.telaviv/,,"Food types: shopping
+Tags: ❤️
+Google Maps: https://www.google.com/maps/search/?api=1&query=Tamara%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: https://m.facebook.com/tamara.telaviv/"
+Uganda Bar,"Simtat Beit HaBad 5, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,bar,,,,,32.0608332,34.7698591,https://www.google.com/maps/search/?api=1&query=Uganda%20Bar%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,http://www.rtb.ug,,"Food types: bar
+Tags: Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=Uganda%20Bar%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: http://www.rtb.ug"
+מונטיפיורי 16 - אורבן בוטיק הוטל,"Montefiore St 16, Tel Aviv-Yafo, 6516403, Israël",Tel Aviv-Yafo,,,"lodging, hotel",,,,,32.0648027,34.7707708,https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%95%D7%A0%D7%98%D7%99%D7%A4%D7%99%D7%95%D7%A8%D7%99%2016%20-%20%D7%90%D7%95%D7%A8%D7%91%D7%9F%20%D7%91%D7%95%D7%98%D7%99%D7%A7%20%D7%94%D7%95%D7%98%D7%9C%2C%20Tel%20Aviv-Yafo%2C%20Israel,http://www.montefiore16.com/,,"Food types: lodging, hotel
+Tags: Restaurant, Hotel / BB, Gastro / higher end
+Google Maps: https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%95%D7%A0%D7%98%D7%99%D7%A4%D7%99%D7%95%D7%A8%D7%99%2016%20-%20%D7%90%D7%95%D7%A8%D7%91%D7%9F%20%D7%91%D7%95%D7%98%D7%99%D7%A7%20%D7%94%D7%95%D7%98%D7%9C%2C%20Tel%20Aviv-Yafo%2C%20Israel
+Website: http://www.montefiore16.com/"
+צפון אברקסס North Abraxas,"Lilienblum St 40, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,restaurant,,,,,32.0623111,34.7719056,https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%A4%D7%95%D7%9F%20%D7%90%D7%91%D7%A8%D7%A7%D7%A1%D7%A1%20North%20Abraxas%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,https://www.facebook.com/northabraxass/,,"Food types: restaurant
+Tags: Gastro / higher end, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=%D7%A6%D7%A4%D7%95%D7%9F%20%D7%90%D7%91%D7%A8%D7%A7%D7%A1%D7%A1%20North%20Abraxas%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: https://www.facebook.com/northabraxass/"
+קסבה,"Florentin St 3, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,restaurant,,,,,32.0562866,34.76744,https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A1%D7%91%D7%94%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,https://he-il.facebook.com/pages/%D7%A7%D7%A1%D7%91%D7%94-%D7%93%D7%94-%D7%A4%D7%9C%D7%95%D7%A8%D7%A0%D7%98%D7%99%D7%9F/118093641607280,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A1%D7%91%D7%94%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: https://he-il.facebook.com/pages/%D7%A7%D7%A1%D7%91%D7%94-%D7%93%D7%94-%D7%A4%D7%9C%D7%95%D7%A8%D7%A0%D7%98%D7%99%D7%9F/118093641607280"
+שלמה & דורון Shlomo & Doron,"Yishkan St 29, Tel Aviv-Yafo, Israël",Tel Aviv-Yafo,,,restaurant,,,,,32.06901,34.767609,https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%9C%D7%9E%D7%94%20%26%20%D7%93%D7%95%D7%A8%D7%95%D7%9F%20Shlomo%20%26%20Doron%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl,https://www.facebook.com/shlomodoronhumus,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%9C%D7%9E%D7%94%20%26%20%D7%93%D7%95%D7%A8%D7%95%D7%9F%20Shlomo%20%26%20Doron%2C%20Tel%20Aviv-Yafo%2C%20Isra%C3%ABl
+Website: https://www.facebook.com/shlomodoronhumus"
+Château de Théoule,"55 Av. de Lérins, 06590 Théoule-sur-Mer, France",Théoule-sur-Mer,,,"lodging, hotel",,,,,43.5081302,6.9403987,https://www.google.com/maps/search/?api=1&query=Ch%C3%A2teau%20de%20Th%C3%A9oule%2C%20Th%C3%A9oule-sur-Mer%2C%20France,https://www.chateau-de-theoule.com/fr/,https://bookings.zenchef.com/results?rid=364807&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Food types: lodging, hotel
+Tags: Hotel / BB
+Google Maps: https://www.google.com/maps/search/?api=1&query=Ch%C3%A2teau%20de%20Th%C3%A9oule%2C%20Th%C3%A9oule-sur-Mer%2C%20France
+Website: https://www.chateau-de-theoule.com/fr/
+Booking: https://bookings.zenchef.com/results?rid=364807&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Paradero Todos Santos,La Paz Mexico,Todos Santos,,,"generic, hotel",,,,,23.38846969604492,-110.1958236694336,https://www.google.com/maps/search/?api=1&query=Paradero%20Todos%20Santos%2C%20Todos%20Santos%2C%20Mexico,http://paraderohotels.com/,http://www.opentable.com.mx/r/tenoch-by-paradero-todos-santos-el-pescadero?ref=17374,"Food types: generic, hotel
+Tags: Hotel / BB
+Google Maps: https://www.google.com/maps/search/?api=1&query=Paradero%20Todos%20Santos%2C%20Todos%20Santos%2C%20Mexico
+Website: http://paraderohotels.com/
+Booking: http://www.opentable.com.mx/r/tenoch-by-paradero-todos-santos-el-pescadero?ref=17374"
+Prada Tokyo Aoyama,"5-2-6, Minami-Aoyama, Tokyo 13 107-0062",Tokyo,,,shopping,,,,,35.6637833,139.7144182,https://www.google.com/maps/search/?api=1&query=Prada%20Tokyo%20Aoyama%2C%20Tokyo%2C%20Japon,http://www.prada.com/,,"Food types: shopping
+Tags: Shopping
+Google Maps: https://www.google.com/maps/search/?api=1&query=Prada%20Tokyo%20Aoyama%2C%20Tokyo%2C%20Japon
+Website: http://www.prada.com/"
+Kandagawa Bakery,"1-chōme-11-14 Takada, Toshima-ku, Tōkyō-to 171-0033, Japan",Toshima-ku,,,restaurant,,,,,35.7134933,139.7187084,https://www.google.com/maps/search/?api=1&query=Kandagawa%20Bakery%2C%20Toshima-ku%2C%20Japan,http://www.kandagawabakery.com/,,"Food types: restaurant
+Tags: Bakery
+Google Maps: https://www.google.com/maps/search/?api=1&query=Kandagawa%20Bakery%2C%20Toshima-ku%2C%20Japan
+Website: http://www.kandagawabakery.com/"
+La pente douce,"6 Rue de la Concorde, 31000 Toulouse, France",Toulouse,,,restaurant,,,,,43.611246,1.4444318,https://www.google.com/maps/search/?api=1&query=La%20pente%20douce%2C%20Toulouse%2C%20France,http://www.lapentedouce.fr/,https://bookings.zenchef.com/results?rid=356943&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=La%20pente%20douce%2C%20Toulouse%2C%20France
+Website: http://www.lapentedouce.fr/
+Booking: https://bookings.zenchef.com/results?rid=356943&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+La Bastide de Tourtour,"Route de Flayosc, 83690 Tourtour, France",Tourtour,,,"lodging, hotel",,,,,43.58635599999999,6.307938000000001,https://www.google.com/maps/search/?api=1&query=La%20Bastide%20de%20Tourtour%2C%20Tourtour%2C%20France,http://www.bastidedetourtour.com/,,"Food types: lodging, hotel
+Tags: Hotel / BB
+Google Maps: https://www.google.com/maps/search/?api=1&query=La%20Bastide%20de%20Tourtour%2C%20Tourtour%2C%20France
+Website: http://www.bastidedetourtour.com/"
+Cima Tosa,"Cima Tosa, 38078 San Lorenzo in Banale, Trente, Italie",Trentin-Haut-Adige,,,geocode,,,,,46.155556,10.871944,https://www.google.com/maps/search/?api=1&query=Cima%20Tosa%2C%20Trentin-Haut-Adige%2C%20Italie,http://www.hotelcimatosa.it,,"Food types: geocode
+Tags: Place to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=Cima%20Tosa%2C%20Trentin-Haut-Adige%2C%20Italie
+Website: http://www.hotelcimatosa.it"
+Massif de Brenta,"Massif de Brenta, 38018 Molveno, Trente, Italie",Trentin-Haut-Adige,,,geocode,,,,,46.17931979999999,10.8993481,https://www.google.com/maps/search/?api=1&query=Massif%20de%20Brenta%2C%20Trentin-Haut-Adige%2C%20Italie,http://www.pnab.it,,"Food types: geocode
+Tags: Place to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=Massif%20de%20Brenta%2C%20Trentin-Haut-Adige%2C%20Italie
+Website: http://www.pnab.it"
+Cable car Sass Pordoi,"Passo Pordoi, 38032 Canazei TN, Italie",Trentino-Alto Adige,,,generic,,,,,46.488432,11.810606,https://www.google.com/maps/search/?api=1&query=Cable%20car%20Sass%20Pordoi%2C%20Trentino-Alto%20Adige%2C%20Italie,http://www.valdifassalift.it/,,"Food types: generic
+Tags: Place to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=Cable%20car%20Sass%20Pordoi%2C%20Trentino-Alto%20Adige%2C%20Italie
+Website: http://www.valdifassalift.it/"
+Taverna del Porto,"Via Cristoforo Colombo, 121, 73039 Tricase Porto LE, Italy",Tricase Porto,,,restaurant,,,,,39.929933,18.394225,https://www.google.com/maps/search/?api=1&query=Taverna%20del%20Porto%2C%20Tricase%20Porto%2C%20Italy,http://www.tavernadelporto.com,,"Food types: restaurant
+Tags: Restaurant, Trendy, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&query=Taverna%20del%20Porto%2C%20Tricase%20Porto%2C%20Italy
+Website: http://www.tavernadelporto.com"
+Glacier Martine Lambert,"170 Place Foch, 14360 Trouville-sur-Mer, France",Trouville-sur-Mer,,,shopping,,,,,49.3659408,0.0802124,https://www.google.com/maps/search/?api=1&query=Glacier%20Martine%20Lambert%2C%20Trouville-sur-Mer%2C%20France,http://martine-lambert.com/,,"Food types: shopping
+Tags: Icecream
+Google Maps: https://www.google.com/maps/search/?api=1&query=Glacier%20Martine%20Lambert%2C%20Trouville-sur-Mer%2C%20France
+Website: http://martine-lambert.com/"
+Hotel Terrestre,"V de Tututepec de m Ocampo, Oax, Mexique",V de Tututepec de m Ocampo,,,"generic, hotel",,,,,15.94027900695801,-97.27356719970703,https://www.google.com/maps/search/?api=1&query=Hotel%20Terrestre%2C%20V%20de%20Tututepec%20de%20m%20Ocampo%2C%20Mexique,,,"Food types: generic, hotel
+Tags: Hotel / BB
+Google Maps: https://www.google.com/maps/search/?api=1&query=Hotel%20Terrestre%2C%20V%20de%20Tututepec%20de%20m%20Ocampo%2C%20Mexique"
+Edelweiss,"Le Fornet, 73150 Val-d'Isère, France",Val-d'Isère,,,restaurant,,,,,45.44953410000001,7.019366400000001,https://www.google.com/maps/search/?api=1&query=Edelweiss%2C%20Val-d'Is%C3%A8re%2C%20France,http://www.restaurant-edelweiss-valdisere.com/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Edelweiss%2C%20Val-d'Is%C3%A8re%2C%20France
+Website: http://www.restaurant-edelweiss-valdisere.com/"
+Hôtel Le Blizzard,"Avenue Olympique, 73150 Val-d'Isère, France",Val-d'Isère,,,"lodging, hotel",,,,,45.44907300000001,6.979128999999999,https://www.google.com/maps/search/?api=1&query=H%C3%B4tel%20Le%20Blizzard%2C%20Val-d'Is%C3%A8re,http://www.hotelblizzard.com/,https://bookings.zenchef.com/results?rid=360426&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Food types: lodging, hotel
+Tags: Hotel / BB, Restaurant, Gastro / higher end
+Google Maps: https://www.google.com/maps/search/?api=1&query=H%C3%B4tel%20Le%20Blizzard%2C%20Val-d'Is%C3%A8re
+Website: http://www.hotelblizzard.com/
+Booking: https://bookings.zenchef.com/results?rid=360426&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Hôtel les Barmes de l'Ours,"Mnt de Bellevarde, 73150 Val-d'Isère, France",Val-d'Isère,,,"lodging, hotel",,,,,45.447427,6.9742924,https://www.google.com/maps/search/?api=1&query=H%C3%B4tel%20les%20Barmes%20de%20l'Ours%2C%20Val-d'Is%C3%A8re%2C%20France,http://www.hotellesbarmes.com/,,"Food types: lodging, hotel
+Tags: Hotel / BB
+Google Maps: https://www.google.com/maps/search/?api=1&query=H%C3%B4tel%20les%20Barmes%20de%20l'Ours%2C%20Val-d'Is%C3%A8re%2C%20France
+Website: http://www.hotellesbarmes.com/"
+L'Etable d'Alain,"rue des barmettes, 73150 Val-d'Isère, France",Val-d'Isère,,,bar,,,,,45.44798600000001,6.988542,https://www.google.com/maps/search/?api=1&query=L'Etable%20d'Alain%2C%20Val-d'Is%C3%A8re%2C%20France,http://www.lafermedeladroit.com/,,"Food types: bar
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=L'Etable%20d'Alain%2C%20Val-d'Is%C3%A8re%2C%20France
+Website: http://www.lafermedeladroit.com/"
+La Casserole,"Rue du Coin, 73150 Val-d'Isère, France",Val-d'Isère,,,restaurant,,,,,45.44976380000001,6.976881899999999,https://www.google.com/maps/search/?api=1&query=La%20Casserole%2C%20Val-d'Is%C3%A8re%2C%20France,http://casseroleetbouchons.fr/restaurant-a-val-d-isere-la-casserole-specialites-regionales/,https://bookings.zenchef.com/results?rid=378942&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=La%20Casserole%2C%20Val-d'Is%C3%A8re%2C%20France
+Website: http://casseroleetbouchons.fr/restaurant-a-val-d-isere-la-casserole-specialites-regionales/
+Booking: https://bookings.zenchef.com/results?rid=378942&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+La Folie Douce Val d'Isère,"Télécabine de, 73150 Val-d'Isère, France",Val-d'Isère,,,restaurant,,,,,45.4568149,6.943578299999999,https://www.google.com/maps/search/?api=1&query=La%20Folie%20Douce%20Val%20d'Is%C3%A8re%2C%20Val-d'Is%C3%A8re%2C%20France,https://www.lafoliedouce.com/fr/les-folie-douce/accueil-val-d-isere-tignes.html,https://bookings.zenchef.com/results?rid=370469&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Food types: restaurant
+Tags: Restaurant, Dancing, Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=La%20Folie%20Douce%20Val%20d'Is%C3%A8re%2C%20Val-d'Is%C3%A8re%2C%20France
+Website: https://www.lafoliedouce.com/fr/les-folie-douce/accueil-val-d-isere-tignes.html
+Booking: https://bookings.zenchef.com/results?rid=370469&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+La baraque,"137 Avenue Olympique, 73150 Val-d'Isère, France",Val-d'Isère,,,restaurant,,,,,45.45092059999999,6.976340199999999,https://www.google.com/maps/search/?api=1&query=La%20baraque%2C%20Val-d'Is%C3%A8re%2C%20France,http://restolabaraque.com/,https://bookings.zenchef.com/results?rid=359973&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=La%20baraque%2C%20Val-d'Is%C3%A8re%2C%20France
+Website: http://restolabaraque.com/
+Booking: https://bookings.zenchef.com/results?rid=359973&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Le Petit Danois,"Rue du Coin, 73150 Val-d'Isère, France",Val-d'Isère,,,restaurant,,,,,45.44952749999999,6.976682499999999,https://www.google.com/maps/search/?api=1&query=Le%20Petit%20Danois%2C%20Val-d'Is%C3%A8re%2C%20France,http://www.lepetitdanois.com/,,"Food types: restaurant
+Tags: Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=Le%20Petit%20Danois%2C%20Val-d'Is%C3%A8re%2C%20France
+Website: http://www.lepetitdanois.com/"
+Restaurant le 1789,"Passage Iseran 2000, 73150 Val-d'Isère, France",Val-d'Isère,,,restaurant,,,,,45.450988,6.976750999999999,https://www.google.com/maps/search/?api=1&query=Restaurant%20le%201789%2C%20Val-d'Is%C3%A8re%2C%20France,http://www.restaurant-valdisere-1789.fr/,https://bookings.zenchef.com/results?rid=358430&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Restaurant%20le%201789%2C%20Val-d'Is%C3%A8re%2C%20France
+Website: http://www.restaurant-valdisere-1789.fr/
+Booking: https://bookings.zenchef.com/results?rid=358430&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Restaurant les Tufs,"73150 Val-d'Isère, France",Val-d'Isère,,,restaurant,,,,,45.46005439999999,6.964074999999999,https://www.google.com/maps/search/?api=1&query=Restaurant%20les%20Tufs%2C%20Val-d'Is%C3%A8re%2C%20France,http://www.lestufs.com/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Restaurant%20les%20Tufs%2C%20Val-d'Is%C3%A8re%2C%20France
+Website: http://www.lestufs.com/"
+L' Auberge de la Roche Valdeblore,"La Roche, 06420 Valdeblore, France",Valdeblore,,,"restaurant, hotel",,,,,44.07015991210938,7.175351142883301,https://www.google.com/maps/search/?api=1&query=L'%20Auberge%20de%20la%20Roche%20Valdeblore%2C%20Valdeblore%2C%20France,http://www.laubergedelaroche.com/,https://bookings.zenchef.com/results?rid=356581&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Food types: restaurant, hotel
+Tags: Hotel / BB, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=L'%20Auberge%20de%20la%20Roche%20Valdeblore%2C%20Valdeblore%2C%20France
+Website: http://www.laubergedelaroche.com/
+Booking: https://bookings.zenchef.com/results?rid=356581&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+En Ville à Valensole,Route de Greoux 04210 Valensole France,Valensole,,,generic,,,,,43.83397,5.98437,https://www.google.com/maps/search/?api=1&query=En%20Ville%20%C3%A0%20Valensole%2C%20Valensole%2C%20France,,,"Food types: generic
+Tags: Place to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=En%20Ville%20%C3%A0%20Valensole%2C%20Valensole%2C%20France"
+National Park of the Belluno Dolomites,"Dolomiti Bellunesi, Belluno BL, Italie",Veneto,,,generic,,,,,46.169919,12.036645,https://www.google.com/maps/search/?api=1&query=National%20Park%20of%20the%20Belluno%20Dolomites%2C%20Veneto%2C%20Italie,http://www.dolomitipark.it/,,"Food types: generic
+Tags: Place to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=National%20Park%20of%20the%20Belluno%20Dolomites%2C%20Veneto%2C%20Italie
+Website: http://www.dolomitipark.it/"
+Trattoria Antiche Carampane,"Sestiere San Polo, 1911, 30125 Venezia, Italie",Venezia,,,restaurant,,,,,45.43864749999999,12.3310943,https://www.google.com/maps/search/?api=1&query=Trattoria%20Antiche%20Carampane%2C%20Venezia%2C%20Italie,http://www.antichecarampane.com/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Trattoria%20Antiche%20Carampane%2C%20Venezia%2C%20Italie
+Website: http://www.antichecarampane.com/"
+Verneuil la douce,"98 Rue de la Ferté, 27130 Verneuil d'Avre et d'Iton, France",Verneuil d'Avre et d'Iton,,,"lodging, hotel",,,,,48.7350146,0.9271469,https://www.google.com/maps/search/?api=1&query=Verneuil%20la%20douce%2C%20Verneuil%20d'Avre%20et%20d'Iton%2C%20France,https://verneuilladoucehotel.com/,,"Food types: lodging, hotel
+Tags: Hotel / BB
+Google Maps: https://www.google.com/maps/search/?api=1&query=Verneuil%20la%20douce%2C%20Verneuil%20d'Avre%20et%20d'Iton%2C%20France
+Website: https://verneuilladoucehotel.com/"
+"Les Etangs de Corot Hôtel, Restaurants & Spa - Relais & Châteaux - proche Versailles","55 Rue de Versailles, 92410 Ville-d'Avray, France",Ville-d'Avray,,,"restaurant, hotel",,,,,48.8219947,2.1831003,https://www.google.com/maps/search/?api=1&query=Les%20Etangs%20de%20Corot%20H%C3%B4tel%2C%20Restaurants%20%26%20Spa%20-%20Relais%20%26%20Ch%C3%A2teaux%20-%20proche%20Versailles%2C%20Ville-d'Avray%2C%20France,http://www.etangs-corot.com/,https://bookings.zenchef.com/results?rid=363892&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Food types: restaurant, hotel
+Tags: Hotel / BB
+Google Maps: https://www.google.com/maps/search/?api=1&query=Les%20Etangs%20de%20Corot%20H%C3%B4tel%2C%20Restaurants%20%26%20Spa%20-%20Relais%20%26%20Ch%C3%A2teaux%20-%20proche%20Versailles%2C%20Ville-d'Avray%2C%20France
+Website: http://www.etangs-corot.com/
+Booking: https://bookings.zenchef.com/results?rid=363892&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Café de la Mairie,"1 Rue du Midi, 94300 Vincennes, France",Vincennes,,,bar,,,,,48.8470477,2.4390154,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20de%20la%20Mairie%2C%20Vincennes%2C%20France,http://www.facebook.com/pages/Caf%C3%A9-De-La-Mairie-Vincennes/2090985224322690,,"Food types: bar
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20de%20la%20Mairie%2C%20Vincennes%2C%20France
+Website: http://www.facebook.com/pages/Caf%C3%A9-De-La-Mairie-Vincennes/2090985224322690"
+Crème,"1 bis Rue du Midi, 94300 Vincennes, France",Vincennes,,,shopping,,,,,48.8469989,2.4387359,https://www.google.com/maps/search/?api=1&query=Cr%C3%A8me%2C%20Vincennes%2C%20France,http://www.creme.fr/,,"Food types: shopping
+Tags: Icecream
+Google Maps: https://www.google.com/maps/search/?api=1&query=Cr%C3%A8me%2C%20Vincennes%2C%20France
+Website: http://www.creme.fr/"
+Georgian Cafe,Tarasa Shevchenka prospekt Vyshhorods'kyy rayon 07301 Ukraine,Vyshhorods'kyy rayon,,,generic,,,,,50.46625518798828,30.51186943054199,https://www.google.com/maps/search/?api=1&query=Georgian%20Cafe%2C%20Vyshhorods'kyy%20rayon%2C%20Ukraine,,,"Food types: generic
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Georgian%20Cafe%2C%20Vyshhorods'kyy%20rayon%2C%20Ukraine"
+Lac de Misurina,"Lac de Misurina, 32041 Auronzo di Cadore, Belluno, Italie",Vénétie,,,geocode,,,,,46.58257769999999,12.254444,https://www.google.com/maps/search/?api=1&query=Lac%20de%20Misurina%2C%20V%C3%A9n%C3%A9tie%2C%20Italie,http://auronzomisurina.it/misurina,,"Food types: geocode
+Tags: Place to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=Lac%20de%20Misurina%2C%20V%C3%A9n%C3%A9tie%2C%20Italie
+Website: http://auronzomisurina.it/misurina"
+Café Demel,"Kohlmarkt 14, 1010 Wien, Autriche",Wien,,,cafe,,,,,48.2085962,16.3672185,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Demel%2C%20Wien%2C%20Autriche,https://www.demel.com/,,"Food types: cafe
+Tags: Cafe, Pastry
+Google Maps: https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Demel%2C%20Wien%2C%20Autriche
+Website: https://www.demel.com/"
+Café Kandl,"Kandlgasse 12, 1070 Wien, Autriche",Wien,,,bar,,,,,48.2027911,16.342211,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Kandl%2C%20Wien%2C%20Autriche,http://www.kandlcafe.at/,,"Food types: bar
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Kandl%2C%20Wien%2C%20Autriche
+Website: http://www.kandlcafe.at/"
+Café Sacher Wien,"Kärntner Str. 38, 1010 Wien, Autriche",Wien,,,cafe,,,,,48.20388149999999,16.3699792,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Sacher%20Wien%2C%20Wien%2C%20Autriche,https://www.sacher.com/hotel-wien-2/kulinarik/cafe-sacher-wien/,,"Food types: cafe
+Tags: Cafe
+Google Maps: https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Sacher%20Wien%2C%20Wien%2C%20Autriche
+Website: https://www.sacher.com/hotel-wien-2/kulinarik/cafe-sacher-wien/"
+"Fuhrgassl-Huber, Weingut und Buschenschank","Neustift am Walde 68, 1190 Wien, Autriche",Wien,,,bar,,,,,48.2512,16.30112,https://www.google.com/maps/search/?api=1&query=Fuhrgassl-Huber%2C%20Weingut%20und%20Buschenschank%2C%20Wien%2C%20Autriche,http://www.fuhrgassl-huber.at/,,"Food types: bar
+Tags: Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=Fuhrgassl-Huber%2C%20Weingut%20und%20Buschenschank%2C%20Wien%2C%20Autriche
+Website: http://www.fuhrgassl-huber.at/"
+Glacis Beisl,"Breite G. 4, 1070 Wien, Autriche",Wien,,,restaurant,,,,,48.203199,16.357155,https://www.google.com/maps/search/?api=1&query=Glacis%20Beisl%2C%20Wien%2C%20Austria,http://glacisbeisl.at/,https://bookings.zenchef.com/results?rid=376927&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Glacis%20Beisl%2C%20Wien%2C%20Austria
+Website: http://glacisbeisl.at/
+Booking: https://bookings.zenchef.com/results?rid=376927&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Metro Kinokulturhaus,"Johannesgasse 4, 1010 Wien, Autriche",Wien,,,generic,,,,,48.2049288,16.3719383,https://www.google.com/maps/search/?api=1&query=Metro%20Kinokulturhaus%2C%20Wien%2C%20Autriche,http://www.filmarchiv.at/,,"Food types: generic
+Tags: Sightseeing
+Google Maps: https://www.google.com/maps/search/?api=1&query=Metro%20Kinokulturhaus%2C%20Wien%2C%20Autriche
+Website: http://www.filmarchiv.at/"
+Plachutta Wollzeile,"Wollzeile 38, 1010 Wien, Autriche",Wien,,,restaurant,,,,,48.2075111,16.3787209,https://www.google.com/maps/search/?api=1&query=Plachutta%20Wollzeile%2C%20Wien%2C%20Austria,http://www.plachutta-wollzeile.at/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Plachutta%20Wollzeile%2C%20Wien%2C%20Austria
+Website: http://www.plachutta-wollzeile.at/"
+Siebensternbräu,"Siebensterngasse 19, 1070 Wien, Autriche",Wien,,,bar,,,,,48.2022328,16.3528415,https://www.google.com/maps/search/?api=1&query=Siebensternbr%C3%A4u%2C%20Wien%2C%20Autriche,http://www.7stern.at/,,"Food types: bar
+Tags: Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=Siebensternbr%C3%A4u%2C%20Wien%2C%20Autriche
+Website: http://www.7stern.at/"
+Bratsera Hotel,"Tombazi Str., Idra 180 40, Grèce",Ydra,,,"lodging, hotel",,,,,37.3490063,23.467327,https://www.google.com/maps/search/?api=1&query=Bratsera%20Hotel%2C%20Ydra%2C%20Gr%C3%A8ce,https://bratserahotel.com/,,"Food types: lodging, hotel
+Tags: Hotel / BB
+Google Maps: https://www.google.com/maps/search/?api=1&query=Bratsera%20Hotel%2C%20Ydra%2C%20Gr%C3%A8ce
+Website: https://bratserahotel.com/"
+Restaurant Europa,"Gedempt Hamerkanaal, Amsterdam, Pays-Bas",Zaandam,,,restaurant,,,,,52.4199635,4.834905700000001,https://www.google.com/maps/search/?api=1&query=Restaurant%20Europa%2C%20Zaandam%2C%20Nederland,http://www.europa.rest/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Restaurant%20Europa%2C%20Zaandam%2C%20Nederland
+Website: http://www.europa.rest/"
+Monaci delle Terre Nere,"Via Monaci sn, 95019 Zafferana Etnea CT, Italie",Zafferana Etnea,,,"lodging, hotel",,,,,37.66936580000001,15.1091828,https://www.google.com/maps/search/?api=1&query=Monaci%20delle%20Terre%20Nere%2C%20Zafferana%20Etnea%2C%20Italie,http://www.monacidelleterrenere.it/,,"Food types: lodging, hotel
+Tags: Hotel / BB
+Google Maps: https://www.google.com/maps/search/?api=1&query=Monaci%20delle%20Terre%20Nere%2C%20Zafferana%20Etnea%2C%20Italie
+Website: http://www.monacidelleterrenere.it/"
+Firriato Hospitality - Cavanera Etnea,"Contrada Verzella, 95012 Castiglione di Sicilia CT, Italy",castiglione di sicilia,,,"lodging, hotel",,,,,37.88257600000001,15.064206,https://www.google.com/maps/search/?api=1&query=Firriato%20Hospitality%20-%20Cavanera%20Etnea%2C%20castiglione%20di%20sicilia%2C%20Italie,http://www.cavanera.it/,,"Food types: lodging, hotel
+Tags: Hotel / BB
+Google Maps: https://www.google.com/maps/search/?api=1&query=Firriato%20Hospitality%20-%20Cavanera%20Etnea%2C%20castiglione%20di%20sicilia%2C%20Italie
+Website: http://www.cavanera.it/"
+Grød,"Stand A8, Linnésgade 17, 1362 København, Danemark",kbh,,,restaurant,,,,,55.6837513,12.5700001,https://www.google.com/maps/search/?api=1&query=Gr%C3%B8d%2C%20kbh%2C%20Danemark,http://groed.com/,,"Food types: restaurant
+Tags: Bakery
+Google Maps: https://www.google.com/maps/search/?api=1&query=Gr%C3%B8d%2C%20kbh%2C%20Danemark
+Website: http://groed.com/"
+Relæ,"Jægersborggade 41, 2200 København, Danemark",kbh,,,restaurant,,,,,55.69302,12.543298,https://www.google.com/maps/search/?api=1&query=Rel%C3%A6%2C%20kbh%2C%20Danemark,http://restaurant-relae.dk/,,"Food types: restaurant
+Tags: Restaurant, Gastro / higher end, Trendy
+Google Maps: https://www.google.com/maps/search/?api=1&query=Rel%C3%A6%2C%20kbh%2C%20Danemark
+Website: http://restaurant-relae.dk/"
+Aşşk Kahve,"Kuruçeşme Mh., Muallim Naci Caddesi No:64, 34330 Beşiktaş, Turquie",İstanbul,,,cafe,,,,,41.0580306,29.0360864,https://www.google.com/maps/search/?api=1&query=A%C5%9F%C5%9Fk%20Kahve%2C%20%C4%B0stanbul%2C%20Turquie,https://www.facebook.com/asskhammam/?ref=br_rs,,"Food types: cafe
+Tags: Cafe
+Google Maps: https://www.google.com/maps/search/?api=1&query=A%C5%9F%C5%9Fk%20Kahve%2C%20%C4%B0stanbul%2C%20Turquie
+Website: https://www.facebook.com/asskhammam/?ref=br_rs"
+Halat By Divan,"Piri Paşa, Kumbarahane Cd. No:5, 34445 Beyoğlu/İstanbul, Turquie",İstanbul,,,restaurant,,,,,41.0423145,28.9494671,https://www.google.com/maps/search/?api=1&query=Halat%20By%20Divan%2C%20%C4%B0stanbul%2C%20Turquie,https://www.divan.com.tr/restoran/halat-by-divan,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Halat%20By%20Divan%2C%20%C4%B0stanbul%2C%20Turquie
+Website: https://www.divan.com.tr/restoran/halat-by-divan"
+Karadeniz Döner Salonu,"Kazım Karabekir Mahallesi, Çinçindere Cd. No:99, 34225 Esenler/İstanbul, Turkey",İstanbul,,,generic,,,,,41.0432626,28.8697146,https://www.google.com/maps/search/?api=1&query=Karadeniz%20D%C3%B6ner%20Salonu%2C%20%C4%B0stanbul%2C%20Turkey,,,"Food types: generic
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Karadeniz%20D%C3%B6ner%20Salonu%2C%20%C4%B0stanbul%2C%20Turkey"
+Mikla,"The Marmara Pera, Meşrutiyet Cd No:15, 34430 Beyoğlu/İstanbul, Turquie",İstanbul,,,restaurant,,,,,41.031009,28.97414999999999,https://www.google.com/maps/search/?api=1&query=Mikla%2C%20%C4%B0stanbul%2C%20Turquie,http://www.miklarestaurant.com/,,"Food types: restaurant
+Tags: Restaurant, Gastro / higher end
+Google Maps: https://www.google.com/maps/search/?api=1&query=Mikla%2C%20%C4%B0stanbul%2C%20Turquie
+Website: http://www.miklarestaurant.com/"
+Mükellef Karakoy,"Kemankeş Karamustafa Paşa Mahallesi, Maliye Cd. 8/A, 34425 Karaköy/Beyoğlu/İstanbul, Turquie",İstanbul,,,restaurant,,,,,41.0237335,28.9769701,https://www.google.com/maps/search/?api=1&query=M%C3%BCkellef%20Karakoy%2C%20%C4%B0stanbul%2C%20Turquie,http://www.mukellefkarakoy.com/,,"Food types: restaurant
+Tags: Restaurant, Gastro / higher end
+Google Maps: https://www.google.com/maps/search/?api=1&query=M%C3%BCkellef%20Karakoy%2C%20%C4%B0stanbul%2C%20Turquie
+Website: http://www.mukellefkarakoy.com/"
+Neolokal,"Arap Cami, Bankalar Cd. No:11, 34420 Beyoğlu/İstanbul, Turquie",İstanbul,,,restaurant,,,,,41.0238241,28.9733994,https://www.google.com/maps/search/?api=1&query=Neolokal%2C%20%C4%B0stanbul%2C%20Turquie,http://neolokal.com/,,"Food types: restaurant
+Tags: Restaurant, Gastro / higher end
+Google Maps: https://www.google.com/maps/search/?api=1&query=Neolokal%2C%20%C4%B0stanbul%2C%20Turquie
+Website: http://neolokal.com/"
+Pandeli Restaurant,"Eminönü, Mısır Çarşısı No:1, 34435 Fatih/Beyoğlu/İstanbul, Turquie",İstanbul,,,restaurant,,,,,41.0171519,28.9712762,https://www.google.com/maps/search/?api=1&query=Pandeli%20Restaurant%2C%20%C4%B0stanbul%2C%20Turquie,https://pandeli-restaurant-msr-carss.business.site/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Pandeli%20Restaurant%2C%20%C4%B0stanbul%2C%20Turquie
+Website: https://pandeli-restaurant-msr-carss.business.site/"
+Soho House Istanbul,"EVLIYA ÇELEBI MAHALLESI MEŞRUTIYET CAD. NO:56, 34430 Beyoğlu/İstanbul, Turkey",İstanbul,,,generic,,,,,41.0303024,28.973018,https://www.google.com/maps/search/?api=1&query=Soho%20House%20Istanbul%2C%20%C4%B0stanbul%2C%20Turkey,http://www.theallisistanbul.com/en,,"Food types: generic
+Tags: Soho House
+Google Maps: https://www.google.com/maps/search/?api=1&query=Soho%20House%20Istanbul%2C%20%C4%B0stanbul%2C%20Turkey
+Website: http://www.theallisistanbul.com/en"
+The House Cafe,"Yıldız Mh., Salhane Sk. No:1, 34349 Beşiktaş/İstanbul, Turquie",İstanbul,,,cafe,,,,,41.0475211,29.02533499999999,https://www.google.com/maps/search/?api=1&query=The%20House%20Cafe%2C%20%C4%B0stanbul%2C%20Turquie,http://www.thehousecafe.com/,,"Food types: cafe
+Tags: Cafe
+Google Maps: https://www.google.com/maps/search/?api=1&query=The%20House%20Cafe%2C%20%C4%B0stanbul%2C%20Turquie
+Website: http://www.thehousecafe.com/"
+Terre Des Etoiles,"Desert d'Agafay, Μαρακές 40000, Maroc",Μαρακές,,,"lodging, hotel",,,,,31.4583306,-8.1944428,https://www.google.com/maps/search/?api=1&query=Terre%20Des%20Etoiles%2C%20%CE%9C%CE%B1%CF%81%CE%B1%CE%BA%CE%AD%CF%82%2C%20Maroc,http://terredesetoiles.fr/,,"Food types: lodging, hotel
+Tags: Hotel / BB
+Google Maps: https://www.google.com/maps/search/?api=1&query=Terre%20Des%20Etoiles%2C%20%CE%9C%CE%B1%CF%81%CE%B1%CE%BA%CE%AD%CF%82%2C%20Maroc
+Website: http://terredesetoiles.fr/"
+PinchukArtCentre,"вул. Велика Васильківська/Басейна, 1/3-2, Київ, Ukraine, 01004",Київ,,,museum,,,,,50.4417793,30.5211407,https://www.google.com/maps/search/?api=1&query=PinchukArtCentre%2C%20%D0%9A%D0%B8%D1%97%D0%B2%2C%20Ukraine,http://pinchukartcentre.org/,,"Food types: museum
+Tags: Place to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=PinchukArtCentre%2C%20%D0%9A%D0%B8%D1%97%D0%B2%2C%20Ukraine
+Website: http://pinchukartcentre.org/"
+Austrian Hospice,"Via Dolorosa St 37, Jerusalem, 9762637",י-ם,,,lodging,,,,,31.78032589999999,35.2321158,https://www.google.com/maps/search/?api=1&query=Austrian%20Hospice%2C%20%D7%99-%D7%9D%2C%20Israel,http://www.austrianhospice.com/,,"Food types: lodging
+Tags: Place to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=Austrian%20Hospice%2C%20%D7%99-%D7%9D%2C%20Israel
+Website: http://www.austrianhospice.com/"
+Bicicletta,"Nahalat Binyamin St 29, Tel Aviv-Yafo, Israël","ת""א",,,bar,,,,,32.0664912,34.77051349999999,https://www.google.com/maps/search/?api=1&query=Bicicletta%2C%20%D7%AA%22%D7%90%2C%20Isra%C3%ABl,https://www.facebook.com/BiciclettaTLV/,,"Food types: bar
+Tags: Restaurant, Dancing
+Google Maps: https://www.google.com/maps/search/?api=1&query=Bicicletta%2C%20%D7%AA%22%D7%90%2C%20Isra%C3%ABl
+Website: https://www.facebook.com/BiciclettaTLV/"
+Port Said,"Har Sinai St 5, Tel Aviv-Yafo, Israël","ת""א",,,restaurant,,,,,32.0647347,34.7722422,https://www.google.com/maps/search/?api=1&query=Port%20Said%2C%20%D7%AA%22%D7%90%2C%20Isra%C3%ABl,https://www.facebook.com/theportsaid/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Port%20Said%2C%20%D7%AA%22%D7%90%2C%20Isra%C3%ABl
+Website: https://www.facebook.com/theportsaid/"
+The Prince הנסיך,"Nahalat Binyamin St 18, Tel Aviv-Yafo, Israël","ת""א",,,restaurant,,,,,32.06339,34.77163,https://www.google.com/maps/search/?api=1&query=The%20Prince%20%D7%94%D7%A0%D7%A1%D7%99%D7%9A%2C%20%D7%AA%22%D7%90%2C%20Isra%C3%ABl,https://www.facebook.com/theprincetlv/,,"Food types: restaurant
+Tags: Rooftop, Restaurant, Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=The%20Prince%20%D7%94%D7%A0%D7%A1%D7%99%D7%9A%2C%20%D7%AA%22%D7%90%2C%20Isra%C3%ABl
+Website: https://www.facebook.com/theprincetlv/"
+מאנטה ריי,"יחזקאל קויפמן 703, תל אביב יפו, Israel","ת""א",,,restaurant,,,,,32.061312,34.7599054,https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%90%D7%A0%D7%98%D7%94%20%D7%A8%D7%99%D7%99%2C%20%D7%AA%22%D7%90%2C%20Israel,http://www.mantaray.co.il/,,"Food types: restaurant
+Tags: Day drink, Israeli
+Google Maps: https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%90%D7%A0%D7%98%D7%94%20%D7%A8%D7%99%D7%99%2C%20%D7%AA%22%D7%90%2C%20Israel
+Website: http://www.mantaray.co.il/"
+M25 Meat Market,"סמטת הכרמל 30, תל אביב יפו, Israël",תל אביב יפו,,,restaurant,,,,,32.0676959,34.76738340000001,https://www.google.com/maps/search/?api=1&query=M25%20Meat%20Market%2C%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%20%D7%99%D7%A4%D7%95%2C%20Isra%C3%ABl,http://m25meat.co.il/,,"Food types: restaurant
+Tags: Israeli, Street food, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=M25%20Meat%20Market%2C%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%20%D7%99%D7%A4%D7%95%2C%20Isra%C3%ABl
+Website: http://m25meat.co.il/"
+Onza - אונזה,"Rabbi Hannina St. 3, תל אביב יפו, Israël",תל אביב יפו,,,restaurant,,,,,32.0530813,34.75571309999999,https://www.google.com/maps/search/?api=1&query=Onza%20-%20%D7%90%D7%95%D7%A0%D7%96%D7%94%2C%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%20%D7%99%D7%A4%D7%95%2C%20Isra%C3%ABl,http://www.onza.co.il/,,"Food types: restaurant
+Tags: Israeli
+Google Maps: https://www.google.com/maps/search/?api=1&query=Onza%20-%20%D7%90%D7%95%D7%A0%D7%96%D7%94%2C%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%20%D7%99%D7%A4%D7%95%2C%20Isra%C3%ABl
+Website: http://www.onza.co.il/"
+Restaurant Cassis,"חוף גבעת עליה, קדרון 44, תל אביב יפו, 61410, Israël",תל אביב יפו,,,restaurant,,,,,32.0380324,34.7456013,https://www.google.com/maps/search/?api=1&query=Restaurant%20Cassis%2C%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%20%D7%99%D7%A4%D7%95%2C%20Israel,http://www.cassis.co.il/,,"Food types: restaurant
+Tags: Place to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=Restaurant%20Cassis%2C%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%20%D7%99%D7%A4%D7%95%2C%20Israel
+Website: http://www.cassis.co.il/"
+Tel Aviv Museum of Art,"מתחם גולדה מאיר, שדרות שאול המלך 27, תל אביב יפו, 61332012, Israel",תל אביב יפו,,,museum,,,,,32.0776555,34.786749,https://www.google.com/maps/search/?api=1&query=Tel%20Aviv%20Museum%20of%20Art%2C%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%20%D7%99%D7%A4%D7%95%2C%20Israel,http://www.tamuseum.org.il/he/default.aspx,,"Food types: museum
+Tags: Museum
+Google Maps: https://www.google.com/maps/search/?api=1&query=Tel%20Aviv%20Museum%20of%20Art%2C%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91%20%D7%99%D7%A4%D7%95%2C%20Israel
+Website: http://www.tamuseum.org.il/he/default.aspx"
+King Power Mahanakhon,"Soi Sueksa Witthaya, Khwaeng Silom, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thaïlande",กทม,,,bar,,,,,13.7235375,100.5282467,https://www.google.com/maps/search/?api=1&query=King%20Power%20Mahanakhon%2C%20%E0%B8%81%E0%B8%97%E0%B8%A1%2C%20Tha%C3%AFlande,http://www.kingpowermahanakhon.co.th/,,"Food types: bar
+Tags: Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=King%20Power%20Mahanakhon%2C%20%E0%B8%81%E0%B8%97%E0%B8%A1%2C%20Tha%C3%AFlande
+Website: http://www.kingpowermahanakhon.co.th/"
+Smalls Bar & Live Music,"178 1 178/1 สวนพลู 1 Thung Maha Mek, Sathon, Bangkok 10120, Thaïlande",กทม,,,bar,,,,,13.7204563,100.5376338,https://www.google.com/maps/search/?api=1&query=Smalls%20Bar%20%26%20Live%20Music%2C%20%E0%B8%81%E0%B8%97%E0%B8%A1%2C%20Tha%C3%AFlande,http://www.facebook.com/smallsbkk,,"Food types: bar
+Tags: Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=Smalls%20Bar%20%26%20Live%20Music%2C%20%E0%B8%81%E0%B8%97%E0%B8%A1%2C%20Tha%C3%AFlande
+Website: http://www.facebook.com/smallsbkk"
+Vesper,"10/15 Soi Convent Road, แขวง สีลม เขต บางรัก กรุงเทพมหานคร 10500, Thaïlande",กทม,,,bar,,,,,13.7270527,100.5334589,https://www.google.com/maps/search/?api=1&query=Vesper%2C%20%E0%B8%81%E0%B8%97%E0%B8%A1%2C%20Tha%C3%AFlande,http://www.vesperbar.co/,,"Food types: bar
+Tags: Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=Vesper%2C%20%E0%B8%81%E0%B8%97%E0%B8%A1%2C%20Tha%C3%AFlande
+Website: http://www.vesperbar.co/"
+Restaurant POTONG,"422 ถนน วาณิช 1 เขตสัมพันธวงศ์, แขวงสัมพันธวงศ์ สัมพันธวงศ์, กรุงเทพมหานคร 10100, Thaïlande",กรุงเทพมหานคร,,,restaurant,,,,,13.7391549,100.5084933,https://www.google.com/maps/search/?api=1&query=Restaurant%20POTONG%2C%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3%2C%20Tha%C3%AFlande,http://www.restaurantpotong.com/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Restaurant%20POTONG%2C%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3%2C%20Tha%C3%AFlande
+Website: http://www.restaurantpotong.com/"
+Kakhelebi on Beliashvili,"Beliashvili St, თბილისი, Géorgie",თბილისი,,,restaurant,,,,,41.76164110000001,44.7806003,https://www.google.com/maps/search/?api=1&query=Kakhelebi%20on%20Beliashvili%2C%20%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98%2C%20G%C3%A9orgie,http://www.kakhelebi.ge/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Kakhelebi%20on%20Beliashvili%2C%20%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98%2C%20G%C3%A9orgie
+Website: http://www.kakhelebi.ge/"
+Stamba Hotel,"14, 0108 მერაბ კოსტავას ქუჩა, თბილისი, Géorgie",თბილისი,,,"lodging, hotel",,,,,41.7056644,44.78787490000001,https://www.google.com/maps/search/?api=1&query=Stamba%20Hotel%2C%20%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98%2C%20G%C3%A9orgie,http://stambahotel.com/,,"Food types: lodging, hotel
+Tags: Restaurant, Hotel / BB
+Google Maps: https://www.google.com/maps/search/?api=1&query=Stamba%20Hotel%2C%20%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98%2C%20G%C3%A9orgie
+Website: http://stambahotel.com/"
+Shimokitazawa Ichibangai Shotengai,"Setagaya, Tokyo, ２丁目-３７-17 北沢 世田谷区 東京都 155-0031, Japon",世田谷区,,,shopping,,,,,35.66412589999999,139.6674233,https://www.google.com/maps/search/?api=1&query=Shimokitazawa%20Ichibangai%20Shotengai%2C%20%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%2C%20Japon,,,"Food types: shopping
+Tags: Spot to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=Shimokitazawa%20Ichibangai%20Shotengai%2C%20%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%2C%20Japon"
+Shirube,"Japon, 〒155-0031 東京都世田谷区 北沢2-18-2",世田谷区,,,restaurant,,,,,35.6602514,139.6668929,https://www.google.com/maps/search/?api=1&query=Shirube%2C%20%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%2C%20Japon,https://raku-co.com/?page_id=26,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Shirube%2C%20%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%2C%20Japon
+Website: https://raku-co.com/?page_id=26"
+Komuro Tetsuya,"２６ Nishinokyō Shokujichō, Nakagyō-ku, Kyoto, Préfecture de Kyoto, Japon",京都市,,,generic,,,,,35.01094055175781,135.7435150146484,https://www.google.com/maps/search/?api=1&query=Komuro%20Tetsuya%2C%20%E4%BA%AC%E9%83%BD%E5%B8%82%2C%20Japon,,,"Food types: generic
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Komuro%20Tetsuya%2C%20%E4%BA%AC%E9%83%BD%E5%B8%82%2C%20Japon"
+Le chemin de la Philosophie,"Tetsugaku No Michi, 鹿ケ谷寺ノ前町 左京区 京都市 京都府 606-8426, Japon",京都市,,,generic,,,,,35.0214532,135.7942948,https://www.google.com/maps/search/?api=1&query=Le%20chemin%20de%20la%20Philosophie%2C%20%E4%BA%AC%E9%83%BD%E5%B8%82%2C%20Japon,,,"Food types: generic
+Tags: Spot to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=Le%20chemin%20de%20la%20Philosophie%2C%20%E4%BA%AC%E9%83%BD%E5%B8%82%2C%20Japon"
+Akihabara Gamers main store,"Japon, 〒101-0021 Tōkyō-to, Chiyoda-ku, 千代田区Sotokanda, 1 Chome−14−7, 宝田ビル",千代田区,,,shopping,,,,,35.6983243,139.7716944,https://www.google.com/maps/search/?api=1&query=Akihabara%20Gamers%20main%20store%2C%20%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%2C%20Japon,https://www.gamers.co.jp/,,"Food types: shopping
+Tags: Spot to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=Akihabara%20Gamers%20main%20store%2C%20%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%2C%20Japon
+Website: https://www.gamers.co.jp/"
+茶寮 都路里,"Japon, 〒100-0005 Tōkyō-to, Chiyoda-ku, 千代田区Marunouchi, 1 Chome−１−９−１ 大丸東京店 10階",千代田区,,,shopping,,,,,35.6814951,139.7692291,https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E5%AF%AE%20%E9%83%BD%E8%B7%AF%E9%87%8C%2C%20%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%2C%20Japon,http://www.giontsujiri.co.jp/,,"Food types: shopping
+Tags: Dessert
+Google Maps: https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E5%AF%AE%20%E9%83%BD%E8%B7%AF%E9%87%8C%2C%20%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%2C%20Japon
+Website: http://www.giontsujiri.co.jp/"
+Sometarō,"2-chōme-2-2 Nishiasakusa, Taito City, Tōkyō-to 111-0035, Japan",台東区,,,restaurant,,,,,35.71194829999999,139.7909278,https://www.google.com/maps/search/?api=1&query=Sometar%C5%8D%2C%20%E5%8F%B0%E6%9D%B1%E5%8C%BA%2C%20Japon,,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Sometar%C5%8D%2C%20%E5%8F%B0%E6%9D%B1%E5%8C%BA%2C%20Japon"
+dotcom space Tokyo,"神宮前１丁目１９−１９, エリンデール神宮前 B1F, 渋谷区 東京都 150-0001",台東区,,,cafe,,,,,35.6718711,139.7036697,https://www.google.com/maps/search/?api=1&query=dotcom%20space%20Tokyo%2C%20%E5%8F%B0%E6%9D%B1%E5%8C%BA%2C%20Japon,https://www.facebook.com/dotcomspaceTokyo/,,"Food types: cafe
+Tags: Cafe
+Google Maps: https://www.google.com/maps/search/?api=1&query=dotcom%20space%20Tokyo%2C%20%E5%8F%B0%E6%9D%B1%E5%8C%BA%2C%20Japon
+Website: https://www.facebook.com/dotcomspaceTokyo/"
+茶寮翠泉 新宿店,日本、〒163-0201 東京都新宿区西新宿２丁目６−１ 新宿住友ビル 1階,新宿区,,,cafe,,,,,35.6912893,139.6922688,https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E5%AF%AE%E7%BF%A0%E6%B3%89%20%E6%96%B0%E5%AE%BF%E5%BA%97%2C%20%E6%96%B0%E5%AE%BF%E5%8C%BA%2C%20%E6%97%A5%E6%9C%AC,https://saryo-suisen.com/,,"Food types: cafe
+Tags: Dessert
+Google Maps: https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E5%AF%AE%E7%BF%A0%E6%B3%89%20%E6%96%B0%E5%AE%BF%E5%BA%97%2C%20%E6%96%B0%E5%AE%BF%E5%8C%BA%2C%20%E6%97%A5%E6%9C%AC
+Website: https://saryo-suisen.com/"
+Kikunoi,"Japon, 〒605-0825 Kyōto-fu, Kyōto-shi, 東山区Shimokawarachō, 下河原通八坂鳥居前下る下河原町459",東山区,,,restaurant,,,,,35.0014754,135.7820562,https://www.google.com/maps/search/?api=1&query=Kikunoi%2C%20%E6%9D%B1%E5%B1%B1%E5%8C%BA%2C%20Japon,http://kikunoi.jp/store/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Kikunoi%2C%20%E6%9D%B1%E5%B1%B1%E5%8C%BA%2C%20Japon
+Website: http://kikunoi.jp/store/"
+Fukagawa Edo Museum (Fukagawa Edo Shiryokan),"Japon, 〒135-0021 Tōkyō-to, Kōtō-ku, 江東区Shirakawa, 1 Chome−1−3−28",江東区,,,museum,,,,,35.6811859,139.8005921,https://www.google.com/maps/search/?api=1&query=Fukagawa%20Edo%20Museum%20(Fukagawa%20Edo%20Shiryokan)%2C%20%E6%B1%9F%E6%9D%B1%E5%8C%BA%2C%20Japon,https://www.kcf.or.jp/fukagawa/,,"Food types: museum
+Tags: Spot to visit
+Google Maps: https://www.google.com/maps/search/?api=1&query=Fukagawa%20Edo%20Museum%20(Fukagawa%20Edo%20Shiryokan)%2C%20%E6%B1%9F%E6%9D%B1%E5%8C%BA%2C%20Japon
+Website: https://www.kcf.or.jp/fukagawa/"
+Chatei Hatou,"1 Chome-15-19 Shibuya, 渋谷区 Shibuya-ku, Tōkyō-to 150-0002, Japon",渋谷区,,,cafe,,,,,35.66047669999999,139.7027318,https://www.google.com/maps/search/?api=1&query=Chatei%20Hatou%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20Japon,http://miyashita-park.jp/blog/kaiin-homepage/futaba-biru/hatou/hatou-1.html,,"Food types: cafe
+Tags: Cafe
+Google Maps: https://www.google.com/maps/search/?api=1&query=Chatei%20Hatou%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20Japon
+Website: http://miyashita-park.jp/blog/kaiin-homepage/futaba-biru/hatou/hatou-1.html"
+Ebisu Yokocho,"Japon, 〒150-0013 東京都渋谷区 恵比寿１丁目７−４",渋谷区,,,restaurant,,,,,35.6482594,139.710638,https://www.google.com/maps/search/?api=1&query=Ebisu%20Yokocho%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20Japon,http://www.ebisu-yokocho.com/,,"Food types: restaurant
+Tags: Street food
+Google Maps: https://www.google.com/maps/search/?api=1&query=Ebisu%20Yokocho%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20Japon
+Website: http://www.ebisu-yokocho.com/"
+Fuglen Tokyo,"Japon, 〒151-0063 東京都渋谷区 富ヶ谷1−16−11",渋谷区,,,cafe,,,,,35.6666375,139.6924404,https://www.google.com/maps/search/?api=1&query=Fuglen%20Tokyo%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20Japon,http://fuglen.com/,,"Food types: cafe
+Tags: Cafe
+Google Maps: https://www.google.com/maps/search/?api=1&query=Fuglen%20Tokyo%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20Japon
+Website: http://fuglen.com/"
+LATTEST,"Japon, 〒150ー0001 東京都渋谷区 神宮前３丁目５−２",渋谷区,,,cafe,,,,,35.6689128,139.7123913,https://www.google.com/maps/search/?api=1&query=LATTEST%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20Japon,http://lattest.jp/,,"Food types: cafe
+Tags: Cafe
+Google Maps: https://www.google.com/maps/search/?api=1&query=LATTEST%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20Japon
+Website: http://lattest.jp/"
+Little Nap Coffee Stand リトルナップコーヒースタンド,"Japon, 〒151-0053 東京都渋谷区 代々木５丁目６５−４",渋谷区,,,generic,,,,,35.67212300000001,139.69056,https://www.google.com/maps/search/?api=1&query=Little%20Nap%20Coffee%20Stand%20%E3%83%AA%E3%83%88%E3%83%AB%E3%83%8A%E3%83%83%E3%83%97%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20Japon,http://www.littlenap.jp/,,"Food types: generic
+Tags: Cafe
+Google Maps: https://www.google.com/maps/search/?api=1&query=Little%20Nap%20Coffee%20Stand%20%E3%83%AA%E3%83%88%E3%83%AB%E3%83%8A%E3%83%83%E3%83%97%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20Japon
+Website: http://www.littlenap.jp/"
+Ramen Deniro,日本、〒151-0051 東京都渋谷区千駄ケ谷５丁目３２−５ ＧＳハイム新宿南口 １F,渋谷区,,,restaurant,,,,,35.6861627,139.7035953,https://www.google.com/maps/search/?api=1&query=Ramen%20Deniro%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20%E6%97%A5%E6%9C%AC,https://www.instagram.com/ramendeniro/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Ramen%20Deniro%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20%E6%97%A5%E6%9C%AC
+Website: https://www.instagram.com/ramendeniro/"
+ippuku&matcha 代々木上原店,日本、〒151-0064 東京都渋谷区上原３丁目４４−１１ 高宏ビル B1,渋谷区,,,cafe,,,,,35.6680918,139.6786651,https://www.google.com/maps/search/?api=1&query=ippuku%26matcha%20%E4%BB%A3%E3%80%85%E6%9C%A8%E4%B8%8A%E5%8E%9F%E5%BA%97%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20%E6%97%A5%E6%9C%AC,https://www.instagram.com/ippukuandmatcha_uehara/,,"Food types: cafe
+Tags: Dessert
+Google Maps: https://www.google.com/maps/search/?api=1&query=ippuku%26matcha%20%E4%BB%A3%E3%80%85%E6%9C%A8%E4%B8%8A%E5%8E%9F%E5%BA%97%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20%E6%97%A5%E6%9C%AC
+Website: https://www.instagram.com/ippukuandmatcha_uehara/"
+ＢａｒＭＡＲＴＨＡ,"Japon, 〒150-0013 東京都渋谷区 恵比寿１丁目２２−２３ ヴェラハイツ恵比寿109",渋谷区,,,bar,,,,,35.64640089999999,139.7135679,https://www.google.com/maps/search/?api=1&query=%EF%BC%A2%EF%BD%81%EF%BD%92%EF%BC%AD%EF%BC%A1%EF%BC%B2%EF%BC%B4%EF%BC%A8%EF%BC%A1%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20Japon,http://www.martha-records.com/martha/,,"Food types: bar
+Tags: Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=%EF%BC%A2%EF%BD%81%EF%BD%92%EF%BC%AD%EF%BC%A1%EF%BC%B2%EF%BC%B4%EF%BC%A8%EF%BC%A1%2C%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%2C%20Japon
+Website: http://www.martha-records.com/martha/"
+Gen Yamamoto,"Japon, 〒106-0045 東京都港区 麻布十番1-6-4 アニバーサリービル 1F",港区,,,bar,,,,,35.656459,139.734298,https://www.google.com/maps/search/?api=1&query=Gen%20Yamamoto%2C%20%E6%B8%AF%E5%8C%BA%2C%20Japon,http://www.genyamamoto.jp/,,"Food types: bar
+Tags: Cocktails
+Google Maps: https://www.google.com/maps/search/?api=1&query=Gen%20Yamamoto%2C%20%E6%B8%AF%E5%8C%BA%2C%20Japon
+Website: http://www.genyamamoto.jp/"
+bricolage bread and co.,"けやき坂テラス1階, ６丁目-１５-1 六本木 港区 東京都 106-0032, Japon",港区,,,restaurant,,,,,35.659135,139.7282634,https://www.google.com/maps/search/?api=1&query=bricolage%20bread%20and%20co.%2C%20%E6%B8%AF%E5%8C%BA%2C%20Japon,https://bricolagebread.com/,,"Food types: restaurant
+Tags: Bakery
+Google Maps: https://www.google.com/maps/search/?api=1&query=bricolage%20bread%20and%20co.%2C%20%E6%B8%AF%E5%8C%BA%2C%20Japon
+Website: https://bricolagebread.com/"
+Daikanyama T site,"Japon, 〒150-0033 Tōkyō-to, 渋谷区Shibuya-ku, 猿楽町Sarugakuchō, 16−15",猿楽町,,,shopping,,,,,35.6489544,139.6994481,https://www.google.com/maps/search/?api=1&query=Daikanyama%20T%20site%2C%20%E7%8C%BF%E6%A5%BD%E7%94%BA%2C%20Japon,https://store.tsite.jp/daikanyama/,,"Food types: shopping
+Tags: Shopping
+Google Maps: https://www.google.com/maps/search/?api=1&query=Daikanyama%20T%20site%2C%20%E7%8C%BF%E6%A5%BD%E7%94%BA%2C%20Japon
+Website: https://store.tsite.jp/daikanyama/"
+CHIYA-BA,日本、〒153-0051 東京都目黒区上目黒２丁目４５−１２,目黒区,,,cafe,,,,,35.6417503,139.6958261,https://www.google.com/maps/search/?api=1&query=CHIYA-BA%2C%20%E7%9B%AE%E9%BB%92%E5%8C%BA%2C%20%E6%97%A5%E6%9C%AC,,,"Food types: cafe
+Tags: Cafe
+Google Maps: https://www.google.com/maps/search/?api=1&query=CHIYA-BA%2C%20%E7%9B%AE%E9%BB%92%E5%8C%BA%2C%20%E6%97%A5%E6%9C%AC"
+ONIBUS COFFEE Nakameguro,"Japan, 〒153-0051 Tōkyō-to, Meguro-ku, 目黒区Kamimeguro, 2 Chome−2−14−1",目黒区,,,cafe,,,,,35.64317669999999,139.6980318,https://www.google.com/maps/search/?api=1&query=ONIBUS%20COFFEE%20Nakameguro%2C%20%E7%9B%AE%E9%BB%92%E5%8C%BA%2C%20Japon,http://onibuscoffee.com/,,"Food types: cafe
+Tags: Cafe
+Google Maps: https://www.google.com/maps/search/?api=1&query=ONIBUS%20COFFEE%20Nakameguro%2C%20%E7%9B%AE%E9%BB%92%E5%8C%BA%2C%20Japon
+Website: http://onibuscoffee.com/"
+LOTTE HOTEL SEOUL,"서울 중구 을지로 30 롯데면세점 본점 12층 04533, 서울 서울 04533",서울,,,"lodging, hotel",,,,,37.56530000000001,126.980979,https://www.google.com/maps/search/?api=1&query=LOTTE%20HOTEL%20SEOUL%2C%20%EC%84%9C%EC%9A%B8%2C%20South%20Korea,https://www.lottehotel.com/seoul-hotel/en.html,,"Food types: lodging, hotel
+Tags: Cafe, Dessert, Hotel / BB
+Google Maps: https://www.google.com/maps/search/?api=1&query=LOTTE%20HOTEL%20SEOUL%2C%20%EC%84%9C%EC%9A%B8%2C%20South%20Korea
+Website: https://www.lottehotel.com/seoul-hotel/en.html"
+Born and Bred,"2 층, 761-4 마장동 성동구 서울특별시 Corée du Sud",서울특별시,,,restaurant,,,,,37.566756,127.0444821,https://www.google.com/maps/search/?api=1&query=Born%20and%20Bred%2C%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%2C%20Cor%C3%A9e%20du%20Sud,http://www.bandb.co.kr/,,"Food types: restaurant
+Tags: Cafe, Bakery
+Google Maps: https://www.google.com/maps/search/?api=1&query=Born%20and%20Bred%2C%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%2C%20Cor%C3%A9e%20du%20Sud
+Website: http://www.bandb.co.kr/"
+Moclock,"Yeongdong, 520 강남대로 Building, 강남구 서울특별시 Corée du Sud",서울특별시,,,generic,,,,,37.50864230000001,127.0229887,https://www.google.com/maps/search/?api=1&query=Moclock%2C%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%2C%20Cor%C3%A9e%20du%20Sud,,,"Food types: generic
+Tags: Beauty
+Google Maps: https://www.google.com/maps/search/?api=1&query=Moclock%2C%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%2C%20Cor%C3%A9e%20du%20Sud"
+"Samwon Garden Restaurant, Seoul","Corée du Sud, 서울특별시 강남구 신사동 623-5",서울특별시,,,restaurant,,,,,37.5249079,127.0324538,https://www.google.com/maps/search/?api=1&query=Samwon%20Garden%20Restaurant%2C%20Seoul%2C%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%2C%20South%20Korea,http://www.samwongarden.com/,,"Food types: restaurant
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Samwon%20Garden%20Restaurant%2C%20Seoul%2C%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%2C%20South%20Korea
+Website: http://www.samwongarden.com/"
+Yeo YongGuk Korean Spa,"197-3, 송파구 서울특별시 Corea del Sud",서울특별시,,,generic,,,,,37.5082449,127.0799821,https://www.google.com/maps/search/?api=1&query=Yeo%20YongGuk%20Korean%20Spa%2C%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%2C%20Corea%20del%20Sud,https://yeoyongkuk.modoo.at/,,"Food types: generic
+Tags: Beauty
+Google Maps: https://www.google.com/maps/search/?api=1&query=Yeo%20YongGuk%20Korean%20Spa%2C%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%2C%20Corea%20del%20Sud
+Website: https://yeoyongkuk.modoo.at/"

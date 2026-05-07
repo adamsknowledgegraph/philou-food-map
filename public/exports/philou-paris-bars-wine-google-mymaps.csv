@@ -1,0 +1,667 @@
+name,address,city,arrondissement,neighborhood,category,cuisine,price_range,rating,review_count,latitude,longitude,google_maps_url,website_url,booking_url,description
+A La Renaissance,"87 Rue de la Roquette, 75011 Paris, France",Paris,11e,,bar,,€€,4.3,510,48.8571599,2.3786809,https://maps.google.com/?cid=17297391821107794765&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.restaurant-a-la-renaissance.com/,,"Type: Bistro
+Arrondissement: 11e
+Price: €€
+Google: 4.3 (510 reviews)
+Food types: bar
+Tags: Bistrot, Dancing
+Google Maps: https://maps.google.com/?cid=17297391821107794765&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.restaurant-a-la-renaissance.com/"
+Augustin Marchand d'Vins,"26 Rue des Grands Augustins, 75006 Paris, France",Paris,6e,,restaurant,,,4.7,194,48.85365969999999,2.3401642,https://maps.google.com/?cid=4179791678540243519&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://augustinmarchand.com/,https://bookings.zenchef.com/results?rid=357920&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: Restaurant
+Arrondissement: 6e
+Google: 4.7 (194 reviews)
+Food types: restaurant
+Tags: Bar, Natural wine
+Google Maps: https://maps.google.com/?cid=4179791678540243519&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://augustinmarchand.com/
+Booking: https://bookings.zenchef.com/results?rid=357920&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Aux Deux Amis,"45 Rue Oberkampf, 75011 Paris, France",Paris,11e,,restaurant,,€€,4.1,841,48.86458069999999,2.3718376,https://maps.google.com/?cid=5700510830722341713&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.facebook.com/Aux-Deux-Amis-120307971356817/,,"Type: Bistro
+Arrondissement: 11e
+Price: €€
+Google: 4.1 (841 reviews)
+Food types: restaurant
+Tags: Natural wine, Restaurant, ❤️, Trendy, Bar
+Google summary: Cold cuts, small plates & natural wines at a cozy modern bar with counter seats & sidewalk tables.
+Google Maps: https://maps.google.com/?cid=5700510830722341713&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.facebook.com/Aux-Deux-Amis-120307971356817/"
+B.B.N vins natures et livres qui en parlent,"Rue Saint-Sauveur, Paris, France",Paris,,,generic,,,,,48.86599349975586,2.348423480987549,https://www.google.com/maps/search/?api=1&query=B.B.N%20vins%20natures%20et%20livres%20qui%20en%20parlent%2C%20Paris%2C%20France,http://www.biobiodynamienature.com/,,"Food types: generic
+Tags: Natural wine, Shopping
+Google Maps: https://www.google.com/maps/search/?api=1&query=B.B.N%20vins%20natures%20et%20livres%20qui%20en%20parlent%2C%20Paris%2C%20France
+Website: http://www.biobiodynamienature.com/"
+BAMBINO,"25 Rue Saint-Sébastien, 75011 Paris, France",Paris,11e,,bar,,,3.8,1114,48.8613679,2.3698336,https://maps.google.com/?cid=13537161601735890259&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.bambinoparis.com/,https://bookings.zenchef.com/results?rid=369608&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: Restaurant
+Arrondissement: 11e
+Google: 3.8 (1,114 reviews)
+Food types: bar
+Tags: Natural wine, Dancing, Bar
+Google summary: Hip eatery with an open kitchen serving small plates, craft beer & cocktails, plus desserts.
+Google Maps: https://maps.google.com/?cid=13537161601735890259&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.bambinoparis.com/
+Booking: https://bookings.zenchef.com/results?rid=369608&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Bar Principal,"5 Rue du Général Renault, 75011 Paris, France",Paris,11e,,bar,,,4.6,166,48.8615187,2.3781291,https://maps.google.com/?cid=13661270594052716239&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,,,"Type: Bar
+Arrondissement: 11e
+Google: 4.6 (166 reviews)
+Food types: bar
+Tags: Wine bar, Natural wine
+Google Maps: https://maps.google.com/?cid=13661270594052716239&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+Bar de la Croix Rouge,"2 Place Michel Debré, 75006 Paris, France",Paris,6e,,generic,,,3.4,393,48.85226,2.329791,https://maps.google.com/?cid=4719454937861824571&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,,,"Type: Restaurant
+Arrondissement: 6e
+Google: 3.4 (393 reviews)
+Food types: generic
+Tags: Bar
+Google Maps: https://maps.google.com/?cid=4719454937861824571&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+Bibie Paris,"7 rue Lacépède, 75005 Paris",Paris,5e,,bar,,,4.6,1041,48.84364,2.35368,https://maps.google.com/?cid=10435521713767672844&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.bibie-paris.com/,,"Type: Restaurant
+Arrondissement: 5e
+Google: 4.6 (1,041 reviews)
+Food types: bar
+Tags: Restaurant, Bar
+Google Maps: https://maps.google.com/?cid=10435521713767672844&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.bibie-paris.com/"
+Biotiful Batignolles,"18 Rue Biot, 75017 Paris, France",Paris,17e,,restaurant,,,,,48.88453080000001,2.3260473,https://www.google.com/maps/search/?api=1&query=Biotiful%20Batignolles%2C%20Paris%2C%20France,www.biotifulbatignolles.fr,https://ib.guestonline.fr/instabook/bookings/P1XrFWY,"Arrondissement: 17e
+Food types: restaurant
+Tags: Wine bar, Deco, Cocktail
+Google Maps: https://www.google.com/maps/search/?api=1&query=Biotiful%20Batignolles%2C%20Paris%2C%20France
+Website: www.biotifulbatignolles.fr
+Booking: https://ib.guestonline.fr/instabook/bookings/P1XrFWY"
+Bonvivant,"Rue des Écoles, Paris, France",Paris,,,restaurant,,€€,4.4,2537,48.8475454,2.3519748,https://maps.google.com/?cid=11268889822182331848&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.bonvivant.paris/,https://bookings.zenchef.com/results?rid=357254&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: French Restaurant
+Price: €€
+Google: 4.4 (2,537 reviews)
+Food types: restaurant
+Tags: Frenchie, Natural wine
+Google summary: Buzzy bistro with a long wine list & robust steaks, grills & bar food, plus al fresco seating.
+Google Maps: https://maps.google.com/?cid=11268889822182331848&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.bonvivant.paris/
+Booking: https://bookings.zenchef.com/results?rid=357254&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+CRAVAN Paris 16e,"17 Rue Jean de la Fontaine, 75016 Paris, France",Paris,16e,,bar,,,4.6,210,48.8516434,2.273866,https://maps.google.com/?cid=15738103246510818055&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://instagram.com/cravanparis?utm_medium=copy_link,,"Type: Cocktail Bar
+Arrondissement: 16e
+Google: 4.6 (210 reviews)
+Food types: bar
+Tags: Restaurant, Bistrot, Trendy
+Google Maps: https://maps.google.com/?cid=15738103246510818055&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://instagram.com/cravanparis?utm_medium=copy_link"
+CRAVAN Paris 6e,"165 Bd Saint-Germain, 75006 Paris, France",Paris,6e,,bar,,,4.5,346,48.85396129999999,2.331303300000001,https://maps.google.com/?cid=17008770643852748109&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,,https://www.sevenrooms.com/reservations/cravanparis/mapstr,"Type: Cocktail Bar
+Arrondissement: 6e
+Google: 4.5 (346 reviews)
+Food types: bar
+Tags: Cocktails, Concept-store, Restaurant
+Google Maps: https://maps.google.com/?cid=17008770643852748109&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Booking: https://www.sevenrooms.com/reservations/cravanparis/mapstr"
+Calice,"5 Rue de Bazeilles, 75005 Paris, France",Paris,5e,,bar,,,4.7,302,48.8390634,2.3502874,https://maps.google.com/?cid=18044735550169163759&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.calicerestaurant.fr/,,"Type: Restaurant
+Arrondissement: 5e
+Google: 4.7 (302 reviews)
+Food types: bar
+Tags: Restaurant
+Google Maps: https://maps.google.com/?cid=18044735550169163759&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.calicerestaurant.fr/"
+Cap'horn,"8 Rue de Birague, 75004 Paris, France",Paris,4e,,bar,,,,,48.8542789,2.3651031,https://www.google.com/maps/search/?api=1&query=Cap'horn%2C%20Paris%2C%20France,http://www.caphorninvest.com,,"Arrondissement: 4e
+Food types: bar
+Tags: Cocktail, Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=Cap'horn%2C%20Paris%2C%20France
+Website: http://www.caphorninvest.com"
+Castor Club,"14 Rue Hautefeuille, 75006 Paris, France",Paris,6e,,bar,,,,,48.85198119999999,2.342347,https://www.google.com/maps/search/?api=1&query=Castor%20Club%2C%20Paris%2C%20France,http://www.facebook.com/pages/Castor-Club/131753693594498?sk=info,,"Arrondissement: 6e
+Food types: bar
+Tags: SH, Cocktail
+Google Maps: https://www.google.com/maps/search/?api=1&query=Castor%20Club%2C%20Paris%2C%20France
+Website: http://www.facebook.com/pages/Castor-Club/131753693594498?sk=info"
+Cavalier,"22 Rue du Faubourg du Temple, 75011 Paris, France",Paris,11e,,bar,,,4.7,592,48.86842,2.36643,https://maps.google.com/?cid=13180615431601614904&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.pariscavalier.fr/,https://www.pariscavalier.fr/contact-reservations,"Type: Eastern European Restaurant
+Arrondissement: 11e
+Google: 4.7 (592 reviews)
+Food types: bar
+Tags: Bar, Restaurant, Trendy
+Google summary: Bistro meals & classic cocktails whipped up in a convivial space with a rustic look.
+Google Maps: https://maps.google.com/?cid=13180615431601614904&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.pariscavalier.fr/
+Booking: https://www.pariscavalier.fr/contact-reservations"
+Chambre Noire STUDIO,"4 Bd Jules Ferry, 75011 Paris, France",Paris,11e,,bar,,€€,4.2,285,48.8670074,2.3691792,https://maps.google.com/?cid=2391278617656299337&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.facebook.com/chambrenoireparis/,,"Type: Wine Bar
+Arrondissement: 11e
+Price: €€
+Google: 4.2 (285 reviews)
+Food types: bar
+Tags: Wine bar, Cocktail, Bar
+Google Maps: https://maps.google.com/?cid=2391278617656299337&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/chambrenoireparis/"
+Chez Jeannette,"47 Rue du Faubourg Saint-Denis, 75010 Paris, France",Paris,10e,,restaurant,,€€,4,1393,48.871664,2.353529,https://maps.google.com/?cid=974455892981439418&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.facebook.com/chez.jeannette/,,"Type: Restaurant
+Arrondissement: 10e
+Price: €€
+Google: 4.0 (1,393 reviews)
+Food types: restaurant
+Tags: Bar
+Google summary: Drinks, pastries & light French standards at a buzzing retro bar with music & a sidewalk terrace.
+Google Maps: https://maps.google.com/?cid=974455892981439418&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/chez.jeannette/"
+Chez Prune,"36 Rue Beaurepaire, 75010 Paris, France",Paris,10e,,restaurant,,€€,4.3,1919,48.8716544,2.3645859,https://maps.google.com/?cid=17828098265767978677&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.etsy.com/shop/chezpruneetpompon,,"Type: Restaurant
+Arrondissement: 10e
+Price: €€
+Google: 4.3 (1,919 reviews)
+Food types: restaurant
+Tags: Bistrot, Bar
+Google summary: Breakfast, sharing boards & familiar staples at a compact bistro with a terrace beside the canal.
+Google Maps: https://maps.google.com/?cid=17828098265767978677&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.etsy.com/shop/chezpruneetpompon"
+Coinstot Vino,"22-30 Galerie Montmartre, 75002 Paris, France",Paris,2e,,restaurant,,,,,48.8706106,2.3416278,https://www.google.com/maps/search/?api=1&query=Coinstot%20Vino%2C%20Paris%2C%20France,http://lecoinstotvino.com/,,"Arrondissement: 2e
+Food types: restaurant
+Tags: Frenchie, Natural wine, Wine bar, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Coinstot%20Vino%2C%20Paris%2C%20France
+Website: http://lecoinstotvino.com/"
+Dalia,"93 rue montmartre, Paris 75002",Paris,2e,,bar,,,4.7,3743,48.8672921,2.3440168,https://maps.google.com/?cid=17447140171292300586&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.daliagroup.com/,https://bookings.zenchef.com/results?rid=355799&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: Mediterranean Restaurant
+Arrondissement: 2e
+Google: 4.7 (3,743 reviews)
+Food types: bar
+Tags: Levantine, Restaurant
+Google summary: Trendy restaurant offering Eastern Mediterranean-inspired cuisine, plus cocktails.
+Google Maps: https://maps.google.com/?cid=17447140171292300586&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.daliagroup.com/
+Booking: https://bookings.zenchef.com/results?rid=355799&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Déviant,"39 Rue des Petites Écuries, 75010 Paris, France",Paris,10e,,bar,,,4.2,560,48.8738211,2.3500028,https://maps.google.com/?cid=9596080493349548867&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://vivantparis.com/,https://bookings.zenchef.com/results?rid=355094&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: Restaurant
+Arrondissement: 10e
+Google: 4.2 (560 reviews)
+Food types: bar
+Tags: Frenchie, Restaurant, Trendy
+Google summary: Small, minimalist black-&-white bar sans tables for tapas plates alongside over 60 natural wines.
+Google Maps: https://maps.google.com/?cid=9596080493349548867&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://vivantparis.com/
+Booking: https://bookings.zenchef.com/results?rid=355094&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Early June,"19 Rue Jean Poulmarch, 75010 Paris, France",Paris,10e,,bar,,,4.4,527,48.8729603,2.363288,https://maps.google.com/?cid=15416878027658806043&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://early-june.fr/,https://bookings.zenchef.com/results?rid=356752&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: Restaurant
+Arrondissement: 10e
+Google: 4.4 (527 reviews)
+Food types: bar
+Tags: Trendy, Restaurant
+Google Maps: https://maps.google.com/?cid=15416878027658806043&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://early-june.fr/
+Booking: https://bookings.zenchef.com/results?rid=356752&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Experimental Cocktail Club,"37 Rue Saint-Sauveur, 75002 Paris, France",Paris,2e,,bar,,,,,48.86606399999999,2.348261,https://www.google.com/maps/search/?api=1&query=Experimental%20Cocktail%20Club%2C%20Paris%2C%20France,https://www.experimentalgroup.com/venue/experimental-cocktail-club/,,"Arrondissement: 2e
+Food types: bar
+Tags: SH, Cocktail, Trendy
+Google Maps: https://www.google.com/maps/search/?api=1&query=Experimental%20Cocktail%20Club%2C%20Paris%2C%20France
+Website: https://www.experimentalgroup.com/venue/experimental-cocktail-club/"
+FUGAZI,"Rue Lacharrière, Paris, France",Paris,,,bar,,,4.4,374,48.86177444458008,2.377899408340454,https://maps.google.com/?cid=9777724166108584822&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://fugazi.paris/,https://bookings.zenchef.com/results?rid=365493&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: Restaurant
+Google: 4.4 (374 reviews)
+Food types: bar
+Tags: Italian, Restaurant
+Google Maps: https://maps.google.com/?cid=9777724166108584822&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://fugazi.paris/
+Booking: https://bookings.zenchef.com/results?rid=365493&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Fellows,84 Rue du Faubourg Saint-Denis Paris 75010,Paris,10e,,bar,,,4.9,7595,48.873898,2.355216,https://maps.google.com/?cid=18065984949057555563&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.fellows-restaurants.com/,,"Type: Vegetarian Restaurant
+Arrondissement: 10e
+Google: 4.9 (7,595 reviews)
+Food types: bar
+Tags: Italian, Restaurant
+Google Maps: https://maps.google.com/?cid=18065984949057555563&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.fellows-restaurants.com/"
+Folderol,"10 Rue du Grand Prieuré, 75011 Paris, France",Paris,11e,,bar,,€€,4.3,601,48.8652318,2.3690612,https://maps.google.com/?cid=16618287825002869818&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.folderol.com/,,"Type: Wine Bar
+Arrondissement: 11e
+Price: €€
+Google: 4.3 (601 reviews)
+Food types: bar
+Tags: Wine bar, Natural wine
+Google Maps: https://maps.google.com/?cid=16618287825002869818&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.folderol.com/"
+Fondation Azzedine Alaïa,"18 Rue de la Verrerie, 75004 Paris, France",Paris,4e,,art_gallery,,,4.7,697,48.8573448,2.3548172,https://maps.google.com/?cid=15042752557533171434&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.maison-alaia.com/experience/fr/exhibitions/,https://bookings.zenchef.com/results?rid=356209&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: Art museum
+Arrondissement: 4e
+Google: 4.7 (697 reviews)
+Food types: art_gallery
+Tags: Fashion, Bar
+Google Maps: https://maps.google.com/?cid=15042752557533171434&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.maison-alaia.com/experience/fr/exhibitions/
+Booking: https://bookings.zenchef.com/results?rid=356209&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Freddy's,"Rue de Seine, Paris, France",Paris,,,restaurant,,€€,4.6,1689,48.8540933,2.3368957,https://maps.google.com/?cid=211285853107128504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.facebook.com/Freddys-1077279915635052/,,"Type: Tapas Restaurant
+Price: €€
+Google: 4.6 (1,689 reviews)
+Food types: restaurant
+Tags: Wine bar, Restaurant
+Google Maps: https://maps.google.com/?cid=211285853107128504&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.facebook.com/Freddys-1077279915635052/"
+Fugue - Restaurant,"Rue du Faubourg Saint-Martin, Paris, France",Paris,,,restaurant,,,4.9,577,48.8768338,2.3610189,https://maps.google.com/?cid=1078145238813290068&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://fugueparis.fr/,,"Type: French Restaurant
+Google: 4.9 (577 reviews)
+Food types: restaurant
+Tags: Wine bar, Restaurant
+Google Maps: https://maps.google.com/?cid=1078145238813290068&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://fugueparis.fr/"
+GRAIN[S],"6 Rue Mabillon, 75006 Paris, France",Paris,6e,,restaurant,,,4.5,255,48.8524947,2.334949,https://maps.google.com/?cid=5729617903043290490&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://grains.becsparisiens.fr/,https://thefork.fr/restaurant/grains-r826674/?cc=24751-923,"Type: Wine Bar
+Arrondissement: 6e
+Google: 4.5 (255 reviews)
+Food types: restaurant
+Tags: Wine bar
+Google Maps: https://maps.google.com/?cid=5729617903043290490&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://grains.becsparisiens.fr/
+Booking: https://thefork.fr/restaurant/grains-r826674/?cc=24751-923"
+Grand Pigalle Hôtel,"29 Rue Victor Massé, 75009 Paris, France",Paris,9e,,"lodging, hotel",,,,,48.8809013,2.3375566,https://www.google.com/maps/search/?api=1&query=Grand%20Pigalle%20H%C3%B4tel%2C%20Paris%2C%20France,http://www.grandpigalle.com/,,"Arrondissement: 9e
+Food types: lodging, hotel
+Tags: Restaurant, Cocktail, Hotel / BB, Trendy, SH, To work
+Google Maps: https://www.google.com/maps/search/?api=1&query=Grand%20Pigalle%20H%C3%B4tel%2C%20Paris%2C%20France
+Website: http://www.grandpigalle.com/"
+Ground Control,81 rue du charolais Paris 75012,Paris,12e,,bar,,,,,48.8439199,2.381509599999999,https://www.google.com/maps/search/?api=1&query=Ground%20Control%2C%20Paris%2C%20France,http://www.groundcontrolparis.com/,,"Arrondissement: 12e
+Food types: bar
+Tags: Restaurant, Street food
+Google Maps: https://www.google.com/maps/search/?api=1&query=Ground%20Control%2C%20Paris%2C%20France
+Website: http://www.groundcontrolparis.com/"
+Hotel Des Grands Boulevards,"17 Boulevard Poissonnière, 75002 Paris, France",Paris,2e,,"lodging, hotel",,,,,48.8708952,2.3449074,https://www.google.com/maps/search/?api=1&query=Hotel%20Des%20Grands%20Boulevards%2C%20Paris%2C%20France,http://www.grandsboulevardshotel.com/,,"Arrondissement: 2e
+Food types: lodging, hotel
+Tags: Hotel / BB, Bar, Cocktails, Italian, Restaurant, SH, To work, For groups, Rooftop
+Google Maps: https://www.google.com/maps/search/?api=1&query=Hotel%20Des%20Grands%20Boulevards%2C%20Paris%2C%20France
+Website: http://www.grandsboulevardshotel.com/"
+Hotel Monte Cristo Paris,"20-22 Rue Pascal, 75005 Paris, France",Paris,5e,,"lodging, hotel",,,,,48.8379461,2.3492376,https://www.google.com/maps/search/?api=1&query=Hotel%20Monte%20Cristo%20Paris%2C%20Paris%2C%20France,https://www.hotelmontecristoparis.com/,https://bookings.zenchef.com/results?rid=376215&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Arrondissement: 5e
+Food types: lodging, hotel
+Tags: Hotel / BB, Cocktail
+Google Maps: https://www.google.com/maps/search/?api=1&query=Hotel%20Monte%20Cristo%20Paris%2C%20Paris%2C%20France
+Website: https://www.hotelmontecristoparis.com/
+Booking: https://bookings.zenchef.com/results?rid=376215&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Hotel National Des Beaux Arts,"243 Rue Saint-Martin, 75003 Paris, France",Paris,3e,,"lodging, hotel",,,,,48.8657453,2.353157,https://www.google.com/maps/search/?api=1&query=Hotel%20National%20Des%20Beaux%20Arts%2C%20Paris%2C%20France,http://www.hotelnational.paris/,,"Arrondissement: 3e
+Food types: lodging, hotel
+Tags: Bar, Cocktail, Italian, Trendy, SH, Hotel / BB, To work, For groups
+Google Maps: https://www.google.com/maps/search/?api=1&query=Hotel%20National%20Des%20Beaux%20Arts%2C%20Paris%2C%20France
+Website: http://www.hotelnational.paris/"
+Juveniles,"47 Rue de Richelieu, 75001 Paris, France",Paris,1er,,restaurant,,,,,48.866245,2.3370654,https://www.google.com/maps/search/?api=1&query=Juveniles%2C%20Paris%2C%20France,http://www.juvenileswinebar.com/,https://bookings.zenchef.com/results?rid=375794&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Arrondissement: 1er
+Food types: restaurant
+Tags: Frenchie, Wine bar, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Juveniles%2C%20Paris%2C%20France
+Website: http://www.juvenileswinebar.com/
+Booking: https://bookings.zenchef.com/results?rid=375794&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Kubaba,"3 Rue Gomboust, Paris 75001",Paris,1er,,bar,,,4.9,429,48.867216,2.3330034,https://maps.google.com/?cid=1507662716432832432&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.daliagroup.com/kubaba-paris,https://www.daliagroup.com/kubaba-paris,"Type: Restaurant
+Arrondissement: 1er
+Google: 4.9 (429 reviews)
+Food types: bar
+Tags: Levantine, Restaurant
+Google Maps: https://maps.google.com/?cid=1507662716432832432&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.daliagroup.com/kubaba-paris
+Booking: https://www.daliagroup.com/kubaba-paris"
+L'Avant Comptoir du Marché,"Paris-6E-Arrondissement,, 6 Rue Lobineau, 75006 Paris-6E-Arrondissement, France",Paris,6e,,bar,,€€,4.4,1190,48.8517716,2.3355959,https://maps.google.com/?cid=6781171311742260664&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://camdeborde.com/,,"Type: Bar
+Arrondissement: 6e
+Price: €€
+Google: 4.4 (1,190 reviews)
+Food types: bar
+Tags: Restaurant, ❤️, Frenchie
+Google summary: Lively, buzzing wine bar for charcuterie platters, global small plates & meaty mains.
+Google Maps: https://maps.google.com/?cid=6781171311742260664&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://camdeborde.com/"
+L'Aventure,"4 Avenue Victor Hugo, 75016 Paris, France",Paris,16e,,nightclub,,,4.3,228,48.8730148,2.2929213,https://maps.google.com/?cid=12030619678088871972&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.laventure-paris.com/,https://bookings.zenchef.com/results?rid=371211&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: Hotel
+Arrondissement: 16e
+Google: 4.3 (228 reviews)
+Food types: nightclub
+Tags: Restaurant, Trendy
+Google Maps: https://maps.google.com/?cid=12030619678088871972&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.laventure-paris.com/
+Booking: https://bookings.zenchef.com/results?rid=371211&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+L'Epicurianu,"104 Rue de la Folie Méricourt, 75011 Paris, France",Paris,11e,,bar,,,,,48.8678396,2.3689069,https://www.google.com/maps/search/?api=1&query=L'Epicurianu%2C%20Paris%2C%20France,http://lepicurianu.com,,"Arrondissement: 11e
+Food types: bar
+Tags: Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=L'Epicurianu%2C%20Paris%2C%20France
+Website: http://lepicurianu.com"
+L'Hotel,"13 Rue des Beaux Arts, 75006 Paris, France",Paris,6e,,"lodging, hotel",,,,,48.8562272,2.3351758,https://www.google.com/maps/search/?api=1&query=L'Hotel%2C%20Paris%2C%20France,,,"Arrondissement: 6e
+Food types: lodging, hotel
+Tags: Hotel / BB, Bar, SH
+Google Maps: https://www.google.com/maps/search/?api=1&query=L'Hotel%2C%20Paris%2C%20France"
+L'étincelle,"75011, 3 Rue Saint-Sébastien, 75011 Paris, France",Paris,11e,,bar,,€,4.3,458,48.8608699,2.3679419,https://maps.google.com/?cid=13740616496021229131&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.mariagefreres.com/,,"Type: Bar
+Arrondissement: 11e
+Price: €
+Google: 4.3 (458 reviews)
+Food types: bar
+Tags: Bar
+Google Maps: https://maps.google.com/?cid=13740616496021229131&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.mariagefreres.com/"
+La Barra,"87 Rue de Sèvres, 75006 Paris, France",Paris,6e,,bar,,,4.9,163,48.84920883178711,2.322393655776978,https://maps.google.com/?cid=6796930256707692411&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.instagram.com/labarra.paris/?hl=fr,,"Type: Wine Bar
+Arrondissement: 6e
+Google: 4.9 (163 reviews)
+Food types: bar
+Tags: Bar, Wine bar, Restaurant, Natural wine
+Google Maps: https://maps.google.com/?cid=6796930256707692411&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/labarra.paris/?hl=fr"
+La Belle Epoque,"36 Rue des Petits Champs, 75002 Paris, France",Paris,2e,,bar,,,,,48.8671832,2.3354614,https://www.google.com/maps/search/?api=1&query=La%20Belle%20Epoque%2C%20Paris%2C%20France,http://www.labelleepoqueparis.com/,https://bookings.zenchef.com/results?rid=352119&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Arrondissement: 2e
+Food types: bar
+Tags: Restaurant, Frenchie, Trendy, SH, For groups
+Google Maps: https://www.google.com/maps/search/?api=1&query=La%20Belle%20Epoque%2C%20Paris%2C%20France
+Website: http://www.labelleepoqueparis.com/
+Booking: https://bookings.zenchef.com/results?rid=352119&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+La Belle Hortense,"31 Rue Vieille du Temple, 75004 Paris, Francia",Paris,4e,,bar,,,,,48.8575701,2.3574453,https://www.google.com/maps/search/?api=1&query=La%20Belle%20Hortense%2C%20Paris%2C%20Francia,https://www.cafeine.com/fr/belle-hortense,,"Arrondissement: 4e
+Food types: bar
+Tags: Wine bar, Unusual
+Google Maps: https://www.google.com/maps/search/?api=1&query=La%20Belle%20Hortense%2C%20Paris%2C%20Francia
+Website: https://www.cafeine.com/fr/belle-hortense"
+La Cave à Michel,"36 Rue Sainte-Marthe, 75010 Paris, France",Paris,10e,,generic,,,,,48.87435319999999,2.3729344,https://www.google.com/maps/search/?api=1&query=La%20Cave%20%C3%A0%20Michel%2C%20Paris%2C%20France,https://www.facebook.com/lacaveamichel,https://bookings.zenchef.com/results?rid=363213&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Arrondissement: 10e
+Food types: generic
+Tags: Frenchie, Restaurant, Bistrot, Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=La%20Cave%20%C3%A0%20Michel%2C%20Paris%2C%20France
+Website: https://www.facebook.com/lacaveamichel
+Booking: https://bookings.zenchef.com/results?rid=363213&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+La Chope Des Artistes,"48 Rue du Faubourg Saint-Martin, 75010 Paris, France",Paris,10e,,restaurant,,,4.3,231,48.87067990000001,2.3567059,https://maps.google.com/?cid=6646270359330819255&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.facebook.com/lachopedesartistesparis,,"Type: Bistro
+Arrondissement: 10e
+Google: 4.3 (231 reviews)
+Food types: restaurant
+Tags: Restaurant, Bar
+Google summary: Refined French food in a stylish restaurant/bar lavishly decorated with chandeliers & mirrors.
+Google Maps: https://maps.google.com/?cid=6646270359330819255&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/lachopedesartistesparis"
+La Coquille,"30 Rue Coquillière, 75001 Paris, France",Paris,1er,,bar,,,4.4,57,48.8642695,2.3417231,https://maps.google.com/?cid=16474663504845258308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://plateaurepasparis.cabanova.fr,,"Type: Bar
+Arrondissement: 1er
+Google: 4.4 (57 reviews)
+Food types: bar
+Tags: ❤️, Bar
+Google Maps: https://maps.google.com/?cid=16474663504845258308&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://plateaurepasparis.cabanova.fr"
+La Crèmerie,"9 Rue des Quatre Vents, 75006 Paris, France",Paris,6e,,bar,,,4.4,282,48.8517401,2.3377948,https://maps.google.com/?cid=10798800487371204972&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.facebook.com/lacremerieparis,https://bookings.zenchef.com/results?rid=371172&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: French Restaurant
+Arrondissement: 6e
+Google: 4.4 (282 reviews)
+Food types: bar
+Tags: Bar, Cheese shop
+Google Maps: https://maps.google.com/?cid=10798800487371204972&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.facebook.com/lacremerieparis
+Booking: https://bookings.zenchef.com/results?rid=371172&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+La Faute au Vin,"83 Rue du Cherche-Midi, 75006 Paris, France",Paris,6e,,shopping,,,,,48.8475348,2.3230452,https://www.google.com/maps/search/?api=1&query=La%20Faute%20au%20Vin%2C%20Paris%2C%20France,http://lafauteauvin.com/,,"Arrondissement: 6e
+Food types: shopping
+Tags: Natural wine, Shopping
+Google Maps: https://www.google.com/maps/search/?api=1&query=La%20Faute%20au%20Vin%2C%20Paris%2C%20France
+Website: http://lafauteauvin.com/"
+La Fine Gueule,"21 Rue du Dr Leray, 75013 Paris, France",Paris,13e,,shopping,,,,,48.8234941,2.3537231,https://www.google.com/maps/search/?api=1&query=La%20Fine%20Gueule%2C%20Paris%2C%20France,https://m.facebook.com/La-fine-gueule-259939034074082/?locale2=fr_FR,,"Arrondissement: 13e
+Food types: shopping
+Tags: Wine bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=La%20Fine%20Gueule%2C%20Paris%2C%20France
+Website: https://m.facebook.com/La-fine-gueule-259939034074082/?locale2=fr_FR"
+La Fontaine Gaillon,"1 Rue de la Michodière, 75002 Paris, France",Paris,2e,,bar,,€€€,4.7,1995,48.86909199999999,2.334237,https://maps.google.com/?cid=5649456535509709870&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,www.lafontainegaillon.com,https://www.sevenrooms.com/explore/lafontainegaillon/reservations/create/search?tracking=mapstr-la-fontaine-gaillon,"Type: French Restaurant
+Arrondissement: 2e
+Price: €€€
+Google: 4.7 (1,995 reviews)
+Food types: bar
+Tags: Restaurant, Frenchie
+Google summary: Refined fish & seafood dishes at an upscale, ornately decorated venue with a leafy terrace.
+Google Maps: https://maps.google.com/?cid=5649456535509709870&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: www.lafontainegaillon.com
+Booking: https://www.sevenrooms.com/explore/lafontainegaillon/reservations/create/search?tracking=mapstr-la-fontaine-gaillon"
+La Mezcaleria Paris,"13 Boulevard du Temple, 75003 Paris, France",Paris,3e,,bar,,,,,48.8639492,2.3659536,https://www.google.com/maps/search/?api=1&query=La%20Mezcaleria%20Paris%2C%20Paris%2C%20France,https://www.instagram.com/lamezcaleriaparis/?hl=en,,"Arrondissement: 3e
+Food types: bar
+Tags: Cocktail, Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=La%20Mezcaleria%20Paris%2C%20Paris%2C%20France
+Website: https://www.instagram.com/lamezcaleriaparis/?hl=en"
+La Petite Périgourdine,"39 Rue des Écoles, 75005 Paris, France",Paris,5e,,bar,,€€,4.4,1820,48.8488724,2.347194,https://maps.google.com/?cid=13334502312602225459&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.facebook.com/La.Petite.Perigourdine/timeline,https://bookings.zenchef.com/results?rid=360897&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: Restaurant
+Arrondissement: 5e
+Price: €€
+Google: 4.4 (1,820 reviews)
+Food types: bar
+Tags: Bistrot
+Google Maps: https://maps.google.com/?cid=13334502312602225459&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.facebook.com/La.Petite.Perigourdine/timeline
+Booking: https://bookings.zenchef.com/results?rid=360897&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+La cave des papilles,"35 Rue Daguerre, 75014 Paris, France",Paris,14e,,shopping,,,,,48.83437039999999,2.3282942,https://www.google.com/maps/search/?api=1&query=La%20cave%20des%20papilles%2C%20Paris%2C%20France,http://www.lacavedespapilles.com/,,"Arrondissement: 14e
+Food types: shopping
+Tags: Wine bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=La%20cave%20des%20papilles%2C%20Paris%2C%20France
+Website: http://www.lacavedespapilles.com/"
+La méduse,"177 Quai de Valmy, 75010 Paris, France",Paris,10e,,bar,,,,,48.86146220000001,2.3779976,https://www.google.com/maps/search/?api=1&query=La%20m%C3%A9duse%2C%20Paris%2C%20France,,,"Arrondissement: 10e
+Food types: bar
+Tags: Frenchie, Restaurant, Cocktail
+Google Maps: https://www.google.com/maps/search/?api=1&query=La%20m%C3%A9duse%2C%20Paris%2C%20France"
+Lavomatic,"30 Rue René Boulanger, Paris, France",Paris,,,bar,,,,,48.86848699999999,2.361783,https://www.google.com/maps/search/?api=1&query=Lavomatic%2C%20Paris%2C%20France,,,"Food types: bar
+Tags: Wine bar, Restaurant, Cocktail, Unusual
+Google Maps: https://www.google.com/maps/search/?api=1&query=Lavomatic%2C%20Paris%2C%20France"
+Le 1905,"25 Rue Beautreillis, Paris 75004",Paris,4e,,bar,,,4.6,432,48.8537471,2.3644369,https://maps.google.com/?cid=14640371068522757297&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.le1905.com/,https://www.le1905.com/menus,"Type: Cocktail Bar
+Arrondissement: 4e
+Google: 4.6 (432 reviews)
+Food types: bar
+Tags: Cocktail, Bar
+Google summary: Elevated cocktails & light bites are offered at this cozy bar with a vintage vibe & outdoor seating.
+Google Maps: https://maps.google.com/?cid=14640371068522757297&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.le1905.com/
+Booking: https://www.le1905.com/menus"
+Le Badaboum,"2 bis Rue des Taillandiers, 75011 Paris, France",Paris,11e,,bar,,,,,48.8535282,2.375755,https://www.google.com/maps/search/?api=1&query=Le%20Badaboum%2C%20Paris%2C%20France,http://www.badaboum.paris/,,"Arrondissement: 11e
+Food types: bar
+Tags: Dancing
+Google Maps: https://www.google.com/maps/search/?api=1&query=Le%20Badaboum%2C%20Paris%2C%20France
+Website: http://www.badaboum.paris/"
+Le Ballu,"55 Rue Blanche, 75009 Paris, France",Paris,9e,,"bar, hotel",,€€,4.3,264,48.88144,2.3314888,https://maps.google.com/?cid=7663005877247324456&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://le-ballu.net-lab.fr/,,"Type: Bar
+Arrondissement: 9e
+Price: €€
+Google: 4.3 (264 reviews)
+Food types: bar, hotel
+Tags: Hotel / BB, Restaurant
+Google Maps: https://maps.google.com/?cid=7663005877247324456&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://le-ballu.net-lab.fr/"
+Le Baratin,"3 Rue Jouye-Rouve, 75020 Paris, France",Paris,20e,,restaurant,,,,,48.8730712,2.382835099999999,https://www.google.com/maps/search/?api=1&query=Le%20Baratin%2C%20Paris%2C%20France,https://lefooding.com/fr/restaurants/restaurant-le-baratin-paris,,"Arrondissement: 20e
+Food types: restaurant
+Tags: Frenchie, Wine bar, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Le%20Baratin%2C%20Paris%2C%20France
+Website: https://lefooding.com/fr/restaurants/restaurant-le-baratin-paris"
+Le Bizetro,"6 Rue Georges Bizet, 75116 Paris, France",Paris,16e,,bar,,€€,4.8,1240,48.8667804,2.2987559,https://maps.google.com/?cid=6270697427225073709&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://eater.space/le-bizetro,,"Type: French Restaurant
+Arrondissement: 16e
+Price: €€
+Google: 4.8 (1,240 reviews)
+Food types: bar
+Tags: Bistrot, Restaurant
+Google summary: Traditional bistro fare presented in a rustic space with exposed-brick walls & nostalgic fixtures.
+Google Maps: https://maps.google.com/?cid=6270697427225073709&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://eater.space/le-bizetro"
+Le Bouclard,"1 Rue Cavallotti, 75018 Paris, France",Paris,18e,,bar,,€€€,4.7,540,48.8858148,2.3286966,https://maps.google.com/?cid=4411465332494128493&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.bouclard.com/,https://thefork.fr/restaurant/le-bouclard-r10089/?cc=24751-923,"Type: French Restaurant
+Arrondissement: 18e
+Price: €€€
+Google: 4.7 (540 reviews)
+Food types: bar
+Tags: Bistrot
+Google summary: Quaint restaurant specializing in homestyle comfort food plates based on inherited recipes.
+Google Maps: https://maps.google.com/?cid=4411465332494128493&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.bouclard.com/
+Booking: https://thefork.fr/restaurant/le-bouclard-r10089/?cc=24751-923"
+Le Chat Ivre,"22 Rue des Taillandiers, 75011 Paris, France",Paris,11e,,restaurant,,,,,48.854984,2.374984999999999,https://www.google.com/maps/search/?api=1&query=Le%20Chat%20Ivre%2C%20Paris%2C%20France,https://www.facebook.com/ChatIvre/,https://bookings.zenchef.com/results?rid=361994&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Arrondissement: 11e
+Food types: restaurant
+Tags: Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=Le%20Chat%20Ivre%2C%20Paris%2C%20France
+Website: https://www.facebook.com/ChatIvre/
+Booking: https://bookings.zenchef.com/results?rid=361994&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Le Clown Bar,"114 Rue Amelot, 75011 Paris, France",Paris,11e,,restaurant,,,,,48.863604,2.367232,https://www.google.com/maps/search/?api=1&query=Le%20Clown%20Bar%2C%20Paris%2C%20France,http://www.clownbar.fr,https://bookings.zenchef.com/results?rid=354275&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Arrondissement: 11e
+Food types: restaurant
+Tags: Restaurant, Trendy, Wine bar, Frenchie, Natural wine
+Google Maps: https://www.google.com/maps/search/?api=1&query=Le%20Clown%20Bar%2C%20Paris%2C%20France
+Website: http://www.clownbar.fr
+Booking: https://bookings.zenchef.com/results?rid=354275&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Le Comptoir Général,"80 Quai de Jemmapes, 75010 Paris, France",Paris,10e,,bar,,,,,48.8721207,2.3652071,https://www.google.com/maps/search/?api=1&query=Le%20Comptoir%20G%C3%A9n%C3%A9ral%2C%20Paris%2C%20France,http://www.lecomptoirgeneral.com/,https://thefork.fr/restaurant/le-comptoir-general-r836770/?cc=24751-923,"Arrondissement: 10e
+Food types: bar
+Tags: Dancing, Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=Le%20Comptoir%20G%C3%A9n%C3%A9ral%2C%20Paris%2C%20France
+Website: http://www.lecomptoirgeneral.com/
+Booking: https://thefork.fr/restaurant/le-comptoir-general-r836770/?cc=24751-923"
+Le Comptoir LAZU,"Rue Marguerite de Rochechouart, Paris, France",Paris,,,bar,,,5,49,48.87892532348633,2.345567226409912,https://maps.google.com/?cid=2760433783217609811&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.instagram.com/lazu_comptoir,,"Type: Restaurant
+Google: 5.0 (49 reviews)
+Food types: bar
+Tags: Bar, Restaurant
+Google Maps: https://maps.google.com/?cid=2760433783217609811&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/lazu_comptoir"
+Le Mary Celeste,"75003, 1 Rue Commines, 75003 Paris, France",Paris,3e,,bar,,,,,48.8617412,2.3650124,https://www.google.com/maps/search/?api=1&query=Le%20Mary%20Celeste%2C%20Paris%2C%20France,http://www.lemaryceleste.com/,,"Arrondissement: 3e
+Food types: bar
+Tags: Natural wine, Restaurant, Trendy
+Google Maps: https://www.google.com/maps/search/?api=1&query=Le%20Mary%20Celeste%2C%20Paris%2C%20France
+Website: http://www.lemaryceleste.com/"
+Le Medusa,"48 Rue Basfroi, 75011 Paris, France",Paris,11e,,bar,,,,,48.856381,2.378355999999999,https://www.google.com/maps/search/?api=1&query=Le%20Medusa%2C%20Paris%2C%20France,,,"Arrondissement: 11e
+Food types: bar
+Tags: Cocktail
+Google Maps: https://www.google.com/maps/search/?api=1&query=Le%20Medusa%2C%20Paris%2C%20France"
+Le Memphis,"3 Impasse Bonne Nouvelle, 75010 Paris, France",Paris,10e,,bar,,,,,48.8706875,2.3505029,https://maps.google.com/?cid=9572490030219118747&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://le-memphis.fr/,,"Type: Association / Organization
+Arrondissement: 10e
+Food types: bar
+Tags: Dancing
+Google Maps: https://maps.google.com/?cid=9572490030219118747&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://le-memphis.fr/"
+Le Petit Vendôme,"8 Rue des Capucines, 75002 Paris, France",Paris,2e,,bar,,€€,4.3,2778,48.8687628,2.3297223,https://maps.google.com/?cid=8432549558822105511&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.facebook.com/lepetitvendome/,,"Type: French Restaurant
+Arrondissement: 2e
+Price: €€
+Google: 4.3 (2,778 reviews)
+Food types: bar
+Tags: Bistrot
+Google summary: Colorful, unpretentious bistro whipping up regional classics, sandwiches & daily specials.
+Google Maps: https://maps.google.com/?cid=8432549558822105511&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/lepetitvendome/"
+Le Pigalle,"9 Rue Frochot, 75009 Paris, France",Paris,9e,,"lodging, hotel",,,,,48.8816193,2.3371878,https://www.google.com/maps/search/?api=1&query=Le%20Pigalle%2C%20Paris%2C%20France,http://lepigalle.paris/,https://bookings.zenchef.com/results?rid=364396&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Arrondissement: 9e
+Food types: lodging, hotel
+Tags: Bar, Restaurant, SH, Hotel / BB, To work
+Google Maps: https://www.google.com/maps/search/?api=1&query=Le%20Pigalle%2C%20Paris%2C%20France
+Website: http://lepigalle.paris/
+Booking: https://bookings.zenchef.com/results?rid=364396&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Le Rouquet,"Boulevard Saint-Germain, Paris, France",Paris,,,restaurant,,€€€,2.9,501,48.8546643,2.3304213,https://maps.google.com/?cid=8978704800617157836&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://lor.paris/p/le-rouquet-paris/accueil,,"Type: Restaurant
+Price: €€€
+Google: 2.9 (501 reviews)
+Food types: restaurant
+Tags: Bar, Bistrot
+Google Maps: https://maps.google.com/?cid=8978704800617157836&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://lor.paris/p/le-rouquet-paris/accueil"
+Le Syndicat,"51 Rue du Faubourg Saint-Denis, 75010 Paris, France",Paris,10e,,bar,,€€€,4.5,1692,48.8718271,2.353634399999999,https://maps.google.com/?cid=13748875782714009907&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.syndicatcocktailclub.com/,https://bookings.zenchef.com/results?rid=347818&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: Cocktail Bar
+Arrondissement: 10e
+Price: €€€
+Google: 4.5 (1,692 reviews)
+Food types: bar
+Tags: Cocktail
+Google Maps: https://maps.google.com/?cid=13748875782714009907&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.syndicatcocktailclub.com/
+Booking: https://bookings.zenchef.com/results?rid=347818&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Le Verre Volé,"67 Rue de Lancry, 75010 Paris, France",Paris,10e,,restaurant,,,,,48.872848,2.36351,https://www.google.com/maps/search/?api=1&query=Le%20Verre%20Vol%C3%A9%2C%20Paris%2C%20France,http://www.leverrevole.fr/,,"Arrondissement: 10e
+Food types: restaurant
+Tags: Wine bar, Restaurant, ❤️
+Google Maps: https://www.google.com/maps/search/?api=1&query=Le%20Verre%20Vol%C3%A9%2C%20Paris%2C%20France
+Website: http://www.leverrevole.fr/"
+Les Amoureuses,"3 Rue des Tournelles, 75004 Paris, France",Paris,4e,,bar,,,4.9,328,48.853991,2.3672429,https://maps.google.com/?cid=9158249780378613467&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://instagram.com/lesamoureuses.bar?igshid=YmMyMTA2M2Y=,,"Type: Wine Bar
+Arrondissement: 4e
+Google: 4.9 (328 reviews)
+Food types: bar
+Tags: Wine bar
+Google Maps: https://maps.google.com/?cid=9158249780378613467&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://instagram.com/lesamoureuses.bar?igshid=YmMyMTA2M2Y="
+Les Amoureuses BIS,"Rue des Tournelles, Paris, France",Paris,,,bar,,,5,17,48.8559602,2.3673309,https://maps.google.com/?cid=15247669445720412177&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.lesamoureuses.paris/,https://bookings.zenchef.com/results?rid=373833&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: Bar
+Google: 5.0 (17 reviews)
+Food types: bar
+Tags: Wine bar
+Google Maps: https://maps.google.com/?cid=15247669445720412177&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.lesamoureuses.paris/
+Booking: https://bookings.zenchef.com/results?rid=373833&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Les Bains Paris,"7 Rue du Bourg l'Abbé, 75003 Paris, France",Paris,3e,,lodging,,,,,48.8638281,2.3519345,https://www.google.com/maps/search/?api=1&query=Les%20Bains%20Paris%2C%20Paris%2C%20France,http://www.lesbains-paris.com/,,"Arrondissement: 3e
+Food types: lodging
+Tags: SH, Restaurant, Cocktail, Trendy, Dancing
+Google Maps: https://www.google.com/maps/search/?api=1&query=Les%20Bains%20Paris%2C%20Paris%2C%20France
+Website: http://www.lesbains-paris.com/"
+Les Fous de l'Ile,"33 Rue des Deux Ponts, 75004 Paris, France",Paris,4e,,bar,,€€,4.4,1809,48.8518414,2.3565519,https://maps.google.com/?cid=15195169802769798841&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.lesfousdelile.com/,https://thefork.fr/restaurant/les-fous-de-l-ile-r824747/?cc=24751-923,"Type: French Restaurant
+Arrondissement: 4e
+Price: €€
+Google: 4.4 (1,809 reviews)
+Food types: bar
+Tags: Bistrot, Restaurant
+Google summary: Traditional cuisine in a relaxed, modern bistro decorated with chicken-related images & objects.
+Google Maps: https://maps.google.com/?cid=15195169802769798841&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.lesfousdelile.com/
+Booking: https://thefork.fr/restaurant/les-fous-de-l-ile-r824747/?cc=24751-923"
+Les Oeillets,"137 Rue Saint-Maur, 75011 Paris, France",Paris,11e,,bar,,,4.3,183,48.8659608,2.3770686,https://maps.google.com/?cid=9342812158351686247&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.lesoeillets139.com/,https://bookings.zenchef.com/results?rid=378741&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: Wine Bar
+Arrondissement: 11e
+Google: 4.3 (183 reviews)
+Food types: bar
+Tags: Restaurant, Wine bar
+Google Maps: https://maps.google.com/?cid=9342812158351686247&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.lesoeillets139.com/
+Booking: https://bookings.zenchef.com/results?rid=378741&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Les Ptits Gros,"27 Av. Trudaine, 75009 Paris, France",Paris,9e,,restaurant,,€€,4.4,1067,48.8811753,2.343376,https://maps.google.com/?cid=9726893426749344995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.lesptitsgros.com/,https://bookings.zenchef.com/results?rid=375226&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: French Restaurant
+Arrondissement: 9e
+Price: €€
+Google: 4.4 (1,067 reviews)
+Food types: restaurant
+Tags: Bar
+Google Maps: https://maps.google.com/?cid=9726893426749344995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.lesptitsgros.com/
+Booking: https://bookings.zenchef.com/results?rid=375226&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Localino,"10 Rue de l'Odéon, 75006 Paris, France",Paris,6e,,restaurant,,,4.3,343,48.8510442,2.3385414,https://maps.google.com/?cid=11511762801246904887&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,,https://bookings.zenchef.com/results?rid=361519&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: Restaurant
+Arrondissement: 6e
+Google: 4.3 (343 reviews)
+Food types: restaurant
+Tags: Italian, Restaurant, Wine bar
+Google Maps: https://maps.google.com/?cid=11511762801246904887&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Booking: https://bookings.zenchef.com/results?rid=361519&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Lolo cave à manger,"12 Rue de Châteaudun, 75009 Paris, France",Paris,9e,,generic,,,4.3,252,48.8760122,2.3404517,https://maps.google.com/?cid=5247297473084994389&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://lolocaveamanger.fr/,,"Type: Restaurant
+Arrondissement: 9e
+Google: 4.3 (252 reviews)
+Food types: generic
+Tags: Trendy, Restaurant, Natural wine
+Google summary: Snug restaurant offering natural wines, global bites & small plates, plus open-air dining.
+Google Maps: https://maps.google.com/?cid=5247297473084994389&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://lolocaveamanger.fr/"
+Los Franchutes,"104 Boulevard Richard Lenoir, 75011 Paris, France",Paris,11e,,bar,,,,,48.8636046,2.3718581,https://www.google.com/maps/search/?api=1&query=Los%20Franchutes%2C%20Paris%2C%20France,https://www.facebook.com/losfranchutesbar/,https://www.privateaser.com/booking-widget/mapstr/venue/1980,"Arrondissement: 11e
+Food types: bar
+Tags: Restaurant, Argentinian, Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=Los%20Franchutes%2C%20Paris%2C%20France
+Website: https://www.facebook.com/losfranchutesbar/
+Booking: https://www.privateaser.com/booking-widget/mapstr/venue/1980"
+Martin,"24 Boulevard du Temple, 75011 Paris, France",Paris,11e,,bar,,,,,48.864849,2.365981,https://www.google.com/maps/search/?api=1&query=Martin%2C%20Paris%2C%20France,http://bar-martin.fr/,,"Arrondissement: 11e
+Food types: bar
+Tags: Frenchie, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Martin%2C%20Paris%2C%20France
+Website: http://bar-martin.fr/"
+Mon Oncle le Vigneron,"71 Rue Rebeval, 75019 Paris, France",Paris,19e,,shopping,,,4.7,108,48.8747394,2.3812716,https://maps.google.com/?cid=17244410671266319211&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.facebook.com/391827634216892,,"Type: Restaurant
+Arrondissement: 19e
+Google: 4.7 (108 reviews)
+Food types: shopping
+Tags: Restaurant, Wine bar
+Google Maps: https://maps.google.com/?cid=17244410671266319211&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/391827634216892"
+Montezuma café,"15 Rue Notre Dame des Victoires, 75002 Paris, France",Paris,2e,,bar,,,4.7,237,48.8682309,2.3416915,https://maps.google.com/?cid=8151586915699572395&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://instagram.com/montezuma.cafe/,,"Type: Wine Bar
+Arrondissement: 2e
+Google: 4.7 (237 reviews)
+Food types: bar
+Tags: Bar, Dancing
+Google Maps: https://maps.google.com/?cid=8151586915699572395&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://instagram.com/montezuma.cafe/"
+Passerina,"44 Rue Traversière, 75012 Paris, France",Paris,12e,,generic,,,4.6,65,48.84932,2.37496,https://maps.google.com/?cid=12709504156637279207&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,,,"Type: Restaurant
+Arrondissement: 12e
+Google: 4.6 (65 reviews)
+Food types: generic
+Tags: Wine bar, Restaurant
+Google Maps: https://maps.google.com/?cid=12709504156637279207&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+Restaurant Quedubon,"22 Rue du Plateau, 75019 Paris, France",Paris,19e,,bar,,€€,4.6,516,48.878097,2.3843937,https://maps.google.com/?cid=9547065934567075187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.restaurantquedubon.fr/fr,,"Type: French Restaurant
+Arrondissement: 19e
+Price: €€
+Google: 4.6 (516 reviews)
+Food types: bar
+Tags: Bistrot, Restaurant
+Google Maps: https://maps.google.com/?cid=9547065934567075187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.restaurantquedubon.fr/fr"
+Septime,"80 Rue de Charonne, 75011 Paris, France",Paris,11e,,restaurant,,,,,48.8535789,2.3807315,https://www.google.com/maps/search/?api=1&query=Septime%2C%20Paris%2C%20France,http://www.septime-charonne.fr/,,"Arrondissement: 11e
+Food types: restaurant
+Tags: Frenchie, Wine bar, ❤️, Trendy, Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=Septime%2C%20Paris%2C%20France
+Website: http://www.septime-charonne.fr/"
+Serpent A Plume,"24 Place des Vosges, 75003 Paris, Francia",Paris,3e,,bar,,,,,48.8561657,2.3666499,https://www.google.com/maps/search/?api=1&query=Serpent%20A%20Plume%2C%20Paris%2C%20France,http://serpentaplume.com/,https://bookings.zenchef.com/results?rid=375684&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Arrondissement: 3e
+Food types: bar
+Tags: Cocktail, ❤️, Bar
+Google Maps: https://www.google.com/maps/search/?api=1&query=Serpent%20A%20Plume%2C%20Paris%2C%20France
+Website: http://serpentaplume.com/
+Booking: https://bookings.zenchef.com/results?rid=375684&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+"Simone, Le Resto...","33 Boulevard Arago, 75013 Paris, France",Paris,13e,,restaurant,,,,,48.8353249,2.3479007,https://www.google.com/maps/search/?api=1&query=Simone%2C%20Le%20Resto...%2C%20Paris%2C%20France,http://www.simoneparis.com/,https://bookings.zenchef.com/results?rid=354677&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Arrondissement: 13e
+Food types: restaurant
+Tags: Natural wine, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&query=Simone%2C%20Le%20Resto...%2C%20Paris%2C%20France
+Website: http://www.simoneparis.com/
+Booking: https://bookings.zenchef.com/results?rid=354677&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Superfine,"8 Pass. Josset, 75011 Paris, France",Paris,11e,,"restaurant, bar",,,4.8,91,48.8527026,2.3765031,https://maps.google.com/?cid=6676943630750227351&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,https://www.instagram.com/superfinebar/,,"Type: Cocktail Bar
+Arrondissement: 11e
+Google: 4.8 (91 reviews)
+Food types: restaurant, bar
+Tags: bootstrap, bistro, Cocktails, Restaurant, Street food
+Google Maps: https://maps.google.com/?cid=6676943630750227351&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/superfinebar/"
+TRÂM 130,"130 Rue Saint-Maur, 75011 Paris, France",Paris,11e,,bar,,,4.8,436,48.8659608,2.3770686,https://maps.google.com/?cid=10042730493470071663&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://instagram.com/tramtramtramtramtram,,"Type: Restaurant
+Arrondissement: 11e
+Google: 4.8 (436 reviews)
+Food types: bar
+Tags: Restaurant, Trendy, ❤️
+Google Maps: https://maps.google.com/?cid=10042730493470071663&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://instagram.com/tramtramtramtramtram"
+Terrass Hotel,"12-14 Rue Joseph de Maistre, 75018 Paris, France",Paris,18e,,"lodging, hotel",,,,,48.8865626,2.3329648,https://www.google.com/maps/search/?api=1&query=Terrass%20Hotel%2C%20Paris%2C%20France,http://www.terrass-hotel.com/,https://www.terrass-hotel.com/restaurant-booking,"Arrondissement: 18e
+Food types: lodging, hotel
+Tags: Bar, Hotel / BB, Trendy, Rooftop
+Google Maps: https://www.google.com/maps/search/?api=1&query=Terrass%20Hotel%2C%20Paris%2C%20France
+Website: http://www.terrass-hotel.com/
+Booking: https://www.terrass-hotel.com/restaurant-booking"
+Vins Des Pyrénées,"25 Rue Beautreillis, Paris 75004",Paris,4e,,restaurant,,,,,48.8537471,2.3644369,https://www.google.com/maps/search/?api=1&query=Vins%20Des%20Pyr%C3%A9n%C3%A9es%2C%20Paris%2C%20France,http://www.vinsdespyrenees.com/,https://bookings.zenchef.com/results?rid=81101&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Arrondissement: 4e
+Food types: restaurant
+Tags: Wine bar, Restaurant, Trendy
+Google Maps: https://www.google.com/maps/search/?api=1&query=Vins%20Des%20Pyr%C3%A9n%C3%A9es%2C%20Paris%2C%20France
+Website: http://www.vinsdespyrenees.com/
+Booking: https://bookings.zenchef.com/results?rid=81101&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"
+Vivant 2,"43 Rue des Petites Écuries, 75010 Paris, Francia",Paris,10e,,restaurant,,€€,4.3,433,48.8738319,2.3496603,https://maps.google.com/?cid=7540361736806579762&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA,http://www.vivantparis.com/,https://bookings.zenchef.com/results?rid=355093&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web,"Type: Restaurant
+Arrondissement: 10e
+Price: €€
+Google: 4.3 (433 reviews)
+Food types: restaurant
+Tags: Restaurant, Trendy, Frenchie, Wine bar, SH
+Google summary: Gourmet cuisine made with healthy products, served in an industrial-chic space.
+Google Maps: https://maps.google.com/?cid=7540361736806579762&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.vivantparis.com/
+Booking: https://bookings.zenchef.com/results?rid=355093&fullscreen=1&mini=0&pid=mapstr&primaryColor=FFC222&type=web"

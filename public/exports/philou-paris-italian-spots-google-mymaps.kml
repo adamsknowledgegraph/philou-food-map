@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italian spots</name>
+    <description>A tighter list for Roman lunches, pizza nights, trattorias, and the Italian addresses that keep coming up.</description>
+    <Placemark>
+      <name>AVE Pizza Romana</name>
+      <description>Type: Pizza Restaurant
+Arrondissement: 11e
+Google: 4.7 (1,576 reviews)
+Food types: restaurant
+Tags: Restaurant, Italian
+Google summary: Airy, contemporary pizzeria serving Roman-style pies, plus calzones, starters, cocktails &amp; desserts.
+Google Maps: https://maps.google.com/?cid=5925243916874515936&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://ave-pizza-romana.business.site/
+Booking: https://bookings.zenchef.com/results?rid=363087&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3696267,48.8669478,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Acid Lactic</name>
+      <description>Type: Pizza Restaurant
+Arrondissement: 11e
+Google: 4.3 (39 reviews)
+Food types: restaurant
+Tags: bootstrap, paris, Pizza
+Google Maps: https://maps.google.com/?cid=9406144155338785582&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.3739241,48.8621272,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Anima</name>
+      <description>Type: Italian Restaurant
+Arrondissement: 6e
+Price: €€
+Google: 4.2 (766 reviews)
+Food types: restaurant
+Tags: bootstrap, left-bank, Pizza
+Google summary: Fashionable restaurant in a former tapestry workshop dishing up traditional Italian cuisine.
+Google Maps: https://maps.google.com/?cid=16278103625304564261&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://anima.paris/
+Booking: https://bookings.zenchef.com/results?rid=360988&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3235003,48.8480208,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Caffè Stern</name>
+      <description>Type: Italian Restaurant
+Arrondissement: 2e
+Price: €€€
+Google: 4.4 (459 reviews)
+Food types: restaurant
+Tags: Restaurant, Gastro / higher end, Italian
+Google Maps: https://maps.google.com/?cid=6345358125428023509&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.alajmo.it/en/sezione/caffe-stern/caffe-stern
+Booking: https://thefork.fr/restaurant/stern-ristorante-r345083/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3415247,48.8708944,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Artcurial</name>
+      <description>Arrondissement: 8e
+Food types: restaurant
+Tags: Restaurant, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Caf%C3%A9%20Artcurial%2C%20Paris%2C%20France
+Website: http://www.cafeartcurial.fr/</description>
+      <Point>
+        <coordinates>2.3088967,48.8686407,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Casa Bini</name>
+      <description>Type: Italian Restaurant
+Arrondissement: 6e
+Price: €€
+Google: 4.3 (649 reviews)
+Food types: restaurant
+Tags: Italian, Restaurant
+Google summary: Daily menus featuring elegant Italian starters &amp; desserts, plus pasta dishes, in a wood-beamed stop.
+Google Maps: https://maps.google.com/?cid=8410390317281821262&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.casabini.fr/
+Booking: https://bookings.zenchef.com/results?rid=2402&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3374977,48.8522566,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Castille Paris - restaurant L&apos;Assaggio</name>
+      <description>Type: Italian Restaurant
+Arrondissement: 1er
+Google: 4.4 (175 reviews)
+Food types: restaurant
+Tags: Italian, Restaurant, Terrasse
+Google Maps: https://maps.google.com/?cid=6124682048026732297&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.castille.com
+Booking: https://thefork.fr/restaurant/l-assaggio-castille-paris-r6120/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.326873,48.868336,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chez Justine</name>
+      <description>Type: Restaurant
+Arrondissement: 11e
+Price: €€
+Google: 4.4 (2,627 reviews)
+Food types: restaurant
+Tags: Restaurant, Trendy, Italian
+Google summary: Barbecued meats, salads &amp; wood-fired Neapolitan-style pizzas in a light-filled, modern brasserie.
+Google Maps: https://maps.google.com/?cid=3521816774576962417&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://justineparis.fr/
+Booking: https://bookings.zenchef.com/results?rid=378661&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.377854999999999,48.8656838,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cibus</name>
+      <description>Type: Italian Restaurant
+Arrondissement: 1er
+Google: 4.4 (76 reviews)
+Food types: restaurant
+Tags: Italian, Restaurant, Trendy
+Google summary: Wood-lined, churchlike space known for Roman &amp; Neapolitan-style organic pastas with Italian wines.
+Google Maps: https://maps.google.com/?cid=2559834538050633239&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.335596,48.864901,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cosi</name>
+      <description>Arrondissement: 6e
+Food types: restaurant
+Tags: Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Cosi%2C%20Paris%2C%20France
+Website: http://www.facebook.com/Cosi-126474794072452/</description>
+      <Point>
+        <coordinates>2.3368877,48.85412549999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Da Rosa</name>
+      <description>Arrondissement: 7e
+Food types: restaurant, brunch
+Tags: Brunch, Restaurant, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Da%20Rosa%2C%20Paris%2C%20France
+Website: http://www.darosa.fr/</description>
+      <Point>
+        <coordinates>2.32686,48.85398,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Da Vito</name>
+      <description>Type: Pizza Restaurant
+Arrondissement: 11e
+Price: €€
+Google: 4.6 (567 reviews)
+Food types: restaurant
+Tags: Restaurant, Italian
+Google Maps: https://maps.google.com/?cid=1080963158551362486&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://davitopizzeria.fr/
+Booking: https://menu.tastycloud.fr/e750afdd84e0384de07a90582ca78e6a49102cc2d32fadda4f8fd762085552ff</description>
+      <Point>
+        <coordinates>2.3712284,48.8556617,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dalmata Pizza</name>
+      <description>Type: Pizza Restaurant
+Arrondissement: 2e
+Price: €€
+Google: 4.6 (5,183 reviews)
+Food types: restaurant
+Tags: Restaurant, Italian
+Google summary: Neapolitan pizzas &amp; wine in a cool space with tiled walls, neon signs &amp; stool seating.
+Google Maps: https://maps.google.com/?cid=7427257690908006442&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.gruppodalmata.com/
+Booking: https://www.gruppodalmata.com/restaurant/dalmata/menu/food</description>
+      <Point>
+        <coordinates>2.3495774269104,48.86450576782227,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Daroco Bourse</name>
+      <description>Arrondissement: 2e
+Food types: restaurant
+Tags: Restaurant, Trendy, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Daroco%20Bourse%2C%20Paris%2C%20France
+Website: https://www.daroco.com
+Booking: https://bookings.zenchef.com/results?rid=347479&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3392712,48.8671391,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Epoca</name>
+      <description>Arrondissement: 7e
+Food types: restaurant
+Tags: Restaurant, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Epoca%2C%20Paris%2C%20France
+Website: http://epoca.paris/
+Booking: https://bookings.zenchef.com/results?rid=352004&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3178957,48.8500698,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FELINI</name>
+      <description>Type: Restaurant
+Arrondissement: 9e
+Google: 4.9 (66 reviews)
+Food types: restaurant
+Tags: Italian, Restaurant
+Google Maps: https://maps.google.com/?cid=15702351425400949899&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://feliniparis.cargo.site/</description>
+      <Point>
+        <coordinates>2.3371124,48.8761687,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FUGAZI</name>
+      <description>Type: Restaurant
+Google: 4.4 (374 reviews)
+Food types: bar
+Tags: Italian, Restaurant
+Google Maps: https://maps.google.com/?cid=9777724166108584822&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://fugazi.paris/
+Booking: https://bookings.zenchef.com/results?rid=365493&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.377899408340454,48.86177444458008,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fellows</name>
+      <description>Type: Vegetarian Restaurant
+Arrondissement: 10e
+Google: 4.9 (7,595 reviews)
+Food types: bar
+Tags: Italian, Restaurant
+Google Maps: https://maps.google.com/?cid=18065984949057555563&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.fellows-restaurants.com/</description>
+      <Point>
+        <coordinates>2.355216,48.873898,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GrandCœur</name>
+      <description>Arrondissement: 4e
+Food types: restaurant
+Tags: Bistrot, Frenchie, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=GrandC%C5%93ur%2C%20Paris%2C%20France
+Website: http://www.grandcoeur.paris/
+Booking: https://bookings.zenchef.com/results?rid=356815&amp;pid=mapstr</description>
+      <Point>
+        <coordinates>2.3538752,48.85960069999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hotel Des Grands Boulevards</name>
+      <description>Arrondissement: 2e
+Food types: lodging, hotel
+Tags: Hotel / BB, Bar, Cocktails, Italian, Restaurant, SH, To work, For groups, Rooftop
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Hotel%20Des%20Grands%20Boulevards%2C%20Paris%2C%20France
+Website: http://www.grandsboulevardshotel.com/</description>
+      <Point>
+        <coordinates>2.3449074,48.8708952,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hotel National Des Beaux Arts</name>
+      <description>Arrondissement: 3e
+Food types: lodging, hotel
+Tags: Bar, Cocktail, Italian, Trendy, SH, Hotel / BB, To work, For groups
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Hotel%20National%20Des%20Beaux%20Arts%2C%20Paris%2C%20France
+Website: http://www.hotelnational.paris/</description>
+      <Point>
+        <coordinates>2.353157,48.8657453,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Il Brigante</name>
+      <description>Type: Pizza Restaurant
+Arrondissement: 18e
+Price: €€
+Google: 4.1 (918 reviews)
+Food types: restaurant
+Tags: bootstrap, paris, Pizza
+Google Maps: https://maps.google.com/?cid=16634504396523004284&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://ilbrigante.fr/</description>
+      <Point>
+        <coordinates>2.3400395,48.8921794,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Il Giramondo</name>
+      <description>Type: Caterer
+Arrondissement: 7e
+Google: 4.4 (107 reviews)
+Food types: generic
+Tags: Italian, Restaurant
+Google Maps: https://maps.google.com/?cid=3486440292848557995&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.ilgiramondo7.com/</description>
+      <Point>
+        <coordinates>2.3047954,48.8572007,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L&apos;Alimentari</name>
+      <description>Type: Italian Restaurant
+Arrondissement: 4e
+Google: 4.4 (316 reviews)
+Food types: restaurant
+Tags: Restaurant, Italian
+Google Maps: https://maps.google.com/?cid=15463921742722530611&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://m.facebook.com/LAlimentari-290417151054338/?locale2=fr_FR</description>
+      <Point>
+        <coordinates>2.358408899999999,48.85651779999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L&apos;inconnu</name>
+      <description>Arrondissement: 7e
+Food types: restaurant
+Tags: Japanese, Simon Says, Restaurant, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=L&apos;inconnu%2C%20Paris%2C%20France
+Website: http://restaurant-linconnu.fr/ja/
+Booking: https://thefork.fr/restaurant/l-inconnu-r208111/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3185686,48.85016050000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Cantina</name>
+      <description>Arrondissement: 15e
+Food types: restaurant
+Tags: Restaurant, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=La%20Cantina%2C%20Paris%2C%20France
+Website: http://www.facebook.com/lacantinaparis</description>
+      <Point>
+        <coordinates>2.305869,48.84726699999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Famiglia</name>
+      <description>Arrondissement: 17e
+Food types: restaurant
+Tags: Restaurant, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=La%20Famiglia%2C%20Paris%2C%20France
+Website: http://www.restaurantlafamiglia.com/
+Booking: https://thefork.fr/restaurant/la-famiglia-r3741/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.2865202,48.8796477,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Perle</name>
+      <description>Type: Cafe
+Arrondissement: 3e
+Price: €€
+Google: 3.4 (1,670 reviews)
+Food types: cafe
+Tags: Cafe, Trendy
+Google summary: Classic French lunch items &amp; desserts, plus pizza, served at a trendy cafe with sidewalk tables.
+Google Maps: https://maps.google.com/?cid=4190812438264054898&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://cafelaperle.com/</description>
+      <Point>
+        <coordinates>2.3606963,48.8598003,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Localino</name>
+      <description>Type: Restaurant
+Arrondissement: 6e
+Google: 4.3 (343 reviews)
+Food types: restaurant
+Tags: Italian, Restaurant, Wine bar
+Google Maps: https://maps.google.com/?cid=11511762801246904887&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Booking: https://bookings.zenchef.com/results?rid=361519&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3385414,48.8510442,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L’italien de La Belle Époque</name>
+      <description>Type: Restaurant
+Arrondissement: 2e
+Price: €€
+Google: 3.7 (1,033 reviews)
+Food types: restaurant
+Tags: Restaurant, Italian
+Google summary: Traditional brasserie serving meat &amp; fish dishes in a 1920s-style dining room or at sidewalk tables.
+Google Maps: https://maps.google.com/?cid=17132008827808969732&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.restaurantmer-coquillageparis.com/
+Booking: https://bookings.zenchef.com/results?rid=358500&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.336488008499146,48.86678695678711,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Madonna</name>
+      <description>Type: Italian Restaurant
+Google: 4.5 (2,591 reviews)
+Food types: restaurant
+Tags: ❤️, Italian
+Google Maps: https://maps.google.com/?cid=947395790647410164&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.madonna-osteria.fr/
+Booking: https://bookings.zenchef.com/results?rid=362703&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3413385,48.8750186,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mmmozza</name>
+      <description>Type: Grocery Store
+Google: 4.6 (474 reviews)
+Food types: restaurant
+Tags: Restaurant, Italian
+Google Maps: https://maps.google.com/?cid=12343074101628899369&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://instagram.com/mmmozza_paris?igshid=YmMyMTA2M2Y=</description>
+      <Point>
+        <coordinates>2.3606,48.8639,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mulino Mulé</name>
+      <description>Type: Italian Restaurant
+Arrondissement: 10e
+Google: 4.7 (381 reviews)
+Food types: shopping
+Tags: Restaurant, Italian
+Google Maps: https://maps.google.com/?cid=12165723843615821378&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.cedriccasanova.com/
+Booking: https://bookings.zenchef.com/results?rid=353468&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3723359,48.874196,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OOBATZ</name>
+      <description>Type: Pizza Restaurant
+Arrondissement: 11e
+Google: 4.5 (420 reviews)
+Food types: restaurant
+Tags: Pizza, Restaurant
+Google Maps: https://maps.google.com/?cid=10098685587554175031&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://oobatz.fr/</description>
+      <Point>
+        <coordinates>2.3810814,48.8652926,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Osteria Ferrara</name>
+      <description>Arrondissement: 11e
+Food types: restaurant
+Tags: Restaurant, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Osteria%20Ferrara%2C%20Paris%2C%20France
+Website: http://www.osteriaferrara.com/
+Booking: https://bookings.zenchef.com/results?rid=352382&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.383292,48.851282,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PIN-PAN</name>
+      <description>Type: Argentinian Restaurant
+Arrondissement: 9e
+Google: 4.8 (68 reviews)
+Food types: restaurant
+Tags: Pizza, Restaurant
+Google Maps: https://maps.google.com/?cid=5300444021418335154&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://pin-pan.site.bykomdab.com/</description>
+      <Point>
+        <coordinates>2.3353161,48.876635,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paris-Boca</name>
+      <description>Type: Pizza Restaurant
+Google: 4.7 (840 reviews)
+Food types: restaurant
+Tags: Argentinian, Restaurant
+Google summary: Compact, trendy restaurant offering pizzas &amp; cocktails, plus a take-out option.
+Google Maps: https://maps.google.com/?cid=15187808464290341344&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://parisboca.fr/
+Booking: https://module.lafourchette.com/en_GB/module/709777-c63e5#/4555249/pdh</description>
+      <Point>
+        <coordinates>2.3336,48.8826,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Passerini</name>
+      <description>Arrondissement: 12e
+Food types: restaurant
+Tags: Restaurant, Trendy, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Passerini%2C%20Paris%2C%20France
+Website: http://passerini.paris/
+Booking: https://bookings.zenchef.com/results?rid=352551&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3748206,48.8494184,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pierro par Pierre Gagnaire</name>
+      <description>Type: Restaurant
+Arrondissement: 7e
+Google: 4.4 (263 reviews)
+Food types: restaurant
+Tags: Italian, Restaurant
+Google summary: Warm, upscale bistro with marble tables featuring northern Italian cuisine by an acclaimed chef.
+Google Maps: https://maps.google.com/?cid=4430642939950905436&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.pierregagnaire.com/restaurants/piero-paris
+Booking: https://thefork.fr/restaurant/piero-tt-r658801/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3267091,48.8566934,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Popine Ménilmontant</name>
+      <description>Type: Pizza Restaurant
+Arrondissement: 20e
+Price: €€
+Google: 4.3 (1,642 reviews)
+Food types: restaurant
+Tags: Restaurant, Pizza, Italian
+Google summary: Classic &amp; creative Neapolitan pizzas, with vegetarian options, in a chic space with sidewalk tables.
+Google Maps: https://maps.google.com/?cid=8916270957093783891&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://popine-paris.fr/</description>
+      <Point>
+        <coordinates>2.3849919,48.8654385,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Quartier Latin - Restaurant Pizzeria</name>
+      <description>Type: Pizza Restaurant
+Arrondissement: 5e
+Price: €€
+Google: 4.8 (1,931 reviews)
+Food types: restaurant
+Tags: Pizza, Restaurant
+Google Maps: https://maps.google.com/?cid=615285628419235429&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.restaurant-quartierlatin.fr/
+Booking: https://thefork.fr/restaurant/le-quartier-latin-r736047/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3497802,48.8421919,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rap épicerie</name>
+      <description>Arrondissement: 9e
+Food types: shopping
+Tags: Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Rap%20%C3%A9picerie%2C%20Paris%2C%20France
+Website: http://www.rapparis.fr/</description>
+      <Point>
+        <coordinates>2.339409,48.8765783,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Red Sauce - Restaurant italo-américain</name>
+      <description>Type: Italian Restaurant
+Arrondissement: 10e
+Google: 4.8 (5,434 reviews)
+Food types: restaurant
+Tags: ❤️, Restaurant
+Google Maps: https://maps.google.com/?cid=2810451158092003016&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.redsauce.fr/
+Booking: https://bookings.zenchef.com/results?rid=376055&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3523166,48.8726255,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SUGO pasta fresca - Saint-Augustin</name>
+      <description>Type: Italian Restaurant
+Arrondissement: 2e
+Google: 4.8 (2,351 reviews)
+Food types: restaurant
+Tags: Italian, Restaurant
+Google Maps: https://maps.google.com/?cid=8360599334616956990&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.sugoparis.com/
+Booking: https://sugo.commandes.io</description>
+      <Point>
+        <coordinates>2.3361959,48.8690001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Santa Silvia</name>
+      <description>Type: Italian Restaurant
+Arrondissement: 20e
+Google: 4.0 (80 reviews)
+Food types: restaurant
+Tags: Restaurant, Italian, ❤️
+Google Maps: https://maps.google.com/?cid=182707591855884046&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.santasilviaparis.fr/</description>
+      <Point>
+        <coordinates>2.3969941,48.8580725,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sardegna a Tavola</name>
+      <description>Arrondissement: 12e
+Food types: restaurant
+Tags: Restaurant, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Sardegna%20a%20Tavola%2C%20Paris%2C%20France
+Website: http://www.sardegna.paris/</description>
+      <Point>
+        <coordinates>2.3767567,48.8482861,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sette Pizza - Paris</name>
+      <description>Type: Pizza Restaurant
+Arrondissement: 10e
+Price: €
+Google: 4.3 (1,541 reviews)
+Food types: restaurant
+Tags: Restaurant, Italian
+Google summary: Classic pizzas, beer &amp; house music in a narrow space with industrial accents &amp; a tiled floor.
+Google Maps: https://maps.google.com/?cid=12388972741114458453&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.settepizza.fr/</description>
+      <Point>
+        <coordinates>2.3535652,48.87124,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tempilenti,bistrot italiano</name>
+      <description>Type: Italian Restaurant
+Arrondissement: 11e
+Price: €€
+Google: 4.6 (306 reviews)
+Food types: restaurant
+Tags: Restaurant, Italian
+Google Maps: https://maps.google.com/?cid=2697555490561104170&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Booking: https://thefork.fr/restaurant/tempilenti-r444697/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.385969299999999,48.85874649999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Terronia ristorante italiano</name>
+      <description>Type: Italian Restaurant
+Arrondissement: 5e
+Price: €€
+Google: 4.8 (586 reviews)
+Food types: restaurant
+Tags: Restaurant, Italian
+Google summary: Homemade Italian dishes made with seasonal ingredients served in a cozy, down-to-earth restaurant.
+Google Maps: https://maps.google.com/?cid=3361888963966891197&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.terronia.fr/
+Booking: https://thefork.fr/restaurant/terronia-r274413/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3539994,48.8456972,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>come a casa</name>
+      <description>Arrondissement: 11e
+Food types: restaurant
+Tags: Restaurant, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=come%20a%20casa%2C%20Paris%2C%20France
+Website: http://comeacasa7.tumblr.com/</description>
+      <Point>
+        <coordinates>2.3821945,48.85862050000001,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

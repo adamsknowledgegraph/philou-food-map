@@ -1,0 +1,2495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bistros & brasseries</name>
+    <description>Old-school bistro energy, brasserie comfort, and classic French tables you can return to again and again.</description>
+    <Placemark>
+      <name>114 Faubourg</name>
+      <description>Type: French Restaurant
+Price: €€€€
+Google: 4.7 (454 reviews)
+Food types: restaurant
+Tags: Bistrot, Frenchie, Gastro / higher end
+Google summary: Elevated dishes &amp; tasting menus in a chic brasserie with plush seats &amp; bold floral wall prints.
+Google Maps: https://maps.google.com/?cid=2154612531161811698&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.oetkercollection.com/fr/hotels/le-bristol-paris/restaurants-et-bar/restaurants/114-faubourg/
+Booking: https://thefork.fr/restaurant/le-114-faubourg-le-bristol-paris-r291345/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3144678,48.8717796,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>A La Renaissance</name>
+      <description>Type: Bistro
+Arrondissement: 11e
+Price: €€
+Google: 4.3 (510 reviews)
+Food types: bar
+Tags: Bistrot, Dancing
+Google Maps: https://maps.google.com/?cid=17297391821107794765&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.restaurant-a-la-renaissance.com/</description>
+      <Point>
+        <coordinates>2.3786809,48.8571599,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ANONA</name>
+      <description>Type: French Restaurant
+Arrondissement: 17e
+Google: 4.7 (1,702 reviews)
+Food types: restaurant
+Tags: Gastro / higher end
+Google summary: Sophisticated cuisine &amp; tasting menus with a sustainable focus at a sleek venue with a terrace.
+Google Maps: https://maps.google.com/?cid=14487341996310914081&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.anona.fr/
+Booking: https://bookings.zenchef.com/results?rid=352333&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.318627,48.8820038,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Akabeko − Restaurant Fusion Français et Japonais</name>
+      <description>Type: French Restaurant
+Arrondissement: 7e
+Google: 4.8 (635 reviews)
+Food types: restaurant
+Tags: Gastro / higher end, Restaurant
+Google Maps: https://maps.google.com/?cid=1901445872533971391&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://akabekorestaurant.com/
+Booking: https://akabekorestaurant.com/restaurant-reserver/</description>
+      <Point>
+        <coordinates>2.3284201,48.8576718,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Allard</name>
+      <description>Type: French Restaurant
+Arrondissement: 6e
+Price: €€€
+Google: 4.3 (1,269 reviews)
+Food types: restaurant
+Tags: Frenchie, Bistrot
+Google summary: Old-school bistro offering elevated, traditional French dishes &amp; wines in a warm atmosphere.
+Google Maps: https://maps.google.com/?cid=7378348292976889048&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.restaurant-allard.fr/
+Booking: https://bookings.zenchef.com/results?rid=374504&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3410216,48.85330320000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ambassade d’Auvergne</name>
+      <description>Type: French Restaurant
+Arrondissement: 3e
+Price: €€€
+Google: 4.2 (2,020 reviews)
+Food types: restaurant
+Tags: Restaurant
+Google summary: Venerable locale with exposed rafters &amp; vintage posters, serving traditional Auvergne cuisine.
+Google Maps: https://maps.google.com/?cid=11113300398678527964&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.ambassade-auvergne.com/
+Booking: https://thefork.fr/restaurant/ambassade-d-auvergne-r841113/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3534095,48.8630446,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ambos</name>
+      <description>Type: French Restaurant
+Arrondissement: 6e
+Google: 4.8 (472 reviews)
+Food types: restaurant
+Tags: Gastro / higher end, Thaï, Frenchie
+Google Maps: https://maps.google.com/?cid=13800952535615180196&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.ambos-restaurant.fr/
+Booking: https://thefork.fr/restaurant/ambos-r745197/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.335224,48.8493205,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Armande</name>
+      <description>Type: French Restaurant
+Arrondissement: 18e
+Google: 5.0 (414 reviews)
+Food types: restaurant
+Tags: Cafe, Restaurant
+Google Maps: https://maps.google.com/?cid=4536107868716594584&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.3355589,48.8865388,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arnaud Nicolas Charcuterie Cuisinée</name>
+      <description>Arrondissement: 7e
+Food types: restaurant
+Tags: Frenchie, Restaurant, Meat
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Arnaud%20Nicolas%20Charcuterie%20Cuisin%C3%A9e%2C%20Paris%2C%20France
+Website: http://arnaudnicolas.paris/
+Booking: https://thefork.fr/restaurant/arnaud-nicolas-r313657/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3010287,48.8569275,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Astier</name>
+      <description>Arrondissement: 11e
+Food types: restaurant
+Tags: Frenchie, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Astier%2C%20Paris%2C%20France
+Website: http://www.restaurant-astier.com/
+Booking: https://thefork.fr/restaurant/astier-r5686/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3720222,48.8662113,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Astrance</name>
+      <description>Type: French Restaurant
+Arrondissement: 16e
+Price: €€€€
+Google: 4.5 (446 reviews)
+Food types: restaurant
+Tags: Gastro / higher end, Restaurant
+Google Maps: https://maps.google.com/?cid=1475113752476653515&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.astrancerestaurant.com/
+Booking: https://thefork.fr/restaurant/astrance-r688509/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.2831628,48.8655418,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Au Moulin A Vent</name>
+      <description>Arrondissement: 5e
+Food types: restaurant
+Tags: Frenchie, Restaurant, Bistrot
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Au%20Moulin%20A%20Vent%2C%20Paris%2C%20France
+Website: http://www.au-moulinavent.com/
+Booking: https://bookings.zenchef.com/results?rid=363128&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.354766199999999,48.8485564,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Au Petit Bar</name>
+      <description>Type: Bar
+Arrondissement: 1er
+Price: €
+Google: 4.6 (353 reviews)
+Food types: restaurant
+Tags: Bistrot
+Google summary: Old-school, family-owned cafe &amp; 24-seat bar offering homestyle bistro classics alongside wine.
+Google Maps: https://maps.google.com/?cid=1408194716450924502&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.paris-bistro.com/choisir/paris1/au-petit-bar</description>
+      <Point>
+        <coordinates>2.3291239,48.8654785,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Auberge Bressane</name>
+      <description>Type: French Restaurant
+Arrondissement: 7e
+Price: €€
+Google: 4.6 (2,309 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant, Bistrot
+Google summary: Folksy, easygoing locale making traditional French food like coq au vin &amp; chocolate soufflé.
+Google Maps: https://maps.google.com/?cid=9060875296924406592&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.auberge-bressane.com/
+Booking: https://bookings.zenchef.com/results?rid=355693&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.308508999999999,48.85653699999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Aux Crus de Bourgogne</name>
+      <description>Type: French Restaurant
+Arrondissement: 2e
+Google: 4.6 (1,991 reviews)
+Food types: restaurant
+Tags: Frenchie
+Google summary: Classic regional dishes &amp; a long wine list in a vintage-chic bistro with sidewalk tables.
+Google Maps: https://maps.google.com/?cid=3731929306327284416&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.auxcrusdebourgogne.com/
+Booking: https://bookings.zenchef.com/results?rid=352723&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3465718,48.8658261,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Aux Deux Amis</name>
+      <description>Type: Bistro
+Arrondissement: 11e
+Price: €€
+Google: 4.1 (841 reviews)
+Food types: restaurant
+Tags: Natural wine, Restaurant, ❤️, Trendy, Bar
+Google summary: Cold cuts, small plates &amp; natural wines at a cozy modern bar with counter seats &amp; sidewalk tables.
+Google Maps: https://maps.google.com/?cid=5700510830722341713&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.facebook.com/Aux-Deux-Amis-120307971356817/</description>
+      <Point>
+        <coordinates>2.3718376,48.86458069999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Aux Lyonnais</name>
+      <description>Type: French Restaurant
+Arrondissement: 2e
+Price: €€€
+Google: 4.4 (1,246 reviews)
+Food types: restaurant
+Tags: Bistrot, Gastro / higher end
+Google summary: Sophisticated takes on classic Lyon specialties in an elegant Art Deco bistro with vintage features.
+Google Maps: https://maps.google.com/?cid=868440092026751739&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.auxlyonnais.com/
+Booking: https://bookings.zenchef.com/results?rid=373682&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3387362,48.8707405,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Baieta</name>
+      <description>Arrondissement: 5e
+Food types: restaurant
+Tags: Restaurant, Bistrot
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Baieta%2C%20Paris%2C%20France
+Website: http://www.restaurant-baieta-paris.fr/
+Booking: https://thefork.fr/restaurant/baieta-r724954/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.352244999999999,48.8501043,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Benoit Paris</name>
+      <description>Type: French Restaurant
+Price: €€€€
+Google: 4.3 (2,893 reviews)
+Food types: restaurant
+Tags: Bistrot, Restaurant
+Google summary: Casseroles, snails &amp; desserts like profiteroles in a venerable bistro with brass details &amp; mirrors.
+Google Maps: https://maps.google.com/?cid=14478655399410179573&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.benoit-paris.com/
+Booking: https://bookings.zenchef.com/results?rid=371167&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.350088,48.85838489999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bistrot Belhara</name>
+      <description>Type: Bistro
+Arrondissement: 7e
+Google: 4.6 (371 reviews)
+Food types: restaurant
+Tags: Restaurant, Bistrot
+Google Maps: https://maps.google.com/?cid=4003693556219215886&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.bistrotbelhara.com/
+Booking: https://thefork.fr/restaurant/bistrot-belhara-r43563/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.307450499999999,48.8564004,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bistrot Des Tournelles</name>
+      <description>Type: French Restaurant
+Google: 4.6 (1,157 reviews)
+Food types: restaurant
+Tags: Bistrot
+Google Maps: https://maps.google.com/?cid=4001123751309885181&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.bistrotdestournelles.com/</description>
+      <Point>
+        <coordinates>2.3674,48.8543,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bofinger</name>
+      <description>Arrondissement: 4e
+Food types: restaurant
+Tags: Frenchie, Restaurant, Bistrot
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Bofinger%2C%20Paris%2C%20France
+Website: http://www.bistrotjadis.fr/
+Booking: https://bookings.zenchef.com/results?rid=351596&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.367904,48.853762,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bonvivant</name>
+      <description>Type: French Restaurant
+Price: €€
+Google: 4.4 (2,537 reviews)
+Food types: restaurant
+Tags: Frenchie, Natural wine
+Google summary: Buzzy bistro with a long wine list &amp; robust steaks, grills &amp; bar food, plus al fresco seating.
+Google Maps: https://maps.google.com/?cid=11268889822182331848&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.bonvivant.paris/
+Booking: https://bookings.zenchef.com/results?rid=357254&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3519748,48.8475454,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bouillon Pigalle</name>
+      <description>Type: French Restaurant
+Arrondissement: 18e
+Price: €
+Google: 4.6 (54,956 reviews)
+Food types: restaurant
+Tags: Bistrot, Trendy, For groups
+Google summary: Popular casual bistro serving traditional French mains &amp; desserts with house wines by the glass.
+Google Maps: https://maps.google.com/?cid=7799438763248845030&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.bouillonpigalle.com/
+Booking: https://bookings.zenchef.com/results?rid=357951&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3374635,48.8826517,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brasserie Barbès</name>
+      <description>Type: Restaurant
+Arrondissement: 18e
+Price: €€
+Google: 4.5 (7,281 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant, Rooftop
+Google summary: Bar &amp; restaurant with an industrial-chic look, popular for cocktails &amp; steaks on a courtyard patio.
+Google Maps: https://maps.google.com/?cid=10803593479356726709&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://brasseriebarbes.com/
+Booking: https://bookings.zenchef.com/results?rid=349532&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3497069,48.8839705,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brasserie Des Prés</name>
+      <description>Type: French Restaurant
+Arrondissement: 6e
+Price: €€
+Google: 4.7 (8,065 reviews)
+Food types: restaurant
+Tags: Bistrot, Restaurant
+Google Maps: https://maps.google.com/?cid=12232674330008008055&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://lanouvellegarde.com/
+Booking: https://www.sevenrooms.com/explore/brasseriedespres/reservations/create/search/?venues=brasseriedespres%2Cbrasseriecharlie%2Cbrasseriedubillot%2Cbrasseriebellanger%2Cbrasseriemartin</description>
+      <Point>
+        <coordinates>2.3393167,48.8526663,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brasserie Rosie</name>
+      <description>Type: Restaurant
+Arrondissement: 11e
+Price: €€
+Google: 4.7 (7,670 reviews)
+Food types: restaurant
+Tags: Frenchie, For groups
+Google summary: Hip locale with a vintage vibe serving traditional cuisine with a twist, plus cocktails.
+Google Maps: https://maps.google.com/?cid=48587829753716931&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://brasseriesalamode.com/brasserie-rosie
+Booking: https://bookings.zenchef.com/results?rid=355132&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3730884,48.8522001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CRAVAN Paris 16e</name>
+      <description>Type: Cocktail Bar
+Arrondissement: 16e
+Google: 4.6 (210 reviews)
+Food types: bar
+Tags: Restaurant, Bistrot, Trendy
+Google Maps: https://maps.google.com/?cid=15738103246510818055&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://instagram.com/cravanparis?utm_medium=copy_link</description>
+      <Point>
+        <coordinates>2.273866,48.8516434,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café de Flore</name>
+      <description>Type: Coffee Shop
+Arrondissement: 6e
+Price: €€€
+Google: 3.9 (14,034 reviews)
+Food types: cafe
+Tags: Bistrot
+Google summary: Long-running coffeehouse &amp; celebrity haunt serving familiar French fare in a charming corner locale.
+Google Maps: https://maps.google.com/?cid=1782201546845549567&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://cafedeflore.fr/</description>
+      <Point>
+        <coordinates>2.3326046,48.8541588,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café des Ministères</name>
+      <description>Type: French Restaurant
+Arrondissement: 7e
+Price: €€
+Google: 4.6 (566 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant, Bistrot
+Google summary: Creatively reinterpreted classic French dishes, plus regional wines, at an elegant bistro.
+Google Maps: https://maps.google.com/?cid=7528679401092021829&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.cafedesministeres.fr/
+Booking: https://bookings.zenchef.com/results?rid=352301&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.319291499999999,48.86064109999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Camille</name>
+      <description>Arrondissement: 3e
+Food types: restaurant
+Tags: Frenchie
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Camille%2C%20Paris%2C%20France
+Website: https://eater.space/camille
+Booking: https://bookings.zenchef.com/results?rid=361419&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3607054,48.8577648,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Carboni’s</name>
+      <description>Arrondissement: 3e
+Food types: restaurant
+Tags: Bistrot, Trendy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Carboni%E2%80%99s%2C%20Paris%2C%20France
+Website: http://www.carbonisparis.com/
+Booking: https://bookings.zenchef.com/results?rid=348720&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3613013,48.8616657,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cavalier</name>
+      <description>Type: Eastern European Restaurant
+Arrondissement: 11e
+Google: 4.7 (592 reviews)
+Food types: bar
+Tags: Bar, Restaurant, Trendy
+Google summary: Bistro meals &amp; classic cocktails whipped up in a convivial space with a rustic look.
+Google Maps: https://maps.google.com/?cid=13180615431601614904&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.pariscavalier.fr/
+Booking: https://www.pariscavalier.fr/contact-reservations</description>
+      <Point>
+        <coordinates>2.36643,48.86842,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chez Denise</name>
+      <description>Type: French Restaurant
+Arrondissement: 1er
+Price: €€
+Google: 4.3 (2,524 reviews)
+Food types: restaurant
+Tags: Restaurant
+Google Maps: https://maps.google.com/?cid=8302090940691035364&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.paris-bistro.com/choisir/paris1/la-tour-de-montlhery-chez-denise</description>
+      <Point>
+        <coordinates>2.3441953,48.8615614,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chez Dumonet</name>
+      <description>Type: French Restaurant
+Arrondissement: 6e
+Price: €€€
+Google: 4.4 (1,042 reviews)
+Food types: restaurant
+Tags: Restaurant, Bistrot
+Google summary: Foie gras, beef bourguignon, soufflés &amp; a long regional wine list at a classic, veteran brasserie.
+Google Maps: https://maps.google.com/?cid=1141709340899504093&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/chezdumonetjosephine/
+Booking: https://bookings.zenchef.com/results?rid=377647&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.319896,48.845762,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chez Georges</name>
+      <description>Arrondissement: 2e
+Food types: restaurant
+Tags: Frenchie, Restaurant, ❤️
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Chez%20Georges%2C%20Paris%2C%20France
+Website: http://www.facebook.com/Chez-Georges-depuis-1964-209242622441222/</description>
+      <Point>
+        <coordinates>2.3413437,48.8663761,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chez Jeannette</name>
+      <description>Type: Restaurant
+Arrondissement: 10e
+Price: €€
+Google: 4.0 (1,393 reviews)
+Food types: restaurant
+Tags: Bar
+Google summary: Drinks, pastries &amp; light French standards at a buzzing retro bar with music &amp; a sidewalk terrace.
+Google Maps: https://maps.google.com/?cid=974455892981439418&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/chez.jeannette/</description>
+      <Point>
+        <coordinates>2.353529,48.871664,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chez Justine</name>
+      <description>Type: Restaurant
+Arrondissement: 11e
+Price: €€
+Google: 4.4 (2,627 reviews)
+Food types: restaurant
+Tags: Restaurant, Trendy, Italian
+Google summary: Barbecued meats, salads &amp; wood-fired Neapolitan-style pizzas in a light-filled, modern brasserie.
+Google Maps: https://maps.google.com/?cid=3521816774576962417&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://justineparis.fr/
+Booking: https://bookings.zenchef.com/results?rid=378661&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.377854999999999,48.8656838,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chez Marcel</name>
+      <description>Type: French Restaurant
+Arrondissement: 6e
+Price: €€
+Google: 4.7 (752 reviews)
+Food types: restaurant
+Tags: Bistrot
+Google summary: Traditional French meals in an easygoing locale with a retro vibe &amp; eclectic artwork.
+Google Maps: https://maps.google.com/?cid=9045173215651603280&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://chezmarcel.cool/
+Booking: https://bookings.zenchef.com/results?rid=349039&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.328337,48.8437934,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chez Nenesse</name>
+      <description>Type: French Restaurant
+Arrondissement: 3e
+Price: €€
+Google: 4.5 (414 reviews)
+Food types: restaurant
+Tags: bootstrap, marais, Bistrot, ❤️
+Google Maps: https://maps.google.com/?cid=16561272595310479406&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://chez-nenesse.edan.io
+Booking: https://thefork.fr/restaurant/cafe-nenesse-r201777/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3622983,48.8617226,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chez Prune</name>
+      <description>Type: Restaurant
+Arrondissement: 10e
+Price: €€
+Google: 4.3 (1,919 reviews)
+Food types: restaurant
+Tags: Bistrot, Bar
+Google summary: Breakfast, sharing boards &amp; familiar staples at a compact bistro with a terrace beside the canal.
+Google Maps: https://maps.google.com/?cid=17828098265767978677&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.etsy.com/shop/chezpruneetpompon</description>
+      <Point>
+        <coordinates>2.3645859,48.8716544,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chicahualco Table Mexicaine par Mercedes Ahumada</name>
+      <description>Type: French Restaurant
+Arrondissement: 17e
+Google: 4.8 (285 reviews)
+Food types: restaurant
+Tags: Restaurant, Mexican
+Google Maps: https://maps.google.com/?cid=15721137406630003613&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Booking: https://thefork.fr/restaurant/chicahualco-par-mercedes-ahumada-r813176/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.319703340530396,48.88448715209961,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cloche Paris</name>
+      <description>Type: Bistro
+Google: 3.9 (239 reviews)
+Food types: restaurant
+Tags: Bistrot, Gastro / higher end
+Google Maps: https://maps.google.com/?cid=374123235033211080&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/clocheclochecloche/?hl=fr
+Booking: http://www.opentable.fr/r/cloche-paris?ref=17374</description>
+      <Point>
+        <coordinates>2.3418651,48.86423260000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CoCo</name>
+      <description>Type: French Restaurant
+Arrondissement: 9e
+Price: €€€€
+Google: 3.7 (5,894 reviews)
+Food types: restaurant
+Tags: Restaurant
+Google summary: Genteel destination with a terrace offering fine dining &amp; a weekend brunch menu.
+Google Maps: https://maps.google.com/?cid=8447856253269244802&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://coco-paris.com/</description>
+      <Point>
+        <coordinates>2.3328516,48.8716754,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coinstot Vino</name>
+      <description>Arrondissement: 2e
+Food types: restaurant
+Tags: Frenchie, Natural wine, Wine bar, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Coinstot%20Vino%2C%20Paris%2C%20France
+Website: http://lecoinstotvino.com/</description>
+      <Point>
+        <coordinates>2.3416278,48.8706106,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dilia</name>
+      <description>Arrondissement: 20e
+Food types: restaurant
+Tags: Frenchie, Restaurant, Gastro / higher end
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Dilia%2C%20Paris%2C%20France
+Website: http://www.dilia.fr/
+Booking: https://bookings.zenchef.com/results?rid=353401&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3862279,48.86864389999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Double Dragon</name>
+      <description>Type: Bistro
+Arrondissement: 11e
+Google: 4.2 (655 reviews)
+Food types: restaurant
+Tags: Restaurant, Trendy
+Google summary: A menu of vibrant, Filipino-influenced dishes &amp; natural wine in a contemporary restaurant.
+Google Maps: https://maps.google.com/?cid=972382536314200775&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.doubledragonparis.com/</description>
+      <Point>
+        <coordinates>2.3799102,48.862523,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Déviant</name>
+      <description>Type: Restaurant
+Arrondissement: 10e
+Google: 4.2 (560 reviews)
+Food types: bar
+Tags: Frenchie, Restaurant, Trendy
+Google summary: Small, minimalist black-&amp;-white bar sans tables for tapas plates alongside over 60 natural wines.
+Google Maps: https://maps.google.com/?cid=9596080493349548867&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://vivantparis.com/
+Booking: https://bookings.zenchef.com/results?rid=355094&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3500028,48.8738211,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EMPREINTES</name>
+      <description>Type: Store
+Arrondissement: 3e
+Google: 4.5 (294 reviews)
+Food types: shopping
+Tags: Cafe, Shopping
+Google summary: Chic boutique presenting handcrafted decorative objects, jewelry &amp; home goods from French designers.
+Google Maps: https://maps.google.com/?cid=3570348297999114440&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.empreintes-paris.com/</description>
+      <Point>
+        <coordinates>2.3621905,48.8633689,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Eunoé</name>
+      <description>Type: Restaurant
+Arrondissement: 11e
+Google: 4.8 (905 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant, Japanese
+Google Maps: https://maps.google.com/?cid=9843713178588934640&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.eunoe-restaurant.com/
+Booking: https://bookings.zenchef.com/results?rid=362706&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.378991,48.8607713,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fana</name>
+      <description>Type: Bistro
+Arrondissement: 18e
+Google: 4.9 (880 reviews)
+Food types: restaurant
+Tags: Restaurant
+Google Maps: https://maps.google.com/?cid=16155946027569717043&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.fanabistro.fr/</description>
+      <Point>
+        <coordinates>2.345906,48.8915119,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Frenchie, Rue du Nil, Paris, France</name>
+      <description>Type: French Restaurant
+Price: €€€
+Google: 4.5 (2,024 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant, Trendy
+Google summary: Rustic-chic stop for seasonal French dishes with global influences, plus chef&apos;s carte blanche menus.
+Google Maps: https://maps.google.com/?cid=10606828223601549059&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.frenchie-restaurant.com
+Booking: https://bookings.zenchef.com/results?rid=357696&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.347981445756456,48.86776388811727,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fugue - Restaurant</name>
+      <description>Type: French Restaurant
+Google: 4.9 (577 reviews)
+Food types: restaurant
+Tags: Wine bar, Restaurant
+Google Maps: https://maps.google.com/?cid=1078145238813290068&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://fugueparis.fr/</description>
+      <Point>
+        <coordinates>2.3610189,48.8768338,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Garance</name>
+      <description>Type: French Restaurant
+Arrondissement: 7e
+Price: €€€€
+Google: 4.5 (319 reviews)
+Food types: restaurant
+Tags: Restaurant
+Google summary: Inventive, seasonal French cuisine, plus a robust wine list, in an understated, monochrome space.
+Google Maps: https://maps.google.com/?cid=138072956287092235&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.garance-saintdominique.fr/</description>
+      <Point>
+        <coordinates>2.3153274,48.8599927,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gare au Gorille</name>
+      <description>Arrondissement: 17e
+Food types: restaurant, brunch
+Tags: Frenchie, Brunch, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Gare%20au%20Gorille%2C%20Paris%2C%20France
+Website: http://www.gareaugorille.fr/
+Booking: https://bookings.zenchef.com/results?rid=356846&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3199363,48.8835646,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Garçon !</name>
+      <description>Type: Restaurant
+Arrondissement: 6e
+Google: 4.8 (354 reviews)
+Food types: restaurant
+Tags: Restaurant, Frenchie
+Google Maps: https://maps.google.com/?cid=4945232902223918813&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.garcon-cafe.com/
+Booking: https://thefork.fr/restaurant/garcon--r485827/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3230452,48.8475348,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gaston et Marlo - La table des copains</name>
+      <description>Type: French Restaurant
+Arrondissement: 10e
+Price: €€
+Google: 4.3 (3,543 reviews)
+Food types: restaurant
+Tags: Restaurant
+Google summary: Auvergne dishes like aligot, truffade &amp; sausages served in a rustic dining room or on a terrace.
+Google Maps: https://maps.google.com/?cid=16463095154158039715&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.leplombducantal.com/acces_rivedroite.htm</description>
+      <Point>
+        <coordinates>2.3548571,48.8691873,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grand Café Capucines</name>
+      <description>Type: French Restaurant
+Arrondissement: 9e
+Price: €€€
+Google: 4.5 (16,304 reviews)
+Food types: restaurant
+Tags: Frenchie
+Google summary: Seafood platters, oysters &amp; lobster, plus brasserie standards, in an opulent 1800s establishment.
+Google Maps: https://maps.google.com/?cid=14345340856536771728&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.legrandcafe.com/?utm_source=Google&amp;utm_medium=GMB&amp;utm_campaign=GCC
+Booking: https://bookings.zenchef.com/results?rid=352089&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.33364,48.8711033,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GrandCœur</name>
+      <description>Arrondissement: 4e
+Food types: restaurant
+Tags: Bistrot, Frenchie, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=GrandC%C5%93ur%2C%20Paris%2C%20France
+Website: http://www.grandcoeur.paris/
+Booking: https://bookings.zenchef.com/results?rid=356815&amp;pid=mapstr</description>
+      <Point>
+        <coordinates>2.3538752,48.85960069999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Guefen</name>
+      <description>Type: French Restaurant
+Google: 4.9 (351 reviews)
+Food types: restaurant
+Tags: Israeli, Gastro / higher end
+Google Maps: https://maps.google.com/?cid=8462677400349660271&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://guefen.fr/
+Booking: https://thefork.fr/restaurant/guefen-r833328/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.358614206314087,48.86673355102539,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hotel Eldorado Paris</name>
+      <description>Type: Hotel
+Arrondissement: 17e
+Price: €
+Google: 4.5 (972 reviews)
+Food types: restaurant, hotel
+Tags: Hotel / BB, Bar, Cafe
+Google summary: Bohemian hotel with warm, eclectic rooms &amp; free Wi-Fi, plus a bistro with a garden terrace.
+Google Maps: https://maps.google.com/?cid=4609522530565378518&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://hoteleldoradoparis.com/
+Booking: https://bookings.zenchef.com/results?rid=357031&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3249795,48.88504379999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hôtel Lutetia</name>
+      <description>Type: Hotel
+Google: 4.6 (2,442 reviews)
+Food types: lodging, hotel
+Tags: Hotel / BB, Cocktails, Bar, Gastro / higher end
+Google summary: Stylish rooms &amp; suites in a sophisticated hotel with an upscale brasserie, plus a pool &amp; a spa.
+Google Maps: https://maps.google.com/?cid=12921620010862496306&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.hotellutetia.com/</description>
+      <Point>
+        <coordinates>2.3272379,48.8512444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jaïs</name>
+      <description>Type: French Restaurant
+Arrondissement: 7e
+Google: 4.5 (664 reviews)
+Food types: restaurant
+Tags: Gastro / higher end, Frenchie, Restaurant, Trendy
+Google summary: Elegant, understated restaurant preparing refined, traditional bistro dishes with a modern twist.
+Google Maps: https://maps.google.com/?cid=1875691695314731698&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.le-jais.fr/
+Booking: https://bookings.zenchef.com/results?rid=351858&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3094447,48.86205819999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jones</name>
+      <description>Arrondissement: 11e
+Food types: restaurant
+Tags: Frenchie, Trendy, For groups
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Jones%2C%20Paris%2C%20France
+Website: http://www.jonescaferestaurant.com/
+Booking: https://bookings.zenchef.com/results?rid=349783&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.380064,48.856584,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jouvence</name>
+      <description>Arrondissement: 12e
+Food types: restaurant
+Tags: Frenchie, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Jouvence%2C%20Paris%2C%20France
+Website: http://www.jouvence.paris/
+Booking: https://ib.guestonline.fr/instabook/bookings/4360/zB1TF8d</description>
+      <Point>
+        <coordinates>2.3821274,48.850231,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Juveniles</name>
+      <description>Arrondissement: 1er
+Food types: restaurant
+Tags: Frenchie, Wine bar, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Juveniles%2C%20Paris%2C%20France
+Website: http://www.juvenileswinebar.com/
+Booking: https://bookings.zenchef.com/results?rid=375794&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3370654,48.866245,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L&apos;Almanach Montmartre</name>
+      <description>Type: French Restaurant
+Arrondissement: 18e
+Google: 4.8 (1,126 reviews)
+Food types: restaurant
+Tags: Restaurant
+Google Maps: https://maps.google.com/?cid=8728155109587728409&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://almanach-montmartre.fr/
+Booking: https://bookings.zenchef.com/results?rid=364390&amp;pid=mapstr</description>
+      <Point>
+        <coordinates>2.3462706,48.8893226,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L&apos;Auberge des Crus</name>
+      <description>Type: Restaurant
+Arrondissement: 16e
+Google: 4.6 (210 reviews)
+Food types: restaurant
+Tags: Bistrot, Frenchie, Restaurant
+Google Maps: https://maps.google.com/?cid=6427997088925446496&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.aubergedescrus.com/
+Booking: https://thefork.fr/restaurant/l-auberge-des-crus-r845309/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.2652917,48.8491013,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L&apos;Avant Comptoir du Marché</name>
+      <description>Type: Bar
+Arrondissement: 6e
+Price: €€
+Google: 4.4 (1,190 reviews)
+Food types: bar
+Tags: Restaurant, ❤️, Frenchie
+Google summary: Lively, buzzing wine bar for charcuterie platters, global small plates &amp; meaty mains.
+Google Maps: https://maps.google.com/?cid=6781171311742260664&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://camdeborde.com/</description>
+      <Point>
+        <coordinates>2.3355959,48.8517716,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L&apos;Ecailler du Bistrot</name>
+      <description>Type: Seafood Restaurant
+Arrondissement: 11e
+Price: €€
+Google: 4.4 (184 reviews)
+Food types: restaurant
+Tags: Restaurant, Seafood
+Google summary: Shellfish &amp; seafood platters, plus steaks &amp; desserts, at a chic bistro with outdoor tables.
+Google Maps: https://maps.google.com/?cid=15927900291157359439&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://l-ecailler-du-bistrot.business.site/?utm_source=mapstr&amp;utm_medium=referral</description>
+      <Point>
+        <coordinates>2.38494348526001,48.85243606567383,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L&apos;Orillon</name>
+      <description>Arrondissement: 11e
+Food types: restaurant
+Tags: Frenchie, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=L&apos;Orillon%2C%20Paris%2C%20France
+Website: https://www.facebook.com/341368692625875</description>
+      <Point>
+        <coordinates>2.3763935,48.8702805,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LE CHARLOT - PARIS</name>
+      <description>Type: French Restaurant
+Arrondissement: 3e
+Price: €€
+Google: 4.2 (2,958 reviews)
+Food types: restaurant
+Tags: Cafe, Bistrot, Restaurant
+Google summary: Sharing plates, burgers &amp; egg dishes, plus brunch &amp; cocktails, in a tiled interior or on a terrace.
+Google Maps: https://maps.google.com/?cid=17591965283889458145&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.lecharlot-paris.com/</description>
+      <Point>
+        <coordinates>2.3625833,48.8630273,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LE PETIT BAL PERDU</name>
+      <description>Type: French Restaurant
+Arrondissement: 5e
+Google: 4.7 (666 reviews)
+Food types: restaurant
+Tags: Bistrot, Restaurant
+Google Maps: https://maps.google.com/?cid=5260743515862086780&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.lepetitbalperdu.com/</description>
+      <Point>
+        <coordinates>2.3481673,48.8420621,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Belle Epoque</name>
+      <description>Arrondissement: 2e
+Food types: bar
+Tags: Restaurant, Frenchie, Trendy, SH, For groups
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=La%20Belle%20Epoque%2C%20Paris%2C%20France
+Website: http://www.labelleepoqueparis.com/
+Booking: https://bookings.zenchef.com/results?rid=352119&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3354614,48.8671832,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Cave à Michel</name>
+      <description>Arrondissement: 10e
+Food types: generic
+Tags: Frenchie, Restaurant, Bistrot, Bar
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=La%20Cave%20%C3%A0%20Michel%2C%20Paris%2C%20France
+Website: https://www.facebook.com/lacaveamichel
+Booking: https://bookings.zenchef.com/results?rid=363213&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3729344,48.87435319999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Chope Des Artistes</name>
+      <description>Type: Bistro
+Arrondissement: 10e
+Google: 4.3 (231 reviews)
+Food types: restaurant
+Tags: Restaurant, Bar
+Google summary: Refined French food in a stylish restaurant/bar lavishly decorated with chandeliers &amp; mirrors.
+Google Maps: https://maps.google.com/?cid=6646270359330819255&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/lachopedesartistesparis</description>
+      <Point>
+        <coordinates>2.3567059,48.87067990000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Condesa Paris</name>
+      <description>Arrondissement: 9e
+Food types: restaurant
+Tags: Frenchie, Restaurant, Trendy, Healthy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=La%20Condesa%20Paris%2C%20Paris%2C%20France
+Website: http://www.lacondesa-paris.com/
+Booking: https://thefork.fr/restaurant/la-condesa-paris-r829700/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.342762,48.87855299999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Crèmerie</name>
+      <description>Type: French Restaurant
+Arrondissement: 6e
+Google: 4.4 (282 reviews)
+Food types: bar
+Tags: Bar, Cheese shop
+Google Maps: https://maps.google.com/?cid=10798800487371204972&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.facebook.com/lacremerieparis
+Booking: https://bookings.zenchef.com/results?rid=371172&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3377948,48.8517401,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Datcha Paris</name>
+      <description>Type: French Restaurant
+Arrondissement: 11e
+Google: 4.7 (406 reviews)
+Food types: restaurant, brunch
+Tags: Brunch, Restaurant
+Google Maps: https://maps.google.com/?cid=10562815847847167715&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.ladatchaparis.com/</description>
+      <Point>
+        <coordinates>2.3735192,48.8666712,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Fontaine Gaillon</name>
+      <description>Type: French Restaurant
+Arrondissement: 2e
+Price: €€€
+Google: 4.7 (1,995 reviews)
+Food types: bar
+Tags: Restaurant, Frenchie
+Google summary: Refined fish &amp; seafood dishes at an upscale, ornately decorated venue with a leafy terrace.
+Google Maps: https://maps.google.com/?cid=5649456535509709870&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: www.lafontainegaillon.com
+Booking: https://www.sevenrooms.com/explore/lafontainegaillon/reservations/create/search?tracking=mapstr-la-fontaine-gaillon</description>
+      <Point>
+        <coordinates>2.334237,48.86909199999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Fontaine de Mars</name>
+      <description>Type: French Restaurant
+Arrondissement: 7e
+Price: €€€
+Google: 4.4 (2,451 reviews)
+Food types: restaurant
+Tags: Bistrot
+Google summary: Steak, fries, casseroles &amp; French classics in a chic, colorful bistro with patio seating.
+Google Maps: https://maps.google.com/?cid=12956417825552490679&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.fontaine-de-mars.com/
+Booking: https://bookings.zenchef.com/results?rid=356713&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.302569,48.85839199999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Perle</name>
+      <description>Type: Cafe
+Arrondissement: 3e
+Price: €€
+Google: 3.4 (1,670 reviews)
+Food types: cafe
+Tags: Cafe, Trendy
+Google summary: Classic French lunch items &amp; desserts, plus pizza, served at a trendy cafe with sidewalk tables.
+Google Maps: https://maps.google.com/?cid=4190812438264054898&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://cafelaperle.com/</description>
+      <Point>
+        <coordinates>2.3606963,48.8598003,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Petite Périgourdine</name>
+      <description>Type: Restaurant
+Arrondissement: 5e
+Price: €€
+Google: 4.4 (1,820 reviews)
+Food types: bar
+Tags: Bistrot
+Google Maps: https://maps.google.com/?cid=13334502312602225459&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.facebook.com/La.Petite.Perigourdine/timeline
+Booking: https://bookings.zenchef.com/results?rid=360897&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.347194,48.8488724,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Traversée</name>
+      <description>Arrondissement: 18e
+Food types: restaurant
+Tags: Frenchie, Restaurant, Trendy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=La%20Travers%C3%A9e%2C%20Paris%2C%20France
+Website: https://www.latraverseeparis.com/
+Booking: https://menuwidget.zenchef.com/v4.php?rid=348683</description>
+      <Point>
+        <coordinates>2.3475986,48.8872645,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La méduse</name>
+      <description>Arrondissement: 10e
+Food types: bar
+Tags: Frenchie, Restaurant, Cocktail
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=La%20m%C3%A9duse%2C%20Paris%2C%20France</description>
+      <Point>
+        <coordinates>2.3779976,48.86146220000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ladurée</name>
+      <description>Type: Pastry Shop
+Arrondissement: 8e
+Price: €€€
+Google: 4.1 (3,381 reviews)
+Food types: restaurant, brunch
+Tags: Brunch, Bakery, Cafe
+Google summary: Upscale bakery with Parisian origins, specializing in French macarons in a number of flavors.
+Google Maps: https://maps.google.com/?cid=15123703379817243956&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.laduree.fr/laduree-paris-royale.html
+Booking: https://thefork.fr/restaurant/laduree-paris-royale-r5141/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3236443,48.8684378,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ladurée Pavillon Gravelle</name>
+      <description>Type: French Restaurant
+Arrondissement: 12e
+Price: €€€
+Google: 3.9 (308 reviews)
+Food types: restaurant, brunch
+Tags: Cafe, Brunch, Restaurant
+Google summary: Upscale bakery with Parisian origins, specializing in French macarons in a number of flavors.
+Google Maps: https://maps.google.com/?cid=16874507459378194118&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/pavillongravelle.laduree/
+Booking: https://thefork.fr/restaurant/laduree-pavillon-gravelle-r824030/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.4460264,48.8226259,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lafayette&apos;s restaurant rue d&apos;Anjou</name>
+      <description>Type: Restaurant
+Google: 4.4 (1,160 reviews)
+Food types: restaurant
+Tags: Trendy, Restaurant, Gastro / higher end, African, Frenchie
+Google summary: Historic house offering French dishes in a refined, cozy setting.
+Google Maps: https://maps.google.com/?cid=12942500976107558915&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.ran-paris.com/</description>
+      <Point>
+        <coordinates>2.320838,48.8697748,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Bar des Prés</name>
+      <description>Arrondissement: 6e
+Food types: restaurant
+Tags: Frenchie, Japanese, SH, Trendy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Le%20Bar%20des%20Pr%C3%A9s%2C%20Paris%2C%20France
+Website: http://www.lebardespres.com/fr/accueil/</description>
+      <Point>
+        <coordinates>2.330487600000001,48.8528061,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Baratin</name>
+      <description>Arrondissement: 20e
+Food types: restaurant
+Tags: Frenchie, Wine bar, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Le%20Baratin%2C%20Paris%2C%20France
+Website: https://lefooding.com/fr/restaurants/restaurant-le-baratin-paris</description>
+      <Point>
+        <coordinates>2.382835099999999,48.8730712,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Bistrot d&apos;Yves</name>
+      <description>Arrondissement: 17e
+Food types: restaurant
+Tags: Restaurant, Meat, Bistrot
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Le%20Bistrot%20d&apos;Yves%2C%20Paris%2C%20France
+Website: http://menuonline.fr/le-bistrot-d-yves
+Booking: https://thefork.fr/restaurant/le-bistrot-d-yves-r36313/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3038057,48.8821429,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Bistrot de Paris</name>
+      <description>Type: Bistro
+Arrondissement: 7e
+Google: 4.4 (587 reviews)
+Food types: restaurant
+Tags: Restaurant, Bistrot
+Google summary: Elegant restaurant in a 19th-century building preparing a menu of classic &amp; contemporary dishes.
+Google Maps: https://maps.google.com/?cid=10295144339473228327&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.facebook.com/pages/Le-Bistrot-de-Paris-depuis-1965/224910604192636
+Booking: https://bookings.zenchef.com/results?rid=357075&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.32935,48.858577,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Bizetro</name>
+      <description>Type: French Restaurant
+Arrondissement: 16e
+Price: €€
+Google: 4.8 (1,240 reviews)
+Food types: bar
+Tags: Bistrot, Restaurant
+Google summary: Traditional bistro fare presented in a rustic space with exposed-brick walls &amp; nostalgic fixtures.
+Google Maps: https://maps.google.com/?cid=6270697427225073709&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://eater.space/le-bizetro</description>
+      <Point>
+        <coordinates>2.2987559,48.8667804,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Bon Georges</name>
+      <description>Type: French Restaurant
+Arrondissement: 9e
+Price: €€
+Google: 4.5 (2,594 reviews)
+Food types: restaurant
+Tags: Bistrot
+Google summary: Classic Parisian bistro with a chalkboard menu of daily dishes with seasonal produce, plus a long wine list.
+Google Maps: https://maps.google.com/?cid=16995110964793138726&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.lebongeorges.paris/
+Booking: https://bookings.zenchef.com/results?rid=376532&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3372005,48.87765759999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Bon Saint Pourçain</name>
+      <description>Arrondissement: 6e
+Food types: restaurant
+Tags: Frenchie, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Le%20Bon%20Saint%20Pour%C3%A7ain%2C%20Paris%2C%20France
+Website: http://www.bonsaintpourcain.com
+Booking: http://www.opentable.fr/r/le-bon-saint-pourcain-paris?ref=17374</description>
+      <Point>
+        <coordinates>2.3346529,48.8500729,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Bouclard</name>
+      <description>Type: French Restaurant
+Arrondissement: 18e
+Price: €€€
+Google: 4.7 (540 reviews)
+Food types: bar
+Tags: Bistrot
+Google summary: Quaint restaurant specializing in homestyle comfort food plates based on inherited recipes.
+Google Maps: https://maps.google.com/?cid=4411465332494128493&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.bouclard.com/
+Booking: https://thefork.fr/restaurant/le-bouclard-r10089/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3286966,48.8858148,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Brandevin</name>
+      <description>Type: Restaurant
+Arrondissement: 16e
+Price: €€
+Google: 4.5 (413 reviews)
+Food types: restaurant
+Tags: Restaurant, Bistrot
+Google summary: Warm bistro offering traditional French cuisine, along with wines, in a classic setting.
+Google Maps: https://maps.google.com/?cid=5134373376524673414&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.lebrandevin.fr/
+Booking: https://bookings.zenchef.com/results?rid=1094&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.265589400000001,48.85377330000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Cadoret</name>
+      <description>Type: Bistro
+Arrondissement: 19e
+Google: 4.3 (519 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant, Bistrot, Trendy
+Google summary: Typical French food &amp; set menu options at a cozy corner restaurant with a street terrace.
+Google Maps: https://maps.google.com/?cid=1897773483001877358&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/KD-Restaurant-326044977742147/?fref=ts
+Booking: https://bookings.zenchef.com/results?rid=378708&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.381041,48.87475699999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Canard Sauvage</name>
+      <description>Type: Restaurant
+Arrondissement: 10e
+Google: 4.6 (85 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant, Trendy, ❤️
+Google Maps: https://maps.google.com/?cid=9509719228214757666&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://bookings.zenchef.com/results?rid=378070&amp;pid=1001
+Booking: https://bookings.zenchef.com/results?rid=378070&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3554759,48.8705382,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Chardonnay</name>
+      <description>Type: Restaurant
+Arrondissement: 2e
+Google: 4.6 (551 reviews)
+Food types: restaurant
+Tags: Bistrot, Restaurant
+Google Maps: https://maps.google.com/?cid=16170402615737098959&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.lechardonnay-comptoir.fr/
+Booking: https://bookings.zenchef.com/results?rid=362234&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3464376,48.8658229,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Clarence</name>
+      <description>Type: French Restaurant
+Arrondissement: 8e
+Price: €€€€
+Google: 4.7 (827 reviews)
+Food types: restaurant
+Tags: Gastro / higher end, Restaurant
+Google summary: Regal option with an old-world ambiance featuring elevated classics &amp; a wine cellar.
+Google Maps: https://maps.google.com/?cid=11879370148947669534&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.le-clarence.paris/
+Booking: https://thefork.fr/restaurant/le-clarence-r74933/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3097858,48.86739540000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Clown Bar</name>
+      <description>Arrondissement: 11e
+Food types: restaurant
+Tags: Restaurant, Trendy, Wine bar, Frenchie, Natural wine
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Le%20Clown%20Bar%2C%20Paris%2C%20France
+Website: http://www.clownbar.fr
+Booking: https://bookings.zenchef.com/results?rid=354275&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.367232,48.863604,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Comptoir du Relais</name>
+      <description>Food types: restaurant
+Tags: Frenchie, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Le%20Comptoir%20du%20Relais%2C%20Paris%2C%20France
+Website: http://m.hotel-paris-relais-saint-germain.com/savourez-les-restaurants.html</description>
+      <Point>
+        <coordinates>2.3388454,48.8519701,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Floréal</name>
+      <description>Type: French Restaurant
+Arrondissement: 10e
+Price: €€
+Google: 4.2 (1,397 reviews)
+Food types: restaurant
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=11136652347602899876&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://lefloreal.com/fr
+Booking: https://lefloreal.com/fr/services</description>
+      <Point>
+        <coordinates>2.371141,48.870165,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Grand Bain</name>
+      <description>Arrondissement: 20e
+Food types: restaurant
+Tags: Frenchie, Bistrot, Trendy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Le%20Grand%20Bain%2C%20Paris%2C%20France
+Website: http://legrandbainparis.com/
+Booking: https://bookings.zenchef.com/results?rid=353523&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.378566,48.871651,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Grand Colbert</name>
+      <description>Arrondissement: 2e
+Food types: restaurant
+Tags: Restaurant, Bistrot
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Le%20Grand%20Colbert%2C%20Paris%2C%20France
+Website: https://legrandcolbert.fr/index.php/fr/
+Booking: https://bookings.zenchef.com/results?rid=353935&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3390047,48.8666252,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Pantruche</name>
+      <description>Type: Bistro
+Arrondissement: 9e
+Price: €€
+Google: 4.7 (1,213 reviews)
+Food types: restaurant
+Tags: Restaurant, Bistrot
+Google summary: Classic French dishes like soufflés &amp; beef in red wine with a modern touch, in a cozy bistro.
+Google Maps: https://maps.google.com/?cid=3423459202858904342&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.lapantruchoise.com/lepantruche
+Booking: https://bookings.zenchef.com/results?rid=348235&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3396424,48.8804948,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Petit Célestin</name>
+      <description>Type: French Restaurant
+Arrondissement: 4e
+Price: €€
+Google: 4.1 (706 reviews)
+Food types: restaurant
+Tags: Restaurant, Dancing
+Google summary: Quaint stop with wood accents &amp; red tables, making typical bistro fare like tartare &amp; steaks.
+Google Maps: https://maps.google.com/?cid=12894566964199851042&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.lepetitcelestin.fr/
+Booking: https://bookings.zenchef.com/results?rid=314952&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3613136,48.8521177,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Petit Lutetia</name>
+      <description>Type: French Restaurant
+Arrondissement: 6e
+Price: €€€
+Google: 4.3 (1,328 reviews)
+Food types: restaurant
+Tags: Restaurant, Bistrot
+Google summary: Elegant brasserie with a vintage feel &amp; sidewalk seating, serving French fare &amp; homemade desserts.
+Google Maps: https://maps.google.com/?cid=12108938859626468216&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/pages/Le-Petit-Lutetia/174256995952825
+Booking: https://bookings.zenchef.com/results?rid=360287&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3205966,48.8483485,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Petit Olympia</name>
+      <description>Type: Restaurant
+Arrondissement: 9e
+Google: 4.3 (324 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant, Bistrot
+Google summary: Wine &amp; entrees served in a casual eatery featuring classic wood-paneled walls &amp; paintings.
+Google Maps: https://maps.google.com/?cid=3478663271060264414&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.lepetitolympia.com/
+Booking: https://thefork.fr/restaurant/le-petit-olympia-r425651/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.328246,48.8706588,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Petit Vendôme</name>
+      <description>Type: French Restaurant
+Arrondissement: 2e
+Price: €€
+Google: 4.3 (2,778 reviews)
+Food types: bar
+Tags: Bistrot
+Google summary: Colorful, unpretentious bistro whipping up regional classics, sandwiches &amp; daily specials.
+Google Maps: https://maps.google.com/?cid=8432549558822105511&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/lepetitvendome/</description>
+      <Point>
+        <coordinates>2.3297223,48.8687628,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Petit Verdot</name>
+      <description>Type: French Restaurant
+Arrondissement: 6e
+Price: €€
+Google: 4.7 (228 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant
+Google Maps: https://maps.google.com/?cid=8948181745683820005&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.le-petit-verdot.com/</description>
+      <Point>
+        <coordinates>2.323569,48.847869,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Plomb du Cantal</name>
+      <description>Type: French Restaurant
+Arrondissement: 14e
+Price: €€
+Google: 4.3 (6,264 reviews)
+Food types: restaurant
+Tags: Bistrot, Restaurant
+Google summary: Lively bistro known for dairy-rich recipes &amp; mountain wines from the rugged Auvergne countryside.
+Google Maps: https://maps.google.com/?cid=3155056994160105464&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.leplombducantal.com/</description>
+      <Point>
+        <coordinates>2.3245496,48.8407596,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Quincy</name>
+      <description>Arrondissement: 12e
+Food types: restaurant
+Tags: Bistrot, Restaurant, ❤️
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Le%20Quincy%2C%20Paris%2C%20France
+Website: http://www.lequincy.fr</description>
+      <Point>
+        <coordinates>2.3701329,48.8470738,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Relais Plaza</name>
+      <description>Type: Restaurant
+Arrondissement: 8e
+Price: €€€€
+Google: 4.3 (527 reviews)
+Food types: restaurant
+Tags: Gastro / higher end
+Google summary: Gourmet takes on brasserie classics presented in a posh environment with art deco styling.
+Google Maps: https://maps.google.com/?cid=10211892911784827070&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.dorchestercollection.com/en/paris/hotel-plaza-athenee/restaurants-bars/le-relais-plaza/
+Booking: https://thefork.fr/restaurant/relais-plaza-hotel-plaza-athenee-r708537/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3038703,48.8661319,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Roi du Pot au Feu</name>
+      <description>Arrondissement: 9e
+Food types: restaurant
+Tags: Frenchie, Restaurant, Bistrot
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Le%20Roi%20du%20Pot%20au%20Feu%2C%20Paris%2C%20France
+Website: https://www.facebook.com/pages/le-roi-du-pot-au-feu/104311942972928</description>
+      <Point>
+        <coordinates>2.3266434,48.8721493,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Rouquet</name>
+      <description>Type: Restaurant
+Price: €€€
+Google: 2.9 (501 reviews)
+Food types: restaurant
+Tags: Bar, Bistrot
+Google Maps: https://maps.google.com/?cid=8978704800617157836&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://lor.paris/p/le-rouquet-paris/accueil</description>
+      <Point>
+        <coordinates>2.3304213,48.8546643,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Rubis</name>
+      <description>Type: Bistro
+Arrondissement: 1er
+Price: €€
+Google: 4.4 (721 reviews)
+Food types: bar, restaurant
+Tags: bootstrap, wine-bar, Bistrot, Cafe
+Google Maps: https://maps.google.com/?cid=18273164744386044605&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/Le-Rubis-964093417031887/</description>
+      <Point>
+        <coordinates>2.3313684,48.8662382,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Récamier</name>
+      <description>Type: French Restaurant
+Arrondissement: 7e
+Price: €€€
+Google: 4.5 (4,187 reviews)
+Food types: restaurant
+Tags: Frenchie
+Google summary: Famed savory &amp; sweet soufflés, plus classic French food, at an elegant, literary-themed venue.
+Google Maps: https://maps.google.com/?cid=7173841611168196839&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://lerecamier.com/
+Booking: https://bookings.zenchef.com/results?rid=349893&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.328119,48.852203,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Sand</name>
+      <description>Type: French Restaurant
+Google: 4.4 (133 reviews)
+Food types: restaurant
+Tags: Restaurant
+Google Maps: https://maps.google.com/?cid=4221179675037965680&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.lesand-paris.com/
+Booking: https://thefork.fr/restaurant/le-sand-paris-r843266/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3263406,48.8661767,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Servan</name>
+      <description>Type: Bistro
+Arrondissement: 11e
+Price: €€€
+Google: 4.5 (1,093 reviews)
+Food types: restaurant
+Tags: Restaurant, Trendy, ❤️
+Google summary: French-Asian dishes like blood sausage wontons &amp; ginger pork belly, in a space with a vintage vibe.
+Google Maps: https://maps.google.com/?cid=9530374725574136956&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://leservan.fr/
+Booking: https://thefork.fr/restaurant/sensation-r831294/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3814506,48.86101559999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Soufflé</name>
+      <description>Type: French Restaurant
+Arrondissement: 1er
+Price: €€
+Google: 4.7 (4,236 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant, Bistrot
+Google summary: Sweet &amp; savory soufflés with flavors like beef bourguignon &amp; hazelnut, served in a tidy dining room.
+Google Maps: https://maps.google.com/?cid=17259246465247453084&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.lesouffle.fr/
+Booking: https://bookings.zenchef.com/results?rid=361852&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3264267,48.8664672,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Square Trousseau</name>
+      <description>Type: French Restaurant
+Arrondissement: 12e
+Price: €€€
+Google: 4.0 (620 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant
+Google summary: Light-filled bistro with period features offering an all-day menu of traditional cuisine.
+Google Maps: https://maps.google.com/?cid=16920901166049746526&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.squaretrousseau.com/</description>
+      <Point>
+        <coordinates>2.376449,48.85021459999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Vieux Crapaud</name>
+      <description>Type: French Restaurant
+Arrondissement: 16e
+Price: €€
+Google: 4.5 (393 reviews)
+Food types: restaurant
+Tags: Bistrot
+Google Maps: https://maps.google.com/?cid=9338349377463934498&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/levieuxcrapaud/
+Booking: https://bookings.zenchef.com/results?rid=377781&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.2924522,48.8718386,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Voltaire - Restaurant et Brasserie Haut de Gamme</name>
+      <description>Type: French Restaurant
+Price: €€€€
+Google: 4.3 (522 reviews)
+Food types: restaurant
+Tags: Bistrot, Gastro / higher end, Restaurant
+Google summary: Traditional French cuisine served in a refined space with dark-wood paneling, or at terrace tables.
+Google Maps: https://maps.google.com/?cid=10508836296204151837&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.facebook.com/pages/Restaurant-Le-Voltaire/103437023055736
+Booking: https://ib.guestonline.fr/instabook/bookings/8313/zB1TF8d</description>
+      <Point>
+        <coordinates>2.330200899999999,48.85913249999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Les Fous de l&apos;Ile</name>
+      <description>Type: French Restaurant
+Arrondissement: 4e
+Price: €€
+Google: 4.4 (1,809 reviews)
+Food types: bar
+Tags: Bistrot, Restaurant
+Google summary: Traditional cuisine in a relaxed, modern bistro decorated with chicken-related images &amp; objects.
+Google Maps: https://maps.google.com/?cid=15195169802769798841&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.lesfousdelile.com/
+Booking: https://thefork.fr/restaurant/les-fous-de-l-ile-r824747/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3565519,48.8518414,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Les Ptits Gros</name>
+      <description>Type: French Restaurant
+Arrondissement: 9e
+Price: €€
+Google: 4.4 (1,067 reviews)
+Food types: restaurant
+Tags: Bar
+Google Maps: https://maps.google.com/?cid=9726893426749344995&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.lesptitsgros.com/
+Booking: https://bookings.zenchef.com/results?rid=375226&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.343376,48.8811753,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Les Pères PoPulaires</name>
+      <description>Arrondissement: 20e
+Food types: restaurant
+Tags: Frenchie, Restaurant, Bistrot
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Les%20P%C3%A8res%20PoPulaires%2C%20Paris%2C%20France</description>
+      <Point>
+        <coordinates>2.4018248,48.8511345,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lissit</name>
+      <description>Type: French Restaurant
+Arrondissement: 11e
+Google: 4.9 (265 reviews)
+Food types: restaurant
+Tags: Bistrot, Restaurant, Trendy, ❤️
+Google Maps: https://maps.google.com/?cid=16989440043625837637&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.barlissit.com/
+Booking: https://bookings.zenchef.com/results?rid=374609&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3721689,48.8638416,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L’Auberge Aveyronnaise</name>
+      <description>Type: French Restaurant
+Arrondissement: 12e
+Price: €€
+Google: 4.5 (4,660 reviews)
+Food types: restaurant
+Tags: Bistrot, Restaurant
+Google summary: Classic regional French fare, plus cheeses &amp; wines, in a longstanding, traditional restaurant.
+Google Maps: https://maps.google.com/?cid=17623375295315507893&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://auberge-aveyronnaise.paris/</description>
+      <Point>
+        <coordinates>2.3862469,48.8348088,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L’italien de La Belle Époque</name>
+      <description>Type: Restaurant
+Arrondissement: 2e
+Price: €€
+Google: 3.7 (1,033 reviews)
+Food types: restaurant
+Tags: Restaurant, Italian
+Google summary: Traditional brasserie serving meat &amp; fish dishes in a 1920s-style dining room or at sidewalk tables.
+Google Maps: https://maps.google.com/?cid=17132008827808969732&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.restaurantmer-coquillageparis.com/
+Booking: https://bookings.zenchef.com/results?rid=358500&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.336488008499146,48.86678695678711,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MORI YOSHIDA</name>
+      <description>Arrondissement: 7e
+Food types: restaurant
+Tags: Frenchie, Japanese, Pastry
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=MORI%20YOSHIDA%2C%20Paris%2C%20France
+Website: http://www.moriyoshida.fr/</description>
+      <Point>
+        <coordinates>2.3122056,48.84797929999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Magma</name>
+      <description>Type: French Restaurant
+Arrondissement: 11e
+Google: 4.6 (687 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant
+Google Maps: https://maps.google.com/?cid=12616132024001628538&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Booking: https://thefork.fr/restaurant/restaurant-magma-r821430/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3672331,48.8651114,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maison Baroche</name>
+      <description>Type: Grocery Store
+Arrondissement: 9e
+Google: 4.5 (60 reviews)
+Food types: restaurant
+Tags: Frenchie
+Google Maps: https://maps.google.com/?cid=18236696355883521180&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://maisonbaroche.fr/</description>
+      <Point>
+        <coordinates>2.3434249,48.8754593,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Margaux</name>
+      <description>Type: French Restaurant
+Arrondissement: 16e
+Google: 4.7 (1,502 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant
+Google Maps: https://maps.google.com/?cid=13452062831568045297&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.restaurantmargaux.com/
+Booking: https://thefork.fr/restaurant/margaux-r835079/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.2989862,48.8641264,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Martin</name>
+      <description>Arrondissement: 11e
+Food types: bar
+Tags: Frenchie, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Martin%2C%20Paris%2C%20France
+Website: http://bar-martin.fr/</description>
+      <Point>
+        <coordinates>2.365981,48.864849,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mille &amp; Un (Boulangerie, Pâtisserie, Salon de Thé)</name>
+      <description>Type: Bakery
+Arrondissement: 6e
+Google: 4.5 (1,404 reviews)
+Food types: restaurant
+Tags: Bakery, Korean
+Google summary: Informal French-Korean bakery with outdoor tables showcasing creative pastries &amp; cakes, plus bingsu.
+Google Maps: https://maps.google.com/?cid=7890592480825157891&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.325478,48.84865970000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mr.T</name>
+      <description>Arrondissement: 3e
+Food types: restaurant
+Tags: Frenchie, Asian, Mexican, ❤️, Trendy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Mr.T%2C%20Paris%2C%20France
+Website: http://www.mrt-restaurant.fr/
+Booking: https://bookings.zenchef.com/results?rid=351813&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.36368,48.8626707,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Parcelles</name>
+      <description>Type: French Restaurant
+Arrondissement: 3e
+Google: 4.5 (477 reviews)
+Food types: restaurant
+Tags: Restaurant
+Google Maps: https://maps.google.com/?cid=12086924999685936275&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.parcelles-paris.fr/</description>
+      <Point>
+        <coordinates>2.3565614,48.8630868,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Passage 53</name>
+      <description>Arrondissement: 2e
+Food types: restaurant
+Tags: Frenchie, Restaurant, Gastro / higher end
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Passage%2053%2C%20Paris%2C%20France
+Website: http://www.latabledu53.com/</description>
+      <Point>
+        <coordinates>2.341695,48.87117199999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Patine Bistrot</name>
+      <description>Type: French Restaurant
+Arrondissement: 11e
+Google: 4.9 (109 reviews)
+Food types: restaurant
+Tags: ❤️, Frenchie, Restaurant
+Google Maps: https://maps.google.com/?cid=4321861797129807666&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.patine-bistrot.fr/</description>
+      <Point>
+        <coordinates>2.3849892,48.8583587,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Patsy</name>
+      <description>Type: Restaurant
+Arrondissement: 9e
+Google: 4.9 (161 reviews)
+Food types: restaurant
+Tags: ❤️, Bistrot, Trendy, Restaurant
+Google Maps: https://maps.google.com/?cid=13453863671297659258&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://restaurant-patsy.com/</description>
+      <Point>
+        <coordinates>2.3446353,48.8725168,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paul Chêne</name>
+      <description>Type: French Restaurant
+Arrondissement: 16e
+Price: €€
+Google: 4.5 (674 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant, Bistrot
+Google summary: Bistro classics with a modern twist, plus cognac &amp; fine wines, at a neighborhood institution.
+Google Maps: https://maps.google.com/?cid=16760174407518908822&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.paulchene.com/
+Booking: https://bookings.zenchef.com/results?rid=360248&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.285838,48.8657376,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paul Chêne Cherche Midi</name>
+      <description>Type: French Restaurant
+Arrondissement: 6e
+Price: €€
+Google: 4.4 (162 reviews)
+Food types: restaurant
+Tags: Restaurant, Bistrot
+Google Maps: https://maps.google.com/?cid=5627152388365986600&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://paulchene-cherchemidi.fr/
+Booking: https://bookings.zenchef.com/results?rid=361192&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.323308,48.84772880000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pedzouille L&apos;étable</name>
+      <description>Arrondissement: 10e
+Food types: restaurant
+Tags: Frenchie, Restaurant, Meat
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Pedzouille%20L&apos;%C3%A9table%2C%20Paris%2C%20France
+Website: http://www.pedzouille.fr/
+Booking: https://bookings.zenchef.com/results?rid=356311&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3485288,48.87613,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pierro par Pierre Gagnaire</name>
+      <description>Type: Restaurant
+Arrondissement: 7e
+Google: 4.4 (263 reviews)
+Food types: restaurant
+Tags: Italian, Restaurant
+Google summary: Warm, upscale bistro with marble tables featuring northern Italian cuisine by an acclaimed chef.
+Google Maps: https://maps.google.com/?cid=4430642939950905436&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.pierregagnaire.com/restaurants/piero-paris
+Booking: https://thefork.fr/restaurant/piero-tt-r658801/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3267091,48.8566934,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pottoka</name>
+      <description>Arrondissement: 7e
+Food types: restaurant
+Tags: Frenchie, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Pottoka%2C%20Paris%2C%20France
+Website: http://www.pottoka.fr/
+Booking: https://pottoka.fr/carte-pottoka/Menu-pottoka-fr.pdf</description>
+      <Point>
+        <coordinates>2.302567799999999,48.8581265,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pouliche - Amandine Chaignot</name>
+      <description>Type: French Restaurant
+Arrondissement: 10e
+Price: €€€
+Google: 4.6 (2,726 reviews)
+Food types: restaurant
+Tags: Restaurant, Healthy, Vegetarian
+Google summary: A thoughtfully sourced fixed-price menu is served with cocktails &amp; wine at this chic, artful bistro.
+Google Maps: https://maps.google.com/?cid=14974205681606584309&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://poulicheparis.com/
+Booking: https://bookings.zenchef.com/results?rid=353381&amp;prescriber_id=20117&amp;prescriber_name=MAPSTR&amp;pid=mapstr</description>
+      <Point>
+        <coordinates>2.3513538,48.8719347,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Quinsou</name>
+      <description>Type: Fine Dining Restaurant
+Arrondissement: 6e
+Price: €€€€
+Google: 4.4 (412 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant, Gastro / higher end
+Google summary: Innovative, artfully presented French-inspired dishes with wine pairings in a stylish setting.
+Google Maps: https://maps.google.com/?cid=17673559145921728318&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://quinsou.business.site/
+Booking: https://thefork.fr/restaurant/quinsou-r824305/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3254803,48.8476946,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Racines</name>
+      <description>Arrondissement: 2e
+Food types: restaurant
+Tags: Frenchie, Restaurant, ❤️, Trendy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Racines%2C%20Paris%2C%20France
+Website: http://www.racinesparis.com/
+Booking: https://racines.superbexperience.com/reserve/experience</description>
+      <Point>
+        <coordinates>2.3418543,48.87125160000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Racines Des Prés</name>
+      <description>Type: Restaurant
+Arrondissement: 7e
+Price: €€
+Google: 4.6 (405 reviews)
+Food types: restaurant
+Tags: Restaurant, Bistrot
+Google summary: Contemporary outfit with an open kitchen serving creatively presented seasonal cuisine.
+Google Maps: https://maps.google.com/?cid=12221058701971630718&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.racinesdespres.com/
+Booking: https://bookings.zenchef.com/results?rid=353535&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3270644,48.8561191,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Alan Geaam</name>
+      <description>Type: Fine Dining Restaurant
+Arrondissement: 16e
+Price: €€€€
+Google: 4.8 (1,120 reviews)
+Food types: restaurant
+Tags: Gastro / higher end, Libanese
+Google summary: Imaginative, Lebanese-inflected French cuisine, plus wine pairings, in a sleek, understated space.
+Google Maps: https://maps.google.com/?cid=13333900603047881157&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.alangeaam.fr/
+Booking: https://bookings.zenchef.com/results?rid=374696&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.2924576,48.8714325,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Biche</name>
+      <description>Type: French Restaurant
+Arrondissement: 8e
+Google: 4.6 (2,226 reviews)
+Food types: restaurant
+Tags: Restaurant
+Google Maps: https://maps.google.com/?cid=7871108702379607073&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.biche-restaurant.com/</description>
+      <Point>
+        <coordinates>2.30925,48.87335,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Cèna</name>
+      <description>Type: French Restaurant
+Arrondissement: 8e
+Google: 4.5 (142 reviews)
+Food types: restaurant
+Tags: Gastro / higher end, Restaurant
+Google Maps: https://maps.google.com/?cid=13320545348417439297&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.cena.restaurant/
+Booking: https://thefork.fr/restaurant/cena-r848950/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3131153,48.87671630000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Drouant</name>
+      <description>Type: French Restaurant
+Arrondissement: 2e
+Price: €€€
+Google: 4.2 (1,334 reviews)
+Food types: restaurant
+Tags: Bistrot, Gastro / higher end, Restaurant
+Google summary: Art Deco French restaurant with famed staircase &amp; lounges, for classic food with modern influences.
+Google Maps: https://maps.google.com/?cid=8674680426340803033&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.drouant.com/
+Booking: https://thefork.fr/restaurant/drouant-r569553/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3344382,48.8686426,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Kei</name>
+      <description>Type: French Restaurant
+Arrondissement: 1er
+Price: €€€€
+Google: 4.7 (1,227 reviews)
+Food types: restaurant
+Tags: Restaurant, Gastro / higher end
+Google summary: High-end venue for Japanese/French fusion, with an artfully presented tasting menu &amp; European wines.
+Google Maps: https://maps.google.com/?cid=9257759260887336002&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.restaurant-kei.fr/
+Booking: https://bookings.zenchef.com/results?rid=365417&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3420781,48.8643574,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant La Scène - Stéphanie Le Quellec</name>
+      <description>Type: French Restaurant
+Arrondissement: 8e
+Price: €€€€
+Google: 4.7 (1,027 reviews)
+Food types: restaurant
+Tags: Restaurant, Gastro / higher end
+Google summary: Warm, stylish restaurant plating an acclaimed chef&apos;s refined, modern French fare &amp; tasting menus.
+Google Maps: https://maps.google.com/?cid=6508746646158541023&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.la-scene.paris/
+Booking: https://thefork.fr/restaurant/la-scene--r823229/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3144676,48.8719824,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Lasserre</name>
+      <description>Type: French Restaurant
+Arrondissement: 8e
+Price: €€€€
+Google: 4.5 (649 reviews)
+Food types: restaurant
+Tags: Restaurant, Gastro / higher end
+Google summary: Refined takes on classic French fare, plus tasting menus &amp; wine pairings, in an elegant space.
+Google Maps: https://maps.google.com/?cid=14932709781497144347&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.restaurant-lasserre.com/
+Booking: https://thefork.fr/restaurant/lasserre-r250/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3097918,48.8663019,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Montcalm</name>
+      <description>Arrondissement: 18e
+Food types: restaurant
+Tags: Frenchie, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Restaurant%20Montcalm%2C%20Paris%2C%20France
+Booking: https://bookings.zenchef.com/results?rid=379504&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3370904,48.89282780000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Pages</name>
+      <description>Arrondissement: 16e
+Food types: restaurant
+Tags: Frenchie, Japanese, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Restaurant%20Pages%2C%20Paris%2C%20France
+Website: http://www.116pages.fr/
+Booking: https://thefork.fr/restaurant/pages-r65716/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.2961591,48.8709266,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Panurge</name>
+      <description>Type: French Restaurant
+Arrondissement: 2e
+Google: 4.8 (175 reviews)
+Food types: restaurant
+Tags: Frenchie
+Google Maps: https://maps.google.com/?cid=69062231218686658&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.restaurant-panurge.com/
+Booking: https://thefork.fr/restaurant/panurge-r854149/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3463159,48.8696774,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Plume</name>
+      <description>Type: Restaurant
+Arrondissement: 7e
+Google: 4.5 (737 reviews)
+Food types: restaurant
+Tags: Restaurant, Gastro / higher end, Bistrot
+Google summary: Fine dining in a trendy, airy locale with wood accents, geometric patterns &amp; dangling Edison bulbs.
+Google Maps: https://maps.google.com/?cid=8312512234578341059&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://restaurant-plume.com/
+Booking: https://bookings.zenchef.com/results?rid=374979&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.319201,48.8487714,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Quedubon</name>
+      <description>Type: French Restaurant
+Arrondissement: 19e
+Price: €€
+Google: 4.6 (516 reviews)
+Food types: bar
+Tags: Bistrot, Restaurant
+Google Maps: https://maps.google.com/?cid=9547065934567075187&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.restaurantquedubon.fr/fr</description>
+      <Point>
+        <coordinates>2.3843937,48.878097,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Waknine Et Associes</name>
+      <description>Type: Restaurant
+Arrondissement: 16e
+Google: 4.3 (369 reviews)
+Food types: restaurant
+Tags: Bistrot
+Google summary: Refined French cuisine with a global spin, plus aperitifs, in an elegant space or on a terrace.
+Google Maps: https://maps.google.com/?cid=8944917317209384110&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.waknine.fr/
+Booking: https://bookings.zenchef.com/results?rid=379309&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.2953563,48.8655972,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Willette Café Troquet</name>
+      <description>Type: French Restaurant
+Arrondissement: 9e
+Google: 4.8 (356 reviews)
+Food types: restaurant, cafe, bar
+Tags: bootstrap, cafe, Bistrot
+Google Maps: https://maps.google.com/?cid=2916336383746478039&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/Willette-caf%C3%A9-troquet-325510518140371/
+Booking: https://thefork.fr/restaurant/willette-r565193/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3452161,48.8738966,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Robert et Louise</name>
+      <description>Type: French Restaurant
+Arrondissement: 3e
+Price: €€
+Google: 4.5 (3,345 reviews)
+Food types: restaurant
+Tags: Bistrot, Restaurant
+Google summary: Steak, duck confit &amp; a long wine list in a relaxed venue with wood beams &amp; stone walls.
+Google Maps: https://maps.google.com/?cid=13476296587106863437&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://robertetlouise.com/
+Booking: https://bookings.zenchef.com/results?rid=352419&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3594352,48.8590787,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Semilla</name>
+      <description>Type: French Restaurant
+Price: €€€
+Google: 4.5 (948 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant
+Google summary: Contemporary, intricate French cuisine with Mediterranean accents amid exposed ducts &amp; brickwork.
+Google Maps: https://maps.google.com/?cid=17909131433648070151&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.semillaparis.com/
+Booking: https://bookings.zenchef.com/results?rid=353221&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.336884699999999,48.8540662,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Septime</name>
+      <description>Arrondissement: 11e
+Food types: restaurant
+Tags: Frenchie, Wine bar, ❤️, Trendy, Bar
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Septime%2C%20Paris%2C%20France
+Website: http://www.septime-charonne.fr/</description>
+      <Point>
+        <coordinates>2.3807315,48.8535789,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sola</name>
+      <description>Type: French Restaurant
+Arrondissement: 5e
+Google: 4.7 (866 reviews)
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google summary: Refined, creative Japanese food with French influences, served in a stone cellar &amp; elegant room.
+Google Maps: https://maps.google.com/?cid=17893814821362708005&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.restaurant-sola.com/
+Booking: https://bookings.zenchef.com/results?rid=369580&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3483035,48.8515846,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Source</name>
+      <description>Type: French Restaurant
+Arrondissement: 6e
+Price: €€
+Google: 4.2 (1,937 reviews)
+Food types: restaurant
+Tags: Restaurant
+Google Maps: https://maps.google.com/?cid=345689054557147137&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.sourcerestaurant.fr
+Booking: https://thefork.fr/restaurant/l-ouzeri-r836163/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3379268,48.853009,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sugaar</name>
+      <description>Type: Restaurant
+Arrondissement: 6e
+Google: 4.0 (420 reviews)
+Food types: restaurant
+Tags: Bistrot, Gastro / higher end
+Google Maps: https://maps.google.com/?cid=11057144900801582300&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Booking: https://bookings.zenchef.com/results?rid=358531&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.333627,48.853292,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Superfine</name>
+      <description>Type: Cocktail Bar
+Arrondissement: 11e
+Google: 4.8 (91 reviews)
+Food types: restaurant, bar
+Tags: bootstrap, bistro, Cocktails, Restaurant, Street food
+Google Maps: https://maps.google.com/?cid=6676943630750227351&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/superfinebar/</description>
+      <Point>
+        <coordinates>2.3765031,48.8527026,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Table Penja</name>
+      <description>Type: Restaurant
+Arrondissement: 7e
+Google: 4.9 (153 reviews)
+Food types: restaurant
+Tags: Restaurant, Frenchie, African
+Google Maps: https://maps.google.com/?cid=1508556089686244812&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.tablepenja.paris/
+Booking: https://thefork.fr/restaurant/table-penja-r839652/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3014614,48.8592041,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vantre</name>
+      <description>Type: French Restaurant
+Arrondissement: 11e
+Price: €€
+Google: 4.4 (670 reviews)
+Food types: restaurant
+Tags: Restaurant
+Google Maps: https://maps.google.com/?cid=10696963794562617589&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.vantre.fr/
+Booking: https://bookings.zenchef.com/results?rid=364088&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3701551,48.8684941,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vivant 2</name>
+      <description>Type: Restaurant
+Arrondissement: 10e
+Price: €€
+Google: 4.3 (433 reviews)
+Food types: restaurant
+Tags: Restaurant, Trendy, Frenchie, Wine bar, SH
+Google summary: Gourmet cuisine made with healthy products, served in an industrial-chic space.
+Google Maps: https://maps.google.com/?cid=7540361736806579762&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.vivantparis.com/
+Booking: https://bookings.zenchef.com/results?rid=355093&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3496603,48.8738319,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>À la Biche au Bois</name>
+      <description>Type: French Restaurant
+Arrondissement: 12e
+Price: €€
+Google: 4.5 (1,384 reviews)
+Food types: restaurant
+Tags: Restaurant
+Google summary: Typical French fare like terrine &amp; braised chicken, turned out in a relaxed setup.
+Google Maps: https://maps.google.com/?cid=2837411074796861473&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/alabicheaubois/</description>
+      <Point>
+        <coordinates>2.3754554,48.8506597,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Åke - Au Quai Caviste Paris 10</name>
+      <description>Arrondissement: 10e
+Food types: library
+Tags: Restaurant, Bistrot, Trendy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=%C3%85ke%20-%20Au%20Quai%20Caviste%20Paris%2010%2C%20Paris%2C%20France
+Website: http://www.akeparis.fr</description>
+      <Point>
+        <coordinates>2.36728,48.87159,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Épopée</name>
+      <description>Type: French Restaurant
+Arrondissement: 11e
+Google: 4.8 (104 reviews)
+Food types: restaurant
+Tags: Gastro / higher end, Restaurant
+Google Maps: https://maps.google.com/?cid=9656181437775388142&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.epopee-charonne.fr/</description>
+      <Point>
+        <coordinates>2.3861665,48.8561329,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

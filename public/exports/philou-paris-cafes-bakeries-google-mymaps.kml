@@ -1,0 +1,1912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Cafes & bakeries</name>
+    <description>Cafe stops, bakery counters, pastry breaks, and easy addresses for a slower Paris day.</description>
+    <Placemark>
+      <name>A la Folie Théâtre</name>
+      <description>Type: Performing Arts Theater
+Arrondissement: 11e
+Google: 4.4 (213 reviews)
+Food types: generic
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=8736004116634024602&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.folietheatre.com/</description>
+      <Point>
+        <coordinates>2.3748357,48.86141929999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Abattoir végétal</name>
+      <description>Type: Restaurant
+Arrondissement: 6e
+Food types: restaurant
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=17855369776657667196&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.abattoirvegetal.com/</description>
+      <Point>
+        <coordinates>2.3346752,48.8517649,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arabica</name>
+      <description>Type: Coffee Shop
+Arrondissement: 1er
+Google: 4.5 (129 reviews)
+Food types: generic
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=13182459160590547618&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.327883720397949,48.86579132080078,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arabica</name>
+      <description>Type: Cafe
+Arrondissement: 7e
+Google: 4.5 (1,218 reviews)
+Food types: generic
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=1015852265771588257&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.certified.cafe/</description>
+      <Point>
+        <coordinates>2.3249371,48.8543713,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Armande</name>
+      <description>Type: French Restaurant
+Arrondissement: 18e
+Google: 5.0 (414 reviews)
+Food types: restaurant
+Tags: Cafe, Restaurant
+Google Maps: https://maps.google.com/?cid=4536107868716594584&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.3355589,48.8865388,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BUDDY BUDDY 🥜</name>
+      <description>Type: Coffee Shop
+Arrondissement: 10e
+Google: 4.6 (1,149 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=10252212821854942931&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.buddybuddy.co/</description>
+      <Point>
+        <coordinates>2.363620099999999,48.871677,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Back in Black</name>
+      <description>Type: Restaurant
+Arrondissement: 11e
+Price: €€
+Google: 4.5 (1,231 reviews)
+Food types: cafe, brunch
+Tags: Brunch, Cafe
+Google summary: Espresso, pastries &amp; all-day breakfast in a streamlined locale offering beans &amp; roastery workshops.
+Google Maps: https://maps.google.com/?cid=3631988056719622990&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://linktr.ee/backinblackcoffee
+Booking: https://bookings.zenchef.com/results?rid=377537&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3690622,48.8562272,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bel Horizon Coffee Roasters</name>
+      <description>Type: Coffee roastery
+Google: 4.8 (585 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=16162977047889895338&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.belhorizoncoffee.com/</description>
+      <Point>
+        <coordinates>2.3044821,48.8468636,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Benchy</name>
+      <description>Type: Sandwich Shop
+Google: 4.2 (404 reviews)
+Food types: restaurant
+Tags: Cafe, Japanese
+Google Maps: https://maps.google.com/?cid=2474453887306421118&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.3256964,48.8492484,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Blondie Coffee Shop</name>
+      <description>Type: Coffee Shop
+Arrondissement: 9e
+Google: 4.7 (1,190 reviews)
+Food types: cafe
+Tags: Cafe, Restaurant
+Google Maps: https://maps.google.com/?cid=16744370551790401715&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.cafeblondie.com/</description>
+      <Point>
+        <coordinates>2.3372073,48.8766495,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Blé Sucré</name>
+      <description>Arrondissement: 12e
+Food types: restaurant
+Tags: Bakery
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Bl%C3%A9%20Sucr%C3%A9%2C%20Paris%2C%20France
+Website: http://www.boutdechoux.fr/</description>
+      <Point>
+        <coordinates>2.3766879,48.8505923,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Boma</name>
+      <description>Type: Coffee Shop
+Arrondissement: 5e
+Google: 4.9 (189 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=6859123500424822945&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://boma-paris.square.site/</description>
+      <Point>
+        <coordinates>2.3484506,48.8475828,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bontemps La Pâtisserie</name>
+      <description>Type: Pastry Shop
+Arrondissement: 3e
+Price: €€€
+Google: 4.4 (1,032 reviews)
+Food types: restaurant, brunch
+Tags: Brunch
+Google summary: Light-filled cafe with a leafy patio serving elegant gateaux, sablé cookies &amp; savory snacks.
+Google Maps: https://maps.google.com/?cid=17826626263049201609&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/bontempspatisserie/
+Booking: https://bookings.zenchef.com/results?rid=357179&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.36067,48.86387819999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Boulangerie</name>
+      <description>Type: Bakery
+Arrondissement: 9e
+Price: €€
+Google: 4.4 (299 reviews)
+Food types: restaurant
+Tags: Bakery
+Google Maps: https://maps.google.com/?cid=12541170230470845179&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.343369899999999,48.8755167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Boulangerie Chambelland</name>
+      <description>Type: Bakery
+Arrondissement: 11e
+Price: €€
+Google: 4.4 (1,544 reviews)
+Food types: restaurant
+Tags: Bakery, Healthy
+Google Maps: https://maps.google.com/?cid=9476269460468780158&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.chambelland.com/</description>
+      <Point>
+        <coordinates>2.3733822,48.86441929999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Boulangerie Utopie</name>
+      <description>Arrondissement: 11e
+Food types: restaurant
+Tags: Pastry, ❤️, Bakery, Healthy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Boulangerie%20Utopie%2C%20Paris%2C%20France</description>
+      <Point>
+        <coordinates>2.3687483,48.86536979999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Boulangerie bo</name>
+      <description>Arrondissement: 12e
+Food types: restaurant
+Tags: Bakery
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Boulangerie%20bo%2C%20Paris%2C%20France
+Website: https://www.instagram.com/boulangeriebo/?hl=fr</description>
+      <Point>
+        <coordinates>2.374982999999999,48.849097,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Buvette Paris</name>
+      <description>Arrondissement: 9e
+Food types: restaurant, brunch
+Tags: Brunch, Restaurant, Healthy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Buvette%20Paris%2C%20Paris%2C%20France
+Website: http://www.ilovebuvette.com/
+Booking: https://bookings.zenchef.com/results?rid=361281&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3376954,48.8804588,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CAFE SHIN</name>
+      <description>Type: Coffee Shop
+Arrondissement: 10e
+Google: 4.7 (255 reviews)
+Food types: cafe
+Tags: Cafe, Korean
+Google Maps: https://maps.google.com/?cid=2374647687380210316&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.cafeshin.fr/</description>
+      <Point>
+        <coordinates>2.3511629,48.8737443,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cafe Kitsune</name>
+      <description>Type: Coffee Shop
+Arrondissement: 1er
+Price: €€
+Google: 4.0 (1,475 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=5454067254771987156&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://kitsune.fr/</description>
+      <Point>
+        <coordinates>2.337298,48.86546,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Kitsuné Opéra</name>
+      <description>Type: Coffee Shop
+Google: 4.3 (468 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=18240965835167052985&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://maisonkitsune.com/fr/storelocator-cafe-kitsune-opera
+Booking: https://media.maisonkitsune.com/media/contentmanager/content/CK_MENU_WITH_PICTURES_OPERA.pdf</description>
+      <Point>
+        <coordinates>2.3339383,48.8667281,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Kitsuné Vertbois</name>
+      <description>Type: Cafe
+Arrondissement: 3e
+Google: 4.5 (248 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=16919465094380217690&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.maisonkitsune.com/mk/fr/trouver-un-cafe/
+Booking: https://maisonkitsune.com/mk/wp-content/uploads/2023/08/palaisroyal-tuilerie-vertbois_menu_digital.pdf</description>
+      <Point>
+        <coordinates>2.3584299,48.8669942,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Lacoste</name>
+      <description>Type: Coffee Shop
+Arrondissement: 8e
+Google: 4.3 (165 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=3037442626762535340&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://linktr.ee/lecafelacoste</description>
+      <Point>
+        <coordinates>2.3102164,48.8712974,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Moco</name>
+      <description>Arrondissement: 11e
+Food types: cafe, brunch
+Tags: Brunch, Breakfast
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Caf%C3%A9%20Moco%2C%20Paris%2C%20France
+Website: http://lesparisdelaura.fr/2018/03/brunch-cafe-moco-paris-11/
+Booking: https://thefork.fr/restaurant/cafe-moco-r826033/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.386467,48.854237,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Nuances</name>
+      <description>Type: Coffee Shop
+Google: 4.5 (385 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=5133966221395679624&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.cafenuances.com/</description>
+      <Point>
+        <coordinates>2.3023965,48.8664739,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Nuances</name>
+      <description>Type: Coffee Shop
+Arrondissement: 6e
+Google: 4.3 (254 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=4005257306073081697&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.cafenuances.com/</description>
+      <Point>
+        <coordinates>2.3302263,48.8519692,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Nuances</name>
+      <description>Type: Coffee Shop
+Arrondissement: 1er
+Google: 4.4 (1,169 reviews)
+Food types: cafe
+Tags: Cafe
+Google summary: Upscale spot for refined specialty coffee/tea drinks, including detox, dirty chai &amp; sesame versions.
+Google Maps: https://maps.google.com/?cid=11278543822870272525&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://cafenuances.com/</description>
+      <Point>
+        <coordinates>2.331461906433105,48.86791610717773,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Pavane</name>
+      <description>Type: Tea House
+Arrondissement: 6e
+Google: 4.6 (302 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=14689186720988143763&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.cafepavane.fr/</description>
+      <Point>
+        <coordinates>2.3379919,48.8494153,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Pigalle</name>
+      <description>Type: Cafe
+Arrondissement: 9e
+Google: 4.6 (252 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=15400805800028871235&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://lepigalle.paris/cafe-pigalle/</description>
+      <Point>
+        <coordinates>2.3372601,48.8814973,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café Shin</name>
+      <description>Type: Coffee Shop
+Arrondissement: 1er
+Google: 4.7 (121 reviews)
+Food types: cafe
+Tags: Cafe, Korean
+Google Maps: https://maps.google.com/?cid=6903587351033288750&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://cafeshin.fr/</description>
+      <Point>
+        <coordinates>2.3378996,48.8676817,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café de Flore</name>
+      <description>Type: Coffee Shop
+Arrondissement: 6e
+Price: €€€
+Google: 3.9 (14,034 reviews)
+Food types: cafe
+Tags: Bistrot
+Google summary: Long-running coffeehouse &amp; celebrity haunt serving familiar French fare in a charming corner locale.
+Google Maps: https://maps.google.com/?cid=1782201546845549567&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://cafedeflore.fr/</description>
+      <Point>
+        <coordinates>2.3326046,48.8541588,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café du Clown Coffee Shop</name>
+      <description>Type: Coffee Shop
+Google: 4.4 (337 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=409645432726194122&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.clownbar.fr/le-coffeeshop-caf%C3%A9-du-clown</description>
+      <Point>
+        <coordinates>2.3362949,48.8517901,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café d’Auteur « Specialty Coffee Paris »</name>
+      <description>Type: Coffee Shop
+Arrondissement: 6e
+Google: 4.6 (1,054 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=4796996324016611075&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://cafedauteur.com/</description>
+      <Point>
+        <coordinates>2.34285584596,48.8536067802,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Capturism Studio x Café</name>
+      <description>Type: Coffee Shop
+Google: 4.5 (56 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=3035270182921948125&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://instagram.com/capturism.studio/</description>
+      <Point>
+        <coordinates>2.3361946,48.86741899999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chez Jeanphi</name>
+      <description>Type: Restaurant
+Google: 4.1 (294 reviews)
+Food types: restaurant, brunch
+Tags: Brunch, Cafe
+Google Maps: https://maps.google.com/?cid=11095258320802213075&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.362231969833374,48.86266326904297,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Christophe Louie</name>
+      <description>Type: Bakery
+Google: 4.7 (395 reviews)
+Food types: restaurant
+Tags: Bakery
+Google Maps: https://maps.google.com/?cid=2792449766559980011&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.christophelouie.com/</description>
+      <Point>
+        <coordinates>2.3619835,48.8654865,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Château des Fleurs - Hôtel &amp; Spa - Paris Champs Elysées</name>
+      <description>Type: Hotel
+Google: 4.7 (317 reviews)
+Food types: lodging, hotel
+Tags: Hotel / BB, Cafe
+Google Maps: https://maps.google.com/?cid=11706937774916614814&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.chateaudesfleurs.paris/</description>
+      <Point>
+        <coordinates>2.298455953598022,48.87178421020508,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Club Lulu</name>
+      <description>Type: Sports Club
+Google: 4.4 (130 reviews)
+Food types: cafe
+Tags: Sport
+Google Maps: https://maps.google.com/?cid=905289576909609943&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: www.clublulu.paris</description>
+      <Point>
+        <coordinates>2.3378996,48.8676817,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Copains</name>
+      <description>Type: Bakery
+Google: 3.9 (798 reviews)
+Food types: restaurant
+Tags: Bakery, Glutenfree
+Google Maps: https://maps.google.com/?cid=15241145848296719017&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/copains.paris/?hl=fr</description>
+      <Point>
+        <coordinates>2.3389176,48.8840988,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Copains</name>
+      <description>Type: Bakery
+Arrondissement: 2e
+Google: 4.0 (2,074 reviews)
+Food types: restaurant
+Tags: Bakery
+Google Maps: https://maps.google.com/?cid=6571555679268958951&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.copains-paris.com/</description>
+      <Point>
+        <coordinates>2.3461184,48.865128,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Crème London</name>
+      <description>Type: Bakery
+Arrondissement: 4e
+Google: 4.0 (799 reviews)
+Food types: restaurant
+Tags: Bakery
+Google Maps: https://maps.google.com/?cid=4907943156050432723&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.cremelondon.com/</description>
+      <Point>
+        <coordinates>2.3547386,48.8605289,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DREAMIN MAN</name>
+      <description>Type: Cafe
+Arrondissement: 11e
+Google: 4.3 (738 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=8632870862712239633&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.facebook.com/pages/category/Coffee-Shop/Dreamin-Man-394891914641522</description>
+      <Point>
+        <coordinates>2.366502,48.86526629999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Da Rosa</name>
+      <description>Arrondissement: 7e
+Food types: restaurant, brunch
+Tags: Brunch, Restaurant, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Da%20Rosa%2C%20Paris%2C%20France
+Website: http://www.darosa.fr/</description>
+      <Point>
+        <coordinates>2.32686,48.85398,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Du Pain et des Idées</name>
+      <description>Arrondissement: 10e
+Food types: restaurant
+Tags: ❤️, Bakery
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Du%20Pain%20et%20des%20Id%C3%A9es%2C%20Paris%2C%20France
+Website: http://dupainetdesidees.com/index.php</description>
+      <Point>
+        <coordinates>2.3628904,48.8712453,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EMPREINTES</name>
+      <description>Type: Store
+Arrondissement: 3e
+Google: 4.5 (294 reviews)
+Food types: shopping
+Tags: Cafe, Shopping
+Google summary: Chic boutique presenting handcrafted decorative objects, jewelry &amp; home goods from French designers.
+Google Maps: https://maps.google.com/?cid=3570348297999114440&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.empreintes-paris.com/</description>
+      <Point>
+        <coordinates>2.3621905,48.8633689,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ellsworth</name>
+      <description>Arrondissement: 1er
+Food types: restaurant, brunch
+Tags: Brunch, Restaurant, Trendy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Ellsworth%2C%20Paris%2C%20France
+Website: http://www.ellsworthparis.com/</description>
+      <Point>
+        <coordinates>2.3369467,48.8655806,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Farine&amp;O</name>
+      <description>Arrondissement: 11e
+Food types: restaurant
+Tags: Bakery
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Farine%26O%2C%20Paris%2C%20France
+Website: http://www.facebook.com/FarineetO</description>
+      <Point>
+        <coordinates>2.3792563,48.8506784,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gare au Gorille</name>
+      <description>Arrondissement: 17e
+Food types: restaurant, brunch
+Tags: Frenchie, Brunch, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Gare%20au%20Gorille%2C%20Paris%2C%20France
+Website: http://www.gareaugorille.fr/
+Booking: https://bookings.zenchef.com/results?rid=356846&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3199363,48.8835646,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HOY - Hôtel - Yoga - Restaurant - Bar - Salle de Soin - Fleuriste - YUJ YOGA STUDIO 9ème</name>
+      <description>Type: Yoga Studio
+Arrondissement: 9e
+Google: 3.4 (29 reviews)
+Food types: lodging, brunch, hotel
+Tags: Hotel / BB, Brunch, Vegan, Restaurant, Healthy
+Google Maps: https://maps.google.com/?cid=17381335352158234127&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.hoyparis.com/</description>
+      <Point>
+        <coordinates>2.340225999999999,48.88118069999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ha Noi 1988 Flowers and Archives</name>
+      <description>Type: Coffee Shop
+Arrondissement: 3e
+Google: 4.7 (875 reviews)
+Food types: cafe
+Tags: Cafe, Vietnamiese
+Google Maps: https://maps.google.com/?cid=18029000409896089141&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.viet-eat.com/</description>
+      <Point>
+        <coordinates>2.3574609,48.8605727,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Holy Burek</name>
+      <description>Type: Bakery
+Arrondissement: 10e
+Google: 4.6 (134 reviews)
+Food types: bakery, generic
+Tags: bootstrap, grab-and-go, Street food
+Google Maps: https://maps.google.com/?cid=4050051359474190557&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.holyburek.com/</description>
+      <Point>
+        <coordinates>2.3483931,48.8760155,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hoso basque</name>
+      <description>Type: Coffee Stand
+Arrondissement: 4e
+Google: 4.2 (373 reviews)
+Food types: cafe
+Tags: Dessert
+Google Maps: https://maps.google.com/?cid=2003188202626056762&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://hosobasque.com/</description>
+      <Point>
+        <coordinates>2.3640825,48.8542138,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hotel Eldorado Paris</name>
+      <description>Type: Hotel
+Arrondissement: 17e
+Price: €
+Google: 4.5 (972 reviews)
+Food types: restaurant, hotel
+Tags: Hotel / BB, Bar, Cafe
+Google summary: Bohemian hotel with warm, eclectic rooms &amp; free Wi-Fi, plus a bistro with a garden terrace.
+Google Maps: https://maps.google.com/?cid=4609522530565378518&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://hoteleldoradoparis.com/
+Booking: https://bookings.zenchef.com/results?rid=357031&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3249795,48.88504379999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hôtel Balzac Paris &amp; Spa Ikoï</name>
+      <description>Type: Hotel
+Arrondissement: 8e
+Google: 4.2 (524 reviews)
+Food types: lodging
+Tags: Cafe, Bar
+Google Maps: https://maps.google.com/?cid=3162092439011318870&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.hotelbalzac.com/</description>
+      <Point>
+        <coordinates>2.300358,48.87328900000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hôtel Dame des Arts</name>
+      <description>Type: Hotel
+Arrondissement: 6e
+Google: 4.7 (1,313 reviews)
+Food types: lodging, hotel
+Tags: Hotel / BB, Restaurant, Cafe, Rooftop, Mexican
+Google summary: Luxe hotel offering chic rooms &amp; suites, some with Eiffel Tower views, plus a sauna, a gym &amp; dining.
+Google Maps: https://maps.google.com/?cid=11828034713587340992&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.damedesarts.com/?utm_source=mapstr&amp;utm_medium=organic&amp;utm_campaign=gbp
+Booking: https://bookings.zenchef.com/results?rid=358530&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3422929,48.85284730000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hôtel Prince de Conti</name>
+      <description>Type: Hotel
+Arrondissement: 6e
+Google: 5.0 (42 reviews)
+Food types: lodging, hotel
+Tags: Cafe, Hotel / BB
+Google Maps: https://maps.google.com/?cid=2643994848767341925&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.prince-de-conti.com/</description>
+      <Point>
+        <coordinates>2.3384246,48.8556685,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hôtel Sookie</name>
+      <description>Type: Hotel
+Arrondissement: 3e
+Google: 4.7 (631 reviews)
+Food types: lodging, hotel
+Tags: Cafe, Hotel / BB, Trendy, To work
+Google summary: Vintage-chic rooms in an artsy, hip boutique hotel with a cool cafe playing retro jazz records.
+Google Maps: https://maps.google.com/?cid=15391141190155856504&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.hotelsuzieblue.com/
+Booking: https://thefork.fr/restaurant/suzie-blue-r722899/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.365048170089722,48.86153411865234,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>IBRIK</name>
+      <description>Arrondissement: 9e
+Food types: cafe
+Tags: Cafe
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=IBRIK%2C%20Paris%2C%20France
+Website: http://www.ibrik.fr/</description>
+      <Point>
+        <coordinates>2.3383497,48.8752715,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Institut Finlandais</name>
+      <description>Type: Cultural Center
+Arrondissement: 5e
+Google: 4.5 (179 reviews)
+Food types: art_gallery
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=7350516523345716796&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.institut-finlandais.asso.fr/</description>
+      <Point>
+        <coordinates>2.3433104,48.8501643,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jumpman studio &amp; Café</name>
+      <description>Arrondissement: 16e
+Food types: cafe
+Tags: Sport
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Jumpman%20studio%20%26%20Caf%C3%A9%2C%20Paris</description>
+      <Point>
+        <coordinates>2.28592848777771,48.87500381469727,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KAPÉ - Café philippin</name>
+      <description>Type: Coffee Shop
+Arrondissement: 11e
+Google: 4.6 (338 reviews)
+Food types: cafe
+Tags: Cafe, Restaurant
+Google Maps: https://maps.google.com/?cid=11247732732988082846&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://kapeparis.com/</description>
+      <Point>
+        <coordinates>2.3686747,48.8641628,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KB COFFEE ROASTERS</name>
+      <description>Type: Coffee roastery
+Arrondissement: 9e
+Price: €€
+Google: 4.2 (1,847 reviews)
+Food types: cafe, brunch
+Tags: Brunch
+Google summary: Coffee from worldwide sources roasted in-house &amp; served in hot &amp; cold drinks on a pavement terrace.
+Google Maps: https://maps.google.com/?cid=2740186847697807986&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.kbcafeshop.com/</description>
+      <Point>
+        <coordinates>2.3407497,48.8806592,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kodama Beaumarchais</name>
+      <description>Type: Tea House
+Arrondissement: 3e
+Google: 5.0 (258 reviews)
+Food types: generic
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=14029226251112502865&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://kodamaparis.com/</description>
+      <Point>
+        <coordinates>2.3681316,48.8572196,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L&apos;Eclair De Genie</name>
+      <description>Arrondissement: 9e
+Food types: restaurant
+Tags: Pastry
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=L&apos;Eclair%20De%20Genie%2C%20Paris%2C%20France
+Website: https://gourmet.galerieslafayette.com/?utm_campaign=gmb&amp;utm_content=Fiche_Marques&amp;utm_medium=seo&amp;utm_source=mapstr</description>
+      <Point>
+        <coordinates>2.330538,48.873062,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L&apos;échappée</name>
+      <description>Type: Spa
+Arrondissement: 11e
+Food types: generic, brunch
+Tags: Brunch, Cafe, Restaurant
+Google Maps: https://maps.google.com/?cid=12564362026296486315&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.lechappee.com/</description>
+      <Point>
+        <coordinates>2.3711013,48.86502249999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LACTEM PALAIS ROYAL</name>
+      <description>Type: Coffee Shop
+Arrondissement: 1er
+Google: 4.6 (265 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=16260220730003214125&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://lactem.com/</description>
+      <Point>
+        <coordinates>2.3400497,48.8640851,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LE CHARLOT - PARIS</name>
+      <description>Type: French Restaurant
+Arrondissement: 3e
+Price: €€
+Google: 4.2 (2,958 reviews)
+Food types: restaurant
+Tags: Cafe, Bistrot, Restaurant
+Google summary: Sharing plates, burgers &amp; egg dishes, plus brunch &amp; cocktails, in a tiled interior or on a terrace.
+Google Maps: https://maps.google.com/?cid=17591965283889458145&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.lecharlot-paris.com/</description>
+      <Point>
+        <coordinates>2.3625833,48.8630273,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Bellevilloise</name>
+      <description>Arrondissement: 20e
+Food types: restaurant, brunch
+Tags: Brunch, Cocktail, Dancing
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=La%20Bellevilloise%2C%20Paris%2C%20France
+Website: http://www.labellevilloise.com/
+Booking: https://bookings.zenchef.com/results?rid=349712&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3921569,48.8683511,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Datcha Paris</name>
+      <description>Type: French Restaurant
+Arrondissement: 11e
+Google: 4.7 (406 reviews)
+Food types: restaurant, brunch
+Tags: Brunch, Restaurant
+Google Maps: https://maps.google.com/?cid=10562815847847167715&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.ladatchaparis.com/</description>
+      <Point>
+        <coordinates>2.3735192,48.8666712,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Main Noire</name>
+      <description>Type: Cafe
+Arrondissement: 18e
+Price: €€
+Google: 4.6 (793 reviews)
+Food types: cafe
+Tags: Cafe, Healthy
+Google Maps: https://maps.google.com/?cid=1793059094528260795&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.lamainnoirecollective.com/</description>
+      <Point>
+        <coordinates>2.328195095062256,48.88649368286133,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Maison du Mochi</name>
+      <description>Type: Pastry Shop
+Google: 4.5 (858 reviews)
+Food types: restaurant
+Tags: Pastry
+Google summary: Elegant mochi rice-paste sweets with fillings like pistachio &amp; orange blossom, plus matcha tea.
+Google Maps: https://maps.google.com/?cid=7481996059092879984&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.maisondumochi.fr/</description>
+      <Point>
+        <coordinates>2.326380799999999,48.8494292,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Parisienne</name>
+      <description>Type: Bakery
+Arrondissement: 5e
+Price: €€
+Google: 4.2 (1,170 reviews)
+Food types: restaurant
+Tags: Bakery
+Google Maps: https://maps.google.com/?cid=4691120763466057325&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.boulangerielaparisienne.com/</description>
+      <Point>
+        <coordinates>2.349724999999999,48.849968,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Perle</name>
+      <description>Type: Cafe
+Arrondissement: 3e
+Price: €€
+Google: 3.4 (1,670 reviews)
+Food types: cafe
+Tags: Cafe, Trendy
+Google summary: Classic French lunch items &amp; desserts, plus pizza, served at a trendy cafe with sidewalk tables.
+Google Maps: https://maps.google.com/?cid=4190812438264054898&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://cafelaperle.com/</description>
+      <Point>
+        <coordinates>2.3606963,48.8598003,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Rotonde</name>
+      <description>Type: Restaurant
+Arrondissement: 6e
+Price: €€€
+Google: 4.3 (4,577 reviews)
+Food types: cafe
+Tags: Restaurant
+Google Maps: https://maps.google.com/?cid=8525423648943641338&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://menuonline.fr/la-rotonde-montparnasse</description>
+      <Point>
+        <coordinates>2.329158,48.842357,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ladurée</name>
+      <description>Type: Pastry Shop
+Arrondissement: 8e
+Price: €€€
+Google: 4.1 (3,381 reviews)
+Food types: restaurant, brunch
+Tags: Brunch, Bakery, Cafe
+Google summary: Upscale bakery with Parisian origins, specializing in French macarons in a number of flavors.
+Google Maps: https://maps.google.com/?cid=15123703379817243956&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.laduree.fr/laduree-paris-royale.html
+Booking: https://thefork.fr/restaurant/laduree-paris-royale-r5141/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3236443,48.8684378,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ladurée Pavillon Gravelle</name>
+      <description>Type: French Restaurant
+Arrondissement: 12e
+Price: €€€
+Google: 3.9 (308 reviews)
+Food types: restaurant, brunch
+Tags: Cafe, Brunch, Restaurant
+Google summary: Upscale bakery with Parisian origins, specializing in French macarons in a number of flavors.
+Google Maps: https://maps.google.com/?cid=16874507459378194118&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/pavillongravelle.laduree/
+Booking: https://thefork.fr/restaurant/laduree-pavillon-gravelle-r824030/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.4460264,48.8226259,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lam</name>
+      <description>Type: Bakery
+Arrondissement: 3e
+Google: 4.8 (753 reviews)
+Food types: cafe
+Tags: Cafe, Dessert
+Google Maps: https://maps.google.com/?cid=16036701169335323358&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/lambakeryparis/</description>
+      <Point>
+        <coordinates>2.3578196,48.8675311,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Laïzé</name>
+      <description>Type: Tea House
+Arrondissement: 1er
+Google: 4.4 (301 reviews)
+Food types: cafe
+Tags: Cafe, Asian
+Google Maps: https://maps.google.com/?cid=16457466652901646490&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.laizeparis.com/</description>
+      <Point>
+        <coordinates>2.338203699999985,48.86366880169533,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Laïzé</name>
+      <description>Type: Tea House
+Arrondissement: 2e
+Google: 4.4 (226 reviews)
+Food types: restaurant
+Tags: Cafe, Asian
+Google Maps: https://maps.google.com/?cid=14995990840932193558&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.laizeparis.com/</description>
+      <Point>
+        <coordinates>2.3357507,48.86831699999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Boréal</name>
+      <description>Type: Restaurant
+Google: 4.7 (641 reviews)
+Food types: cafe
+Tags: Restaurant, Trendy
+Google Maps: https://maps.google.com/?cid=9835951407454107670&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/le.boreal.paris/
+Booking: https://thefork.fr/restaurant/le-boreal-r846710/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3389802,48.8938526,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Café Alain Ducasse avec 1895 by Lavazza</name>
+      <description>Type: Food Store
+Arrondissement: 11e
+Google: 4.5 (326 reviews)
+Food types: shopping
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=8741916986574507476&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.lecafe-alainducasse.com/</description>
+      <Point>
+        <coordinates>2.3721637,48.85532620000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Coutume café</name>
+      <description>Type: Coffee Shop
+Arrondissement: 7e
+Price: €€
+Google: 4.3 (2,281 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=4475515720413455948&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.coutumecafe.com/fr/
+Booking: https://thefork.fr/restaurant/coutume-babylone-r845602/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.318283,48.8516749,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Floréal</name>
+      <description>Type: French Restaurant
+Arrondissement: 10e
+Price: €€
+Google: 4.2 (1,397 reviews)
+Food types: restaurant
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=11136652347602899876&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://lefloreal.com/fr
+Booking: https://lefloreal.com/fr/services</description>
+      <Point>
+        <coordinates>2.371141,48.870165,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Grand Quartier hotel</name>
+      <description>Type: Hotel
+Arrondissement: 10e
+Google: 4.5 (579 reviews)
+Food types: lodging, brunch, hotel
+Tags: Hotel / BB, Restaurant, Brunch
+Google summary: Modern quarters in a laid-back hotel with a cool cafe &amp; a bar, plus a garden &amp; a rooftop terrace.
+Google Maps: https://maps.google.com/?cid=14806700426357445534&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.legrandquartier.com/</description>
+      <Point>
+        <coordinates>2.3585031,48.8722456,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Loir dans La Théière</name>
+      <description>Type: Tea House
+Arrondissement: 4e
+Price: €€
+Google: 4.3 (3,275 reviews)
+Food types: restaurant, brunch
+Tags: Brunch, Breakfast, Restaurant
+Google summary: Homemade cakes &amp; weekend brunch in a bright space with theater posters, murals &amp; mismatched chairs.
+Google Maps: https://maps.google.com/?cid=7902961978733890886&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.leloirdanslatheiere.com/
+Booking: http://leloirdanslatheiere.com/la-carte/</description>
+      <Point>
+        <coordinates>2.3609806,48.85626849999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Pavillon des Canaux</name>
+      <description>Arrondissement: 19e
+Food types: cafe
+Tags: Bar, Restaurant, Trendy, For groups
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Le%20Pavillon%20des%20Canaux%2C%20Paris%2C%20France
+Website: http://www.pavillondescanaux.com/
+Booking: https://bookings.zenchef.com/results?rid=377020&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.378689,48.8874236,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Pont Traversé Paris 6</name>
+      <description>Type: Restaurant
+Arrondissement: 6e
+Google: 3.8 (354 reviews)
+Food types: cafe
+Tags: Restaurant, Glutenfree
+Google Maps: https://maps.google.com/?cid=15961896496914520831&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://leponttraverse.com/
+Booking: https://thefork.fr/restaurant/le-pont-traverse-r816708/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3136037,48.843235,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Rubis</name>
+      <description>Type: Bistro
+Arrondissement: 1er
+Price: €€
+Google: 4.4 (721 reviews)
+Food types: bar, restaurant
+Tags: bootstrap, wine-bar, Bistrot, Cafe
+Google Maps: https://maps.google.com/?cid=18273164744386044605&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/Le-Rubis-964093417031887/</description>
+      <Point>
+        <coordinates>2.3313684,48.8662382,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L’éclair de Génie</name>
+      <description>Arrondissement: 4e
+Food types: restaurant
+Tags: Pastry
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=L%E2%80%99%C3%A9clair%20de%20G%C3%A9nie%2C%20Paris%2C%20France
+Website: http://leclairdegenie.com/</description>
+      <Point>
+        <coordinates>2.3607075,48.8561874,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L’éclair de Génie</name>
+      <description>Arrondissement: 2e
+Food types: restaurant
+Tags: Pastry
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=L%E2%80%99%C3%A9clair%20de%20G%C3%A9nie%2C%20Paris%2C%20France
+Website: http://leclairdegenie.com/</description>
+      <Point>
+        <coordinates>2.3420312,48.86831189999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MORI YOSHIDA</name>
+      <description>Arrondissement: 7e
+Food types: restaurant
+Tags: Frenchie, Japanese, Pastry
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=MORI%20YOSHIDA%2C%20Paris%2C%20France
+Website: http://www.moriyoshida.fr/</description>
+      <Point>
+        <coordinates>2.3122056,48.84797929999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maison Fleuret Paris — The Baking School</name>
+      <description>Type: Educational Institution
+Arrondissement: 7e
+Google: 4.7 (188 reviews)
+Food types: generic
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=3159788000817443594&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://maisonfleuret.fr/</description>
+      <Point>
+        <coordinates>2.330780506134033,48.85538864135742,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maison Matcha Paris (Marais)</name>
+      <description>Type: Tea House
+Arrondissement: 3e
+Google: 4.5 (466 reviews)
+Food types: generic
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=14323033512857465911&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/66.matcha?igsh=MWd5Nmo4OWxmanAwcg==&amp;utm_source=qr</description>
+      <Point>
+        <coordinates>2.3576336,48.8625974,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maison Mulot - Boulangerie, Pâtisserie Traiteur - Saint Germain des Prés</name>
+      <description>Type: Bakery
+Price: €€€
+Google: 3.9 (1,381 reviews)
+Food types: restaurant
+Tags: Bakery
+Google summary: Upscale patisserie with a few tables, featuring inventive macarons, baked goods &amp; confectionery.
+Google Maps: https://maps.google.com/?cid=10032251211901541702&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.maison-mulot.com/
+Booking: https://shop.maison-mulot.com/fr/</description>
+      <Point>
+        <coordinates>2.336964999999999,48.851821,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maison Nespresso</name>
+      <description>Type: Cafeteria
+Arrondissement: 4e
+Google: 4.9 (501 reviews)
+Food types: cafe
+Tags: Cafe, Concept-store
+Google summary: International chain selling its own line of coffee, espresso makers &amp; accessories for home brewing.
+Google Maps: https://maps.google.com/?cid=660584288009557644&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.nespresso.com/boutiques-fr/le-cafe</description>
+      <Point>
+        <coordinates>2.357915639877319,48.85819244384766,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maison Sarah Lavoine</name>
+      <description>Type: Home Goods Store
+Arrondissement: 2e
+Google: 3.8 (107 reviews)
+Food types: shopping
+Tags: Breakfast, Cafe, Shopping
+Google Maps: https://maps.google.com/?cid=1253367801919911340&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.sarahlavoine.com/</description>
+      <Point>
+        <coordinates>2.3406885,48.8661652,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mamie Gâteaux</name>
+      <description>Type: Tea House
+Arrondissement: 6e
+Price: €€
+Google: 4.4 (640 reviews)
+Food types: cafe
+Tags: Pastry, Cafe
+Google summary: Charming establishment known for its homemade cakes &amp; pastries, plus a long selection of teas.
+Google Maps: https://maps.google.com/?cid=9716282042673926265&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.mamie-gateaux.com/</description>
+      <Point>
+        <coordinates>2.324403999999999,48.84854899999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Manteigaria - Fábrica de Pastéis de Nata France</name>
+      <description>Type: Pastry Shop
+Google: 4.9 (8,313 reviews)
+Food types: restaurant
+Tags: Bakery
+Google Maps: https://maps.google.com/?cid=10926278792634036015&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://manteigaria.com/fr/</description>
+      <Point>
+        <coordinates>2.3543521,48.8609973,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marcelle (Marlon)</name>
+      <description>Arrondissement: 7e
+Food types: restaurant, brunch
+Tags: Brunch, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Marcelle%20(Marlon)%2C%20Paris%2C%20France
+Website: http://www.restaurantmarcelle.fr/
+Booking: https://deliveroo.fr/fr/menu/paris/saint-dominique/marlon</description>
+      <Point>
+        <coordinates>2.306473399999999,48.8576783,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Matcha Ochaya 無邪</name>
+      <description>Type: Cafe
+Price: €€
+Google: 4.5 (7,840 reviews)
+Food types: cafe
+Tags: Dessert, Japanese
+Google Maps: https://maps.google.com/?cid=2849146729808558953&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://instagram.com/matcha_ochaya?igshid=YmMyMTA2M2Y=</description>
+      <Point>
+        <coordinates>2.3622172,48.868497,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Matcha Social Club</name>
+      <description>Type: Tea House
+Arrondissement: 1er
+Price: €€
+Google: 4.4 (912 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=10251627823958555519&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.matchasocialclub.com/</description>
+      <Point>
+        <coordinates>2.3362231,48.8667633,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mille &amp; Un (Boulangerie, Pâtisserie, Salon de Thé)</name>
+      <description>Type: Bakery
+Arrondissement: 6e
+Google: 4.5 (1,404 reviews)
+Food types: restaurant
+Tags: Bakery, Korean
+Google summary: Informal French-Korean bakery with outdoor tables showcasing creative pastries &amp; cakes, plus bingsu.
+Google Maps: https://maps.google.com/?cid=7890592480825157891&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.325478,48.84865970000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mokochaya</name>
+      <description>Type: Cafe
+Arrondissement: 11e
+Google: 4.5 (90 reviews)
+Food types: cafe
+Tags: ❤️, Restaurant, Trendy
+Google Maps: https://maps.google.com/?cid=7110432262837054624&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://mokochaya.com/</description>
+      <Point>
+        <coordinates>2.3816961,48.8518895,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Noglu</name>
+      <description>Type: Restaurant
+Arrondissement: 11e
+Price: €€
+Google: 4.0 (807 reviews)
+Food types: restaurant
+Tags: Glutenfree, Restaurant, Healthy, Pastry
+Google Maps: https://maps.google.com/?cid=17341999347328439457&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.noglu.fr/
+Booking: https://thefork.fr/restaurant/noglu-r818894/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.379604499999999,48.8544251,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Noir - Coffee Shop &amp; Torréfacteur</name>
+      <description>Type: Coffee Shop
+Arrondissement: 7e
+Google: 4.3 (825 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=8076754717650857084&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://noirbarista.com/</description>
+      <Point>
+        <coordinates>2.326366901397705,48.8548469543457,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OGATA Paris</name>
+      <description>Type: Japanese Restaurant
+Google: 4.2 (614 reviews)
+Food types: shopping
+Tags: Bar, Pastry, Japanese, Cafe
+Google Maps: https://maps.google.com/?cid=11103538482425309555&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://ogata.com/paris/
+Booking: http://www.opentable.fr/r/ogata-paris?ref=17374</description>
+      <Point>
+        <coordinates>2.363510499999999,48.8609789,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ONOUL Coffee Shop &amp; Korean products</name>
+      <description>Type: Coffee Shop
+Google: 4.8 (598 reviews)
+Food types: cafe
+Tags: Cafe, Korean
+Google Maps: https://maps.google.com/?cid=551506213427462997&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/onoul_paris/</description>
+      <Point>
+        <coordinates>2.295214176177979,48.84520721435547,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paperboy Paris</name>
+      <description>Type: Brunch Restaurant
+Arrondissement: 11e
+Price: €€
+Google: 4.4 (1,066 reviews)
+Food types: restaurant, brunch
+Tags: Brunch
+Google summary: Homemade sandwiches &amp; unique brunch bites featured in a compact joint with outdoor seating.
+Google Maps: https://maps.google.com/?cid=1924118550996567914&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.facebook.com/PaperBoyParis</description>
+      <Point>
+        <coordinates>2.3665318,48.8646675,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Partage Café</name>
+      <description>Type: Coffee Shop
+Google: 4.7 (950 reviews)
+Food types: cafe
+Tags: Cafe
+Google summary: Warm coffee shop highlighting weekend brunch, sandwiches &amp; baked goods like scones &amp; carrot cake.
+Google Maps: https://maps.google.com/?cid=4259627382707057014&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://partagecafe.business.site/?utm_source=gmb&amp;utm_medium=referral</description>
+      <Point>
+        <coordinates>2.308266162872314,48.8441162109375,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Partisan Café Artisanal</name>
+      <description>Type: Coffee Shop
+Arrondissement: 3e
+Price: €€
+Google: 4.3 (1,790 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=3403590225789894853&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.parispartisancafe.com</description>
+      <Point>
+        <coordinates>2.3530946,48.86464710000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pepite Cookie - Paris 4 - Temple</name>
+      <description>Type: Bakery
+Arrondissement: 4e
+Google: 4.8 (211 reviews)
+Food types: cafe
+Tags: Bakery
+Google Maps: https://maps.google.com/?cid=13468965098567512193&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://pepite-cookie.fr/</description>
+      <Point>
+        <coordinates>2.3576336,48.8625974,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Persil et Mimosa</name>
+      <description>Arrondissement: 11e
+Food types: cafe
+Tags: Healthy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Persil%20et%20Mimosa%2C%20Paris%2C%20France</description>
+      <Point>
+        <coordinates>2.3770407,48.85197220000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point Éphémère - Brunch Vinyles</name>
+      <description>Arrondissement: 10e
+Food types: restaurant, brunch
+Tags: Brunch, Dancing
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Point%20%C3%89ph%C3%A9m%C3%A8re%20-%20Brunch%20Vinyles%2C%20Paris%2C%20France
+Website: https://pointephemere.org/
+Booking: https://bookings.zenchef.com/results?rid=354115&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3684356,48.8814422,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pâtisserie GINKO</name>
+      <description>Type: Pastry Shop
+Arrondissement: 19e
+Google: 4.8 (410 reviews)
+Food types: restaurant
+Tags: Bakery
+Google Maps: https://maps.google.com/?cid=13149614527154989994&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://patisserieginko.com/
+Booking: https://patisserieginko.com/click-collect/</description>
+      <Point>
+        <coordinates>2.3854085,48.8783258,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pâtisserie Viennoise</name>
+      <description>Type: Pastry Shop
+Arrondissement: 6e
+Price: €
+Google: 4.2 (607 reviews)
+Food types: bakery, pastry-shop, generic
+Tags: bootstrap, pastry, Cafe, Bakery
+Google Maps: https://maps.google.com/?cid=7160967139526024869&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: www.patisserieviennoise.co.uk</description>
+      <Point>
+        <coordinates>2.3414616,48.8508415,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Quelque Part... La Matière - Boutique Pâtisserie Paris</name>
+      <description>Type: Pastry Shop
+Arrondissement: 9e
+Google: 4.5 (175 reviews)
+Food types: generic, brunch
+Tags: Bakery, Brunch
+Google Maps: https://maps.google.com/?cid=100139549620925402&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://lamatiere.quelquepart.net/
+Booking: https://bookings.zenchef.com/results?rid=367765&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3417187,48.8745251,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Willette Café Troquet</name>
+      <description>Type: French Restaurant
+Arrondissement: 9e
+Google: 4.8 (356 reviews)
+Food types: restaurant, cafe, bar
+Tags: bootstrap, cafe, Bistrot
+Google Maps: https://maps.google.com/?cid=2916336383746478039&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/Willette-caf%C3%A9-troquet-325510518140371/
+Booking: https://thefork.fr/restaurant/willette-r565193/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3452161,48.8738966,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ritz Paris Le Comptoir Sèvres</name>
+      <description>Type: Pastry Shop
+Arrondissement: 6e
+Google: 4.3 (339 reviews)
+Food types: bakery
+Tags: Bakery
+Google Maps: https://maps.google.com/?cid=17540238507643386740&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.ritzparislecomptoir.com/fr
+Booking: https://www.ritzparislecomptoir.com/fr/patisserie</description>
+      <Point>
+        <coordinates>2.325270414352417,48.85051345825195,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SAINTS PÈRES</name>
+      <description>Type: Home Goods Store
+Arrondissement: 6e
+Google: 4.7 (24 reviews)
+Food types: generic
+Tags: Cafe, Spot to visit
+Google Maps: https://maps.google.com/?cid=3580024593285600693&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.saintsperesparis.com/</description>
+      <Point>
+        <coordinates>2.3308251,48.8551523,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sacha Finkelsztajn &quot;La boutique Jaune&quot;</name>
+      <description>Arrondissement: 4e
+Food types: generic
+Tags: Bakery
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Sacha%20Finkelsztajn%20%22La%20boutique%20Jaune%22%2C%20Paris%2C%20France
+Website: http://www.laboutiquejaune.fr/</description>
+      <Point>
+        <coordinates>2.3585005,48.85757359999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sain Boulangerie</name>
+      <description>Type: Bakery
+Arrondissement: 3e
+Google: 3.9 (607 reviews)
+Food types: restaurant
+Tags: Bakery
+Google Maps: https://maps.google.com/?cid=11150009302806954611&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.sain-boulangerie.com/</description>
+      <Point>
+        <coordinates>2.3568063,48.8637237,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sain Boulangerie</name>
+      <description>Type: Bakery
+Arrondissement: 10e
+Google: 4.2 (842 reviews)
+Food types: restaurant
+Tags: Bakery
+Google summary: Quaint artisan bakery offering sourdough loaves &amp; seasonal breads, plus croissants, cookies &amp; cakes.
+Google Maps: https://maps.google.com/?cid=9013399792562179586&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.sain-boulangerie.com/</description>
+      <Point>
+        <coordinates>2.3661899,48.8719279,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Saint Pearl</name>
+      <description>Type: Coffee Shop
+Google: 4.1 (349 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=7243718780261623067&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.2945192,48.8647398,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Saint Pearl</name>
+      <description>Type: Cafe
+Arrondissement: 7e
+Price: €
+Google: 4.1 (1,329 reviews)
+Food types: restaurant, brunch
+Tags: Cafe, Brunch
+Google summary: Warm, intimate cafe doling out hot breakfasts &amp; pancakes, plus coffee &amp; matcha cheesecake.
+Google Maps: https://maps.google.com/?cid=9020939892618199821&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/saint_pearl/?hl=fr</description>
+      <Point>
+        <coordinates>2.3305412,48.854931,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Saint Pearl Jardin du Luxembourg</name>
+      <description>Type: Coffee Shop
+Google: 4.1 (97 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=14092955294033170185&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.3400295,48.8480344,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Seamer Coffee Shop</name>
+      <description>Type: Coffee Shop
+Arrondissement: 9e
+Google: 4.6 (402 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=10242513631129236217&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/seamercoffee?igsh=MWJncHVrMnhibDIzbA%3D%3D&amp;utm_source=mapstr</description>
+      <Point>
+        <coordinates>2.3371124,48.8761687,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sevenly Heart</name>
+      <description>Type: Coffee Shop
+Arrondissement: 3e
+Google: 3.9 (1,032 reviews)
+Food types: cafe
+Tags: Bar, Cafe
+Google Maps: https://maps.google.com/?cid=12916980553374555412&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://sevenlyheart.shop/</description>
+      <Point>
+        <coordinates>2.3574609,48.8605727,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Soya</name>
+      <description>Type: Vegan Restaurant
+Arrondissement: 11e
+Price: €€
+Google: 4.6 (1,654 reviews)
+Food types: restaurant, brunch
+Tags: Brunch, Cafe, Healthy
+Google summary: Creative organic &amp; vegan mains, plus desserts &amp; cookies, in a simple, industrial-chic setting.
+Google Maps: https://maps.google.com/?cid=1752945574447432983&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.soya-cantine-bio.fr/
+Booking: https://bookings.zenchef.com/results?rid=347409&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.370184000000001,48.868047,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Strada Café</name>
+      <description>Type: Cafe
+Arrondissement: 5e
+Price: €€
+Google: 4.4 (1,685 reviews)
+Food types: restaurant
+Tags: Cafe
+Google summary: Breakfast &amp; specialty coffee in a fashionable, light-filled room with a terrace, or to go.
+Google Maps: https://maps.google.com/?cid=4235685307484321252&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.stradacafe.fr</description>
+      <Point>
+        <coordinates>2.3511497,48.8469461,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TOMO</name>
+      <description>Type: Cafe
+Google: 4.4 (431 reviews)
+Food types: cafe
+Tags: Bakery, Japanese
+Google Maps: https://maps.google.com/?cid=9590395476613731276&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://patisserietomo.fr/</description>
+      <Point>
+        <coordinates>2.337802886962891,48.85306167602539,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tactile café</name>
+      <description>Type: Coffee Shop
+Arrondissement: 11e
+Google: 4.9 (61 reviews)
+Food types: cafe
+Tags: bootstrap, coffee, Cafe, Cocktails
+Google Maps: https://maps.google.com/?cid=2963649436371049162&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.instagram.com/tactilecafe?igsh=c3MxcTd2dXNhNDFi</description>
+      <Point>
+        <coordinates>2.379442,48.8566193,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Takumi Pâtisserie - Opéra</name>
+      <description>Type: Pastry Shop
+Arrondissement: 1er
+Google: 4.1 (1,289 reviews)
+Food types: generic
+Tags: Bakery, Pastry
+Google summary: Japanese pastries &amp; savouries such as cheesecake, vegan mochi &amp; sandos in a trendy takeaway.
+Google Maps: https://maps.google.com/?cid=388976838184746996&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.takumi-patisserie.com/</description>
+      <Point>
+        <coordinates>2.333714485168457,48.86630630493164,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ten Belles</name>
+      <description>Arrondissement: 10e
+Food types: cafe, brunch
+Tags: Brunch, Cafe, Restaurant, Take away
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Ten%20Belles%2C%20Paris%2C%20France
+Website: http://www.tenbelles.com/</description>
+      <Point>
+        <coordinates>2.364797,48.873503,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ten Belles Bread</name>
+      <description>Type: Coffee Shop
+Arrondissement: 6e
+Google: 4.2 (318 reviews)
+Food types: cafe
+Tags: Cafe, Bakery
+Google Maps: https://maps.google.com/?cid=6466161823921516753&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://m.facebook.com/tenbellesbread/?locale2=fr_FR</description>
+      <Point>
+        <coordinates>2.3252375,48.8487182,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Coffee</name>
+      <description>Type: Coffee Shop
+Arrondissement: 3e
+Google: 4.6 (794 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=11051204357383150231&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.thecoffee.jp/</description>
+      <Point>
+        <coordinates>2.356217599999999,48.8641424,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The French Bastards - Oberkampf</name>
+      <description>Type: Bakery
+Arrondissement: 11e
+Price: €€
+Google: 4.3 (1,639 reviews)
+Food types: restaurant
+Tags: Restaurant, Bakery, Take away, ❤️
+Google Maps: https://maps.google.com/?cid=175100171276993839&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://thefrenchbastards.fr/</description>
+      <Point>
+        <coordinates>2.3728487,48.8648028,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The French Bastards - Pigalle</name>
+      <description>Type: Bakery
+Google: 4.4 (839 reviews)
+Food types: restaurant
+Tags: Bakery
+Google Maps: https://maps.google.com/?cid=10390238060162233623&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.thefrenchbastards.fr/
+Booking: https://thefrenchbastards.fr/fr/carte</description>
+      <Point>
+        <coordinates>2.3360804,48.8813544,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tomo</name>
+      <description>Type: Tea House
+Arrondissement: 2e
+Price: €€
+Google: 4.5 (2,125 reviews)
+Food types: cafe
+Tags: Japanese, Cafe
+Google summary: Green tea, noodle lunches &amp; sweet bean-filled dorayaki pancakes at an upscale Japanese-style cafe.
+Google Maps: https://maps.google.com/?cid=13153289668820617062&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://patisserietomo.fr/</description>
+      <Point>
+        <coordinates>2.3368502,48.8676336,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toraya France Sarl</name>
+      <description>Arrondissement: 1er
+Food types: cafe
+Tags: Japanese
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Toraya%20France%20Sarl%2C%20Paris%2C%20France
+Website: https://www.toraya-group.co.jp/toraya-paris/</description>
+      <Point>
+        <coordinates>2.324534,48.867636,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>dear Jane</name>
+      <description>Type: Bakery
+Arrondissement: 2e
+Google: 4.7 (357 reviews)
+Food types: generic
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=2427381887515607912&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.3364478,48.86810930000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>iRASSHAi</name>
+      <description>Type: Japanese Restaurant
+Price: €€
+Google: 4.4 (2,177 reviews)
+Food types: restaurant
+Tags: Japanese, Concept-store, Cafe, Restaurant, ❤️
+Google Maps: https://maps.google.com/?cid=13248258388653863634&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://irasshai.co/
+Booking: https://irasshai.co/pages/les-espaces?utm_source=Mapstr&amp;utm_medium=Mapstr&amp;utm_campaign=Mapstr+&amp;utm_id=Mapstr</description>
+      <Point>
+        <coordinates>2.3417462,48.8626556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>l&apos;Arbre à Café</name>
+      <description>Type: Coffee Shop
+Arrondissement: 2e
+Price: €€€
+Google: 4.7 (500 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=4527613350223547957&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.larbreacafe.com/</description>
+      <Point>
+        <coordinates>2.3476491,48.8677613,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>laïzé marais</name>
+      <description>Type: Tea House
+Arrondissement: 3e
+Price: €€
+Google: 4.5 (1,718 reviews)
+Food types: cafe
+Tags: Cafe, Asian
+Google summary: Compact &amp; trendy place for Taiwanese bubble tea in many flavors, plus extras like matcha cake.
+Google Maps: https://maps.google.com/?cid=10116702009320200129&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.laizeparis.com/</description>
+      <Point>
+        <coordinates>2.355067,48.8630426,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>laïzé sainte-avoye</name>
+      <description>Type: Coffee Shop
+Arrondissement: 3e
+Google: 4.5 (478 reviews)
+Food types: cafe
+Tags: Cafe, Asian
+Google summary: Stylish outfit with exposed-stone walls serving traditional brews, plus Taiwanese tea &amp; cake.
+Google Maps: https://maps.google.com/?cid=13549150946073936609&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.laizeparis.com/</description>
+      <Point>
+        <coordinates>2.3576336,48.8625974,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>le boulanger de la tour</name>
+      <description>Arrondissement: 5e
+Food types: restaurant
+Tags: Bakery
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=le%20boulanger%20de%20la%20tour%2C%20Paris%2C%20France
+Website: https://tourdargent.com/le-boulanger/</description>
+      <Point>
+        <coordinates>2.354712999999999,48.849909,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>u.graine – сafé fleuriste</name>
+      <description>Type: Coffee Shop
+Arrondissement: 6e
+Google: 4.8 (180 reviews)
+Food types: cafe
+Tags: Cafe
+Google Maps: https://maps.google.com/?cid=6846975086751612385&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.3239013,48.8457574,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

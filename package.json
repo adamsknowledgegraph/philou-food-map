@@ -17,6 +17,7 @@
     "dedupe": "tsx scripts/dedupe_places.ts",
     "geocode": "tsx scripts/geocode_places.ts",
     "google:enrich": "tsx scripts/enrich_google_places.ts",
+    "maps:export-google": "tsx scripts/export_google_mymaps.ts",
     "maps:refresh-links": "tsx scripts/refresh_google_maps_urls.ts",
     "review:export": "tsx scripts/export_review_csv.ts",
     "review:import": "tsx scripts/import_review_csv.ts",

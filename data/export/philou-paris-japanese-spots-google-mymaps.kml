@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Japanese spots</name>
+    <description>A Paris map for sushi counters, ramen bowls, izakayas, and Japanese addresses Philou has flagged.</description>
+    <Placemark>
+      <name>Aï Hsu</name>
+      <description>Arrondissement: 11e
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=A%C3%AF%20Hsu%2C%20Paris%2C%20France
+Booking: https://thefork.fr/restaurant/ai-hsu-table-r301139/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3689244,48.86096999999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BIWAN ⸱ iRASSHAi</name>
+      <description>Type: Japanese Restaurant
+Arrondissement: 1er
+Google: 4.7 (730 reviews)
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google Maps: https://maps.google.com/?cid=1942768491856955954&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://irasshai.co/pages/biwan-la-table
+Booking: https://www.thefork.fr/restaurant/irasshai-biwan-r804659</description>
+      <Point>
+        <coordinates>2.3425687,48.8642928,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Benchy</name>
+      <description>Type: Sandwich Shop
+Google: 4.2 (404 reviews)
+Food types: restaurant
+Tags: Cafe, Japanese
+Google Maps: https://maps.google.com/?cid=2474453887306421118&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.3256964,48.8492484,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Blueberry Maki Bar</name>
+      <description>Type: Sushi Restaurant
+Arrondissement: 6e
+Google: 4.5 (1,510 reviews)
+Food types: restaurant
+Tags: Japanese, Restaurant, Gastro / higher end, Trendy
+Google summary: Chic modern Japanese-style gastrobar with an open kitchen, serving creative sushi rolls &amp; cocktails.
+Google Maps: https://maps.google.com/?cid=5139195972309453817&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.blueberrymakibar.com/
+Booking: https://www.blueberrymakibar.com/menus</description>
+      <Point>
+        <coordinates>2.3314671,48.85277059999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Castor Club</name>
+      <description>Arrondissement: 6e
+Food types: bar
+Tags: SH, Cocktail
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Castor%20Club%2C%20Paris%2C%20France
+Website: http://www.facebook.com/pages/Castor-Club/131753693594498?sk=info</description>
+      <Point>
+        <coordinates>2.342347,48.85198119999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cococo</name>
+      <description>Arrondissement: 1er
+Food types: restaurant
+Tags: Japanese, Restaurant, Healthy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Cococo%2C%20Paris%2C%20France
+Website: http://restaurant-cococo.fr/fr</description>
+      <Point>
+        <coordinates>2.3410183,48.8643242,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DokiDoki Louvre - Finest Handroll Bar</name>
+      <description>Type: Restaurant
+Arrondissement: 1er
+Google: 4.6 (658 reviews)
+Food types: restaurant
+Tags: Fish, Japanese
+Google Maps: https://maps.google.com/?cid=10816110014351811526&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.dokidoki-handroll.com/
+Booking: https://thefork.fr/restaurant/dokidoki-paris-9-r837834/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3420125,48.8631972,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EnYaa</name>
+      <description>Arrondissement: 1er
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=EnYaa%2C%20Paris%2C%20France
+Website: http://www.enyaa-paris.com/
+Booking: https://thefork.fr/restaurant/enyaa-r286949/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.337334499999999,48.8658639,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Eunoé</name>
+      <description>Type: Restaurant
+Arrondissement: 11e
+Google: 4.8 (905 reviews)
+Food types: restaurant
+Tags: Frenchie, Restaurant, Japanese
+Google Maps: https://maps.google.com/?cid=9843713178588934640&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.eunoe-restaurant.com/
+Booking: https://bookings.zenchef.com/results?rid=362706&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.378991,48.8607713,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Experimental Cocktail Club</name>
+      <description>Arrondissement: 2e
+Food types: bar
+Tags: SH, Cocktail, Trendy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Experimental%20Cocktail%20Club%2C%20Paris%2C%20France
+Website: https://www.experimentalgroup.com/venue/experimental-cocktail-club/</description>
+      <Point>
+        <coordinates>2.348261,48.86606399999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grand Pigalle Hôtel</name>
+      <description>Arrondissement: 9e
+Food types: lodging, hotel
+Tags: Restaurant, Cocktail, Hotel / BB, Trendy, SH, To work
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Grand%20Pigalle%20H%C3%B4tel%2C%20Paris%2C%20France
+Website: http://www.grandpigalle.com/</description>
+      <Point>
+        <coordinates>2.3375566,48.8809013,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Haikara</name>
+      <description>Type: Restaurant
+Arrondissement: 11e
+Google: 4.5 (275 reviews)
+Food types: restaurant
+Tags: Restaurant, Japanese
+Google Maps: https://maps.google.com/?cid=9815362547646592954&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://haikarasummer.wixsite.com/haikarasummer
+Booking: https://bookings.zenchef.com/results?rid=378763&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3700204,48.86643179999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hanabi</name>
+      <description>Type: Japanese Restaurant
+Arrondissement: 16e
+Google: 4.6 (199 reviews)
+Food types: restaurant
+Tags: Restaurant, ❤️, Asian, Gastro / higher end
+Google Maps: https://maps.google.com/?cid=16340409597852867769&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.hotelhana-paris.com/restaurant-bar
+Booking: https://bookings.zenchef.com/results?rid=362937&amp;pid=mapstr&amp;isPreview=1</description>
+      <Point>
+        <coordinates>2.336555480957031,48.86945343017578,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hotel Des Grands Boulevards</name>
+      <description>Arrondissement: 2e
+Food types: lodging, hotel
+Tags: Hotel / BB, Bar, Cocktails, Italian, Restaurant, SH, To work, For groups, Rooftop
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Hotel%20Des%20Grands%20Boulevards%2C%20Paris%2C%20France
+Website: http://www.grandsboulevardshotel.com/</description>
+      <Point>
+        <coordinates>2.3449074,48.8708952,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hotel National Des Beaux Arts</name>
+      <description>Arrondissement: 3e
+Food types: lodging, hotel
+Tags: Bar, Cocktail, Italian, Trendy, SH, Hotel / BB, To work, For groups
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Hotel%20National%20Des%20Beaux%20Arts%2C%20Paris%2C%20France
+Website: http://www.hotelnational.paris/</description>
+      <Point>
+        <coordinates>2.353157,48.8657453,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ippudo Saint-Germain</name>
+      <description>Arrondissement: 6e
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Ippudo%20Saint-Germain%2C%20Paris%2C%20France
+Website: http://www.ippudo.fr/
+Booking: https://www.ippudo.fr/wp-content/uploads/Ippudo-SG-Grand-Menu-FR_2106.pdf</description>
+      <Point>
+        <coordinates>2.337689,48.8531969,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>JIN</name>
+      <description>Arrondissement: 1er
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=JIN%2C%20Paris%2C%20France
+Website: https://www.jin-paris.com/
+Booking: https://thefork.fr/restaurant/jin-r30379/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3318549,48.8653678,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jugetsudo</name>
+      <description>Arrondissement: 6e
+Food types: shopping
+Tags: Japanese, Tea house
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Jugetsudo%2C%20Paris%2C%20France
+Website: http://www.jugetsudo.fr/</description>
+      <Point>
+        <coordinates>2.337145,48.851861,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jugetsudo By Maruyama Nori</name>
+      <description>Type: Tea Store
+Google: 4.5 (238 reviews)
+Food types: shopping
+Tags: Japanese
+Google Maps: https://maps.google.com/?cid=15393858356518776610&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.jugetsudo.fr/</description>
+      <Point>
+        <coordinates>2.337145,48.851861,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kioko</name>
+      <description>Type: Asian Grocery Store
+Arrondissement: 2e
+Google: 4.5 (1,994 reviews)
+Food types: generic
+Tags: Japanese
+Google Maps: https://maps.google.com/?cid=978557767171881823&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.kioko.fr</description>
+      <Point>
+        <coordinates>2.3344259,48.8673983,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kodawari Ramen</name>
+      <description>Type: Ramen Restaurant
+Arrondissement: 6e
+Price: €€
+Google: 4.5 (16,388 reviews)
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google Maps: https://maps.google.com/?cid=16662473853684625669&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.kodawari-ramen.com/</description>
+      <Point>
+        <coordinates>2.3381383,48.8546132,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kokoya</name>
+      <description>Arrondissement: 17e
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Kokoya%2C%20Paris%2C%20France
+Website: https://www.facebook.com/pages/Kokoya-paris/156275464418607?sk=timeline&amp;ref=page_internal</description>
+      <Point>
+        <coordinates>2.323388,48.8833468,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kushikatsu Bon</name>
+      <description>Type: Japanese Restaurant
+Arrondissement: 11e
+Google: 4.7 (406 reviews)
+Food types: restaurant
+Tags: Restaurant, Japanese
+Google summary: Elegant, wood-lined restaurant specializing in upscale, Osaka-style breaded skewers.
+Google Maps: https://maps.google.com/?cid=2289944439894265825&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.kushikatsubon.fr/
+Booking: http://www.opentable.fr/r/kushikatsu-bon-paris?ref=17374</description>
+      <Point>
+        <coordinates>2.3691195,48.8654089,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L&apos;Hotel</name>
+      <description>Arrondissement: 6e
+Food types: lodging, hotel
+Tags: Hotel / BB, Bar, SH
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=L&apos;Hotel%2C%20Paris%2C%20France</description>
+      <Point>
+        <coordinates>2.3351758,48.8562272,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L&apos;inconnu</name>
+      <description>Arrondissement: 7e
+Food types: restaurant
+Tags: Japanese, Simon Says, Restaurant, Italian
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=L&apos;inconnu%2C%20Paris%2C%20France
+Website: http://restaurant-linconnu.fr/ja/
+Booking: https://thefork.fr/restaurant/l-inconnu-r208111/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3185686,48.85016050000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Belle Epoque</name>
+      <description>Arrondissement: 2e
+Food types: bar
+Tags: Restaurant, Frenchie, Trendy, SH, For groups
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=La%20Belle%20Epoque%2C%20Paris%2C%20France
+Website: http://www.labelleepoqueparis.com/
+Booking: https://bookings.zenchef.com/results?rid=352119&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3354614,48.8671832,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Maison Wa</name>
+      <description>Arrondissement: 1er
+Food types: museum
+Tags: Japanese, Tea house
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=La%20Maison%20Wa%2C%20Paris%2C%20France
+Website: http://www.maisonwa.com/</description>
+      <Point>
+        <coordinates>2.3361995,48.8663848,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Bar des Prés</name>
+      <description>Arrondissement: 6e
+Food types: restaurant
+Tags: Frenchie, Japanese, SH, Trendy
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Le%20Bar%20des%20Pr%C3%A9s%2C%20Paris%2C%20France
+Website: http://www.lebardespres.com/fr/accueil/</description>
+      <Point>
+        <coordinates>2.330487600000001,48.8528061,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Pigalle</name>
+      <description>Arrondissement: 9e
+Food types: lodging, hotel
+Tags: Bar, Restaurant, SH, Hotel / BB, To work
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Le%20Pigalle%2C%20Paris%2C%20France
+Website: http://lepigalle.paris/
+Booking: https://bookings.zenchef.com/results?rid=364396&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3371878,48.8816193,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Les Bains Paris</name>
+      <description>Arrondissement: 3e
+Food types: lodging
+Tags: SH, Restaurant, Cocktail, Trendy, Dancing
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Les%20Bains%20Paris%2C%20Paris%2C%20France
+Website: http://www.lesbains-paris.com/</description>
+      <Point>
+        <coordinates>2.3519345,48.8638281,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MORI YOSHIDA</name>
+      <description>Arrondissement: 7e
+Food types: restaurant
+Tags: Frenchie, Japanese, Pastry
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=MORI%20YOSHIDA%2C%20Paris%2C%20France
+Website: http://www.moriyoshida.fr/</description>
+      <Point>
+        <coordinates>2.3122056,48.84797929999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Matcha Ochaya 無邪</name>
+      <description>Type: Cafe
+Price: €€
+Google: 4.5 (7,840 reviews)
+Food types: cafe
+Tags: Dessert, Japanese
+Google Maps: https://maps.google.com/?cid=2849146729808558953&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://instagram.com/matcha_ochaya?igshid=YmMyMTA2M2Y=</description>
+      <Point>
+        <coordinates>2.3622172,48.868497,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Merci</name>
+      <description>Arrondissement: 3e
+Food types: shopping
+Tags: Deco, SH, Design
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Merci%2C%20Paris%2C%20France
+Website: http://www.merci-merci.com/fr/</description>
+      <Point>
+        <coordinates>2.3669885,48.8608065,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NAKATANI RESTAURANT</name>
+      <description>Type: Fine Dining Restaurant
+Arrondissement: 7e
+Google: 4.6 (235 reviews)
+Food types: restaurant
+Tags: Japanese, Restaurant, Gastro / higher end
+Google summary: Polished eatery offering gourmet fixed-price lunch &amp; dinner menus, plus a robust wine list.
+Google Maps: https://maps.google.com/?cid=4806012346561630813&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.restaurant-nakatani.com/
+Booking: https://thefork.fr/restaurant/nakatani-r60859/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.319595,48.848413,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OGATA Paris</name>
+      <description>Type: Japanese Restaurant
+Google: 4.2 (614 reviews)
+Food types: shopping
+Tags: Bar, Pastry, Japanese, Cafe
+Google Maps: https://maps.google.com/?cid=11103538482425309555&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://ogata.com/paris/
+Booking: http://www.opentable.fr/r/ogata-paris?ref=17374</description>
+      <Point>
+        <coordinates>2.363510499999999,48.8609789,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ojii</name>
+      <description>Type: Japanese Restaurant
+Arrondissement: 7e
+Google: 4.5 (242 reviews)
+Food types: restaurant
+Tags: Asian, Gastro / higher end, Japanese
+Google Maps: https://maps.google.com/?cid=10069997616376840727&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.ojii.fr/
+Booking: http://www.opentable.fr/r/ojii-paris?ref=17374</description>
+      <Point>
+        <coordinates>2.3304414,48.8553651,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Onii-San - Izakaya </name>
+      <description>Type: Japanese Restaurant
+Arrondissement: 3e
+Google: 4.1 (758 reviews)
+Food types: restaurant
+Tags: Japanese, Restaurant, Trendy
+Google Maps: https://maps.google.com/?cid=4294208365302536734&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.onii-san.fr/
+Booking: https://bookings.zenchef.com/results?rid=354548&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.360397790059537,48.86307045508935,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Peco Peco</name>
+      <description>Arrondissement: 9e
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Peco%20Peco%2C%20Paris%2C%20France
+Website: http://www.pecopeco.fr/
+Booking: https://bookings.zenchef.com/results?rid=349322&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.334629,48.880232,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pink Koï</name>
+      <description>Type: Japanese Restaurant
+Arrondissement: 1er
+Google: 4.5 (2,212 reviews)
+Food types: restaurant
+Tags: Restaurant, Japanese
+Google Maps: https://maps.google.com/?cid=17657903252065710465&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://pinkkoi.fr/
+Booking: https://thefork.fr/restaurant/pink-koi-r835089/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.343659639358521,48.86360168457031,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Poissonnerie EBISU</name>
+      <description>Type: Food Store
+Arrondissement: 11e
+Google: 4.5 (246 reviews)
+Food types: shopping
+Tags: Japanese, Fish, Restaurant
+Google Maps: https://maps.google.com/?cid=4553510804648077163&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/poissonnerie.ebisu.9?ref=bookmarks</description>
+      <Point>
+        <coordinates>2.3727833,48.85836159999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant A.T</name>
+      <description>Type: Fine Dining Restaurant
+Arrondissement: 5e
+Price: €€€€
+Google: 4.7 (597 reviews)
+Food types: restaurant
+Tags: Restaurant, Gastro / higher end
+Google summary: Minimalist space for strikingly presented set menus of contemporary Japanese-inspired dishes.
+Google Maps: https://maps.google.com/?cid=1886289038401998335&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.atsushitanaka.com/</description>
+      <Point>
+        <coordinates>2.3544485,48.84967229999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Kei</name>
+      <description>Type: French Restaurant
+Arrondissement: 1er
+Price: €€€€
+Google: 4.7 (1,227 reviews)
+Food types: restaurant
+Tags: Restaurant, Gastro / higher end
+Google summary: High-end venue for Japanese/French fusion, with an artfully presented tasting menu &amp; European wines.
+Google Maps: https://maps.google.com/?cid=9257759260887336002&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.restaurant-kei.fr/
+Booking: https://bookings.zenchef.com/results?rid=365417&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3420781,48.8643574,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Kunitoraya</name>
+      <description>Type: Japanese Restaurant
+Arrondissement: 1er
+Price: €€
+Google: 4.3 (1,944 reviews)
+Food types: restaurant
+Tags: Japanese, Restaurant, Trendy
+Google summary: Udon noodle bowls, tempura &amp; sake in a hip restaurant with brick walls &amp; street-facing counters.
+Google Maps: https://maps.google.com/?cid=496113187826144693&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://kunitoraya.com
+Booking: https://thefork.fr/restaurant/charbon-kunitoraya-r354287/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3368488,48.8659519,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Restaurant Pages</name>
+      <description>Arrondissement: 16e
+Food types: restaurant
+Tags: Frenchie, Japanese, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Restaurant%20Pages%2C%20Paris%2C%20France
+Website: http://www.116pages.fr/
+Booking: https://thefork.fr/restaurant/pages-r65716/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.2961591,48.8709266,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sanjo</name>
+      <description>Type: Restaurant
+Arrondissement: 1er
+Price: €€
+Google: 4.6 (915 reviews)
+Food types: restaurant
+Tags: Japanese
+Google summary: Ramen &amp; other traditional Japanese bites offered in a simple space with chic decor.
+Google Maps: https://maps.google.com/?cid=9131286355051484620&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://sanjo.fr</description>
+      <Point>
+        <coordinates>2.3331631,48.8663375,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sankaku</name>
+      <description>Type: Restaurant
+Arrondissement: 9e
+Google: 4.8 (118 reviews)
+Food types: restaurant
+Tags: Japanese
+Google Maps: https://maps.google.com/?cid=1210894981519400377&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA</description>
+      <Point>
+        <coordinates>2.343331,48.8801494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shinjuku Pigalle</name>
+      <description>Type: Japanese Restaurant
+Arrondissement: 9e
+Google: 4.1 (348 reviews)
+Food types: restaurant
+Tags: Dancing
+Google Maps: https://maps.google.com/?cid=224924948559814770&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.shinjukupigalle.com/</description>
+      <Point>
+        <coordinates>2.3431856,48.88030209999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sola</name>
+      <description>Type: French Restaurant
+Arrondissement: 5e
+Google: 4.7 (866 reviews)
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google summary: Refined, creative Japanese food with French influences, served in a stone cellar &amp; elegant room.
+Google Maps: https://maps.google.com/?cid=17893814821362708005&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.restaurant-sola.com/
+Booking: https://bookings.zenchef.com/results?rid=369580&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3483035,48.8515846,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Soma</name>
+      <description>Arrondissement: 3e
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Soma%2C%20Paris%2C%20France
+Website: http://restaurants-soma.fr/
+Booking: https://bookings.zenchef.com/results?rid=353683&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3620671,48.8615094,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sushi Yoshinaga</name>
+      <description>Type: Sushi Restaurant
+Google: 4.9 (171 reviews)
+Food types: restaurant
+Tags: Japanese, Gastro / higher end
+Google Maps: https://maps.google.com/?cid=18008410189701662218&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.sushiyoshinaga.com/
+Booking: https://bookings.zenchef.com/results?rid=360895&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3349676,48.8697398,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TOMO</name>
+      <description>Type: Cafe
+Google: 4.4 (431 reviews)
+Food types: cafe
+Tags: Bakery, Japanese
+Google Maps: https://maps.google.com/?cid=9590395476613731276&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://patisserietomo.fr/</description>
+      <Point>
+        <coordinates>2.337802886962891,48.85306167602539,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Takara</name>
+      <description>Arrondissement: 1er
+Food types: restaurant
+Tags: Japanese, Simon Says, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Takara%2C%20Paris%2C%20France
+Website: https://www.takara-paris.com/
+Booking: https://bookings.zenchef.com/results?rid=360892&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3359041,48.86497569999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Takumi Pâtisserie - Opéra</name>
+      <description>Type: Pastry Shop
+Arrondissement: 1er
+Google: 4.1 (1,289 reviews)
+Food types: generic
+Tags: Bakery, Pastry
+Google summary: Japanese pastries &amp; savouries such as cheesecake, vegan mochi &amp; sandos in a trendy takeaway.
+Google Maps: https://maps.google.com/?cid=388976838184746996&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.takumi-patisserie.com/</description>
+      <Point>
+        <coordinates>2.333714485168457,48.86630630493164,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Takuto</name>
+      <description>Type: Japanese Restaurant
+Arrondissement: 6e
+Google: 4.3 (301 reviews)
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google Maps: https://maps.google.com/?cid=4307833545181257148&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.takuto.fr/</description>
+      <Point>
+        <coordinates>2.3370418,48.8541356,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tomo</name>
+      <description>Type: Tea House
+Arrondissement: 2e
+Price: €€
+Google: 4.5 (2,125 reviews)
+Food types: cafe
+Tags: Japanese, Cafe
+Google summary: Green tea, noodle lunches &amp; sweet bean-filled dorayaki pancakes at an upscale Japanese-style cafe.
+Google Maps: https://maps.google.com/?cid=13153289668820617062&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://patisserietomo.fr/</description>
+      <Point>
+        <coordinates>2.3368502,48.8676336,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toraya France Sarl</name>
+      <description>Arrondissement: 1er
+Food types: cafe
+Tags: Japanese
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Toraya%20France%20Sarl%2C%20Paris%2C%20France
+Website: https://www.toraya-group.co.jp/toraya-paris/</description>
+      <Point>
+        <coordinates>2.324534,48.867636,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tsukizi</name>
+      <description>Type: Japanese Restaurant
+Arrondissement: 6e
+Price: €€€
+Google: 4.6 (951 reviews)
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google Maps: https://maps.google.com/?cid=5918445731849910964&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.facebook.com/pages/Sushi-Tsukizi/146282612083900
+Booking: https://bookings.zenchef.com/results?rid=365276&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.333942,48.85312399999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vivant 2</name>
+      <description>Type: Restaurant
+Arrondissement: 10e
+Price: €€
+Google: 4.3 (433 reviews)
+Food types: restaurant
+Tags: Restaurant, Trendy, Frenchie, Wine bar, SH
+Google summary: Gourmet cuisine made with healthy products, served in an industrial-chic space.
+Google Maps: https://maps.google.com/?cid=7540361736806579762&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://www.vivantparis.com/
+Booking: https://bookings.zenchef.com/results?rid=355093&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3496603,48.8738319,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Walaku</name>
+      <description>Arrondissement: 7e
+Food types: restaurant
+Tags: Japanese
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Walaku%2C%20Paris%2C%20France
+Website: http://walaku.net/</description>
+      <Point>
+        <coordinates>2.318829,48.84833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Yen</name>
+      <description>Arrondissement: 6e
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=Yen%2C%20Paris%2C%20France
+Website: http://www.yen-paris.fr/</description>
+      <Point>
+        <coordinates>2.332758000000001,48.85448400000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Yoshinori Restaurant</name>
+      <description>Type: Fine Dining Restaurant
+Arrondissement: 6e
+Google: 4.7 (541 reviews)
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google Maps: https://maps.google.com/?cid=9744954947548753445&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: http://yoshinori-paris.com/
+Booking: https://thefork.fr/restaurant/yoshinori-r386507/?cc=24751-923</description>
+      <Point>
+        <coordinates>2.3377114,48.85300779999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>abri soba</name>
+      <description>Arrondissement: 9e
+Food types: restaurant
+Tags: Japanese, Restaurant, ❤️
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=abri%20soba%2C%20Paris%2C%20France
+Website: https://m.facebook.com/pages/Abri-Soba/1664766163841812</description>
+      <Point>
+        <coordinates>2.3445439,48.8750429,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>iRASSHAi</name>
+      <description>Type: Japanese Restaurant
+Price: €€
+Google: 4.4 (2,177 reviews)
+Food types: restaurant
+Tags: Japanese, Concept-store, Cafe, Restaurant, ❤️
+Google Maps: https://maps.google.com/?cid=13248258388653863634&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://irasshai.co/
+Booking: https://irasshai.co/pages/les-espaces?utm_source=Mapstr&amp;utm_medium=Mapstr&amp;utm_campaign=Mapstr+&amp;utm_id=Mapstr</description>
+      <Point>
+        <coordinates>2.3417462,48.8626556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>sagan</name>
+      <description>Arrondissement: 6e
+Food types: restaurant
+Tags: Japanese, Restaurant
+Google Maps: https://www.google.com/maps/search/?api=1&amp;query=sagan%2C%20Paris%2C%20France
+Website: https://www.guide-restaurants-et-voyages-du-monde.com/restaurants/2113/1030/france/paris/restaurant-sagan
+Booking: https://bookings.zenchef.com/results?rid=365377&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3391688,48.85040610000001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>たから</name>
+      <description>Type: Japanese Restaurant
+Arrondissement: 1er
+Price: €€€
+Google: 4.5 (1,131 reviews)
+Food types: restaurant
+Tags: Restaurant, For groups, Japanese
+Google summary: Artfully presented Japanese dishes like sushi &amp; sukiyaki broth in a moody, wood-paneled dining room.
+Google Maps: https://maps.google.com/?cid=11679062614182814962&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+Website: https://www.takara-paris.com/
+Booking: https://bookings.zenchef.com/results?rid=360892&amp;fullscreen=1&amp;mini=0&amp;pid=mapstr&amp;primaryColor=FFC222&amp;type=web</description>
+      <Point>
+        <coordinates>2.3359041,48.86497569999999,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

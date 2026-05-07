@@ -1,0 +1,72 @@
+{
+  "totalPlaces": 2124,
+  "parisPlaces": 747,
+  "handyMaps": [
+    {
+      "slug": "all-paris",
+      "title": "All Paris addresses",
+      "count": 707,
+      "csvFile": "philou-paris-all-paris-google-mymaps.csv",
+      "kmlFile": "philou-paris-all-paris-google-mymaps.kml"
+    },
+    {
+      "slug": "restaurants",
+      "title": "Restaurants",
+      "count": 339,
+      "csvFile": "philou-paris-restaurants-google-mymaps.csv",
+      "kmlFile": "philou-paris-restaurants-google-mymaps.kml"
+    },
+    {
+      "slug": "gastro-higher-end",
+      "title": "Gastro / higher-end",
+      "count": 48,
+      "csvFile": "philou-paris-gastro-higher-end-google-mymaps.csv",
+      "kmlFile": "philou-paris-gastro-higher-end-google-mymaps.kml"
+    },
+    {
+      "slug": "cafes-bakeries",
+      "title": "Cafes & bakeries",
+      "count": 146,
+      "csvFile": "philou-paris-cafes-bakeries-google-mymaps.csv",
+      "kmlFile": "philou-paris-cafes-bakeries-google-mymaps.kml"
+    },
+    {
+      "slug": "bars-wine",
+      "title": "Bars & wine",
+      "count": 98,
+      "csvFile": "philou-paris-bars-wine-google-mymaps.csv",
+      "kmlFile": "philou-paris-bars-wine-google-mymaps.kml"
+    },
+    {
+      "slug": "bistros-brasseries",
+      "title": "Bistros & brasseries",
+      "count": 178,
+      "csvFile": "philou-paris-bistros-brasseries-google-mymaps.csv",
+      "kmlFile": "philou-paris-bistros-brasseries-google-mymaps.kml"
+    },
+    {
+      "slug": "japanese-spots",
+      "title": "Japanese spots",
+      "count": 65,
+      "csvFile": "philou-paris-japanese-spots-google-mymaps.csv",
+      "kmlFile": "philou-paris-japanese-spots-google-mymaps.kml"
+    },
+    {
+      "slug": "italian-spots",
+      "title": "Italian spots",
+      "count": 50,
+      "csvFile": "philou-paris-italian-spots-google-mymaps.csv",
+      "kmlFile": "philou-paris-italian-spots-google-mymaps.kml"
+    }
+  ],
+  "allParts": [
+    {
+      "file": "philou-all-google-mymaps-part-1.csv",
+      "rows": 2000
+    },
+    {
+      "file": "philou-all-google-mymaps-part-2.csv",
+      "rows": 124
+    }
+  ]
+}

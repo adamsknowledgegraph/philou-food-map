@@ -9,6 +9,7 @@ const navItems = [
   { href: "/", label: "Home" },
   { href: "/places", label: "Places" },
   { href: "/map", label: "Map" },
+  { href: "/handy-maps", label: "Handy maps" },
 ];
 
 export function SiteHeader() {
