@@ -10,6 +10,7 @@ type PlaceImageProps = {
   hasGooglePhoto?: boolean;
   imageUrl?: string | null;
   compact?: boolean;
+  showBadge?: boolean;
 };
 
 export function PlaceImage({
@@ -18,6 +19,7 @@ export function PlaceImage({
   hasGooglePhoto = false,
   imageUrl,
   compact = false,
+  showBadge = true,
 }: PlaceImageProps) {
   const initialSrc =
     placeId && (hasGooglePhoto || imageUrl)
@@ -53,9 +55,11 @@ export function PlaceImage({
         }}
       />
       <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-[rgba(255,248,235,0.48)] to-transparent" />
-      <div className="absolute bottom-3 left-3 rounded-full border border-[rgba(112,86,59,0.18)] bg-[rgba(255,248,235,0.92)] px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--accent-ink)]">
-        Google photo
-      </div>
+      {showBadge ? (
+        <div className="absolute bottom-3 left-3 rounded-full border border-[rgba(112,86,59,0.18)] bg-[rgba(255,248,235,0.92)] px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--accent-ink)]">
+          Google photo
+        </div>
+      ) : null}
     </div>
   );
 }

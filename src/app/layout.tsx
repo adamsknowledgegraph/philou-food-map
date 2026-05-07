@@ -15,9 +15,9 @@ const sans = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "Philippine Darblay Food Map",
+  title: "Paris Food Map",
   description:
-    "A searchable Paris food guide built from Philippine Darblay's public recommendations.",
+    "A cleaner Paris food guide built from top food references, influencer picks, and public restaurant recommendations.",
 };
 
 export default function RootLayout({

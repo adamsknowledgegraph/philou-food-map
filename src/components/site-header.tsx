@@ -17,23 +17,23 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-30 border-b border-[var(--line)] bg-[rgba(255,244,226,0.9)] backdrop-blur-xl">
-      <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-5 px-4 py-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-4">
-          <div className="relative hidden h-[4.5rem] w-[4.5rem] overflow-hidden rounded-[24px] border border-[var(--line)] bg-[rgba(255,248,236,0.86)] shadow-[var(--shadow-soft)] sm:block">
+      <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-4 px-4 py-3.5 sm:px-6 lg:px-8">
+        <div className="flex items-center gap-3">
+          <div className="relative hidden h-[3.75rem] w-[3.75rem] overflow-hidden rounded-[20px] border border-[var(--line)] bg-[rgba(255,248,236,0.86)] shadow-[var(--shadow-soft)] sm:block">
             <Image
               src="/photos/paris-cafe-terrace.jpg"
               alt="Paris cafe terrace"
               fill
-              sizes="72px"
+              sizes="60px"
               className="object-cover vintage-photo-image"
               style={{ objectPosition: "center 58%" }}
             />
             <div className="vintage-photo-wash" />
             <div className="vintage-photo-grain" />
           </div>
-          <div className="space-y-2">
+          <div className="space-y-1.5">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="eyebrow py-2">Paris Food Map</span>
+              <span className="eyebrow px-3 py-2">Paris Food Map</span>
               <a
                 href="https://www.instagram.com/philoudarblay/"
                 target="_blank"
@@ -45,15 +45,14 @@ export function SiteHeader() {
               </a>
             </div>
             <div>
-              <Link href="/" className="display text-4xl leading-none text-[var(--foreground)] sm:text-5xl">
+              <Link href="/" className="display text-3xl leading-none text-[var(--foreground)] sm:text-[2.5rem]">
                 Paris Food Map
               </Link>
-              <p className="mt-1 text-xs font-semibold uppercase tracking-[0.22em] text-[var(--muted)]">
-                A better way to browse Paris restaurants
+              <p className="mt-1 text-[11px] font-semibold uppercase tracking-[0.24em] text-[var(--muted)]">
+                Paris restaurants, cafes, bakeries, and bars
               </p>
-              <p className="mt-2 max-w-xl text-sm leading-5 text-[var(--muted)]">
-                Built from top Paris food influencers, guides, and public references,
-                organized into a simple knowledge graph and turned into one clean map.
+              <p className="mt-1.5 max-w-xl text-sm leading-5 text-[var(--muted)]">
+                Top food references and influencer picks, organized into one clean Paris guide.
               </p>
             </div>
           </div>
