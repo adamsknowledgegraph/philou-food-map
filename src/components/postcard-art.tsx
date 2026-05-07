@@ -33,6 +33,46 @@ const artwork = [
     position: "center 48%",
     label: "Weekend brunch",
   },
+  {
+    src: "/postcards/arrondissement-awning.svg",
+    position: "center",
+    label: "Retro awning",
+  },
+  {
+    src: "/postcards/arrondissement-bistro.svg",
+    position: "center",
+    label: "Bistro corner",
+  },
+  {
+    src: "/postcards/arrondissement-cafe.svg",
+    position: "center",
+    label: "Coffee stop",
+  },
+  {
+    src: "/postcards/arrondissement-market.svg",
+    position: "center",
+    label: "Market lunch",
+  },
+  {
+    src: "/postcards/arrondissement-night.svg",
+    position: "center",
+    label: "Night plans",
+  },
+  {
+    src: "/postcards/arrondissement-river.svg",
+    position: "center",
+    label: "Rive gauche",
+  },
+  {
+    src: "/postcards/city-spritz.svg",
+    position: "center",
+    label: "Apero hour",
+  },
+  {
+    src: "/postcards/hero-noodles.svg",
+    position: "center",
+    label: "Dinner plans",
+  },
 ] as const;
 
 function hashString(value: string) {

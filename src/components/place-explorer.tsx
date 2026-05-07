@@ -13,9 +13,8 @@ import {
   SlidersHorizontal,
 } from "lucide-react";
 import { useDeferredValue, useEffect, useState } from "react";
-import { GoogleMapsPreview } from "@/components/google-maps-preview";
+import { GoogleMyMapEmbed } from "@/components/google-my-map-embed";
 import { GoogleRating } from "@/components/google-rating";
-import { MapPanel } from "@/components/map-panel";
 import { PlaceImage } from "@/components/place-image";
 import {
   PLACE_COLLECTION_LABELS,
@@ -31,6 +30,7 @@ type PlaceExplorerProps = {
   initialCollection: PlaceCollection;
   initialQuery?: string;
   initialArrondissement?: string;
+  initialCuisine?: string;
   initialTag?: string;
   initialPriceRange?: string;
   initialSort?: "recent" | "alphabetical" | "price";
@@ -160,36 +160,42 @@ function truncateText(value: string, maxLength: number) {
   return `${value.slice(0, maxLength).trim()}…`;
 }
 
-function buildDirectionsUrl(place: ExplorerPlace) {
-  const query = [place.name, place.address, place.city].filter(Boolean).join(", ");
-  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(query)}`;
+function getLocationLabel(place: ExplorerPlace) {
+  if (place.arrondissement) {
+    return place.arrondissement;
+  }
+
+  if (place.neighborhood) {
+    return place.neighborhood;
+  }
+
+  if (place.address) {
+    return place.address.split(",")[0]?.trim() ?? place.address;
+  }
+
+  return "Paris";
 }
 
 function PlaceListCard({
   place,
-  selected,
-  onHover,
+  duplicateCount,
 }: {
   place: ExplorerPlace;
-  selected: boolean;
-  onHover: () => void;
+  duplicateCount: number;
 }) {
-  const summary = truncateText(
-    place.philouSummary ||
+  const description = truncateText(
+    place.googleEditorialSummary ||
+      place.googleNeighborhoodSummary ||
+      place.philouSummary ||
       place.recommendationReason ||
-      place.googleEditorialSummary ||
       place.recommendationSnippet ||
-      "Saved from Philou's public Paris picks.",
-    165,
+      "Saved from trusted Paris food references.",
+    150,
   );
+  const locationLabel = getLocationLabel(place);
 
   return (
-    <article
-      className={`surface retro-panel overflow-hidden rounded-[28px] bg-[rgba(255,247,236,0.92)] transition ${
-        selected ? "ring-2 ring-[rgba(240,143,102,0.38)]" : "hover:-translate-y-0.5"
-      }`}
-      onMouseEnter={onHover}
-    >
+    <article className="surface retro-panel overflow-hidden rounded-[28px] bg-[rgba(255,247,236,0.92)] transition hover:-translate-y-0.5">
       <PlaceImage
         placeId={place.id}
         name={place.name}
@@ -212,9 +218,16 @@ function PlaceListCard({
                 compact
               />
             </div>
-            <h3 className="display text-[1.9rem] leading-none text-[var(--foreground)]">
-              <Link href={`/places/${place.id}`}>{place.name}</Link>
-            </h3>
+            <div className="flex flex-wrap items-center gap-2">
+              <h3 className="display text-[1.9rem] leading-none text-[var(--foreground)]">
+                <Link href={`/places/${place.id}`}>{place.name}</Link>
+              </h3>
+              {duplicateCount > 1 ? (
+                <span className="rounded-full border border-[var(--line)] bg-white/82 px-2.5 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-[var(--accent-ink)]">
+                  {locationLabel}
+                </span>
+              ) : null}
+            </div>
             <p className="flex items-center gap-2 text-sm text-[var(--muted)]">
               <MapPin className="h-4 w-4" />
               {place.address ?? "Address under review"}
@@ -252,14 +265,17 @@ function PlaceListCard({
               {place.priceRange}
             </span>
           ) : null}
-          {place.arrondissement ? (
-            <span className="rounded-full border border-[var(--line)] bg-white/80 px-3 py-1 text-sm">
-              {place.arrondissement}
+          {place.tags.slice(0, 1).map((tag) => (
+            <span
+              key={tag}
+              className="rounded-full border border-[var(--line)] bg-white/80 px-3 py-1 text-sm text-[var(--muted)]"
+            >
+              {tag}
             </span>
-          ) : null}
+          ))}
         </div>
 
-        <p className="text-sm leading-6 text-[var(--muted)]">{summary}</p>
+        <p className="text-sm leading-6 text-[var(--muted)]">{description}</p>
 
         {place.recommendedItems.length ? (
           <div className="rounded-[18px] bg-[rgba(242,215,166,0.22)] px-4 py-3 text-sm text-[var(--accent-ink)]">
@@ -272,138 +288,12 @@ function PlaceListCard({
   );
 }
 
-function SelectedPlacePanel({ place }: { place: ExplorerPlace }) {
-  const summary = place.philouSummary || place.recommendationReason || place.googleEditorialSummary;
-
-  return (
-    <div className="surface retro-panel rounded-[30px] p-5">
-      <div className="grid gap-5 xl:grid-cols-[0.95fr_1.05fr]">
-        <div className="space-y-4">
-          <PlaceImage
-            placeId={place.id}
-            name={place.name}
-            hasGooglePhoto={Boolean(place.googlePhotoName)}
-            imageUrl={place.googlePhotoUrl}
-            compact
-          />
-
-          <div className="space-y-3">
-            <div className="flex flex-wrap gap-2">
-              <GoogleRating
-                rating={place.googleRating}
-                count={place.googleUserRatingCount}
-              />
-              {place.googleOpenNow === true ? (
-                <span className="chip rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em]">
-                  Open now
-                </span>
-              ) : null}
-            </div>
-
-            <div>
-              <h3 className="display text-4xl leading-none">{place.name}</h3>
-              <p className="mt-2 flex items-center gap-2 text-sm text-[var(--muted)]">
-                <MapPin className="h-4 w-4" />
-                {place.address ?? "Address under review"}
-              </p>
-            </div>
-
-            <div className="flex flex-wrap gap-2">
-              {place.foodTypes.slice(0, 2).map((foodType) => (
-                <span
-                  key={foodType}
-                  className="rounded-full bg-[rgba(141,183,170,0.18)] px-3 py-1 text-sm text-[var(--accent-ink)]"
-                >
-                  {foodType}
-                </span>
-              ))}
-              {place.cuisineType ? (
-                <span className="rounded-full bg-[rgba(238,144,119,0.16)] px-3 py-1 text-sm text-[var(--accent-ink)]">
-                  {place.cuisineType}
-                </span>
-              ) : null}
-              {place.priceRange ? (
-                <span className="rounded-full border border-[var(--line)] bg-white/80 px-3 py-1 text-sm">
-                  {place.priceRange}
-                </span>
-              ) : null}
-              {place.arrondissement ? (
-                <span className="rounded-full border border-[var(--line)] bg-white/80 px-3 py-1 text-sm">
-                  {place.arrondissement}
-                </span>
-              ) : null}
-              {place.tags.slice(0, 2).map((tag) => (
-                <span
-                  key={tag}
-                  className="rounded-full border border-[var(--line)] bg-white/80 px-3 py-1 text-sm text-[var(--muted)]"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-
-            {summary ? (
-              <p className="text-sm leading-6 text-[var(--muted)]">
-                {truncateText(summary, 220)}
-              </p>
-            ) : null}
-
-            {place.recommendedItems.length ? (
-              <div className="rounded-[18px] bg-[rgba(242,215,166,0.22)] px-4 py-3 text-sm text-[var(--accent-ink)]">
-                <span className="font-semibold">What to order:</span>{" "}
-                {place.recommendedItems.slice(0, 4).join(", ")}
-              </div>
-            ) : null}
-
-            <div className="flex flex-wrap gap-3">
-              {place.googleMapsUrl ? (
-                <a
-                  href={place.googleMapsUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="cta-button px-4 py-2.5"
-                >
-                  Open in Google Maps
-                </a>
-              ) : null}
-              <a
-                href={buildDirectionsUrl(place)}
-                target="_blank"
-                rel="noreferrer"
-                className="ghost-button px-4 py-2.5"
-              >
-                Directions
-              </a>
-              <Link href={`/places/${place.id}`} className="ghost-button px-4 py-2.5">
-                Full details
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        <div className="grid gap-4">
-          <GoogleMapsPreview
-            name={place.name}
-            address={place.address}
-            city={place.city}
-            className="min-h-[320px]"
-          />
-          {place.googleNeighborhoodSummary ? (
-            <div className="rounded-[22px] border border-[var(--line)] bg-white/80 p-4 text-sm leading-6 text-[var(--muted)]">
-              {place.googleNeighborhoodSummary}
-            </div>
-          ) : null}
-        </div>
-      </div>
-    </div>
-  );
-}
-
 export function PlaceExplorer({
   places,
   initialCollection,
   initialQuery = "",
   initialArrondissement = "",
+  initialCuisine = "",
   initialTag = "",
   initialPriceRange = "",
   initialSort = "recent",
@@ -414,18 +304,24 @@ export function PlaceExplorer({
   const [collection, setCollection] = useState<PlaceCollection>(initialCollection);
   const [query, setQuery] = useState(initialQuery);
   const [arrondissement, setArrondissement] = useState(initialArrondissement);
+  const [cuisine, setCuisine] = useState(initialCuisine);
   const [tag, setTag] = useState(initialTag);
   const [priceRange, setPriceRange] = useState(initialPriceRange);
   const [sort, setSort] = useState<"recent" | "alphabetical" | "price">(initialSort);
-  const [selectedId, setSelectedId] = useState<string | null>(places[0]?.id ?? null);
   const [viewMode, setViewMode] = useState<ExplorerView>("map");
   const deferredQuery = useDeferredValue(query);
 
   const collectionPlaces = places.filter((place) => place.collection === collection);
   const collectionCounts = getCollectionCounts(places);
   const arrondissements = [...new Set(collectionPlaces.map((place) => place.arrondissement).filter(Boolean))] as string[];
+  const cuisines = [...new Set(collectionPlaces.map((place) => place.cuisineType).filter(Boolean))] as string[];
   const priceRanges = [...new Set(collectionPlaces.map((place) => place.priceRange).filter(Boolean))] as string[];
   const themeCounts = getThemeCounts(collectionPlaces);
+  const duplicateNameCounts = new Map<string, number>();
+  for (const place of collectionPlaces) {
+    const normalizedName = normalizeText(place.name);
+    duplicateNameCounts.set(normalizedName, (duplicateNameCounts.get(normalizedName) ?? 0) + 1);
+  }
 
   const filteredPlaces = sortPlaces(
     collectionPlaces.filter((place) => {
@@ -455,6 +351,10 @@ export function PlaceExplorer({
         return false;
       }
 
+      if (cuisine && place.cuisineType !== cuisine) {
+        return false;
+      }
+
       if (tag && !placeMatchesTheme(place, tag)) {
         return false;
       }
@@ -467,25 +367,6 @@ export function PlaceExplorer({
     }),
     sort,
   );
-
-  const selectedPlace =
-    filteredPlaces.find((place) => place.id === selectedId) ??
-    filteredPlaces[0] ??
-    null;
-  const activeSelectedId = selectedPlace?.id ?? null;
-
-  const mapPlaces = filteredPlaces
-    .filter(
-      (place) =>
-        typeof place.latitude === "number" && typeof place.longitude === "number",
-    )
-    .map((place) => ({
-      id: place.id,
-      name: place.name,
-      address: place.address,
-      latitude: place.latitude as number,
-      longitude: place.longitude as number,
-    }));
 
   useEffect(() => {
     const params = new URLSearchParams();
@@ -500,6 +381,9 @@ export function PlaceExplorer({
     if (arrondissement) {
       params.set("arrondissement", arrondissement);
     }
+    if (cuisine) {
+      params.set("cuisine", cuisine);
+    }
     if (tag) {
       params.set("tag", tag);
     }
@@ -513,17 +397,18 @@ export function PlaceExplorer({
     const queryString = params.toString();
     const url = queryString ? `${pathname}?${queryString}` : pathname;
     window.history.replaceState({}, "", `${url}${anchor ?? ""}`);
-  }, [anchor, arrondissement, collection, pathname, priceRange, query, sort, tag]);
+  }, [anchor, arrondissement, collection, cuisine, pathname, priceRange, query, sort, tag]);
 
   const resetFilters = () => {
     setQuery("");
     setArrondissement("");
+    setCuisine("");
     setTag("");
     setPriceRange("");
     setSort("recent");
   };
 
-  const activeFilterCount = [query, arrondissement, tag, priceRange].filter(Boolean).length;
+  const activeFilterCount = [query, arrondissement, cuisine, tag, priceRange].filter(Boolean).length;
   const placesWithRatings = filteredPlaces.filter((place) => typeof place.googleRating === "number").length;
   const placesWithPhotos = filteredPlaces.filter((place) => Boolean(place.googlePhotoName || place.googlePhotoUrl)).length;
 
@@ -541,7 +426,7 @@ export function PlaceExplorer({
               {PLACE_COLLECTION_LABELS[collection]} in Paris
             </h2>
             <p className="mt-3 max-w-2xl text-sm leading-6 text-[var(--muted)]">
-              A cleaner way to browse Philou&apos;s saved spots with ratings, photos, and better filters than the original Mapstr map.
+              A cleaner way to browse Paris spots with ratings, photos, location tags, and better filters than the original Mapstr map.
             </p>
           </div>
           <Link href="/map?city=Paris" className="cta-button px-4 py-2.5">
@@ -565,7 +450,7 @@ export function PlaceExplorer({
           ))}
         </div>
 
-        <div className="mt-6 grid gap-4 xl:grid-cols-[1.2fr_0.8fr_0.8fr]">
+        <div className="mt-6 grid gap-4 xl:grid-cols-[1.15fr_0.85fr_0.85fr_0.7fr]">
           <label className="grid gap-2 text-sm">
             <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
               Search
@@ -601,18 +486,37 @@ export function PlaceExplorer({
 
           <label className="grid gap-2 text-sm">
             <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-              Sort
+              Cuisine
             </span>
             <select
-              value={sort}
-              onChange={(event) =>
-                setSort(event.target.value as "recent" | "alphabetical" | "price")
-              }
+              value={cuisine}
+              onChange={(event) => setCuisine(event.target.value)}
               className="retro-select"
             >
-              <option value="recent">Recent</option>
-              <option value="alphabetical">A-Z</option>
-              <option value="price">Price</option>
+              <option value="">All</option>
+              {cuisines.map((item) => (
+                <option key={item} value={item}>
+                  {item}
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <label className="grid gap-2 text-sm">
+            <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
+              Price
+            </span>
+            <select
+              value={priceRange}
+              onChange={(event) => setPriceRange(event.target.value)}
+              className="retro-select"
+            >
+              <option value="">All</option>
+              {priceRanges.map((item) => (
+                <option key={item} value={item}>
+                  {item}
+                </option>
+              ))}
             </select>
           </label>
         </div>
@@ -622,8 +526,7 @@ export function PlaceExplorer({
             <PlaceListCard
               key={place.id}
               place={place}
-              selected={selectedPlace?.id === place.id}
-              onHover={() => setSelectedId(place.id)}
+              duplicateCount={duplicateNameCounts.get(normalizeText(place.name)) ?? 1}
             />
           ))}
         </div>
@@ -638,11 +541,11 @@ export function PlaceExplorer({
           <div className="space-y-4">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--muted)]">
-                Philou&apos;s Paris map
+                Paris Food Map
               </p>
-              <h2 className="display mt-2 text-4xl leading-none">Browse the saved spots</h2>
+              <h2 className="display mt-2 text-4xl leading-none">Browse Paris places</h2>
               <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
-                Search, filter, and switch between map and list view without the clutter of the original Mapstr map.
+                Built from top Paris food references, then cleaned up with better metadata, Google photos, ratings, and simpler browsing.
               </p>
             </div>
 
@@ -699,153 +602,162 @@ export function PlaceExplorer({
               ))}
             </div>
 
-            <label className="grid gap-2 text-sm">
-              <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-                Search
-              </span>
-              <div className="flex items-center gap-3 rounded-[18px] border border-[rgba(133,83,58,0.16)] bg-white/88 px-4 py-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.7)]">
-                <Search className="h-4 w-4 text-[var(--muted)]" />
-                <input
-                  value={query}
-                  onChange={(event) => setQuery(event.target.value)}
-                  placeholder="Search a place, street, or arrondissement"
-                  className="w-full bg-transparent text-sm"
-                />
-              </div>
-            </label>
+            {viewMode === "list" ? (
+              <>
+                <label className="grid gap-2 text-sm">
+                  <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
+                    Search
+                  </span>
+                  <div className="flex items-center gap-3 rounded-[18px] border border-[rgba(133,83,58,0.16)] bg-white/88 px-4 py-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.7)]">
+                    <Search className="h-4 w-4 text-[var(--muted)]" />
+                    <input
+                      value={query}
+                      onChange={(event) => setQuery(event.target.value)}
+                      placeholder="Search a place, street, or arrondissement"
+                      className="w-full bg-transparent text-sm"
+                    />
+                  </div>
+                </label>
 
-            <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-1">
-              <label className="grid gap-2 text-sm">
-                <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-                  Arrondissement
-                </span>
-                <select
-                  value={arrondissement}
-                  onChange={(event) => setArrondissement(event.target.value)}
-                  className="retro-select"
-                >
-                  <option value="">All</option>
-                  {arrondissements.map((item) => (
-                    <option key={item} value={item}>
-                      {item}
-                    </option>
-                  ))}
-                </select>
-              </label>
-
-              <label className="grid gap-2 text-sm">
-                <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-                  Price
-                </span>
-                <select
-                  value={priceRange}
-                  onChange={(event) => setPriceRange(event.target.value)}
-                  className="retro-select"
-                >
-                  <option value="">All</option>
-                  {priceRanges.map((item) => (
-                    <option key={item} value={item}>
-                      {item}
-                    </option>
-                  ))}
-                </select>
-              </label>
-            </div>
-
-            <label className="grid gap-2 text-sm">
-              <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-                Sort
-              </span>
-              <select
-                value={sort}
-                onChange={(event) =>
-                  setSort(event.target.value as "recent" | "alphabetical" | "price")
-                }
-                className="retro-select"
-              >
-                <option value="recent">Recent</option>
-                <option value="alphabetical">A-Z</option>
-                <option value="price">Price</option>
-              </select>
-            </label>
-
-            <div className="rounded-[22px] border border-[var(--line)] bg-white/74 p-4">
-              <div className="flex items-center justify-between gap-3">
-                <div className="flex items-center gap-2">
-                  <Filter className="h-4 w-4 text-[var(--accent-ink)]" />
-                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-                    Quick filters
-                  </p>
-                </div>
-                {activeFilterCount ? (
-                  <button
-                    type="button"
-                    onClick={resetFilters}
-                    className="ghost-button px-3 py-2"
-                  >
-                    <RotateCcw className="h-4 w-4" />
-                    Reset
-                  </button>
-                ) : null}
-              </div>
-
-              <div className="mt-3 flex flex-wrap gap-2">
-                {themeCounts.map((item) => {
-                  const active = normalizeText(tag) === normalizeText(item.label);
-                  return (
-                    <button
-                      key={item.label}
-                      type="button"
-                      onClick={() => setTag(active ? "" : item.label)}
-                      className={active ? "cta-button px-3 py-2" : "ghost-button px-3 py-2"}
+                <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-1">
+                  <label className="grid gap-2 text-sm">
+                    <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
+                      Arrondissement
+                    </span>
+                    <select
+                      value={arrondissement}
+                      onChange={(event) => setArrondissement(event.target.value)}
+                      className="retro-select"
                     >
-                      {item.label}
-                      <span className="rounded-full bg-white/84 px-2 py-0.5 text-[10px] font-semibold tracking-[0.08em] text-[var(--accent-ink)]">
-                        {item.count}
-                      </span>
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
+                      <option value="">All</option>
+                      {arrondissements.map((item) => (
+                        <option key={item} value={item}>
+                          {item}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
 
-            <div className="rounded-[22px] border border-[var(--line)] bg-[rgba(242,215,166,0.16)] p-4 text-sm leading-6 text-[var(--muted)]">
-              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--accent-ink)]">
-                <SlidersHorizontal className="h-4 w-4" />
-                Better than Mapstr
+                  <label className="grid gap-2 text-sm">
+                    <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
+                      Cuisine
+                    </span>
+                    <select
+                      value={cuisine}
+                      onChange={(event) => setCuisine(event.target.value)}
+                      className="retro-select"
+                    >
+                      <option value="">All</option>
+                      {cuisines.map((item) => (
+                        <option key={item} value={item}>
+                          {item}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                </div>
+
+                <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-1">
+                  <label className="grid gap-2 text-sm">
+                    <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
+                      Price
+                    </span>
+                    <select
+                      value={priceRange}
+                      onChange={(event) => setPriceRange(event.target.value)}
+                      className="retro-select"
+                    >
+                      <option value="">All</option>
+                      {priceRanges.map((item) => (
+                        <option key={item} value={item}>
+                          {item}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+
+                  <label className="grid gap-2 text-sm">
+                    <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
+                      Sort
+                    </span>
+                    <select
+                      value={sort}
+                      onChange={(event) =>
+                        setSort(event.target.value as "recent" | "alphabetical" | "price")
+                      }
+                      className="retro-select"
+                    >
+                      <option value="recent">Recent</option>
+                      <option value="alphabetical">A-Z</option>
+                      <option value="price">Price</option>
+                    </select>
+                  </label>
+                </div>
+
+                <div className="rounded-[22px] border border-[var(--line)] bg-white/74 p-4">
+                  <div className="flex items-center justify-between gap-3">
+                    <div className="flex items-center gap-2">
+                      <Filter className="h-4 w-4 text-[var(--accent-ink)]" />
+                      <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
+                        Quick filters
+                      </p>
+                    </div>
+                    {activeFilterCount ? (
+                      <button
+                        type="button"
+                        onClick={resetFilters}
+                        className="ghost-button px-3 py-2"
+                      >
+                        <RotateCcw className="h-4 w-4" />
+                        Reset
+                      </button>
+                    ) : null}
+                  </div>
+
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {themeCounts.map((item) => {
+                      const active = normalizeText(tag) === normalizeText(item.label);
+                      return (
+                        <button
+                          key={item.label}
+                          type="button"
+                          onClick={() => setTag(active ? "" : item.label)}
+                          className={active ? "cta-button px-3 py-2" : "ghost-button px-3 py-2"}
+                        >
+                          {item.label}
+                          <span className="rounded-full bg-white/84 px-2 py-0.5 text-[10px] font-semibold tracking-[0.08em] text-[var(--accent-ink)]">
+                            {item.count}
+                          </span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              </>
+            ) : (
+              <div className="rounded-[22px] border border-[var(--line)] bg-[rgba(242,215,166,0.16)] p-4 text-sm leading-6 text-[var(--muted)]">
+                <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--accent-ink)]">
+                  <SlidersHorizontal className="h-4 w-4" />
+                  Google Maps mode
+                </div>
+                <p className="mt-3">
+                  This view uses the shared Google My Map with all the pins. Switch to <span className="font-semibold text-[var(--foreground)]">List</span> when you want filters, descriptions, cuisine, price, and easier comparisons.
+                </p>
               </div>
-              <p className="mt-3">
-                The goal here is simple: the same Paris addresses, but easier to choose from thanks to ratings, photos, tags, and a cleaner map or list flow.
-              </p>
-            </div>
+            )}
           </div>
         </aside>
 
         <div className="grid gap-5">
           {viewMode === "map" ? (
-            <>
-              <div className="surface retro-panel overflow-hidden rounded-[32px] p-3">
-                <div className="h-[72vh]">
-                  <MapPanel
-                    places={mapPlaces}
-                    selectedId={activeSelectedId}
-                    onSelect={setSelectedId}
-                    zoom={13}
-                  />
-                </div>
-              </div>
-              {selectedPlace ? (
-                <SelectedPlacePanel place={selectedPlace} />
-              ) : null}
-            </>
+            <GoogleMyMapEmbed className="min-h-[780px]" />
           ) : (
             <div className="grid gap-4 lg:grid-cols-2">
               {filteredPlaces.map((place) => (
                 <PlaceListCard
                   key={place.id}
                   place={place}
-                  selected={activeSelectedId === place.id}
-                  onHover={() => setSelectedId(place.id)}
+                  duplicateCount={duplicateNameCounts.get(normalizeText(place.name)) ?? 1}
                 />
               ))}
               {filteredPlaces.length === 0 ? (

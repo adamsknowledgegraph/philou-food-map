@@ -25,9 +25,9 @@ export default async function MapPage({ searchParams }: PageProps) {
         <section className="surface retro-panel poster-bands rounded-[32px] p-6">
           <div className="section-split">
             <div>
-              <h1 className="display text-5xl leading-none">Discover the map</h1>
+              <h1 className="display text-5xl leading-none">Paris Food Map</h1>
               <p className="mt-2 max-w-2xl text-sm leading-6 text-[var(--muted)]">
-                Browse higher-end spots, cafes, bars, and Paris neighborhoods on the map.
+                A cleaner way to browse Paris restaurants, cafes, bakeries, and bars using top food references and richer place data.
               </p>
             </div>
             <div className="postcard-frame">
@@ -41,6 +41,7 @@ export default async function MapPage({ searchParams }: PageProps) {
           initialCollection={initialCollection}
           initialQuery={filters.q}
           initialArrondissement={filters.arrondissement}
+          initialCuisine={filters.cuisine}
           initialTag={filters.tag}
           initialPriceRange={filters.priceRange}
           initialSort={(filters.sort as "recent" | "alphabetical" | "price") || "recent"}

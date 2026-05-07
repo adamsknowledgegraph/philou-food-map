@@ -33,7 +33,7 @@ export function SiteHeader() {
           </div>
           <div className="space-y-2">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="eyebrow py-2">Philippine Darblay</span>
+              <span className="eyebrow py-2">Paris Food Map</span>
               <a
                 href="https://www.instagram.com/philoudarblay/"
                 target="_blank"
@@ -46,14 +46,14 @@ export function SiteHeader() {
             </div>
             <div>
               <Link href="/" className="display text-4xl leading-none text-[var(--foreground)] sm:text-5xl">
-                Philou&apos;s Paris
+                Paris Food Map
               </Link>
               <p className="mt-1 text-xs font-semibold uppercase tracking-[0.22em] text-[var(--muted)]">
-                Paris food guide
+                A better way to browse Paris restaurants
               </p>
               <p className="mt-2 max-w-xl text-sm leading-5 text-[var(--muted)]">
-                Public restaurant picks from one of France&apos;s best-known food creators,
-                turned into a map you can actually browse.
+                Built from top Paris food influencers, guides, and public references,
+                organized into a simple knowledge graph and turned into one clean map.
               </p>
             </div>
           </div>

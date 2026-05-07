@@ -98,14 +98,14 @@ export default async function HomePage({ searchParams }: PageProps) {
             <div className="space-y-4 lg:pt-2">
               <div className="eyebrow">
                 <Sparkles className="h-4 w-4" />
-                Top restaurants in Paris
+                Paris Food Map
               </div>
               <div className="space-y-2.5">
                 <h1 className="display max-w-4xl text-4xl leading-[0.94] text-[var(--foreground)] sm:text-5xl lg:text-[4.1rem]">
-                  Top restaurants in Paris, all in one map.
+                  A cleaner way to browse Paris restaurants.
                 </h1>
                 <p className="max-w-xl text-base leading-7 text-[var(--muted)] sm:text-lg">
-                  Browse {featuredCount.toLocaleString("en-GB")} Paris addresses pulled from Philou&apos;s public picks, from higher-end tables to bakeries, wine bars, and neighborhood favorites.
+                  Browse {featuredCount.toLocaleString("en-GB")} Paris addresses from top food references, enriched with Google ratings, photos, and simpler filtering.
                 </p>
                 <p className="max-w-xl text-sm leading-6 text-[var(--muted)]">
                   Built from public recommendations by{" "}
@@ -117,7 +117,7 @@ export default async function HomePage({ searchParams }: PageProps) {
                   >
                     Philippine Darblay
                   </a>
-                  , one of France&apos;s best-known food creators for restaurant picks in Paris.
+                  {" "}and other Paris food references, then organized into a simple knowledge graph.
                 </p>
               </div>
               <form action="/" className="surface soft-stripes flex max-w-3xl flex-col gap-3 rounded-[28px] p-3 sm:flex-row">
@@ -198,13 +198,14 @@ export default async function HomePage({ searchParams }: PageProps) {
 
         <div id="map-guide">
           <PlaceExplorer
-            places={parisPlaces}
-            initialCollection={selectedCollection}
-            initialQuery={filters.q}
-            initialArrondissement={filters.arrondissement}
-            initialTag={filters.tag}
-            initialPriceRange={filters.priceRange}
-            initialSort={(filters.sort as "recent" | "alphabetical" | "price") || "recent"}
+          places={parisPlaces}
+          initialCollection={selectedCollection}
+          initialQuery={filters.q}
+          initialArrondissement={filters.arrondissement}
+          initialCuisine={filters.cuisine}
+          initialTag={filters.tag}
+          initialPriceRange={filters.priceRange}
+          initialSort={(filters.sort as "recent" | "alphabetical" | "price") || "recent"}
             mode="home"
             anchor="#map-guide"
           />
