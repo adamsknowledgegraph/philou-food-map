@@ -347,7 +347,7 @@ async function fetchGooglePlaceDetails(googlePlaceId: string) {
 }
 
 async function fetchGooglePhotoMedia(photoName: string) {
-  return googleFetch<GooglePhotoMedia>(`https://places.googleapis.com/v1/${photoName}/media?maxWidthPx=1200`, {
+  return googleFetch<GooglePhotoMedia>(`https://places.googleapis.com/v1/${photoName}/media?maxWidthPx=1200&skipHttpRedirect=true`, {
     method: "GET",
     fieldMask: "name,photoUri",
   });

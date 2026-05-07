@@ -28,7 +28,7 @@ export async function GET(_: Request, { params }: RouteProps) {
 
   if (place.googlePhotoName && GOOGLE_MAPS_API_KEY) {
     const response = await fetch(
-      `https://places.googleapis.com/v1/${place.googlePhotoName}/media?maxWidthPx=1200`,
+      `https://places.googleapis.com/v1/${place.googlePhotoName}/media?maxWidthPx=1200&skipHttpRedirect=true`,
       {
         headers: {
           "X-Goog-Api-Key": GOOGLE_MAPS_API_KEY,
