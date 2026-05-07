@@ -18,6 +18,7 @@
     "geocode": "tsx scripts/geocode_places.ts",
     "google:enrich": "tsx scripts/enrich_google_places.ts",
     "images:enrich-web": "tsx scripts/enrich_website_images.ts",
+    "fooding:enrich": "tsx scripts/enrich_lefooding_paris.ts",
     "maps:export-google": "tsx scripts/export_google_mymaps.ts",
     "maps:refresh-links": "tsx scripts/refresh_google_maps_urls.ts",
     "review:export": "tsx scripts/export_review_csv.ts",
