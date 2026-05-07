@@ -1,5 +1,6 @@
 import "dotenv/config";
 import { NextResponse } from "next/server";
+import * as cheerio from "cheerio";
 import { prisma } from "@/lib/prisma";
 
 const GOOGLE_MAPS_API_KEY = process.env.GOOGLE_MAPS_API_KEY;
@@ -12,6 +13,59 @@ type GooglePhotoMedia = {
   photoUri?: string;
 };
 
+function getWebsiteImageUrl(websiteUrl: string) {
+  try {
+    return new URL(websiteUrl);
+  } catch {
+    return null;
+  }
+}
+
+async function fetchWebsiteImage(websiteUrl: string) {
+  const parsedUrl = getWebsiteImageUrl(websiteUrl);
+  if (!parsedUrl) {
+    return null;
+  }
+
+  try {
+    const response = await fetch(parsedUrl.toString(), {
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (compatible; ParisFoodMapBot/1.0; +https://philou-food-map.vercel.app)",
+      },
+      redirect: "follow",
+      cache: "force-cache",
+      next: {
+        revalidate: 60 * 60 * 24 * 7,
+      },
+    });
+
+    if (!response.ok) {
+      return null;
+    }
+
+    const contentType = response.headers.get("content-type") ?? "";
+    if (!contentType.includes("text/html")) {
+      return null;
+    }
+
+    const html = await response.text();
+    const $ = cheerio.load(html);
+    const imageCandidate =
+      $('meta[property="og:image"]').attr("content") ||
+      $('meta[name="twitter:image"]').attr("content") ||
+      $('meta[property="og:image:url"]').attr("content");
+
+    if (!imageCandidate) {
+      return null;
+    }
+
+    return new URL(imageCandidate, parsedUrl).toString();
+  } catch {
+    return null;
+  }
+}
+
 export async function GET(_: Request, { params }: RouteProps) {
   const { id } = await params;
   const place = await prisma.place.findUnique({
@@ -19,6 +73,7 @@ export async function GET(_: Request, { params }: RouteProps) {
     select: {
       googlePhotoName: true,
       googlePhotoUrl: true,
+      websiteUrl: true,
     },
   });
 
@@ -49,6 +104,14 @@ export async function GET(_: Request, { params }: RouteProps) {
 
   if (place.googlePhotoUrl) {
     return NextResponse.redirect(place.googlePhotoUrl);
+  }
+
+  if (place.websiteUrl) {
+    const websiteImage = await fetchWebsiteImage(place.websiteUrl);
+
+    if (websiteImage) {
+      return NextResponse.redirect(websiteImage);
+    }
   }
 
   return NextResponse.json({ error: "Photo not available." }, { status: 404 });

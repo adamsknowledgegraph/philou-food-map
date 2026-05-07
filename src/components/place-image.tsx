@@ -16,15 +16,11 @@ type PlaceImageProps = {
 export function PlaceImage({
   placeId,
   name,
-  hasGooglePhoto = false,
-  imageUrl,
   compact = false,
   showBadge = true,
 }: PlaceImageProps) {
   const initialSrc =
-    placeId && (hasGooglePhoto || imageUrl)
-      ? `/api/places/${placeId}/photo`
-      : null;
+    placeId ? `/api/places/${placeId}/photo` : null;
   const [currentSrc, setCurrentSrc] = useState(initialSrc);
 
   if (!currentSrc) {

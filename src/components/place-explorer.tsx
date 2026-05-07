@@ -7,7 +7,6 @@ import {
   Filter,
   List,
   Map as MapIcon,
-  MapPin,
   RotateCcw,
   Search,
   SlidersHorizontal,
@@ -176,6 +175,12 @@ function getLocationLabel(place: ExplorerPlace) {
   return "Paris";
 }
 
+function getHighlightLabel(place: ExplorerPlace) {
+  const preferredTag = place.tags.find((tag) => !hiddenThemeTags.has(normalizeText(tag)));
+
+  return preferredTag || place.cuisineType || place.googlePrimaryTypeLabel || place.foodTypes[0] || "Paris pick";
+}
+
 function PlaceListCard({
   place,
   duplicateCount,
@@ -193,96 +198,90 @@ function PlaceListCard({
     150,
   );
   const locationLabel = getLocationLabel(place);
+  const highlight = getHighlightLabel(place);
+  const detailLine = [place.arrondissement, place.cuisineType, place.priceRange]
+    .filter(Boolean)
+    .join(" · ");
 
   return (
-    <article className="surface retro-panel overflow-hidden rounded-[28px] bg-[rgba(255,247,236,0.92)] transition hover:-translate-y-0.5">
-      <PlaceImage
-        placeId={place.id}
-        name={place.name}
-        hasGooglePhoto={Boolean(place.googlePhotoName)}
-        imageUrl={place.googlePhotoUrl}
-        compact
-      />
-      <div className="space-y-4 p-5">
-        <div className="flex flex-wrap items-start justify-between gap-3">
-          <div className="space-y-2">
-            <div className="flex flex-wrap gap-2">
-              {place.googleOpenNow === true ? (
-                <span className="chip rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em]">
-                  Open now
-                </span>
-              ) : null}
-              <GoogleRating
-                rating={place.googleRating}
-                count={place.googleUserRatingCount}
-                compact
-              />
-            </div>
-            <div className="flex flex-wrap items-center gap-2">
-              <h3 className="display text-[1.9rem] leading-none text-[var(--foreground)]">
-                <Link href={`/places/${place.id}`}>{place.name}</Link>
-              </h3>
-              {duplicateCount > 1 ? (
-                <span className="rounded-full border border-[var(--line)] bg-white/82 px-2.5 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-[var(--accent-ink)]">
-                  {locationLabel}
-                </span>
-              ) : null}
-            </div>
-            <p className="flex items-center gap-2 text-sm text-[var(--muted)]">
-              <MapPin className="h-4 w-4" />
-              {place.address ?? "Address under review"}
+    <article className="overflow-hidden rounded-[24px] border border-black bg-white shadow-[0_22px_50px_rgba(0,0,0,0.08)] transition duration-200 hover:-translate-y-0.5">
+      <div className="space-y-4 p-5 pb-0">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <span className="inline-flex bg-[#ffe04d] px-3 py-1 text-[0.75rem] font-bold uppercase tracking-[0.08em] text-black">
+            {highlight}
+          </span>
+          <GoogleRating
+            rating={place.googleRating}
+            count={place.googleUserRatingCount}
+            compact
+          />
+        </div>
+
+        <div className="space-y-2">
+          <div className="flex flex-wrap items-center gap-2">
+            <h3 className="text-[2rem] font-bold uppercase leading-none tracking-[-0.03em] text-black">
+              <Link href={`/places/${place.id}`}>{place.name}</Link>
+            </h3>
+            {duplicateCount > 1 ? (
+              <span className="rounded-full border border-black/15 bg-black px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-white">
+                {locationLabel}
+              </span>
+            ) : null}
+          </div>
+          <p className="text-sm leading-6 text-[#3d3d3d]">
+            {place.address ?? "Address under review"}
+          </p>
+          {detailLine ? (
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#6b6b6b]">
+              {detailLine}
             </p>
+          ) : null}
+        </div>
+
+        <p className="min-h-[4.75rem] text-sm leading-6 text-[#3d3d3d]">{description}</p>
+
+        <div className="flex flex-wrap items-center justify-between gap-3 pb-4">
+          <div className="flex flex-wrap gap-2">
+            {place.foodTypes.slice(0, 2).map((foodType) => (
+              <span
+                key={foodType}
+                className="rounded-full border border-black/14 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.08em] text-black"
+              >
+                {foodType}
+              </span>
+            ))}
+            {place.tags.slice(0, 1).map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full border border-black/14 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.08em] text-black/70"
+              >
+                {tag}
+              </span>
+            ))}
           </div>
           {place.googleMapsUrl ? (
             <a
               href={place.googleMapsUrl}
               target="_blank"
               rel="noreferrer"
-              className="ghost-button px-3 py-2"
+              className="inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.16em] text-black"
             >
               Open map
               <ExternalLink className="h-4 w-4" />
             </a>
           ) : null}
         </div>
+      </div>
 
-        <div className="flex flex-wrap gap-2">
-          {place.foodTypes.slice(0, 2).map((foodType) => (
-            <span
-              key={foodType}
-              className="rounded-full bg-[rgba(141,183,170,0.18)] px-3 py-1 text-sm text-[var(--accent-ink)]"
-            >
-              {foodType}
-            </span>
-          ))}
-          {place.cuisineType ? (
-            <span className="rounded-full bg-[rgba(238,144,119,0.16)] px-3 py-1 text-sm text-[var(--accent-ink)]">
-              {place.cuisineType}
-            </span>
-          ) : null}
-          {place.priceRange ? (
-            <span className="rounded-full border border-[var(--line)] bg-white/80 px-3 py-1 text-sm">
-              {place.priceRange}
-            </span>
-          ) : null}
-          {place.tags.slice(0, 1).map((tag) => (
-            <span
-              key={tag}
-              className="rounded-full border border-[var(--line)] bg-white/80 px-3 py-1 text-sm text-[var(--muted)]"
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
-
-        <p className="text-sm leading-6 text-[var(--muted)]">{description}</p>
-
-        {place.recommendedItems.length ? (
-          <div className="rounded-[18px] bg-[rgba(242,215,166,0.22)] px-4 py-3 text-sm text-[var(--accent-ink)]">
-            <span className="font-semibold">What to order:</span>{" "}
-            {place.recommendedItems.slice(0, 3).join(", ")}
-          </div>
-        ) : null}
+      <div className="border-t border-black">
+        <PlaceImage
+          placeId={place.id}
+          name={place.name}
+          hasGooglePhoto={Boolean(place.googlePhotoName)}
+          imageUrl={place.googlePhotoUrl}
+          compact
+          showBadge={false}
+        />
       </div>
     </article>
   );
@@ -535,224 +534,99 @@ export function PlaceExplorer({
   }
 
   return (
-    <section className="surface retro-panel rounded-[34px] p-4 sm:p-6">
-      <div className="grid gap-6 xl:grid-cols-[360px_minmax(0,1fr)]">
-        <aside className="surface retro-panel h-fit rounded-[28px] bg-[rgba(255,248,236,0.96)] p-5 xl:sticky xl:top-24">
-          <div className="space-y-4">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--muted)]">
-                Paris Food Map
-              </p>
-              <h2 className="display mt-2 text-4xl leading-none">Browse Paris places</h2>
-              <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
-                Built from top Paris food references, then cleaned up with better metadata, Google photos, ratings, and simpler browsing.
-              </p>
-            </div>
-
-            <div className="flex flex-wrap gap-2 text-sm text-[var(--muted)]">
-              <div className="rounded-full border border-[var(--line)] bg-white/80 px-4 py-2.5">
-                {filteredPlaces.length.toLocaleString("en-GB")} places
-              </div>
-              <div className="rounded-full border border-[var(--line)] bg-white/80 px-4 py-2.5">
-                {placesWithRatings.toLocaleString("en-GB")} rated
-              </div>
-              <div className="rounded-full border border-[var(--line)] bg-white/80 px-4 py-2.5">
-                {placesWithPhotos.toLocaleString("en-GB")} with photos
-              </div>
-            </div>
-
-            <div className="inline-flex items-center gap-2 rounded-full border border-[var(--line)] bg-white/80 p-1">
-              <button
-                type="button"
-                onClick={() => setViewMode("map")}
-                className={viewMode === "map" ? "pill-button pill-button-active px-4 py-2.5" : "ghost-button px-4 py-2.5"}
-              >
-                <MapIcon className="h-4 w-4" />
-                Map
-              </button>
-              <button
-                type="button"
-                onClick={() => setViewMode("list")}
-                className={viewMode === "list" ? "pill-button pill-button-active px-4 py-2.5" : "ghost-button px-4 py-2.5"}
-              >
-                <List className="h-4 w-4" />
-                List
-              </button>
-            </div>
-
-            <div className="grid gap-3">
+    <section className="space-y-5">
+      <div className="border-b border-black pb-4">
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <div className="space-y-3">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-black/60">
+              Paris Food Map
+            </p>
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
               {collections.map((item) => (
                 <button
                   key={item}
                   type="button"
                   onClick={() => setCollection(item)}
-                  className={`flex items-center justify-between rounded-[18px] border px-4 py-3 text-left transition ${
-                    collection === item
-                      ? "border-[rgba(240,143,102,0.34)] bg-[rgba(240,143,102,0.14)]"
-                      : "border-[var(--line)] bg-white/72 hover:-translate-y-0.5"
+                  className={`text-left text-[1.65rem] font-bold uppercase leading-none tracking-[-0.03em] transition ${
+                    collection === item ? "bg-[#ffe04d] px-2 py-1 text-black" : "text-black/55 hover:text-black"
                   }`}
                 >
-                  <span className="text-sm font-semibold uppercase tracking-[0.12em] text-[var(--accent-ink)]">
-                    {PLACE_COLLECTION_LABELS[item]}
-                  </span>
-                  <span className="rounded-full bg-white/90 px-2.5 py-1 text-xs font-semibold text-[var(--accent-ink)]">
-                    {collectionCounts[item].toLocaleString("en-GB")}
-                  </span>
+                  {PLACE_COLLECTION_LABELS[item]}
                 </button>
               ))}
             </div>
-
-            {viewMode === "list" ? (
-              <>
-                <label className="grid gap-2 text-sm">
-                  <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-                    Search
-                  </span>
-                  <div className="flex items-center gap-3 rounded-[18px] border border-[rgba(133,83,58,0.16)] bg-white/88 px-4 py-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.7)]">
-                    <Search className="h-4 w-4 text-[var(--muted)]" />
-                    <input
-                      value={query}
-                      onChange={(event) => setQuery(event.target.value)}
-                      placeholder="Search a place, street, or arrondissement"
-                      className="w-full bg-transparent text-sm"
-                    />
-                  </div>
-                </label>
-
-                <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-1">
-                  <label className="grid gap-2 text-sm">
-                    <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-                      Arrondissement
-                    </span>
-                    <select
-                      value={arrondissement}
-                      onChange={(event) => setArrondissement(event.target.value)}
-                      className="retro-select"
-                    >
-                      <option value="">All</option>
-                      {arrondissements.map((item) => (
-                        <option key={item} value={item}>
-                          {item}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
-
-                  <label className="grid gap-2 text-sm">
-                    <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-                      Cuisine
-                    </span>
-                    <select
-                      value={cuisine}
-                      onChange={(event) => setCuisine(event.target.value)}
-                      className="retro-select"
-                    >
-                      <option value="">All</option>
-                      {cuisines.map((item) => (
-                        <option key={item} value={item}>
-                          {item}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
-                </div>
-
-                <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-1">
-                  <label className="grid gap-2 text-sm">
-                    <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-                      Price
-                    </span>
-                    <select
-                      value={priceRange}
-                      onChange={(event) => setPriceRange(event.target.value)}
-                      className="retro-select"
-                    >
-                      <option value="">All</option>
-                      {priceRanges.map((item) => (
-                        <option key={item} value={item}>
-                          {item}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
-
-                  <label className="grid gap-2 text-sm">
-                    <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-                      Sort
-                    </span>
-                    <select
-                      value={sort}
-                      onChange={(event) =>
-                        setSort(event.target.value as "recent" | "alphabetical" | "price")
-                      }
-                      className="retro-select"
-                    >
-                      <option value="recent">Recent</option>
-                      <option value="alphabetical">A-Z</option>
-                      <option value="price">Price</option>
-                    </select>
-                  </label>
-                </div>
-
-                <div className="rounded-[22px] border border-[var(--line)] bg-white/74 p-4">
-                  <div className="flex items-center justify-between gap-3">
-                    <div className="flex items-center gap-2">
-                      <Filter className="h-4 w-4 text-[var(--accent-ink)]" />
-                      <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-                        Quick filters
-                      </p>
-                    </div>
-                    {activeFilterCount ? (
-                      <button
-                        type="button"
-                        onClick={resetFilters}
-                        className="ghost-button px-3 py-2"
-                      >
-                        <RotateCcw className="h-4 w-4" />
-                        Reset
-                      </button>
-                    ) : null}
-                  </div>
-
-                  <div className="mt-3 flex flex-wrap gap-2">
-                    {themeCounts.map((item) => {
-                      const active = normalizeText(tag) === normalizeText(item.label);
-                      return (
-                        <button
-                          key={item.label}
-                          type="button"
-                          onClick={() => setTag(active ? "" : item.label)}
-                          className={active ? "cta-button px-3 py-2" : "ghost-button px-3 py-2"}
-                        >
-                          {item.label}
-                          <span className="rounded-full bg-white/84 px-2 py-0.5 text-[10px] font-semibold tracking-[0.08em] text-[var(--accent-ink)]">
-                            {item.count}
-                          </span>
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-              </>
-            ) : (
-              <div className="rounded-[22px] border border-[var(--line)] bg-[rgba(242,215,166,0.16)] p-4 text-sm leading-6 text-[var(--muted)]">
-                <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--accent-ink)]">
-                  <SlidersHorizontal className="h-4 w-4" />
-                  Google Maps mode
-                </div>
-                <p className="mt-3">
-                  This view uses the shared Google My Map with all the pins. Switch to <span className="font-semibold text-[var(--foreground)]">List</span> when you want filters, descriptions, cuisine, price, and easier comparisons.
-                </p>
-              </div>
-            )}
           </div>
-        </aside>
 
-        <div className="grid gap-5">
+          <div className="inline-flex items-center rounded-full border border-black bg-white p-1">
+            <button
+              type="button"
+              onClick={() => setViewMode("list")}
+              className={`rounded-full px-4 py-2 text-[11px] font-bold uppercase tracking-[0.16em] ${
+                viewMode === "list" ? "bg-black text-white" : "text-black"
+              }`}
+            >
+              <span className="inline-flex items-center gap-2">
+                <List className="h-4 w-4" />
+                List
+              </span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setViewMode("map")}
+              className={`rounded-full px-4 py-2 text-[11px] font-bold uppercase tracking-[0.16em] ${
+                viewMode === "map" ? "bg-black text-white" : "text-black"
+              }`}
+            >
+              <span className="inline-flex items-center gap-2">
+                <MapIcon className="h-4 w-4" />
+                Map
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_320px]">
+        <div className="space-y-5">
+          <div className="flex flex-wrap items-center justify-between gap-4 border-b border-black/12 pb-5">
+            <div>
+              <p className="text-[2rem] font-bold uppercase leading-none tracking-[-0.03em] text-black">
+                {filteredPlaces.length.toLocaleString("en-GB")} results
+              </p>
+              <p className="mt-2 text-sm text-black/60">
+                {placesWithRatings.toLocaleString("en-GB")} rated · {placesWithPhotos.toLocaleString("en-GB")} with photos
+              </p>
+            </div>
+
+            <div className="flex w-full flex-wrap items-center gap-3 xl:w-auto">
+              <label className="min-w-[18rem] flex-1 xl:w-[26rem] xl:flex-none">
+                <div className="flex items-center gap-3 border border-black bg-white px-4 py-3">
+                  <Search className="h-4 w-4 text-black/50" />
+                  <input
+                    value={query}
+                    onChange={(event) => setQuery(event.target.value)}
+                    placeholder="Paris, arrondissement, restaurant..."
+                    className="w-full bg-transparent text-sm uppercase tracking-[0.05em] text-black placeholder:text-black/45"
+                  />
+                </div>
+              </label>
+              {activeFilterCount ? (
+                <button
+                  type="button"
+                  onClick={resetFilters}
+                  className="inline-flex items-center gap-2 border border-black px-4 py-3 text-[11px] font-bold uppercase tracking-[0.16em] text-black"
+                >
+                  <RotateCcw className="h-4 w-4" />
+                  Reset
+                </button>
+              ) : null}
+            </div>
+          </div>
+
           {viewMode === "map" ? (
-            <GoogleMyMapEmbed className="min-h-[780px]" />
+            <GoogleMyMapEmbed className="min-h-[860px]" />
           ) : (
-            <div className="grid gap-4 lg:grid-cols-2">
+            <div className="grid gap-5 md:grid-cols-2 2xl:grid-cols-3">
               {filteredPlaces.map((place) => (
                 <PlaceListCard
                   key={place.id}
@@ -761,9 +635,11 @@ export function PlaceExplorer({
                 />
               ))}
               {filteredPlaces.length === 0 ? (
-                <div className="surface retro-panel rounded-[30px] p-8 text-center lg:col-span-2">
-                  <p className="display text-3xl">No Paris places matched those filters.</p>
-                  <p className="mt-3 text-sm text-[var(--muted)]">
+                <div className="rounded-[24px] border border-black bg-white p-8 text-center md:col-span-2 2xl:col-span-3">
+                  <p className="text-[2rem] font-bold uppercase tracking-[-0.03em] text-black">
+                    No places matched those filters
+                  </p>
+                  <p className="mt-3 text-sm text-black/60">
                     Try clearing a filter or switching to another list.
                   </p>
                 </div>
@@ -771,6 +647,133 @@ export function PlaceExplorer({
             </div>
           )}
         </div>
+
+        <aside className="h-fit border border-black bg-white p-5 xl:sticky xl:top-24">
+          <div className="space-y-5">
+            <div>
+              <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-black/60">
+                Filters
+              </p>
+              <p className="mt-2 text-sm leading-6 text-black/65">
+                Narrow the Paris list by arrondissement, cuisine, price, or one of the stronger food themes.
+              </p>
+            </div>
+
+            <div className="grid gap-4">
+              <label className="grid gap-2 text-sm">
+                <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-black/55">
+                  Arrondissement
+                </span>
+                <select
+                  value={arrondissement}
+                  onChange={(event) => setArrondissement(event.target.value)}
+                  className="border border-black bg-white px-4 py-3 text-sm"
+                >
+                  <option value="">All</option>
+                  {arrondissements.map((item) => (
+                    <option key={item} value={item}>
+                      {item}
+                    </option>
+                  ))}
+                </select>
+              </label>
+
+              <label className="grid gap-2 text-sm">
+                <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-black/55">
+                  Cuisine
+                </span>
+                <select
+                  value={cuisine}
+                  onChange={(event) => setCuisine(event.target.value)}
+                  className="border border-black bg-white px-4 py-3 text-sm"
+                >
+                  <option value="">All</option>
+                  {cuisines.map((item) => (
+                    <option key={item} value={item}>
+                      {item}
+                    </option>
+                  ))}
+                </select>
+              </label>
+
+              <label className="grid gap-2 text-sm">
+                <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-black/55">
+                  Price
+                </span>
+                <select
+                  value={priceRange}
+                  onChange={(event) => setPriceRange(event.target.value)}
+                  className="border border-black bg-white px-4 py-3 text-sm"
+                >
+                  <option value="">All</option>
+                  {priceRanges.map((item) => (
+                    <option key={item} value={item}>
+                      {item}
+                    </option>
+                  ))}
+                </select>
+              </label>
+
+              <label className="grid gap-2 text-sm">
+                <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-black/55">
+                  Sort
+                </span>
+                <select
+                  value={sort}
+                  onChange={(event) =>
+                    setSort(event.target.value as "recent" | "alphabetical" | "price")
+                  }
+                  className="border border-black bg-white px-4 py-3 text-sm"
+                >
+                  <option value="recent">Recent</option>
+                  <option value="alphabetical">A-Z</option>
+                  <option value="price">Price</option>
+                </select>
+              </label>
+            </div>
+
+            <div className="border-t border-black/12 pt-5">
+              <div className="flex items-center gap-2">
+                <Filter className="h-4 w-4 text-black" />
+                <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-black/60">
+                  Food themes
+                </p>
+              </div>
+
+              <div className="mt-3 flex flex-wrap gap-2">
+                {themeCounts.map((item) => {
+                  const active = normalizeText(tag) === normalizeText(item.label);
+                  return (
+                    <button
+                      key={item.label}
+                      type="button"
+                      onClick={() => setTag(active ? "" : item.label)}
+                      className={`border px-3 py-2 text-[11px] font-bold uppercase tracking-[0.12em] ${
+                        active
+                          ? "border-black bg-[#ffe04d] text-black"
+                          : "border-black/15 bg-white text-black/75"
+                      }`}
+                    >
+                      {item.label} [{item.count}]
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {viewMode === "map" ? (
+              <div className="border-t border-black/12 pt-5 text-sm leading-6 text-black/60">
+                <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-black/60">
+                  <SlidersHorizontal className="h-4 w-4" />
+                  Map mode
+                </div>
+                <p className="mt-3">
+                  This uses the shared Google map with all the pins. Switch to list when you want richer cards, descriptions, cuisine, and price filtering.
+                </p>
+              </div>
+            ) : null}
+          </div>
+        </aside>
       </div>
     </section>
   );
